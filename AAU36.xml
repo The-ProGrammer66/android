@@ -128,8 +128,8 @@
   <project path="external/chromium_org/third_party/ots" name="platform/external/chromium_org/third_party/ots" revision="1c4404944b4def3fec89771713763ae2c8ea3355" />
   <project path="external/chromium_org/third_party/sfntly/cpp/src" name="platform/external/chromium_org/third_party/sfntly/cpp/src" revision="58f132533b4126b00bc71fd9aed69ecf568cdf39" />
   <!--<project path="external/chromium_org/third_party/skia" name="platform/external/chromium_org/third_party/skia" revision="f4e1a7614da0cc3738077a1df5d8895a4df6d2f6" />-->
-  <project path="external/chromium_org/third_party/skia/gyp" name="platform/external/chromium_org/third_party/skia/src" revision="0527dc6e1625a25ebfd13de360fceccae2592065" />
-  <project path="external/chromium_org/third_party/skia/include" name="platform/external/chromium_org/third_party/skia/src" revision="b38bb2f9a4ebdd3b424a2a5c7117be014e79f326" />
+  <project path="external/chromium_org/third_party/skia/gyp" name="platform/external/chromium_org/third_party/skia/gyp" revision="0527dc6e1625a25ebfd13de360fceccae2592065" />
+  <project path="external/chromium_org/third_party/skia/include" name="platform/external/chromium_org/third_party/skia/include" revision="b38bb2f9a4ebdd3b424a2a5c7117be014e79f326" />
   <project path="external/chromium_org/third_party/skia/src" name="platform/external/chromium_org/third_party/skia/src" revision="b7fe988411ff99debd6d41e4f218a00b6b3553cb" />
   <project path="external/chromium_org/third_party/smhasher/src" name="platform/external/chromium_org/third_party/smhasher/src" revision="49fed45e86a0b4c5fde0a2fe3a801962362a7d07" />
   <project path="external/chromium_org/third_party/usrsctp/usrsctplib" name="platform/external/chromium_org/third_party/usrsctp/usrsctplib" revision="23069ba4d6a5863b502b1e21ef794dc686fea8d4" />
@@ -138,7 +138,7 @@
   <project path="external/chromium_org/third_party/yasm/source/patched-yasm" name="platform/external/chromium_org/third_party/yasm/source/patched-yasm" revision="0f308c9bc9aa3258a0e90285b9d4e69bbb5b0a73" />
   <project path="external/chromium_org/tools/grit" name="platform/external/chromium_org/tools/grit" revision="db58423a76618bf8ee4dc1f5b5c9ee1ba1f3d4c9" />
   <project path="external/chromium_org/tools/gyp" name="platform/external/chromium_org/tools/gyp" revision="ca2b1e9ca5bc396a767554764287ae3dc2c557b5" />
-  <project path="external/chromium_org/v8" name="platform/external/chromium_org/v8" revision="1691a064f4c172fae6b8c8a102a07808f31dc859" />
+  <project path="external/chromium_org/v8" name="platform/external/chromium_org/v8" revision="e3a775e0cbdc82ee7d9a82b47ddd53c1b7e7bd44" />
   <project path="external/clang" name="platform/external/clang" groups="pdk" revision="a902511dd22624b15cc61e36d167d1cf3549bc74" />
   <!-- RTM -->
   <project path="external/cmockery" name="platform/external/cmockery" revision="bdd62c531bbdea115a3a7e71bba91c19dd319cc4" />
@@ -327,7 +327,7 @@
   <project path="external/scrypt" name="platform/external/scrypt" groups="pdk" revision="4a84ed0ef35dcf9136d168174d0bb1b5f2b35775" />
   <project path="external/sepolicy" name="platform/external/sepolicy" groups="pdk" revision="3d2a692dff6c35454192e46fc745e76929475d68" />
   <project path="external/sfntly" name="platform/external/sfntly" groups="pdk-cw-fs,qcom_msm8x26" revision="fa7aae3642754610576328469c6afc68740cec5e" />
-  <project path="external/skia" name="platform/external/skia" groups="pdk-cw-fs,qcom_msm8x26" revision="c63d5ac0ba65cd4d96a9159459e7b776cab91fed" />
+  <project path="external/skia" name="platform/external/skia" groups="pdk-cw-fs,qcom_msm8x26" revision="4bf7c8fd699c0ce9a1c3a2f97d425bc2d1f0c08e" />
   <!-- RTM -->
   <project path="external/smack" name="platform/external/smack" groups="pdk-cw-fs" revision="d7955ce24d294fb2014c59d11fca184471056f44" />
   <project path="external/smali" name="platform/external/smali" groups="pdk-cw-fs" revision="7cf2b33cbdd81c1661e8b59356999cf98116595f" />
@@ -461,7 +461,7 @@
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" revision="27a36833f7a76df99728cb5b8e5e2916fe29bd8e" />
   <project path="ndk" name="platform/ndk" revision="ca2462fb269d91160182352da4d18fe2273b3b7c" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" revision="74a11bc45df74cc966c3e8364d90fbce51322aad" />
-  <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" groups="pdk-cw-fs" revision="f05fbcfbdb4d4e2b60bd81c80a3922ae24430fbf" />
+  <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" groups="pdk-cw-fs" revision="062181981c4d5cf071f874eaf671c3392a600846" />
   <project path="packages/apps/Browser" name="platform/packages/apps/Browser" revision="80c5561d0c5ae5298009b42a5307fefcf67bb7bc" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" revision="d0f81ab51e24abc97efaf69c4a948525fa0e0b6f" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" revision="1f66415a0af1206c50bc618ef53303174c03d117" />
