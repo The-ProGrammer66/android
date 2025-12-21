@@ -5,9 +5,10 @@ This repository contains reconstructed `repo` manifests of pre-release Android 5
 
 Following pre-release builds were reconstructed:
 
-| Build number                              | Status           |
-| :---:                                     |   :---:          |
-| [`LRW38`] (7 August 2014)                 |  WIP             |
+| Build number         | Status           |
+| :---:                |   :---:          |
+| AAU36                |  Done            |
+| LRW38                |  WIP             |
 
 Preparing a Build Environment
 -----------------
