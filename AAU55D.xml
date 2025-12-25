@@ -103,8 +103,6 @@
   <project path="external/chromium_org/testing/gtest" name="platform/external/chromium_org/testing/gtest" revision="65df883d09205766c521f2e6c126f4070a423141" />
   <project path="external/chromium_org/third_party/WebKit" name="platform/external/chromium_org/third_party/WebKit" revision="09380295ba73501a205346becac22c6978e4671d" />
   <project path="external/chromium_org/third_party/angle" name="platform/external/chromium_org/third_party/angle" revision="216941a74ee1b274587379f4ad44130d3d1f142a" />
-  <!-- RTM, did not survive 5.0. Testing without real quick -->
-  <!--<project path="external/chromium_org/third_party/angle_dx11" name="platform/external/chromium_org/third_party/angle_dx11" revision="71499417239cde5fcdb7afecb021f4addd850a3e" />-->
   <project path="external/chromium_org/third_party/brotli/src" name="platform/external/chromium_org/third_party/brotli/src" revision="2237d30d6e68c2c67c5877094de2dce4f9441765" />
   <!-- RTM -->
   <project path="external/chromium_org/third_party/eyesfree/src/android/java/src/com/googlecode/eyesfree/braille" name="platform/external/chromium_org/third_party/eyesfree/src/android/java/src/com/googlecode/eyesfree/braille" revision="bb4c72f1deb0b8b2b0468b0bf1050462ebcf6135" />
@@ -512,7 +510,7 @@
   <!-- RTM -->
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" revision="78ca0db658fe6253d506916e36319e620476f809" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" revision="f3e25293ddd104b25d95b2e496a95d6d680145b7" />
-  <project path="packages/apps/Settings" name="platform/packages/apps/Settings" revision="3c73af873ce5a3f2ece21a6a4d7dd2fd0ce02a9b" />
+  <project path="packages/apps/Settings" name="platform/packages/apps/Settings" revision="ff5c674255dd2b70edc1177fbcd9938e218774ae" />
   <!-- RTM -->
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" revision="29eae320a4bd222b5ff1c092f84f1aebba88d0b7" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" revision="c517422543865bc5a8ee31f30e29f50b8a0eaf7a" />
