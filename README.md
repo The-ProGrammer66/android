@@ -31,8 +31,6 @@ Update the machine:
 sudo apt-get update
 sudo apt-get upgrade
 sudo apt-get install duplicity linux-headers-generic-lts-saucy linux-image-generic-lts-saucy ubuntu-minimal
-sudo apt-get update
-sudo apt-get autoremove
 sudo reboot
 ```
 You can now proceed with the rest of the guide.
@@ -49,6 +47,7 @@ sudo apt-get install git gnupg flex bison gperf build-essential zip curl g++-4.6
 Additionally run:
 ```
 sudo ln -s /usr/lib/i386-linux-gnu/mesa/libGL.so.1 /usr/lib/i386-linux-gnu/libGL.so
+sudo apt-get autoremove
 ```
 
 Certain builds of Lollipop require Sun Java 1.6, while certain ones require OpenJDK 7. OpenJDK 7 is installed in the above command. For builds requiring Sun Java 1.6.0, do the following:
@@ -86,6 +85,10 @@ tar -xvf Python-3.6.15.tgz && cd Python-3.6.15
 sudo ./configure --enable-optimizations
 sudo make -j6 && sudo make install
 ```
+
+I would also recommend setting a root password because of the next step.
+
+If you somehow manage to screw up the X11 install on 12.04 LTS (for example being stuck on the boot screen with all 5 dots lit orange), which is for some reason super common, access a terminal (via any method, e.g. switching TTY modes, recovery mode...), then run `sudo apt-get install --reinstall xserver-xorg`, and reboot.
  
 Downloading Source
 ------------------
