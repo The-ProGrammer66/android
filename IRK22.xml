@@ -30,6 +30,8 @@
   <project name="device/common" path="device/common" revision="bd147430f139105e1f6e15a50e8d0b18876d9905" />
   <!-- 4.0 RTM commit dont change -->
   <project name="device/generic/goldfish" path="device/generic/goldfish" revision="5feb8ecfd93c4e3c9eec89ab20dd143d05f7e91c" />
+  <project name="device/sample" path="device/sample" revision="12da143edc45b1ae9837bb1479aa3ef43847624b" />
+  <project name="device/samsung/crespo" path="device/samsung/crespo" revision="bb694213e3bedc2e1ec181ca98bdc44136841500" />
   <!-- 4.0 RTM commit dont change -->
   <project name="platform/external/android-mock" path="external/android-mock" revision="40bb73886c61d4b2e96bab98b50c1cbfcb54d9a3" />
   <!-- 4.0 RTM commit dont change -->
@@ -233,6 +235,7 @@
   <project name="platform/frameworks/opt/mailcommon" path="frameworks/opt/mailcommon" revision="19acfbb21739e88784fae4844b5ea1e9a7f8974b" />
   <project name="platform/frameworks/opt/vcard" path="frameworks/opt/vcard" revision="5f0f9e9f2d3e8b73beaf49d542e10fdec6fa199b" />
   <project name="platform/frameworks/support" path="frameworks/support" revision="e8b402b00c0cbdac050c349a5fc89c34580f3185" />
+  <project name="platform/hardware/broadcom/wlan" path="hardware/broadcom/wlan" revision="ed2837d85977ed27c5b804995aba0219fa51ecc1" />
   <project name="platform/hardware/libhardware" path="hardware/libhardware" revision="56ea0109622d6df4bbec25e32c0976a6965c203d" />
   <project name="platform/hardware/libhardware_legacy" path="hardware/libhardware_legacy" revision="8581dee7497675994faa60e42a89250ce112c5a9" />
   <project name="platform/hardware/ril" path="hardware/ril" revision="3b4ab8a169edccbc5ae04d3687d7b44c66687195" />
