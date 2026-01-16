@@ -253,7 +253,7 @@
   <project name="platform/hardware/libhardware_legacy" path="hardware/libhardware_legacy" revision="5a8a2d2b130644f0f4abad8586f0a245e4c15be8" />
   <!-- RTM -->
   <project name="platform/hardware/ril" path="hardware/ril" revision="fa8d584ca7984bf7d73ff37c7c2bc1e0dfa5fb71" />
-  <project name="platform/hardware/omap4xxx" path="hardware/omap4xxx" revision="2e986e5e29b391b070f608d641538c14b778d4ba" />
+  <project name="platform/hardware/ti/omap4xxx" path="hardware/ti/omap4xxx" revision="2e986e5e29b391b070f608d641538c14b778d4ba" />
   <project name="platform/libcore" path="libcore" revision="92b4b954d3ec72440e9b262650f4cd555d521c56" />
   <project name="platform/ndk" path="ndk" revision="ca6ba8f863a79e1d3b403098e69710404c1cb2d8" />
   <project name="platform/packages/apps/BasicSmsReceiver" path="packages/apps/BasicSmsReceiver" revision="41e75e8f93a18055080afeb98863c1c776a6cd36" />
