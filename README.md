@@ -16,7 +16,9 @@ As of now, the following builds have been reconstructed:
 | [`IRK36B`] (August 6th, 2011)            | Done                |
 | [`IRK40C`] (August 9th, 2011)            | Done                |  
 | [`IRK48`] (August 17th, 2011)            | Done                |
-| [`IRK62C`] (August 31st, 2011)           | Done                | 
+| [`IRK54B`] (August 23rd, 2011)           | Done                | 
+| [`IRK61`] (August 30th, 2011)            | Done                |
+| [`IRK69`] (September 7th, 2011)          | Done                |
 | [`IRK77`] (September 15th, 2011)         | Done                |
 | [`IRK88B`] (September 26th, 2011)        | Done                |
 | [`IFL10`] (October 10th, 2011)           | Done                |
@@ -32,7 +34,9 @@ As of now, the following builds have been reconstructed:
 [`IRK36B`]: https://github.com/froyocomb/android/blob/i-scream-sandwich/IRK36B.xml
 [`IRK40C`]: https://github.com/froyocomb/android/blob/i-scream-sandwich/IRK40C.xml
 [`IRK48`]: https://github.com/froyocomb/android/blob/i-scream-sandwich/IRK48.xml
-[`IRK62C`]: https://github.com/froyocomb/android/blob/i-scream-sandwich/IRK62C.xml
+[`IRK54B`]: https://github.com/froyocomb/android/blob/i-scream-sandwich/IRK54B.xml
+[`IRK61`]: https://github.com/froyocomb/android/blob/i-scream-sandwich/IRK61.xml
+[`IRK69`]: https://github.com/froyocomb/android/blob/i-scream-sandwich/IRK69.xml
 [`IRK77`]: https://github.com/froyocomb/android/blob/i-scream-sandwich/IRK77.xml
 [`IRK88B`]: https://github.com/froyocomb/android/blob/i-scream-sandwich/IRK88B.xml
 [`IFL10`]: https://github.com/froyocomb/android/blob/i-scream-sandwich/IFL10.xml
@@ -99,4 +103,4 @@ Useful Links
 * [Every IR-series build from before 4.0.1 r1 was tagged](https://android.googlesource.com/platform/build/+log/598288e321cc4cec399afb20ff6485bf3b8ac953)
 * [Froyocomb Helper](https://gist.github.com/Dobby233Liu/c55c1e9c816facd153eeb19e386f53fd): userscript to assist finding commits before a certain time 
 
-[^1]: The following builds have rendering issues as a result of several graphic-related changes done in their lifespan. These changes will not be fixed as the builds are meant to be as accurate as possible.
+[^1]: The following builds have rendering issues as a result of several graphic-related changes done in their lifespan. These only apply to emulator images.
