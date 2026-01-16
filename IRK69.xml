@@ -54,7 +54,7 @@
   <project name="platform/external/bluetooth/glib" path="external/bluetooth/glib" revision="1143b9918eab068401b604eb11c3f651f4e38b25" />
   <!-- 4.0 RTM commit dont change -->
   <project name="platform/external/bluetooth/hcidump" path="external/bluetooth/hcidump" revision="7322661808c2006b7848e79e6bb72b37fbcf6710" />
-  <project name="platform/external/bouncycastle" path="external/bouncycastle" revision="e903eaf4186665cdf1d25f992d3201ae158a4448" />
+  <project name="platform/external/bouncycastle" path="external/bouncycastle" revision="6fe522ad2daa8168fe9345f32f7bfc677fa86fd2" />
   <!-- 4.0 RTM commit dont change -->
   <project name="platform/external/bsdiff" path="external/bsdiff" revision="81872540236d9bb15cccf963d05b9de48baa5375" />
   <project name="platform/external/bzip2" path="external/bzip2" revision="9ac1ec23f7a9ad61bec16960ec33635f78097441" />
