@@ -262,7 +262,7 @@
   <!-- 4.0 RTM commit dont change -->
   <project name="platform/hardware/ril" path="hardware/ril" revision="fa8d584ca7984bf7d73ff37c7c2bc1e0dfa5fb71" />
   <project name="platform/hardware/ti/omap4xxx" path="hardware/ti/omap4xxx" revision="277d6c00235c517a5e514892e1286a21fd85403e" />
-  <project name="platform/libcore" path="libcore" revision="065eb8c508aca118eaf12c89af6f9978731f4955" />
+  <project name="platform/libcore" path="libcore" revision="341667ceaa55a1f22c61aa49be82560d5dbe7929" />
   <project name="platform/ndk" path="ndk" revision="ca6ba8f863a79e1d3b403098e69710404c1cb2d8" />
   <project name="platform/packages/apps/BasicSmsReceiver" path="packages/apps/BasicSmsReceiver" revision="4987bb89ca9893b9f7faea4a6d48cd76e4a19924" />
   <project name="platform/packages/apps/Bluetooth" path="packages/apps/Bluetooth" revision="00c1b603753f49fe23e06baeb666675657de9776" />
