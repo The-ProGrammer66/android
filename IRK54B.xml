@@ -247,7 +247,6 @@
   <project name="platform/frameworks/opt/mailcommon" path="frameworks/opt/mailcommon" revision="d48018c1345a557221f2f2a36e8507ff891b8bf5" />
   <project name="platform/frameworks/opt/vcard" path="frameworks/opt/vcard" revision="5f0f9e9f2d3e8b73beaf49d542e10fdec6fa199b" />
   <project name="platform/frameworks/support" path="frameworks/support" revision="b743165c9f754c5503d4d056f263f7a328cafca6" />
-  <project name="platform/hardware/broadcom/wlan" path="hardware/broadcom/wlan" revision="e6a5129f4e5a828a81ab01aa016022cd16ab1e91" />
   <project name="platform/hardware/invensense" path="hardware/invensense" revision="986d38918eb72f00a67189a942da432df17e504e" />
   <project name="platform/hardware/broadcom/wlan" path="hardware/broadcom/wlan" revision="e6a5129f4e5a828a81ab01aa016022cd16ab1e91" />
   <project name="platform/hardware/libhardware" path="hardware/libhardware" revision="78d2c69af4ab35ac6ae8e78fc3a61e7023a60769" />
