@@ -25,7 +25,7 @@
   <project name="platform/bootable/recovery" path="bootable/recovery" revision="88e0899617229db57ae2c616fddcf40543c8e392" />
   <project name="platform/cts" path="cts" revision="df8139186469bc7e1e68410831765dbed54b87eb" />
   <project name="platform/dalvik" path="dalvik" revision="6e0be609807de9fabe1b63a75f7c7d619bfa2f9f" />
-  <project name="platform/development" path="development" revision="ddd0d0c656c64b463491d750fadbedf3d682b2a1" />
+  <project name="platform/development" path="development" revision="8ea8b906de9bacad390bdb1811cb54413af5e817" />
   <project name="device/common" path="device/common" revision="3a0f3d12b5a91bbd45c77b0c64a5d1d15bcdde46" />
   <!-- 4.0 RTM commit dont change -->
   <project name="device/generic/goldfish" path="device/generic/goldfish" revision="5feb8ecfd93c4e3c9eec89ab20dd143d05f7e91c" />
@@ -272,7 +272,7 @@
   <project name="platform/packages/apps/Camera" path="packages/apps/Camera" revision="f09f58c11f3e6b5670cfb1317bb2d7cf1e412d7c" />
   <project name="platform/packages/apps/CellBroadcastReceiver" path="packages/apps/CellBroadcastReceiver" revision="2e9df804761dca9291f2b47b7453f979d0b2c5ca" />
   <project name="platform/packages/apps/CertInstaller" path="packages/apps/CertInstaller" revision="ddb88df9b6ec1bc68898e9db3dd1ea15eb3d7079" />
-  <project name="platform/packages/apps/Contacts" path="packages/apps/Contacts" revision="1b96d7d4e9b494870873d6276115a91625a060a9" />
+  <project name="platform/packages/apps/Contacts" path="packages/apps/Contacts" revision="2ea617c399eaa3a3614936ff2cd0574e35184ae0" />
   <project name="platform/packages/apps/DeskClock" path="packages/apps/DeskClock" revision="9c8f420c5d715d1b3923e7c15a38df0df23f7a39" />
   <project name="platform/packages/apps/Email" path="packages/apps/Email" revision="e7e04343aeb6254a06c6d7b3751b72747fd70854" />
   <project name="platform/packages/apps/Exchange" path="packages/apps/Exchange" revision="d301434142f553e4fc8ead8135528c43829beb1d" />
