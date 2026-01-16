@@ -257,7 +257,7 @@
   <project name="platform/libcore" path="libcore" revision="92b4b954d3ec72440e9b262650f4cd555d521c56" />
   <project name="platform/ndk" path="ndk" revision="ca6ba8f863a79e1d3b403098e69710404c1cb2d8" />
   <project name="platform/packages/apps/BasicSmsReceiver" path="packages/apps/BasicSmsReceiver" revision="41e75e8f93a18055080afeb98863c1c776a6cd36" />
-  <project name="platform/packages/apps/Bluetooth" path="packages/apps/Bluetooth" revision="804e35b02b1ae99590f7de539199ba1c5f8b74b2" />
+  <project name="platform/packages/apps/Bluetooth" path="packages/apps/Bluetooth" revision="daa33838c0b8f78b45b370523a11710e56e9a84e" />
   <project name="platform/packages/apps/Browser" path="packages/apps/Browser" revision="94880fb926bde4dcb20d82305c1ff0bb9789e833" />
   <project name="platform/packages/apps/Calculator" path="packages/apps/Calculator" revision="0a1148f5ac3a09c3a2bf6cb50b50a900f370853d" />
   <project name="platform/packages/apps/Calendar" path="packages/apps/Calendar" revision="34083047c4b1f40156dec1f6a76f3d66cdf1c337" />
