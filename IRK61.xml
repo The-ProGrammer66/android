@@ -241,7 +241,7 @@
   <project name="platform/frameworks/compile/libbcc" path="frameworks/compile/libbcc" revision="33f8fe2bfafe00ad2c74e4590ffdd0bcfc5eb31d" />
   <project name="platform/frameworks/compile/slang" path="frameworks/compile/slang" revision="a546cb661a8ab70577827b8310e2b56a0773c1e1" />
   <project name="platform/frameworks/ex" path="frameworks/ex" revision="aabf88787c8edb2cc207ad8e94e2045bf727c60d" />
-  <project name="platform/frameworks/media/libvideoeditor" path="frameworks/media/libvideoeditor" revision="16757d256453f0c765c13ca9d97ca89fc5565420" />
+  <project name="platform/frameworks/media/libvideoeditor" path="frameworks/media/libvideoeditor" revision="3dfb1013e98178bace7a4437288018780141f556" />
   <project name="platform/frameworks/compile/linkloader" path="frameworks/compile/linkloader" revision="b1a853b0e8639be08bc06594e092f3697c1ddd06" />
   <!-- RTM -->
   <project name="platform/frameworks/opt/calendar" path="frameworks/opt/calendar" revision="0053119c0bc05aedaed9d55cef91806f4c95d535" />
