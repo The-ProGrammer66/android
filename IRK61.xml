@@ -277,7 +277,7 @@
   <project name="platform/packages/apps/HTMLViewer" path="packages/apps/HTMLViewer" revision="804c4e7223c3b33f8ec2f9d898a44b6ac9813ed2" />
   <!-- 4.0 RTM commit dont change --> 
   <project name="platform/packages/apps/KeyChain" path="packages/apps/KeyChain" revision="dbfabf9856a86fbe0f072edddae70fda52e8a46d" />
-  <project name="platform/packages/apps/Launcher2" path="packages/apps/Launcher2" revision="af392f7a37539e46cbd18b1fd4c2e4d9308a5a19" />
+  <project name="platform/packages/apps/Launcher2" path="packages/apps/Launcher2" revision="799b6a544bcfc276b0595bcd4911223bb611822b" />
   <project name="platform/packages/apps/Mms" path="packages/apps/Mms" revision="51d29c0c9c4b5b27600a2700b45bbc3a378e8e93" />
   <project name="platform/packages/apps/Music" path="packages/apps/Music" revision="79e17a7c5ce0790dd59b85e2ba29b55fc58f96ed" />
   <project name="platform/packages/apps/MusicFX" path="packages/apps/MusicFX" revision="7cc6946b1916b181021c86ed2ef199f1c7fb2efa" />
