@@ -23,6 +23,9 @@
   <project name="platform/development" path="development" revision="1d393e5389618f2fa2c614ddc4ee1c5b229eba2d" />
   <project name="device/common" path="device/common" revision="ad4f4231b7837f944b90eb0483720f42a20698e9" />
   <project name="device/generic/goldfish" path="device/generic/goldfish" revision="4cb1fdb7e8a2a91dd00d9e0770e78132e3128f60" />
+  <project name="device/moto/stingray" path="device/moto/stingray" revision="4d7ad30f5d3a901246be702248fbe6782fe0061c" />
+  <project name="device/moto/wingray" path="device/moto/wingray" revision="cb8a7bdf834b81c799f15471c7b089d4b80b4aeb" />
+  <project name="device/sample" path="device/sample" revision="57012569262a072fc03721a369e20d244c9b447c" />
   <project name="platform/external/android-mock" path="external/android-mock" revision="40bb73886c61d4b2e96bab98b50c1cbfcb54d9a3" />
   <project name="platform/external/antlr" path="external/antlr" revision="3447a5916aa62f44de24cc441fc9987116ddff52" />
   <project name="platform/external/apache-harmony" path="external/apache-harmony" revision="2f410c0211acf340e15aec2bb3ae18aed58729ce" />
@@ -141,6 +144,7 @@
   <project name="platform/frameworks/opt/mailcommon" path="frameworks/opt/mailcommon" revision="19acfbb21739e88784fae4844b5ea1e9a7f8974b" />
   <project name="platform/frameworks/opt/vcard" path="frameworks/opt/vcard" revision="87315f4cddec4c9bb09a48497c8b6bd65a8b99c7" />
   <project name="platform/frameworks/support" path="frameworks/support" revision="adbb09f55e4384c877d53ea5f792daf99d74e508" />
+  <project name="platform/hardware/broadcom/wlan" path="hardware/broadcom/wlan" revision="c208ac5eb62bad8f6346aaa98c69462dff0337fe" />
   <project name="platform/hardware/libhardware" path="hardware/libhardware" revision="188c223c7d0b53ed49c00d0828ef79890ec3052e" />
   <project name="platform/hardware/libhardware_legacy" path="hardware/libhardware_legacy" revision="4a0748be283a8c9efa02243c3e1716c49443a87c" />
   <project name="platform/hardware/ril" path="hardware/ril" revision="4a0975347941bd0e2c0fe1d2116b1666ad5b5711" />
