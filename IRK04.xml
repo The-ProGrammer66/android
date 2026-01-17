@@ -26,6 +26,7 @@
   <project name="device/generic/goldfish" path="device/generic/goldfish" revision="4cb1fdb7e8a2a91dd00d9e0770e78132e3128f60" />
   <project name="device/moto/stingray" path="device/moto/stingray" revision="575a35632a6d89da3c1dd99d9b00619fe295b053" />
   <project name="device/moto/wingray" path="device/moto/wingray" revision="c84ab0594bdc73fb052a2f3cee691a2314f7669b" />
+  <project name="device/sample" path="device/sample" revision="12da143edc45b1ae9837bb1479aa3ef43847624b" />
   <project name="platform/external/android-mock" path="external/android-mock" revision="40bb73886c61d4b2e96bab98b50c1cbfcb54d9a3" />
   <project name="platform/external/antlr" path="external/antlr" revision="3447a5916aa62f44de24cc441fc9987116ddff52" />
   <project name="platform/external/apache-harmony" path="external/apache-harmony" revision="5b53d279675709a4beb54974c72e257c1262da2c" />
