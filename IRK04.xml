@@ -24,6 +24,8 @@
   <project name="platform/development" path="development" revision="64fee8fe80d1e5c9d8243aac9fd7b9ebbdcf5c69" />
   <project name="device/common" path="device/common" revision="cdcda4f6e61b62b118bd23d06b7f723c0460c69f" />
   <project name="device/generic/goldfish" path="device/generic/goldfish" revision="4cb1fdb7e8a2a91dd00d9e0770e78132e3128f60" />
+  <project name="device/moto/stingray" path="device/moto/stingray" revision="575a35632a6d89da3c1dd99d9b00619fe295b053" />
+  <project name="device/moto/wingray" path="device/moto/wingray" revision="c84ab0594bdc73fb052a2f3cee691a2314f7669b" />
   <project name="platform/external/android-mock" path="external/android-mock" revision="40bb73886c61d4b2e96bab98b50c1cbfcb54d9a3" />
   <project name="platform/external/antlr" path="external/antlr" revision="3447a5916aa62f44de24cc441fc9987116ddff52" />
   <project name="platform/external/apache-harmony" path="external/apache-harmony" revision="5b53d279675709a4beb54974c72e257c1262da2c" />
@@ -146,6 +148,7 @@
   <project name="platform/frameworks/opt/mailcommon" path="frameworks/opt/mailcommon" revision="19acfbb21739e88784fae4844b5ea1e9a7f8974b" />
   <project name="platform/frameworks/opt/vcard" path="frameworks/opt/vcard" revision="5f0f9e9f2d3e8b73beaf49d542e10fdec6fa199b" />
   <project name="platform/frameworks/support" path="frameworks/support" revision="97d6e631c6a0f698ae6fb249617f1596cb9c1cf1" />
+  <project name="platform/hardware/broadcom/wlan" path="hardware/broadcom/wlan" revision="8dcff56e341d21b1d763c3b36d58d3041593d8fe" />
   <project name="platform/hardware/libhardware" path="hardware/libhardware" revision="8aac5911c9aab1307aa34dd0d92a29ec78f3f9fa" />
   <project name="platform/hardware/libhardware_legacy" path="hardware/libhardware_legacy" revision="4b7ffa08be8d58932841c52ce253ae6ca886a4f2" />
   <project name="platform/hardware/ril" path="hardware/ril" revision="d313401d266b6c519ccbc105f86683180b0a4d84" />
