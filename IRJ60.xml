@@ -6,7 +6,7 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com" />
   <remote  name="github"
-           fetch="https://github.com" />
+           fetch="https://github.com/froyocomb" />
   <default revision="refs/tags/android-4.0.1_r1"
            remote="aosp"
            sync-j="4" />
@@ -26,7 +26,7 @@
   <project name="device/moto/stingray" path="device/moto/stingray" revision="4d7ad30f5d3a901246be702248fbe6782fe0061c" />
   <project name="device/moto/wingray" path="device/moto/wingray" revision="cb8a7bdf834b81c799f15471c7b089d4b80b4aeb" />
   <!-- Original commit is 848f6fb3ab35507a3412ec659e0a4dbfb31dac3a -->
-  <project name="device_samsung_crespo" path="device/samsung/crespo" remote="github" revision="aa3bc7d6d57f3461650136c5d18cd744daf9c3ae" />
+  <project name="device_samsung_crespo" path="device/samsung/crespo" remote="github" revision="kernel-revert-IRJ60-crespo" />
   <project name="device/sample" path="device/sample" revision="57012569262a072fc03721a369e20d244c9b447c" />
   <project name="platform/external/android-mock" path="external/android-mock" revision="40bb73886c61d4b2e96bab98b50c1cbfcb54d9a3" />
   <project name="platform/external/antlr" path="external/antlr" revision="3447a5916aa62f44de24cc441fc9987116ddff52" />
