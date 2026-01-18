@@ -15,7 +15,7 @@
   <project name="platform/build" path="build" revision="d79b75eb4a51b2bc2eaf779a235876821e93537e">
     <copyfile src="core/root.mk" dest="Makefile"/>
   </project>
-  <project name="platform/bionic" path="bionic" revision="d004dc9957cd8944d3db8ed92544c8ee65b117ca"/>
+  <project name="platform/bionic" path="bionic" revision="e6553716a037ea1ba096e20344951b5da039decc"/>
   <!-- RTM -->
   <project name="platform/bootable/bootloader/legacy" path="bootable/bootloader/legacy" revision="d3271024770ddcc2fb87dd22f8280764545ab05a"/>
   <project name="platform/bootable/diskinstaller" path="bootable/diskinstaller" revision="b354f6abda00461eae4cb0215faa8b5a7268e275"/>
