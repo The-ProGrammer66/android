@@ -25,7 +25,7 @@
   <project name="device/common" path="device/common" revision="1a9cdef0da77a6ff18cad00875e41596821e55a7"/>
   <project name="device_sample" path="device/sample" remote="github" revision="IRJ20_fix" />
   <project name="device/samsung/crespo" path="device/samsung/crespo" revision="cc747b1b169d45fd4f5c236f2354ae69c02ac86c" />
-  <!-- Original commit is c199ebb62b5a8274992f9688f925cca96992683a -->
+  <!-- Original commit is 9f151effd9b7fd49242e5b936e156837f4e85e0c -->
   <project name="device_moto_stingray" path="device/moto/stingray" remote="github" revision="stingray-extractfiles-IRJ20" />
   <!-- Original commit is 77f7c52806d20d9d15270272bc274ca4a03bdff9 -->
   <project name="device_moto_wingray" path="device/moto/wingray" remote="github" revision="stingray-extractfiles-IRJ20" />  
