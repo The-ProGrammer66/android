@@ -23,7 +23,7 @@
   <project name="platform/dalvik" path="dalvik" revision="4dd60e2c7f9551a3d027fefd2cac5eb3dce9f844"/>
   <project name="platform/development" path="development" revision="9df3fc14d2ac29c2552be05b7f6d7a5ba075514c"/>
   <project name="device/common" path="device/common" revision="1a9cdef0da77a6ff18cad00875e41596821e55a7"/>
-  <project name="device_sample" path="device/sample" remote="github" revision="IRJ20_fix" />
+  <project name="device/sample" path="device/sample" revision="7e5f108f4973975fcd6cec750a9f5b78ddced4df" />
   <project name="device/samsung/crespo" path="device/samsung/crespo" revision="cc747b1b169d45fd4f5c236f2354ae69c02ac86c" />
   <!-- Original commit is 9f151effd9b7fd49242e5b936e156837f4e85e0c -->
   <project name="device_moto_stingray" path="device/moto/stingray" remote="github" revision="stingray-extractfiles-IRJ20" />
