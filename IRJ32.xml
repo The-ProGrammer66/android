@@ -21,7 +21,7 @@
   <project name="platform/bootable/diskinstaller" path="bootable/diskinstaller" revision="b354f6abda00461eae4cb0215faa8b5a7268e275"/>
   <project name="platform/bootable/recovery" path="bootable/recovery" revision="cfd256a3328aac1199a35825b5daf04f5f4fc112"/>
   <project name="platform/cts" path="cts" revision="ad6cec9f9b29d0830ebb650062d4c2c2a86fcf34"/>
-  <project name="platform/dalvik" path="dalvik" revision="17f22e19628bd8dc4c5d0789de7753e294aec9ee"/>
+  <project name="platform/dalvik" path="dalvik" revision="7b609f056c6ac8727c4c91f3f6a4c03bd3c3ecd9"/>
   <project name="platform/development" path="development" revision="0ce5a5744810bab1f31f077ac7e0146f59697c99"/>
   <project name="device/common" path="device/common" revision="99e9525b10a6cbf72498af7577f775f676fbd2d1"/>
   <project name="device/generic/goldfish" path="device/generic/goldfish" revision="4cb1fdb7e8a2a91dd00d9e0770e78132e3128f60"/>
@@ -243,7 +243,7 @@
   <project name="platform/prebuilt" path="prebuilt" revision="be34f186654698e5d82bb8c8a386864f36d21777"/>
   <project name="platform/sdk" path="sdk" revision="b364b31e2f3a27f2b1c853ddffcfe598bed38657"/>
   <project name="platform/system/bluetooth" path="system/bluetooth" revision="1890bf01833f6cab431f014af7a20fcbed3a4e13"/>
-  <project name="platform/system/core" path="system/core" revision="531312e491079b7d62612fa35b64e8398f1b3283"/>
+  <project name="platform/system/core" path="system/core" revision="fdbbdc4ecda05e028ec41352b373d8232f600ccc"/>
   <project name="platform/system/extras" path="system/extras" revision="06c35f935a7adadceb9ee326b3231f952f6ad203"/>
   <project name="platform/system/media" path="system/media" revision="90e90c753de8c410ea7ccaf36510a612b4235713"/>
   <project name="platform/system/netd" path="system/netd" revision="1eef3e2f220e264984e1c9a94f3782a1350a3ff9"/>
