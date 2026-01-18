@@ -186,7 +186,7 @@
   <project name="platform/hardware/libhardware" path="hardware/libhardware" revision="1ca194d2d4415afbb946d67ae9993b48e74057ef"/>
   <project name="platform/hardware/libhardware_legacy" path="hardware/libhardware_legacy" revision="d8d8c60a3a91a2029294d95344b80d76fec09aed"/>
   <project name="platform/hardware/ril" path="hardware/ril" revision="e70d0c9c1b85a233608d85433a8dfc5dcb8441c9"/>
-  <project name="platform/libcore" path="libcore" revision="c9e12f729cb962eb60754e4500312421c46e71dd"/>
+  <project name="platform/libcore" path="libcore" revision="7195b3b965df5c3288435d94e8d13bd256e33890"/>
   <project name="platform/ndk" path="ndk" revision="dc191ed1682a166d776e1940b242875aa3181f8b"/>
   <project name="platform/packages/apps/BasicSmsReceiver" path="packages/apps/BasicSmsReceiver" revision="12de25a6f806848952d8c334a90c5884aba4690f"/>
   <project name="platform/packages/apps/Bluetooth" path="packages/apps/Bluetooth" revision="a2f16c010b59d3bc9ff978b178ded62c1e2b9d8f"/>
