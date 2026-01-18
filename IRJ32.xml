@@ -232,7 +232,7 @@
   <!-- RTM -->
   <project name="platform/packages/providers/GoogleContactsProvider" path="packages/providers/GoogleContactsProvider" revision="4886c7a0cfba5df74b213b1fc8286c6e3f2ddaa2"/>
   <project name="platform/packages/providers/MediaProvider" path="packages/providers/MediaProvider" revision="f1f6a9e343033de33fc748f659b9221f8d5b06e1"/>
-  <project name="platform/packages/providers/TelephonyProvider" path="packages/providers/TelephonyProvider" revision="57699e46dcb3cde1edccd4fd0d01a1d28fc0c96b"/>
+  <project name="platform/packages/providers/TelephonyProvider" path="packages/providers/TelephonyProvider" revision="10faf3f5f0c16a812c25f02d208715fabc556a7d"/>
   <!-- RTM -->
   <project name="platform/packages/providers/UserDictionaryProvider" path="packages/providers/UserDictionaryProvider" revision="d7eb9d4b59640175877a6f53f32b6e3e3d7154e9"/>
   <project name="platform/packages/wallpapers/Basic" path="packages/wallpapers/Basic" revision="ceedfea54e2d1157574e061577d16d0c7cbaa916"/>
