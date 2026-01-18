@@ -21,7 +21,7 @@
   <project name="platform/bootable/diskinstaller" path="bootable/diskinstaller" revision="b354f6abda00461eae4cb0215faa8b5a7268e275"/>
   <project name="platform/bootable/recovery" path="bootable/recovery" revision="cfd256a3328aac1199a35825b5daf04f5f4fc112"/>
   <project name="platform/cts" path="cts" revision="ad6cec9f9b29d0830ebb650062d4c2c2a86fcf34"/>
-  <project name="platform/dalvik" path="dalvik" revision="a62c3a0ab3fcdde37f47d16e9699a935ae7a8e88"/>
+  <project name="platform/dalvik" path="dalvik" revision="7cc095f8e3ec52ba94d91e1d327354f61236496a"/>
   <project name="platform/development" path="development" revision="0ce5a5744810bab1f31f077ac7e0146f59697c99"/>
   <project name="device/common" path="device/common" revision="99e9525b10a6cbf72498af7577f775f676fbd2d1"/>
   <project name="device/generic/goldfish" path="device/generic/goldfish" revision="4cb1fdb7e8a2a91dd00d9e0770e78132e3128f60"/>
