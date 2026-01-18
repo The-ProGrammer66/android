@@ -274,6 +274,7 @@
   <project name="platform/packages/apps/Email" path="packages/apps/Email" revision="8466f79a06433bf3d05a770578c72b2b60e1bd7c" />
   <project name="platform/packages/apps/Exchange" path="packages/apps/Exchange" revision="faba0e7415731b9a7321eeb019fbe2f2e33e17b6" />
   <project name="platform/packages/apps/Gallery" path="packages/apps/Gallery" revision="24c79cbef7a72b6e94ef38a75bbd0fefa216c273" />
+  <project name="platform/packages/apps/Gallery2" path="packages/apps/Gallery2" revision="a79bbef0ffe0b99cb8d0e5dcedd3082abc61559c" />
   <project name="platform/packages/apps/HTMLViewer" path="packages/apps/HTMLViewer" revision="804c4e7223c3b33f8ec2f9d898a44b6ac9813ed2" />
   <!-- 4.0 RTM commit dont change --> 
   <project name="platform/packages/apps/KeyChain" path="packages/apps/KeyChain" revision="dbfabf9856a86fbe0f072edddae70fda52e8a46d" />
