@@ -204,5 +204,6 @@
   <project name="platform/system/media" path="system/media" revision="cd422d88f508397adf8f6b492a82f0d9baee5b88"/>
   <project name="platform/system/netd" path="system/netd" revision="8cd1bc2c5f2033e29d036210dfe5cb07666d0850"/>
   <project name="platform/system/vold" path="system/vold" revision="cf5af171190c26f62f23d45d0c653a4137b1b291"/>
-
+  <project name="vendor_crespo" path="vendor" remote="github" revision="IRJ20-blobs" />
+  <project name="vendor_stingray" path="vendor" remote="github" revision="IRJ20-blobs" />
 </manifest>
