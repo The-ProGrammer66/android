@@ -24,10 +24,11 @@
   <project name="platform/dalvik" path="dalvik" revision="7b609f056c6ac8727c4c91f3f6a4c03bd3c3ecd9"/>
   <project name="platform/development" path="development" revision="b4669d5dc992fa637abbce986ebe2f282624d6ac"/>
   <project name="device/common" path="device/common" revision="99e9525b10a6cbf72498af7577f775f676fbd2d1"/>
-  <project name="device/sample" path="device/sample" revision="7e5f108f4973975fcd6cec750a9f5b78ddced4df"/>
-  <project name="device/samsung/crespo" path="device/samsung/crespo" revision="cb4e4b15eb8f928b01347acab1d41d0b533e855a"/>
+  <project name="device/generic/goldfish" path="device/generic/goldfish" revision="4cb1fdb7e8a2a91dd00d9e0770e78132e3128f60"/>
   <project name="device/moto/stingray" path="device/moto/stingray" revision="a31a5d42ac75a9a8c90520dc66c11ff3e6b9a971"/>
   <project name="device/moto/wingray" path="device/moto/wingray" revision="cb761d7e042e9162c8fc6f09315f4cd6fb2692f8"/>
+  <project name="device/sample" path="device/sample" revision="7e5f108f4973975fcd6cec750a9f5b78ddced4df"/>
+  <project name="device/samsung/crespo" path="device/samsung/crespo" revision="cb4e4b15eb8f928b01347acab1d41d0b533e855a"/>
   <!-- RTM -->
   <project name="platform/external/android-mock" path="external/android-mock" revision="40bb73886c61d4b2e96bab98b50c1cbfcb54d9a3"/>
   <project name="platform/external/apache-http" path="external/apache-http" revision="81d5133bb7843bc65c5321e53f5017ce2e4d13af"/>
@@ -167,6 +168,7 @@
   <project name="platform/external/webp" path="external/webp" revision="9aea642eefa7a641ab8b89d953251939221d2719"/>
   <project name="platform/external/wpa_supplicant" path="external/wpa_supplicant" revision="92202cf7a2e615b65e892aa8f633b469ddcb522e"/>
   <project name="platform/external/wpa_supplicant_6" path="external/wpa_supplicant_6" revision="eee21e1de8514a43f3e9089c136e7e27cc27a9fc"/>
+  <project name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8" revision="7acd11a82b3521a1ec0ef3976af4786b02642e7e"/>
   <!-- RTM -->
   <project name="platform/external/xmlwriter" path="external/xmlwriter" revision="e95d92246ee35273dde2bee8b00485cc14c12be5"/>
   <!-- RTM -->
