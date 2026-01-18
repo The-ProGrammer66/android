@@ -21,7 +21,7 @@
   <project name="platform/bootable/diskinstaller" path="bootable/diskinstaller" revision="b354f6abda00461eae4cb0215faa8b5a7268e275"/>
   <project name="platform/bootable/recovery" path="bootable/recovery" revision="cfd256a3328aac1199a35825b5daf04f5f4fc112"/>
   <project name="platform/cts" path="cts" revision="ad6cec9f9b29d0830ebb650062d4c2c2a86fcf34"/>
-  <project name="platform/dalvik" path="dalvik" revision="7b609f056c6ac8727c4c91f3f6a4c03bd3c3ecd9"/>
+  <project name="platform/dalvik" path="dalvik" revision="92a3b69286a757afff76402d8a0d5ec04d7f177c"/>
   <project name="platform/development" path="development" revision="0ce5a5744810bab1f31f077ac7e0146f59697c99"/>
   <project name="device/common" path="device/common" revision="99e9525b10a6cbf72498af7577f775f676fbd2d1"/>
   <project name="device/generic/goldfish" path="device/generic/goldfish" revision="4cb1fdb7e8a2a91dd00d9e0770e78132e3128f60"/>
@@ -186,7 +186,7 @@
   <project name="platform/hardware/libhardware" path="hardware/libhardware" revision="1ca194d2d4415afbb946d67ae9993b48e74057ef"/>
   <project name="platform/hardware/libhardware_legacy" path="hardware/libhardware_legacy" revision="d8d8c60a3a91a2029294d95344b80d76fec09aed"/>
   <project name="platform/hardware/ril" path="hardware/ril" revision="e70d0c9c1b85a233608d85433a8dfc5dcb8441c9"/>
-  <project name="platform/libcore" path="libcore" revision="0c814baa7aff1b0845b2ad36c62dc791700732e1"/>
+  <project name="platform/libcore" path="libcore" revision="c9e12f729cb962eb60754e4500312421c46e71dd"/>
   <project name="platform/ndk" path="ndk" revision="dc191ed1682a166d776e1940b242875aa3181f8b"/>
   <project name="platform/packages/apps/BasicSmsReceiver" path="packages/apps/BasicSmsReceiver" revision="12de25a6f806848952d8c334a90c5884aba4690f"/>
   <project name="platform/packages/apps/Bluetooth" path="packages/apps/Bluetooth" revision="a2f16c010b59d3bc9ff978b178ded62c1e2b9d8f"/>
