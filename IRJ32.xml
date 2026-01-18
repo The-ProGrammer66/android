@@ -174,7 +174,7 @@
   <!-- RTM -->
   <project name="platform/external/yaffs2" path="external/yaffs2" revision="6232e2d5ab34a40d710e4b05ab0ec6e3727804e7"/>
   <project name="platform/external/zlib" path="external/zlib" revision="96c70b1df1629d7f0eb8f666045bfd5eb062cebf"/>
-  <project name="platform/frameworks/base" path="frameworks/base" revision="31be7cf4c7aef140f2a576975a7fd31e062f6964"/>
+  <project name="platform/frameworks/base" path="frameworks/base" revision="f0cae1a3f0243f176fbaa4f708e03141121876d0"/>
   <project name="platform/frameworks/compile/libbcc" path="frameworks/compile/libbcc" revision="cfd23fde40cf0cb600dd8a09563ff8fe3e5f9c0a"/>
   <project name="platform/frameworks/compile/slang" path="frameworks/compile/slang" revision="78e69cb06b9b0683b2ac9dcafde87b867690ef2f"/>
   <project name="platform/frameworks/ex" path="frameworks/ex" revision="a15ab452e6a7603fb289666177aa13e5e4803d18"/>
