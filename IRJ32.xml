@@ -243,7 +243,7 @@
   <project name="platform/prebuilt" path="prebuilt" revision="be34f186654698e5d82bb8c8a386864f36d21777"/>
   <project name="platform/sdk" path="sdk" revision="b364b31e2f3a27f2b1c853ddffcfe598bed38657"/>
   <project name="platform/system/bluetooth" path="system/bluetooth" revision="1890bf01833f6cab431f014af7a20fcbed3a4e13"/>
-  <project name="platform/system/core" path="system/core" revision="cd28c408410cfcd3f96f8fd97a9ba76bca64c435"/>
+  <project name="platform/system/core" path="system/core" revision="c951695ede6636955965d358454a23752c554da6"/>
   <project name="platform/system/extras" path="system/extras" revision="06c35f935a7adadceb9ee326b3231f952f6ad203"/>
   <project name="platform/system/media" path="system/media" revision="90e90c753de8c410ea7ccaf36510a612b4235713"/>
   <project name="platform/system/netd" path="system/netd" revision="1eef3e2f220e264984e1c9a94f3782a1350a3ff9"/>
