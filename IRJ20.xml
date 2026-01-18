@@ -25,8 +25,10 @@
   <project name="device/common" path="device/common" revision="1a9cdef0da77a6ff18cad00875e41596821e55a7"/>
   <project name="froyocomb/device_sample" path="device/sample" remote="github" revision="IRJ20_fix" />
   <project name="device/samsung/crespo" path="device/samsung/crespo" revision="cc747b1b169d45fd4f5c236f2354ae69c02ac86c" />
-  <project name="device/moto/stingray" path="device/moto/stingray" revision="c199ebb62b5a8274992f9688f925cca96992683a" />
-  <project name="device/moto/wingray" path="device/moto/wingray" revision="77f7c52806d20d9d15270272bc274ca4a03bdff9" />  
+  <!-- Original commit is c199ebb62b5a8274992f9688f925cca96992683a -->
+  <project name="device_moto_stingray" path="device/moto/stingray" remote="github" revision="stingray-extractfiles-IRJ20" />
+  <!-- Original commit is 77f7c52806d20d9d15270272bc274ca4a03bdff9 -->
+  <project name="device_moto_wingray" path="device/moto/wingray" remote="github" revision="stingray-extractfiles-IRJ20" />  
   <project name="platform/external/android-mock" path="external/android-mock" revision="40bb73886c61d4b2e96bab98b50c1cbfcb54d9a3"/>
   <project name="platform/external/apache-http" path="external/apache-http" revision="81d5133bb7843bc65c5321e53f5017ce2e4d13af"/>
   <project name="platform/external/apache-xml" path="external/apache-xml" revision="ceaebb19e578d6b24db33e471dde59261817affc"/>
