@@ -26,7 +26,7 @@
   <project name="device/common" path="device/common" revision="99e9525b10a6cbf72498af7577f775f676fbd2d1"/>
   <project name="device/generic/goldfish" path="device/generic/goldfish" revision="4cb1fdb7e8a2a91dd00d9e0770e78132e3128f60"/>
   <project name="device/moto/stingray" path="device/moto/stingray" revision="a31a5d42ac75a9a8c90520dc66c11ff3e6b9a971"/>
-  <project name="device/moto/wingray" path="device/moto/wingray" revision="cb761d7e042e9162c8fc6f09315f4cd6fb2692f8"/>
+  <project name="device/moto/wingray" path="device/moto/wingray" revision="8a15b6d8a120c36e192ac3cdc75243b83cbb776d"/>
   <project name="device/sample" path="device/sample" revision="7e5f108f4973975fcd6cec750a9f5b78ddced4df"/>
   <project name="device/samsung/crespo" path="device/samsung/crespo" revision="0df9b5306074af06d7ac984641abba80b7b15bf4"/>
   <!-- RTM -->
