@@ -202,7 +202,7 @@
   <project name="platform/packages/apps/Gallery" path="packages/apps/Gallery" revision="ecfacd422ba8a9653611f69e90bfadb1b0fddf53"/>
   <project name="platform/packages/apps/HTMLViewer" path="packages/apps/HTMLViewer" revision="39d35d3478dca214f6f494a3915384adacdb7040"/>
   <project name="platform/packages/apps/Launcher2" path="packages/apps/Launcher2" revision="8ef487680042fc3045323223b15449b2bf40e8e3"/>
-  <project name="platform/packages/apps/Mms" path="packages/apps/Mms" revision="60850c00dd7a5bcca135f024e12e4107f469705e"/>
+  <project name="platform/packages/apps/Mms" path="packages/apps/Mms" revision="ea66771bec1d92c8ede9bf55a3f9016729a5ccf9"/>
   <project name="platform/packages/apps/Music" path="packages/apps/Music" revision="37635272e25be44ec0f8cff1d2e96b132371d1a8"/>
   <project name="platform/packages/apps/Nfc" path="packages/apps/Nfc" revision="9cc1c35585b9720d1b1b0f44dd73ef8c4c511e00"/>
   <project name="platform/packages/apps/PackageInstaller" path="packages/apps/PackageInstaller" revision="bc58884f1178dd33f71269df33e77d7cfc005339"/>
@@ -231,7 +231,7 @@
   <project name="platform/packages/providers/DrmProvider" path="packages/providers/DrmProvider" revision="d1472d44475bcd60c4e5c6cb6a97f5aa59f7bf69"/>
   <!-- RTM -->
   <project name="platform/packages/providers/GoogleContactsProvider" path="packages/providers/GoogleContactsProvider" revision="4886c7a0cfba5df74b213b1fc8286c6e3f2ddaa2"/>
-  <project name="platform/packages/providers/MediaProvider" path="packages/providers/MediaProvider" revision="6d648b342dfb5344433f3e54589d7a1e4a42b892"/>
+  <project name="platform/packages/providers/MediaProvider" path="packages/providers/MediaProvider" revision="f1f6a9e343033de33fc748f659b9221f8d5b06e1"/>
   <project name="platform/packages/providers/TelephonyProvider" path="packages/providers/TelephonyProvider" revision="57699e46dcb3cde1edccd4fd0d01a1d28fc0c96b"/>
   <!-- RTM -->
   <project name="platform/packages/providers/UserDictionaryProvider" path="packages/providers/UserDictionaryProvider" revision="d7eb9d4b59640175877a6f53f32b6e3e3d7154e9"/>
