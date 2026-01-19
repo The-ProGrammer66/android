@@ -25,8 +25,7 @@
   <project name="platform/development" path="development" revision="0ce5a5744810bab1f31f077ac7e0146f59697c99"/>
   <project name="device/common" path="device/common" revision="99e9525b10a6cbf72498af7577f775f676fbd2d1"/>
   <project name="device/generic/goldfish" path="device/generic/goldfish" revision="4cb1fdb7e8a2a91dd00d9e0770e78132e3128f60"/>
-  <!-- Original commit is a31a5d42ac75a9a8c90520dc66c11ff3e6b9a971 -->
-  <project name="device_moto_stingray" path="device/moto/stingray" remote="github" revision="IRJ32-vendorblobs-fix"/>
+  <project name="device/moto/stingray" path="device/moto/stingray" revision="a31a5d42ac75a9a8c90520dc66c11ff3e6b9a971"/>
   <!-- Original commit is 8a15b6d8a120c36e192ac3cdc75243b83cbb776d -->
   <project name="device_moto_wingray" path="device/moto/wingray" remote="github" revision="IRJ32-vendorblobs-fix"/>
   <project name="device/sample" path="device/sample" revision="7e5f108f4973975fcd6cec750a9f5b78ddced4df"/>
