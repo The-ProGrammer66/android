@@ -35,7 +35,7 @@
   <project name="platform/external/astl" path="external/astl" revision="d13073fbb2bdb9a1bca751f103725a12de7ceafa"/>
   <project name="platform/external/bison" path="external/bison" revision="4af3c477523bc96a5a535500a722cd563f1d486f"/>
   <project name="platform/external/blktrace" path="external/blktrace" revision="1e2f2877319669fc4be61b4b46182b44390d3bc9"/>
-  <project name="platform/external/bluetooth/bluez" path="external/bluetooth/bluez" revision="1f91fbd3d1269b0d5e70239a26e00195f0018f58"/>
+  <project name="platform/external/bluetooth/bluez" path="external/bluetooth/bluez" revision="8e7a6f4a2b76974b5311ef48a652d6c39f1bdfcb"/>
   <project name="platform/external/bluetooth/glib" path="external/bluetooth/glib" revision="4e1e20f508d5a4deff8854cc9f54251f1facad81"/>
   <project name="platform/external/bluetooth/hcidump" path="external/bluetooth/hcidump" revision="4d72d341a6e88fbbaedfa66d4f786f8304d46bbd"/>
   <project name="platform/external/bouncycastle" path="external/bouncycastle" revision="f29b14e550bd5d2a37b360813573c2332f670112"/>
