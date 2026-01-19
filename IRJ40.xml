@@ -163,7 +163,7 @@
   <project name="platform/packages/apps/Gallery" path="packages/apps/Gallery" revision="ecfacd422ba8a9653611f69e90bfadb1b0fddf53"/>
   <project name="platform/packages/apps/HTMLViewer" path="packages/apps/HTMLViewer" revision="39d35d3478dca214f6f494a3915384adacdb7040"/>
   <project name="platform/packages/apps/KeyChain" path="packages/apps/KeyChain" revision="3e6251dedc92654476c70bdc413f24a4b31ce6a4"/>
-  <project name="platform/packages/apps/Launcher2" path="packages/apps/Launcher2" revision="c952aaef7f5b7fd977a576372ed4c59cd2a9c34a"/>
+  <project name="platform/packages/apps/Launcher2" path="packages/apps/Launcher2" revision="95963d614eac0dd67fd70e774c4c83b7eb676b3b"/>
   <project name="platform/packages/apps/Mms" path="packages/apps/Mms" revision="ea66771bec1d92c8ede9bf55a3f9016729a5ccf9"/>
   <project name="platform/packages/apps/Music" path="packages/apps/Music" revision="37635272e25be44ec0f8cff1d2e96b132371d1a8"/>
   <project name="platform/packages/apps/Nfc" path="packages/apps/Nfc" revision="27096d4dcc6bf7d3d983c58ca788ee6a96ee9f4a"/>
