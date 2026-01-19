@@ -10,7 +10,8 @@
   <default revision="refs/tags/android-4.0.1_r1"
            remote="aosp"
            sync-j="4" />
-
+  
+  <!-- Original commit is b4f5a64b6cc4105c2edf00e6799201da12da429d -->
   <project name="platform_build" remote="github" path="build" revision="i-scream-sandwich_IRJ40-fix">
     <copyfile src="core/root.mk" dest="Makefile"/>
   </project>
@@ -36,8 +37,7 @@
   <project name="platform/external/blktrace" path="external/blktrace" revision="1e2f2877319669fc4be61b4b46182b44390d3bc9"/>
   <project name="platform/external/bluetooth/bluez" path="external/bluetooth/bluez" revision="1f91fbd3d1269b0d5e70239a26e00195f0018f58"/>
   <project name="platform/external/bluetooth/glib" path="external/bluetooth/glib" revision="4e1e20f508d5a4deff8854cc9f54251f1facad81"/>
-  <!-- Gingerbread commit -->
-  <project name="platform/external/bluetooth/hcidump" path="external/bluetooth/hcidump" revision="ce36a6c7c5f8043c038415d8e270d55d9834008d"/>
+  <project name="platform/external/bluetooth/hcidump" path="external/bluetooth/hcidump" revision="4d72d341a6e88fbbaedfa66d4f786f8304d46bbd"/>
   <project name="platform/external/bouncycastle" path="external/bouncycastle" revision="f29b14e550bd5d2a37b360813573c2332f670112"/>
   <project name="platform/external/bsdiff" path="external/bsdiff" revision="df980d633fd0bdc0b89af26630f543d91bb87e68"/>
   <project name="platform/external/bzip2" path="external/bzip2" revision="9ac1ec23f7a9ad61bec16960ec33635f78097441"/>
@@ -200,7 +200,7 @@
   <!-- old commit: 60d743897e9cfa28bdf6ff0dc4c30d25ad652d60 -->
   <project name="platform/prebuilt" path="prebuilt" revision="524b56bf790e0a9388f550108954aa8c3ece2470"/>
   <project name="platform/sdk" path="sdk" revision="32bd23d6d93e568385c2da7e0a7f692724ac8f23"/>
-  <project name="platform/system/bluetooth" path="system/bluetooth" revision="596d8cae44844161b5b182d3defa681e1200dd46"/>
+  <project name="platform/system/bluetooth" path="system/bluetooth" revision="1890bf01833f6cab431f014af7a20fcbed3a4e13"/>
   <project name="platform/system/core" path="system/core" revision="0ab886bdabd167b32aad90ce5d4e00ce8392858c"/>
   <project name="platform/system/extras" path="system/extras" revision="06c35f935a7adadceb9ee326b3231f952f6ad203"/>
   <project name="platform/system/media" path="system/media" revision="90e90c753de8c410ea7ccaf36510a612b4235713"/>
