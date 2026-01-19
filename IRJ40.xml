@@ -197,7 +197,6 @@
   <project name="platform/packages/wallpapers/LivePicker" path="packages/wallpapers/LivePicker" revision="50f2b170a3bfaac816be3253c18fb7fd4d2f01a9"/>
   <project name="platform/packages/wallpapers/MagicSmoke" path="packages/wallpapers/MagicSmoke" revision="4e9ddc66d6ddb63193e4258b5ad1b8d797701dca"/>
   <project name="platform/packages/wallpapers/MusicVisualization" path="packages/wallpapers/MusicVisualization" revision="81a7e341dc6584b2591697a9ca8b59b1279272ff"/>
-  <!-- old commit: 60d743897e9cfa28bdf6ff0dc4c30d25ad652d60 -->
   <project name="platform/prebuilt" path="prebuilt" revision="524b56bf790e0a9388f550108954aa8c3ece2470"/>
   <project name="platform/sdk" path="sdk" revision="32bd23d6d93e568385c2da7e0a7f692724ac8f23"/>
   <project name="platform/system/bluetooth" path="system/bluetooth" revision="1890bf01833f6cab431f014af7a20fcbed3a4e13"/>
@@ -206,4 +205,6 @@
   <project name="platform/system/media" path="system/media" revision="90e90c753de8c410ea7ccaf36510a612b4235713"/>
   <project name="platform/system/netd" path="system/netd" revision="111b24e1c64747b70e59bc4cc02fac81b11b7812"/>
   <project name="platform/system/vold" path="system/vold" revision="311e06bc72c3f8f1ee13c74f3be8c2126c8e0d27"/>
+  <project name="vendor_crespo" path="vendor" remote="github" revision="GWK74-gingerbread-blobs-rev-1" />
+  <project name="vendor_stingray" path="vendor/moto" remote="github" revision="HMJ37-honeycomb-blobs" />
 </manifest>
