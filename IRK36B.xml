@@ -152,7 +152,7 @@
   <project name="platform/frameworks/opt/mailcommon" path="frameworks/opt/mailcommon" revision="19acfbb21739e88784fae4844b5ea1e9a7f8974b" />
   <project name="platform/frameworks/opt/vcard" path="frameworks/opt/vcard" revision="5f0f9e9f2d3e8b73beaf49d542e10fdec6fa199b" />
   <project name="platform/frameworks/support" path="frameworks/support" revision="66c0e6a0a5fd20c66b6c86133b8bd91fe303e430" />
-  <project name="platform/hardware/broadcom/wlan" path="hardware/broadcom/wlan" revision="8700d425edebe9eb6063d4151597d1537f14f561" />
+  <project name="platform/hardware/broadcom/wlan" path="hardware/broadcom/wlan" revision="4f491b5cc280f98b08af0b3e0e20567849b901a8" />
   <project name="platform/hardware/libhardware" path="hardware/libhardware" revision="ee43a308b6d89442e41d5c14bf5831a213b681a9" />
   <project name="platform/hardware/libhardware_legacy" path="hardware/libhardware_legacy" revision="8e925841ab98524d93f05b6ce42cf097908e832b" />
   <project name="platform/hardware/ril" path="hardware/ril" revision="2cc60325243c41bfcd9c76603f03e2c8d8b7f5ab" />
