@@ -7,7 +7,7 @@ Only one build has been reconstructed at the moment.
 
 Preparing a Build Environment
 -----------------
-**DO NOT USE THIS GUIDE! It has simply been copy pasted from Android 5.0's repository.**
+**DO NOT USE THIS GUIDE! It has been copy pasted from Android 5.0's repository as a placeholder.**
 
 **All of this must only be done once! Once a proper installation is set up, builds can be switched using just `repo init`. Make sure to erase the previous build's folders and files (with the exception of the hidden `.repo` folder, do not remove it) before changing.**
 
