@@ -117,7 +117,7 @@
   <project path="external/clang" name="platform/external/clang" groups="pdk" revision="8b0b2d671156262172b5a04b84cf191bd93fa59e" />
   <project path="external/cmockery" name="platform/external/cmockery" />
   <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" revision="5d71de26cedae3dafc17449fe0182045c0bd20e8" />
-  <project path="external/conscrypt" name="platform/external/conscrypt" groups="pdk-cw-fs" revision="6624ff8bf28e54e4791b86c3298729232ab56429" />
+  <project path="external/conscrypt" name="platform/external/conscrypt" groups="pdk-cw-fs" revision="edf6c9c5209dc4c92e30b3bde843e74b10a2822d" />
   <project path="external/deqp" name="platform/external/deqp" revision="6971299fe15e6e72961f56d594b1bdc8278f50a0" />
   <project path="external/dexmaker" name="platform/external/dexmaker" groups="pdk-cw-fs" revision="9ffe901bd7cb9f8050dafed9155b627cd094d410" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" groups="pdk-cw-fs" />
