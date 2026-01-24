@@ -15,6 +15,7 @@ Following pre-release builds were reconstructed:
 | AAU70                |  Done            |
 | AAU83                |  WIP             |
 | LRW38                |  Done            |
+| LRW84                |  Done            |
 
 Preparing a Build Environment
 -----------------
