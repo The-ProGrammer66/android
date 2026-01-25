@@ -15,6 +15,7 @@ This repository is a collection of reconstructed manifests for pre-release build
 | [`jolly-all-the-beans`]                  | Android 4.1-4.3  |          
 | [`have-a-key-lime-pie`]                  | Android 4.4      |  
 | [`thou-shalt-take-the-L`]                | Android 5.0      |           
+| [`nothing-rhymes-with-nougat`]           | Android 7.0-7.1  |          
 
 [`i-cant-believe-its-not-android`]:  https://github.com/froyocomb/android/tree/i-cant-believe-its-not-android
 [`cupcake-den`]:  https://github.com/froyocomb/android/tree/cupcake-den
@@ -26,7 +27,7 @@ This repository is a collection of reconstructed manifests for pre-release build
 [`jolly-all-the-beans`]: https://github.com/froyocomb/android/tree/jolly-all-the-beans
 [`have-a-key-lime-pie`]:  https://github.com/froyocomb/android/tree/have-a-key-lime-pie
 [`thou-shalt-take-the-L`]: https://github.com/froyocomb/android/tree/thou-shalt-take-the-L
-
+[`nothing-rhymes-with-nougat`]: https://github.com/froyocomb/android/tree/nothing-rhymes-with-nougat
 
 
 	
