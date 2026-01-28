@@ -11,7 +11,7 @@
            remote="aosp"
            sync-j="4" />
   
-  <!-- Original commit is b4f5a64b6cc4105c2edf00e6799201da12da429d -->
+  <!-- Manifest of IRJ40. Reconstructed prior to 2026. Original build commit is b4f5a64b6cc4105c2edf00e6799201da12da429d No revision = RTM commit. -->
   <project name="platform_build" remote="github" path="build" revision="i-scream-sandwich_IRJ40-fix">
     <copyfile src="core/root.mk" dest="Makefile"/>
   </project>
