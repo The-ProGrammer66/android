@@ -163,7 +163,7 @@
   <project name="platform/frameworks/opt/calendar" path="frameworks/opt/calendar" revision="8fa82ef0bb1129284d7ed5032eca0a25a1aa94e6"/>
   <project name="platform/frameworks/opt/emoji" path="frameworks/opt/emoji" revision="49f8fa5f480ae382f9087fde333b50072b214ad2"/>
   <project name="platform/frameworks/opt/inputmethodcommon" path="frameworks/opt/inputmethodcommon" revision="55f2b586128f6f6a4a6c9c7fc93ba591b16c162f"/>
-  <project name="platform/frameworks/opt/mailcommon" path="frameworks/opt/mailcommon" revision="3577c816bdff9f85c28655858c332b4e1b6ee85f"/>  
+  <project name="platform/frameworks/opt/mailcommon" path="frameworks/opt/mailcommon" revision="3577c816bdff9f85c28655858c332b4e1b6ee85f"/>
   <project name="platform/frameworks/opt/vcard" path="frameworks/opt/vcard" revision="87315f4cddec4c9bb09a48497c8b6bd65a8b99c7"/>
   <project name="platform/frameworks/support" path="frameworks/support" revision="b13ff27bb444693a88a4b1ed31e4e455eec8701c"/>
   <project name="platform/hardware/broadcom/wlan" path="hardware/broadcom/wlan" revision="e488f7f82b784cb3bd8cf92806ce84002d03fe00" />
