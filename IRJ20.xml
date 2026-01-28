@@ -35,7 +35,6 @@
   <project name="device/samsung/crespo" path="device/samsung/crespo" revision="cc747b1b169d45fd4f5c236f2354ae69c02ac86c" />
   <project name="device/samsung/crespo4g" path="device/samsung/crespo4g" revision="4b7f9c4e0322add8f9a7a149d81a751bbdca37ec" />
   <project name="device/samsung/maguro" path="device/samsung/maguro" revision="72a603475cac661b6cf346744e409d097d46daa4"/>
-  <project name="device/samsung/toro" path="device/samsung/toro" revision="f52532edccf9a8ce39648a4b2831e72f40a721ec"/>
   <project name="device/samsung/tuna" path="device/samsung/tuna" revision="a80f91a32d2decad24cf8175c2fcda1992985d10"/>
   <project name="device/ti/panda" path="device/ti/panda" revision="e100e5082cca255d84f2ae6a552aad100bb29506"/>
   <project name="docs/source.android.com" path="platform/docs/source.android.com" revision="ae228abefec9f9b9617145f33db5585f3732fec1"/>
@@ -117,6 +116,7 @@
   <project name="platform/external/neven" path="external/neven"/>
   <project name="platform/external/nist-sip" path="external/nist-sip"/>
   <project name="platform/external/oauth" path="external/oauth"/>
+  <project name="platform/external/opencv" path="external/opencv" revision="58393d4eb582b3d88f46b88a459dfbbf853af5e4"/>
   <project name="platform/external/openssl" path="external/openssl" revision="d55f58d41a51c94eb4a60a244ba69bb66e404258"/>
   <project name="platform/external/oprofile" path="external/oprofile" revision="6e67eb0359ee670a3eccd17dcc7eb0ffa3531d7b"/>
   <project name="platform/external/pcre" path="external/pcre"/>
@@ -126,9 +126,9 @@
   <project name="platform/external/proguard" path="external/proguard" revision="ab470e0d486f7bfe056971e0b099e6b8cdc7c25e"/>
   <project name="platform/external/protobuf" path="external/protobuf" revision="9fdd84ae4554a30d2a986a9b3ada9300296e4870"/>
   <project name="platform/external/qemu" path="external/qemu" revision="c01f708a44ed863f91c4d8315bac4fc057c59ba8"/>
-  <project name="platform/external/qemu-pc-bios" path="external/qemu-pc-bios" revision="930baf66aeb08c8c72fb5ab3194014d41bb18f94"/>
+  <project name="platform/external/qemu-pc-bios" path="external/qemu-pc-bios"/>
   <project name="platform/external/quake" path="external/quake" revision="28f86d256e687e12428361ee9396af0994552436"/>
-  <project name="platform/external/safe-iop" path="external/safe-iop" revision="07073634e2e3aa4f518e36ed5dec3aabc549d5fb"/>
+  <project name="platform/external/safe-iop" path="external/safe-iop"/>
   <project name="platform/external/skia" path="external/skia" revision="87b8e645865f9633f410c02252a0fd3feb18f09b"/>
   <project name="platform/external/sonivox" path="external/sonivox"/>
   <project name="platform/external/speex" path="external/speex" revision="bc4e4ffb95de25e9f9b962a61f8cd466247b2b79"/>
