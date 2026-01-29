@@ -36,7 +36,7 @@
   <project name="device/samsung/maguro" path="device/samsung/maguro" revision="72a603475cac661b6cf346744e409d097d46daa4"/>
   <project name="device/samsung/tuna" path="device/samsung/tuna" revision="95951545cbe7a9fcc18d9809292bad7affb531e7"/>
   <project name="device/ti/panda" path="device/ti/panda" revision="f989a76e0b7edf77dd5912d6e9a50e3f81bbe8b9"/>
-  <project name="docs/source.android.com" path="platform/docs/source.android.com" revision="578f853f608004562a8eb6a4d0a29801815e4562"/>
+  <project name="platform/docs/source.android.com" path="docs/source.android.com" revision="578f853f608004562a8eb6a4d0a29801815e4562"/>
   <project name="platform/external/android-mock" path="external/android-mock"/>
   <project name="platform/external/antlr" path="external/antlr" revision="b87cccb1bb91d78fa2479e6e4b9de45fb320b4a5"/>
   <project name="platform/external/apache-harmony" path="external/apache-harmony" revision="e98fbf8686c5289bf03fe5c3de7ff82d3a77104d"/>
