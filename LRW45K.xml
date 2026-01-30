@@ -530,5 +530,4 @@
   <project path="tools/studio/translation" name="platform/tools/studio/translation" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" revision="45bd58317f1a590218badf0e737d64769e1d9027" />
-  <project path="vendor" name="vendor_shamu" remote="github" revision="ea6c14ba0c26dba2565535697158c064e32d8ab8" />
 </manifest>
