@@ -12,7 +12,7 @@
   <remote name="chromium"
            fetch="https://chromium.googlesource.com" />
 		   
-  <!-- Manifest of LRW45K. Commits that are not the base commit (LRW45)  are marked as such (in order) -->
+  <!-- Manifest of LRW45K. Commits that are not the base commit (LRW45)  are marked as such (in order) LRW45 commit is 12c28a39bd6f5fd5d113955bc09b85dc640803eb -->
   <project path="build" name="platform/build" groups="pdk,tradefed" revision="a5c53cce099aa86e6de19081ab38497b89b5d9f5" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
@@ -433,7 +433,7 @@
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" groups="pdk-cw-fs" revision="0ab307238107189b4717127b638e6c7dc9f988f1" />
   <project path="packages/providers/ContactsProvider" name="platform/packages/providers/ContactsProvider" groups="pdk-cw-fs" revision="62fa1c1c2de0ef0aafd780cc5911d484c827d3aa" />
   <project path="packages/providers/DownloadProvider" name="platform/packages/providers/DownloadProvider" groups="pdk-cw-fs" revision="35b0a916ca7fd9a3c0cbfec6eab4fe87c0f4ac13" />
-  <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" groups="pdk-cw-fs" revision="b83e386bda1b7b5d456ac93f71817d343145b99d" />
+  <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" groups="pdk-cw-fs" revision="ca49441195494c1537c2ad1c563183098f1e333b" />
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" />
   <!-- LRW45E -->
   <project path="packages/providers/TelephonyProvider" name="platform/packages/providers/TelephonyProvider" revision="fa0cec31a0e9083ebfafa1de86ffa3ab16ba37f9" />
