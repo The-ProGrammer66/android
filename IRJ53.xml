@@ -200,7 +200,7 @@
   <project name="platform/packages/apps/Protips" path="packages/apps/Protips" revision="872ed70ca03667101f8b2d17f474ea7d5d82227e"/>
   <project name="platform/packages/apps/Provision" path="packages/apps/Provision" revision="f31b933a8aebf07e3feb512ac650c5691c8c5e0f"/>
   <project name="platform/packages/apps/QuickSearchBox" path="packages/apps/QuickSearchBox" revision="9fc62e56b49f19bc2defdf9c298be6c7ba147a06"/>
-  <project name="platform/packages/apps/Settings" path="packages/apps/Settings" revision="318f7850f6651d5d62df1d5dce05d67dfa5d9188"/>
+  <project name="platform/packages/apps/Settings" path="packages/apps/Settings" revision="1396d5bd3fd520b8b666931303516b5ab5a4ad2f"/>
   <project name="platform/packages/apps/SoundRecorder" path="packages/apps/SoundRecorder" revision="57c306339019dc5c9ba1a37cd0f0319511899e92"/>
   <project name="platform/packages/apps/SpareParts" path="packages/apps/SpareParts"/>
   <project name="platform/packages/apps/SpeechRecorder" path="packages/apps/SpeechRecorder"/>
