@@ -72,6 +72,7 @@
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs" revision="949ae0bfad29dfa140bece1c4851f4d930c036e7" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
   <project path="external/syspatch" name="platform/external/syspatch" groups="pdk" revision="4029ced07661bbe144d290b390cd56406111dbf8" />
+  <project path="external/xdelta3" name="platform/external/xdelta3" groups="pdk" revision="f84efc705e1e34d6678b7816efe172318e21c486" />
   <project path="external/android-clat" name="platform/external/android-clat" groups="pdk-cw-fs" revision="545bdca4e73b5aa56b81a735ead316eb6d33c326" />
   <project path="external/ant-glob" name="platform/external/ant-glob" groups="pdk-cw-fs" />
   <project path="external/antlr" name="platform/external/antlr" groups="pdk-cw-fs,tradefed" />
