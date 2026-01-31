@@ -185,7 +185,7 @@
   <project name="platform/packages/apps/Contacts" path="packages/apps/Contacts" revision="d568c944b5c30401e66dc079bb9213fee9065c2f"/>
   <project name="platform/packages/apps/DeskClock" path="packages/apps/DeskClock" revision="85d6a628c358f1e9971418c19c018cfea0ef952a"/>
   <project name="platform/packages/apps/Email" path="packages/apps/Email" revision="450db23c1c39e70f67d4fbe7f13f2c6ebd241f8e"/>
-  <project name="platform/packages/apps/Exchange" path="packages/apps/Exchange" revision="c4ff4569299e8df6da7812af61dbff6775097018"/>
+  <project name="platform/packages/apps/Exchange" path="packages/apps/Exchange" revision="df06a1d70b3bec59886962fb2641392e48d668a4"/>
   <project name="platform/packages/apps/Gallery" path="packages/apps/Gallery" revision="ecfacd422ba8a9653611f69e90bfadb1b0fddf53"/>
   <project name="platform/packages/apps/Gallery2" path="packages/apps/Gallery2" revision="a053a3179cfee3d2bb666eff5f4f03a96b092e04"/>
   <project name="platform/packages/apps/HTMLViewer" path="packages/apps/HTMLViewer" revision="f214ef6deec723af076b6839a2482fd15bf40c07"/>
