@@ -111,7 +111,7 @@
   <project name="platform/external/mksh" path="external/mksh" revision="38fa6a9a7be7f1d4edd349e759318c74232e4a02"/>
   <project name="platform/external/mockwebserver" path="external/mockwebserver" revision="33331096634bb62581a838161292d1e82f7ccbc6"/>
   <project name="platform/external/mtpd" path="external/mtpd" revision="fccbc17685cd8bd43cf1c1e533c4d02f6f79d667"/>
-  <project name="platform/external/netcat" path="external/netcat" revision="fc2dc55c510657073ef4235658167a878e82cefa"/>
+  <project name="platform/external/netcat" path="external/netcat" revision="2b3431e2762434dff96ff279069e3796ef2d4333"/>
   <project name="platform/external/netperf" path="external/netperf"/>
   <project name="platform/external/neven" path="external/neven"/>
   <project name="platform/external/nist-sip" path="external/nist-sip"/>
