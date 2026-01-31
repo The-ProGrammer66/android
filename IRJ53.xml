@@ -150,7 +150,7 @@
   <project name="platform/external/xmlwriter" path="external/xmlwriter"/>
   <project name="platform/external/yaffs2" path="external/yaffs2"/>
   <project name="platform/external/zlib" path="external/zlib" revision="96c70b1df1629d7f0eb8f666045bfd5eb062cebf"/>
-  <project name="platform/frameworks/base" path="frameworks/base" revision="eedcb9525ba5befee2ba6ebb7a9ee3f13395c2a3"/>
+  <project name="platform/frameworks/base" path="frameworks/base" revision="6056e3268a0aa114ad99e3e6ddaebe0ebfa6035e"/>
   <project name="platform/frameworks/compile/libbcc" path="frameworks/compile/libbcc" revision="6c0c7b03307a6e6dacb163df804a03b6bae36ce6"/>
   <project name="platform/frameworks/compile/linkloader" path="frameworks/compile/linkloader" revision="7ecae01d409b16ee2daaec79319646276d123a6f"/>
   <project name="platform/frameworks/compile/slang" path="frameworks/compile/slang" revision="593a894650e81be54173106ec266f0311cebebd3"/>
@@ -235,7 +235,7 @@
   <project name="platform/system/core" path="system/core" revision="5526ee0831358d0a79670806e6a7df8b0380e61e"/>
   <project name="platform/system/extras" path="system/extras" revision="67bf7cb2c7487b2a93af8e2d9903842e8fe51f69"/>
   <project name="platform/system/media" path="system/media" revision="640eb731a43de96896b99824cad55a6967c9f98a"/>
-  <project name="platform/system/netd" path="system/netd" revision="e019b65925217bcc3ad9b662aa3125f0593057af"/>
+  <project name="platform/system/netd" path="system/netd" revision="f65f16552da0a10cc01e99b85b73d3f07188336f"/>
   <project name="platform/system/vold" path="system/vold" revision="10a9e42835e7a241e796fe1b9c159dbfb312a69d"/>
   <project name="vendor_crespo" path="vendor" remote="github" revision="GWK74-gingerbread-blobs-rev-2" />
   <project name="vendor_stingray" path="vendor/moto" remote="github" revision="HMJ37-honeycomb-blobs-rev-2" />
