@@ -239,5 +239,5 @@
   <project name="platform/system/netd" path="system/netd" revision="111b24e1c64747b70e59bc4cc02fac81b11b7812"/>
   <project name="platform/system/vold" path="system/vold" revision="311e06bc72c3f8f1ee13c74f3be8c2126c8e0d27"/>
   <project name="vendor_crespo" path="vendor" remote="github" revision="GWK74-gingerbread-blobs-rev-2" />
-  <project name="vendor_stingray" path="vendor/moto" remote="github" revision="HMJ37-honeycomb-blobs" />
+  <project name="vendor_stingray" path="vendor/moto" remote="github" revision="HMJ37-honeycomb-blobs-rev-1" />
 </manifest>
