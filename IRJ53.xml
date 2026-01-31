@@ -22,7 +22,7 @@
   <project name="platform/bootable/recovery" path="bootable/recovery" revision="28a08efe15fc14bf1f4937024d4b73cf299313e5"/>
   <project name="platform/cts" path="cts" revision="1a527c36a8c9e47794653406ae2ff60f481f89da"/>
   <project name="platform/dalvik" path="dalvik" revision="a3741e31af307dbd30f8b06e7f9f357f1d5462d7"/>
-  <project name="platform/development" path="development" revision="8d6d2581ff11ec169cd84a6610557b9afdf41e06"/>
+  <project name="platform/development" path="development" revision="d3ca80b6991eb4911d7c86a0ed4560b86307a6da"/>
   <project name="device/common" path="device/common" revision="430dbae68cd440d33bfebc7a038a7237cb5b274d"/>
   <project name="device/generic/goldfish" path="device/generic/goldfish" revision="4cb1fdb7e8a2a91dd00d9e0770e78132e3128f60"/>
   <project name="device/google/accessory/arduino" path="device/google/accessory/arduino"/>
