@@ -293,8 +293,8 @@
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs" />
   <!-- LRW45H -->
   <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" revision="ad07410c0a31a474a1fac12f9bbe88287082ed45" />
-  <!-- LRW45C x2, LRW45E, LRW45G x3, LRW45I -->
-  <project path="frameworks/base" name="platform/frameworks/base" groups="pdk-cw-fs" revision="255bc9bcd7edf94bad9742511a2bc7c17b6bbe7d" />
+  <!-- LRW45C x2, LRW45E, LRW45G x3, LRW45I, original commit: 255bc9bcd7edf94bad9742511a2bc7c17b6bbe7d -->
+  <project path="frameworks/base" name="platform_frameworks_base" groups="pdk-cw-fs" remote="github" revision="LRW45K-fix" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" revision="8d01bd8b61482f83539a7dbcec38df9a2e5a6c56" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" revision="b444df0215daef5be9a5584a9c9d45f067006071" />
