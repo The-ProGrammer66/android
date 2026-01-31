@@ -16,7 +16,7 @@
     <copyfile src="core/root.mk" dest="Makefile"/>
   </project>
   <project name="platform/abi/cpp" path="abi/cpp" revision="7efaedecf216fce967a8d9147f3a053fd6a2b9d7"/>
-  <project name="platform/bionic" path="bionic" revision="5fd462951bee4de65fb47cf132452ba709ab0102"/>
+  <project name="platform/bionic" path="bionic" revision="5b07b5de9112f1d6adc38d3c5e2c7463b9379534"/>
   <project name="platform/bootable/bootloader/legacy" path="bootable/bootloader/legacy"/>
   <project name="platform/bootable/diskinstaller" path="bootable/diskinstaller" revision="b354f6abda00461eae4cb0215faa8b5a7268e275"/>
   <project name="platform/bootable/recovery" path="bootable/recovery" revision="28a08efe15fc14bf1f4937024d4b73cf299313e5"/>
@@ -38,7 +38,7 @@
   <project name="platform/docs/source.android.com" path="docs/source.android.com" revision="6956fb282552c949b23cb8b89fbd3abf9c60e5d5"/>
   <project name="platform/external/android-mock" path="external/android-mock"/>
   <project name="platform/external/antlr" path="external/antlr" revision="3447a5916aa62f44de24cc441fc9987116ddff52"/>
-  <project name="platform/external/apache-harmony" path="external/apache-harmony" revision="7480b03bb5cd521f06be19708d192269abf4bd1f"/>
+  <project name="platform/external/apache-harmony" path="external/apache-harmony" revision="3087daf498cdd64fb87f4f54b3e65661d0a6bf59"/>
   <project name="platform/external/apache-http" path="external/apache-http" revision="61cfd01713e62f4997e3937886c887eaa6603c69"/>
   <project name="platform/external/apache-xml" path="external/apache-xml"/>
   <project name="platform/external/astl" path="external/astl"/>
