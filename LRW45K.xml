@@ -22,7 +22,7 @@
   <project path="bionic" name="platform/bionic" groups="pdk" revision="2e7c8634b7cb1b6c56f939f9500907f3f7bb3f05" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" groups="pdk-cw-fs" />
   <!-- LRW45B -->
-  <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" revision="7f48b43e23fbaf1b0727df26e17bb76f5b53cf1f"/>
+  <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" revision="314b3e31c3696de8269c5954fa3c6c7e3622418f"/>
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs" revision="19b64225901f07454a23c14c2a6b5aae6e6cf1f6" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs" revision="870b4f2d70d67d6dbb7d0881d101c61bed8caad2" />
   <project path="developers/build" name="platform/developers/build" revision="4ac87aa0b2dc28e88b836df9799dc42975c5d0e9" />
