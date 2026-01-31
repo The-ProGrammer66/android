@@ -11,8 +11,8 @@
            remote="aosp"
            sync-j="4" />
   
-  <!-- Manifest of IRJ53B. Reconstructed on 29 January 2026. Base build commit is 94c38abc4c4ae80fcfe4f93f385d771c922e6d9f No revision = RTM commit. -->
-  <project name="platform/build" path="build" revision="2eea519f6374a2f5f28113ead9cfbffce324d2bf">
+  <!-- Manifest of IRJ53. Reconstructed on 31 January 2026. No revision = RTM commit. -->
+  <project name="platform/build" path="build" revision="94c38abc4c4ae80fcfe4f93f385d771c922e6d9f">
     <copyfile src="core/root.mk" dest="Makefile"/>
   </project>
   <project name="platform/abi/cpp" path="abi/cpp" revision="7efaedecf216fce967a8d9147f3a053fd6a2b9d7"/>
@@ -51,7 +51,7 @@
   <project name="platform/external/bsdiff" path="external/bsdiff" revision="df980d633fd0bdc0b89af26630f543d91bb87e68"/>
   <project name="platform/external/bzip2" path="external/bzip2" revision="9ac1ec23f7a9ad61bec16960ec33635f78097441"/>
   <project name="platform/external/chromium" path="external/chromium" revision="98c2c8d33e91ce6896d0d55bd87ff409c18e3dab"/>
-  <project name="platform/external/clang" path="external/clang" revision="3f546dd2bab32759568511c4784c2633540323c3"/>
+  <project name="platform/external/clang" path="external/clang" revision="7dfd96fd5f4e63071f5d4f684e9f0e1928d226c7"/>
   <project name="platform/external/collada" path="external/collada" revision="02162e6493a2ed2517de46bf822ffc9e01168e1c"/>
   <project name="platform/external/dbus" path="external/dbus" revision="f022f55d3ce46acf1fba3121642668c2b1262c72"/>
   <project name="platform/external/dhcpcd" path="external/dhcpcd" revision="62e2ee120e41a91a2547311d33cb4681132cdaa2"/>
@@ -183,7 +183,7 @@
   <project name="platform/packages/apps/CellBroadcastReceiver" path="packages/apps/CellBroadcastReceiver" revision="f00da53dd98c2d536126ed9a405633de584fd36d"/>
   <project name="platform/packages/apps/CertInstaller" path="packages/apps/CertInstaller" revision="6b80d82a43499fcf8939c23e87a57297dfad9205"/>
   <project name="platform/packages/apps/Contacts" path="packages/apps/Contacts" revision="474b3db529dd2b5a5ca4095a2acb6f47c96a9193"/>
-  <project name="platform/packages/apps/DeskClock" path="packages/apps/DeskClock" revision="c57490dff5bfbf601d4b708fdae029df99f807b2"/>
+  <project name="platform/packages/apps/DeskClock" path="packages/apps/DeskClock" revision="85d6a628c358f1e9971418c19c018cfea0ef952a"/>
   <project name="platform/packages/apps/Email" path="packages/apps/Email" revision="450db23c1c39e70f67d4fbe7f13f2c6ebd241f8e"/>
   <project name="platform/packages/apps/Exchange" path="packages/apps/Exchange" revision="c4ff4569299e8df6da7812af61dbff6775097018"/>
   <project name="platform/packages/apps/Gallery" path="packages/apps/Gallery" revision="ecfacd422ba8a9653611f69e90bfadb1b0fddf53"/>
