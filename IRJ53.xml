@@ -16,7 +16,7 @@
     <copyfile src="core/root.mk" dest="Makefile"/>
   </project>
   <project name="platform/abi/cpp" path="abi/cpp" revision="7efaedecf216fce967a8d9147f3a053fd6a2b9d7"/>
-  <project name="platform/bionic" path="bionic" revision="5b07b5de9112f1d6adc38d3c5e2c7463b9379534"/>
+  <project name="platform/bionic" path="bionic" revision="9062a2369107eadb2b45973adc3246cba35640e6"/>
   <project name="platform/bootable/bootloader/legacy" path="bootable/bootloader/legacy"/>
   <project name="platform/bootable/diskinstaller" path="bootable/diskinstaller" revision="b354f6abda00461eae4cb0215faa8b5a7268e275"/>
   <project name="platform/bootable/recovery" path="bootable/recovery" revision="28a08efe15fc14bf1f4937024d4b73cf299313e5"/>
