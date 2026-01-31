@@ -150,6 +150,7 @@
   <project name="platform/external/xmlwriter" path="external/xmlwriter"/>
   <project name="platform/external/yaffs2" path="external/yaffs2"/>
   <project name="platform/external/zlib" path="external/zlib" revision="96c70b1df1629d7f0eb8f666045bfd5eb062cebf"/>
+  <!-- Original commit is bb40896e6641eb3df568042dfc169ed2013e5b0d-->
   <project name="platform_frameworks_base" remote="github" path="frameworks/base" revision="i-scream-sandwich_IRJ40_fix"/>
   <project name="platform/frameworks/compile/libbcc" path="frameworks/compile/libbcc" revision="bbcef8ad069ee33c3bfc52dcd1bd6e1a7633e1f9"/>
   <project name="platform/frameworks/compile/linkloader" path="frameworks/compile/linkloader" revision="7ecae01d409b16ee2daaec79319646276d123a6f"/>
