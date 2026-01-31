@@ -190,7 +190,8 @@
   <project name="platform/packages/apps/Gallery2" path="packages/apps/Gallery2" revision="a053a3179cfee3d2bb666eff5f4f03a96b092e04"/>
   <project name="platform/packages/apps/HTMLViewer" path="packages/apps/HTMLViewer" revision="f214ef6deec723af076b6839a2482fd15bf40c07"/>
   <project name="platform/packages/apps/KeyChain" path="packages/apps/KeyChain" revision="dd74b9e264aff2477587c23bc6c1e7e0ec6d9098"/>
-  <project name="platform/packages/apps/Launcher2" path="packages/apps/Launcher2" revision="c0079e96971d5301b1c22e3dd1a65ef35a11a3cd"/>
+  <!-- newer commit -->
+  <project name="platform/packages/apps/Launcher2" path="packages/apps/Launcher2" revision="7d7207f6bca8584c28c8b0b6586f262e543f2d68"/>
   <project name="platform/packages/apps/Mms" path="packages/apps/Mms" revision="8d76a3e86979893da2bb92034f011da7b2d80f7a"/>
   <project name="platform/packages/apps/Music" path="packages/apps/Music" revision="37635272e25be44ec0f8cff1d2e96b132371d1a8"/>
   <!--<project name="platform/packages/apps/MusicFX" path="packages/apps/MusicFX" revision="no proper no file commit"/>-->
