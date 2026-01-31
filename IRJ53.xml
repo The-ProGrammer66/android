@@ -182,7 +182,7 @@
   <project name="platform/packages/apps/Camera" path="packages/apps/Camera" revision="e2369594edd68180b5820afdd33a274a7e7a7f4a"/>
   <project name="platform/packages/apps/CellBroadcastReceiver" path="packages/apps/CellBroadcastReceiver" revision="f00da53dd98c2d536126ed9a405633de584fd36d"/>
   <project name="platform/packages/apps/CertInstaller" path="packages/apps/CertInstaller" revision="6b80d82a43499fcf8939c23e87a57297dfad9205"/>
-  <project name="platform/packages/apps/Contacts" path="packages/apps/Contacts" revision="474b3db529dd2b5a5ca4095a2acb6f47c96a9193"/>
+  <project name="platform/packages/apps/Contacts" path="packages/apps/Contacts" revision="d568c944b5c30401e66dc079bb9213fee9065c2f"/>
   <project name="platform/packages/apps/DeskClock" path="packages/apps/DeskClock" revision="85d6a628c358f1e9971418c19c018cfea0ef952a"/>
   <project name="platform/packages/apps/Email" path="packages/apps/Email" revision="450db23c1c39e70f67d4fbe7f13f2c6ebd241f8e"/>
   <project name="platform/packages/apps/Exchange" path="packages/apps/Exchange" revision="c4ff4569299e8df6da7812af61dbff6775097018"/>
