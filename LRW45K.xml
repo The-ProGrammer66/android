@@ -21,6 +21,7 @@
   <project path="art" name="platform/art" groups="pdk" revision="a4962aaa16a401da6f9db3ef26209b4ba6e99045" />
   <project path="bionic" name="platform/bionic" groups="pdk" revision="2e7c8634b7cb1b6c56f939f9500907f3f7bb3f05" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" groups="pdk-cw-fs" />
+  <!-- original commit for bootable/recovery: 64be82755cc42b05775265b87a0c64242a72d0dd -->
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" revision="adad8ec045e118215b1745c2ba86031c7f2c73d2"/>
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs" revision="19b64225901f07454a23c14c2a6b5aae6e6cf1f6" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs" revision="870b4f2d70d67d6dbb7d0881d101c61bed8caad2" />
@@ -70,8 +71,6 @@
   <project path="device/samsung/manta" name="device/samsung/manta" groups="device,manta" revision="45ffcf08b2626797951f6c09848446ff904530b9" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs" revision="949ae0bfad29dfa140bece1c4851f4d930c036e7" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
-  <project path="external/syspatch" name="platform/external/syspatch" groups="pdk" revision="4029ced07661bbe144d290b390cd56406111dbf8" />
-  <project path="external/xdelta3" name="platform/external/xdelta3" groups="pdk" revision="f84efc705e1e34d6678b7816efe172318e21c486" />
   <project path="external/android-clat" name="platform/external/android-clat" groups="pdk-cw-fs" revision="545bdca4e73b5aa56b81a735ead316eb6d33c326" />
   <project path="external/ant-glob" name="platform/external/ant-glob" groups="pdk-cw-fs" />
   <project path="external/antlr" name="platform/external/antlr" groups="pdk-cw-fs,tradefed" />
@@ -329,7 +328,8 @@
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" groups="pdk-cw-fs" />
   <project path="frameworks/opt/widget" name="platform/frameworks/opt/widget" groups="pdk-cw-fs" />
   <project path="frameworks/rs" name="platform/frameworks/rs" groups="pdk" revision="434098c79aa7b176b4ccc9e4572e3fe592be0fd6" />
-  <project path="frameworks/support" name="platform/frameworks/support" groups="pdk-cw-fs" revision="23138c4b9be07abdab0cfdde2c62186359c9e7fa" />
+  <!-- original commit for frameworks/support: 23138c4b9be07abdab0cfdde2c62186359c9e7fa -->
+  <project path="frameworks/support" name="platform_frameworks_support" groups="pdk-cw-fs" remote="github" revision="LRW45K-fix" />
   <project path="frameworks/testing" name="platform/frameworks/testing" groups="pdk-cw-fs" revision="41d41dce8a720eacc151181dc8e9ef7f35f5d625" />
   <project path="frameworks/volley" name="platform/frameworks/volley" groups="pdk-cw-fs" />
   <project path="frameworks/webview" name="platform/frameworks/webview" groups="pdk-cw-fs" revision="630307b435b7ee2129234e989dd6cb908d142fad" />
