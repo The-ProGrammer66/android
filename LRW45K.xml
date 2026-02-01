@@ -403,7 +403,8 @@
   <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" revision="63f1ec00fbbd109130d1e476371dbc9a87bb544d" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" />
   <project path="packages/apps/ManagedProvisioning" name="platform/packages/apps/ManagedProvisioning" revision="a7df7553798370483f8ccdcaec4a6bed0bb161b1" />
-  <project path="packages/apps/Mms" name="platform/packages/apps/Mms" revision="2cd3077911f77975125da01c0f92d0210683346a" />
+    <!-- original commit for packages/apps/Mms: 2cd3077911f77975125da01c0f92d0210683346a -->
+  <project path="packages/apps/Mms" name="platform_packages_apps_Mms" remote="github" revision="LRW45K-fix" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" revision="5b58854084fcb259ca746d5334506ffa77c3a6f6" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" revision="ed432bd44603377c31f59c8886e972a2fbeeb886" />
   <!-- LRW45K -->
