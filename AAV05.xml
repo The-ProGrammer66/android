@@ -109,9 +109,9 @@
   <project path="external/chromium_org/third_party/ots" name="platform/external/chromium_org/third_party/ots" revision="fce480715a308661d44c79bcb101f909e5527adb" />
   <project path="external/chromium_org/third_party/sfntly/cpp/src" name="platform/external/chromium_org/third_party/sfntly/cpp/src" revision="58f132533b4126b00bc71fd9aed69ecf568cdf39" />
   <!--<project path="external/chromium_org/third_party/skia" name="platform/external/chromium_org/third_party/skia" revision="f4e1a7614da0cc3738077a1df5d8895a4df6d2f6" />-->
-  <project path="external/chromium_org/third_party/skia/gyp" name="platform/external/chromium_org/third_party/skia/gyp" revision="d83c57cc8b5511f04ef06426894bfb07d1ee070f" />
-  <project path="external/chromium_org/third_party/skia/include" name="platform/external/chromium_org/third_party/skia/include" revision="2d48097ae17160027b8fef3312ea05bee68ef8c1" />
-  <project path="external/chromium_org/third_party/skia/src" name="platform/external/chromium_org/third_party/skia/src" revision="2199de121e00870e605b7f74f208b8463272da85" />
+  <project path="external/chromium_org/third_party/skia/gyp" name="platform/external/chromium_org/third_party/skia/gyp" revision="1b2e8398f62c4b98f25aac7bb0cd74f304182135" />
+  <project path="external/chromium_org/third_party/skia/include" name="platform/external/chromium_org/third_party/skia/include" revision="80123e0b1a606b14dae22eb4215cf1f689716a07" />
+  <project path="external/chromium_org/third_party/skia/src" name="platform/external/chromium_org/third_party/skia/src" revision="207ef1f758df74af8211328f9baf236470f54b8a" />
   <project path="external/chromium_org/third_party/smhasher/src" name="platform/external/chromium_org/third_party/smhasher/src" revision="b7e646582d337106321415bcd641f2a0eb9dead2" />
   <project path="external/chromium_org/third_party/usrsctp/usrsctplib" name="platform/external/chromium_org/third_party/usrsctp/usrsctplib" revision="574106cd02fc6ac3ebf3134b2e77fde503094a32" />
   <project path="external/chromium_org/third_party/webrtc" name="platform/external/chromium_org/third_party/webrtc" revision="bc56d0b292d28b247007645002d56390ce2426ca" />
@@ -382,7 +382,7 @@
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" revision="8f3e1ffc0c7f9f3f23e068de912229e8d3163163" />
   <project path="ndk" name="platform/ndk" revision="2f165c1b271268f4fe3525618ac57bea0347a327" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" revision="74a11bc45df74cc966c3e8364d90fbce51322aad" />
-  <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" groups="pdk-cw-fs" revision="28eff1a17b1e60f985f841faadde6420bf0d001f" />
+  <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" groups="pdk-cw-fs" revision="3ade86ccb88467d59f3a44cc61a7e170d7c8095c" />
   <project path="packages/apps/Browser" name="platform/packages/apps/Browser" revision="4c1e2fb40bee6d3361b2d90a27493006f33f729b" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" revision="1762b4aea89c70565078674ccdb56f313b0f4a03" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" revision="b98bac9c3b334a0bff7d7e8683dd8bd0901b7eb2" />
