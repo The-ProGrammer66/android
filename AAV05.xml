@@ -361,7 +361,7 @@
   <project path="hardware/nvidia/tegra124" name="platform/hardware/nvidia/tegra124" groups="tegra124" />
   <project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" groups="qcom,qcom_audio" revision="6fcba9c9bb5faa7ecf047447ddccc899dfbc43f3" />
   <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="qcom" />
-  <project path="hardware/qcom/display" name="platform/hardware/qcom/display" groups="qcom,qcom_display" revision="3aaeaafa802d65ff1da24906d518185ebad8c1d1" />
+  <project path="hardware/qcom/display" name="platform/hardware/qcom/display" groups="qcom,qcom_display" revision="9c043caec3b1a7bf08e9e0fb437ea8f3c2e30cea" />
   <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" groups="qcom,qcom_gps" revision="07bee4d85b552fcfde126a00c70731707a2e9e65" />
   <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" groups="qcom" revision="d2ae6c44f8fb2cd6f007b7289b01e391c9298956" />
   <project path="hardware/qcom/media" name="platform/hardware/qcom/media" groups="qcom" revision="4edd546318d208c125e197e26f19091184e7f0ea" />
