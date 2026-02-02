@@ -332,7 +332,7 @@
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" groups="pdk-cw-fs" revision="a326bcbb665b08f5c20122616452c6e3be8389ac" />
   <project path="frameworks/opt/widget" name="platform/frameworks/opt/widget" groups="pdk-cw-fs" />
   <project path="frameworks/rs" name="platform/frameworks/rs" groups="pdk" revision="8961652b97760c3d8d9407fbea1b2f274ee81773" />
-  <project path="frameworks/support" name="platform/frameworks/support" groups="pdk-cw-fs" revision="70c858a5ca5b7ed9862e2edfa43912faecf42f96" />
+  <project path="frameworks/support" name="platform/frameworks/support" groups="pdk-cw-fs" revision="5f1f211fdb9c788ff6e61ed6e0500daea854dfaf" />
   <project path="frameworks/testing" name="platform/frameworks/testing" groups="pdk-cw-fs" revision="33e00c95cd88b9e71639f03bb2d648824d4b563a" />
   <project path="frameworks/volley" name="platform/frameworks/volley" groups="pdk-cw-fs" revision="a764361d865a0417241e6eb681dbe90fc708fc1b" />
   <project path="frameworks/webview" name="platform/frameworks/webview" groups="pdk-cw-fs" revision="5edbdc751c8a79f4efac310a59dd3aadfc9ec650" />
@@ -425,7 +425,7 @@
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" revision="e2c06ba6fe746c92f3d3278a7571fe7e317858f3" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" revision="8b3bbe66abdd210c456c971de4190126dcf95aa3" />
   <project path="packages/apps/TvSettings" name="platform/packages/apps/TvSettings" revision="a6f8160152d4e1ae2503d13ee92ce7b499aea18f" />
-  <project path="packages/apps/UnifiedEmail" name="platform/packages/apps/UnifiedEmail" revision="5f97508cbd28a205c65e31ba45bb304040548522" />
+  <project path="packages/apps/UnifiedEmail" name="platform/packages/apps/UnifiedEmail" revision="046c6440b01c4ef46db9c32b6dd16777d0371c03" />
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" revision="3d9e00c8e59b0838afc560c515ea3cf1170c4342" />
   <project path="packages/experimental" name="platform/packages/experimental" revision="b81b8fd03904065a1e5d7add95e592a9e99ee4e0" />
   <project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" revision="32351c1800154f4e488a751f06792749e765e11e" />
