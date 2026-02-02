@@ -109,9 +109,9 @@
   <project path="external/chromium_org/third_party/ots" name="platform/external/chromium_org/third_party/ots" revision="fce480715a308661d44c79bcb101f909e5527adb" />
   <project path="external/chromium_org/third_party/sfntly/cpp/src" name="platform/external/chromium_org/third_party/sfntly/cpp/src" revision="58f132533b4126b00bc71fd9aed69ecf568cdf39" />
   <!--<project path="external/chromium_org/third_party/skia" name="platform/external/chromium_org/third_party/skia" revision="f4e1a7614da0cc3738077a1df5d8895a4df6d2f6" />-->
-  <project path="external/chromium_org/third_party/skia/gyp" name="platform/external/chromium_org/third_party/skia/gyp" revision="83649e1f021a749a0fc06657e2a073bebe2ea35c" />
+  <project path="external/chromium_org/third_party/skia/gyp" name="platform/external/chromium_org/third_party/skia/gyp" revision="d83c57cc8b5511f04ef06426894bfb07d1ee070f" />
   <project path="external/chromium_org/third_party/skia/include" name="platform/external/chromium_org/third_party/skia/include" revision="2d48097ae17160027b8fef3312ea05bee68ef8c1" />
-  <project path="external/chromium_org/third_party/skia/src" name="platform/external/chromium_org/third_party/skia/src" revision="75112d4c5d43ea09d1ff30eb5eb8d1f73a7307c2" />
+  <project path="external/chromium_org/third_party/skia/src" name="platform/external/chromium_org/third_party/skia/src" revision="2199de121e00870e605b7f74f208b8463272da85" />
   <project path="external/chromium_org/third_party/smhasher/src" name="platform/external/chromium_org/third_party/smhasher/src" revision="b7e646582d337106321415bcd641f2a0eb9dead2" />
   <project path="external/chromium_org/third_party/usrsctp/usrsctplib" name="platform/external/chromium_org/third_party/usrsctp/usrsctplib" revision="574106cd02fc6ac3ebf3134b2e77fde503094a32" />
   <project path="external/chromium_org/third_party/webrtc" name="platform/external/chromium_org/third_party/webrtc" revision="bc56d0b292d28b247007645002d56390ce2426ca" />
@@ -263,7 +263,7 @@
   <project path="external/scrypt" name="platform/external/scrypt" groups="pdk" />
   <project path="external/sepolicy" name="platform/external/sepolicy" groups="pdk" revision="4a636ed19c66b9b505e8057554551cf4c44df5d1" />
   <project path="external/sfntly" name="platform/external/sfntly" groups="pdk-cw-fs,qcom_msm8x26" revision="fa7aae3642754610576328469c6afc68740cec5e" />
-  <project path="external/skia" name="platform/external/skia" groups="pdk-cw-fs,qcom_msm8x26" revision="326afd4ac1469c7e42399a511ef0256e13ec6ba3" />
+  <project path="external/skia" name="platform/external/skia" groups="pdk-cw-fs,qcom_msm8x26" revision="8f34190104d139c64598c334709aacff723c4fc9" />
   <project path="external/smack" name="platform/external/smack" groups="pdk-cw-fs" />
   <project path="external/smali" name="platform/external/smali" groups="pdk-cw-fs" />
   <project path="external/sonivox" name="platform/external/sonivox" groups="pdk" revision="2dbbd3bac0f0e819d196a80cc7855054148ef8b6" />
