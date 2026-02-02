@@ -332,7 +332,7 @@
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" groups="pdk-cw-fs" revision="a326bcbb665b08f5c20122616452c6e3be8389ac" />
   <project path="frameworks/opt/widget" name="platform/frameworks/opt/widget" groups="pdk-cw-fs" />
   <project path="frameworks/rs" name="platform/frameworks/rs" groups="pdk" revision="8961652b97760c3d8d9407fbea1b2f274ee81773" />
-  <project path="frameworks/support" name="platform/frameworks/support" groups="pdk-cw-fs" revision="9ae240b06cd3863c146290524ae1efdb71208e8d" />
+  <project path="frameworks/support" name="platform/frameworks/support" groups="pdk-cw-fs" revision="70c858a5ca5b7ed9862e2edfa43912faecf42f96" />
   <project path="frameworks/testing" name="platform/frameworks/testing" groups="pdk-cw-fs" revision="33e00c95cd88b9e71639f03bb2d648824d4b563a" />
   <project path="frameworks/volley" name="platform/frameworks/volley" groups="pdk-cw-fs" revision="a764361d865a0417241e6eb681dbe90fc708fc1b" />
   <project path="frameworks/webview" name="platform/frameworks/webview" groups="pdk-cw-fs" revision="5edbdc751c8a79f4efac310a59dd3aadfc9ec650" />
@@ -394,7 +394,7 @@
   <project path="packages/apps/ContactsCommon" name="platform/packages/apps/ContactsCommon" revision="8684662da86e5e73bf2fe67563823d55ce22c9d6" />
   <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" revision="3413d7a928de31bce2a0090a64a72ddf389267d4" />
   <project path="packages/apps/Dialer" name="platform/packages/apps/Dialer" revision="ea8fa952d9024a136a401b5c1cf6a546c870d81f" />
-  <project path="packages/apps/Email" name="platform/packages/apps/Email" revision="6cbdd5bba0c9c68a3261e54b1cebff48459657d5" />
+  <project path="packages/apps/Email" name="platform/packages/apps/Email" revision="7a98c742bc01c569fa3bdb0cc2467c62242abd29" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" revision="73d62f3d0a2e625006c4119f9bd5d330eb38086e" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" revision="8d34050fc3ee07d453354e8194e18e630baeb1fc" />
   <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" revision="0078ee9ab33c85aa94e4903a6d46aa2032319ad4" />
@@ -425,7 +425,7 @@
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" revision="e2c06ba6fe746c92f3d3278a7571fe7e317858f3" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" revision="8b3bbe66abdd210c456c971de4190126dcf95aa3" />
   <project path="packages/apps/TvSettings" name="platform/packages/apps/TvSettings" revision="a6f8160152d4e1ae2503d13ee92ce7b499aea18f" />
-  <project path="packages/apps/UnifiedEmail" name="platform/packages/apps/UnifiedEmail" revision="046c6440b01c4ef46db9c32b6dd16777d0371c03" />
+  <project path="packages/apps/UnifiedEmail" name="platform/packages/apps/UnifiedEmail" revision="9d3b1dd6e411bba6c415e19d51e32569956a8bb7" />
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" revision="3d9e00c8e59b0838afc560c515ea3cf1170c4342" />
   <project path="packages/experimental" name="platform/packages/experimental" revision="b81b8fd03904065a1e5d7add95e592a9e99ee4e0" />
   <project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" revision="32351c1800154f4e488a751f06792749e765e11e" />
