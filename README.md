@@ -10,7 +10,6 @@ Following pre-release builds were reconstructed:
 | AAU36                |  Done            |
 | AAU42                |  Done            |
 | AAU55D               |  Done            |
-| AAU65                |  Done            |
 | AAU65C               |  Done            |
 | AAU70                |  Done            |
 | AAU83                |  WIP             |
