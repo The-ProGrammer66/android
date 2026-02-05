@@ -102,7 +102,7 @@
   <project path="external/javasqlite" name="platform/external/javasqlite" revision="0f1e79b33591d98a93678a8f8e93ebff20a061c3" />
   <project path="external/javassist" name="platform/external/javassist" />
   <project path="external/jdiff" name="platform/external/jdiff" />
-  <project path="external/jhead" name="platform/external/jhead" revision="bc0c7e1e7fa40332f0611d8433e7247378e28dd0" />
+  <project path="external/jhead" name="platform/external/jhead" revision="56c2f1eebaaa22c7b7531c42cbe22b41f3d158c9" />
   <project path="external/jmdns" name="platform/external/jmdns" revision="76f0067cea0428b683cba2f187d81e723658f964" />
   <project path="external/jmonkeyengine" name="platform/external/jmonkeyengine" revision="f9b30489e75ac1eabc365064959804e99534f7ab" />
   <project path="external/jpeg" name="platform/external/jpeg" />
