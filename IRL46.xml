@@ -24,7 +24,7 @@
   <project path="device/common" name="device/common" revision="231f72c18de4d2cae4a17cf72a1cf7856dbd6552" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" revision="62e685ff51119fdd2c86bf8368bf84aa50e60756" />
   <project path="device/generic/armv7-a" name="device/generic/armv7-a" revision="13cbad84aa37de9c22e93af0fc764f975971ef73" />
-  <project path="device/generic/goldfish" name="device/generic/goldfish" revision="0f8f24ef7abbb65f0f8d454093460a0229d019d8" />
+  <project path="device/generic/goldfish" name="device/generic/goldfish" revision="a4502214f51be9122d36aa9a68b88d7deadbed38" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" />
   <project path="device/moto/common" name="device/moto/common" />
