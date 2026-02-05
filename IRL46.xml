@@ -235,7 +235,7 @@
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" revision="0a44c24b08e9414da31f30545600b324b83c6b4b" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" revision="92b24f5b7f8273313d081abf2e6824a2fd76c001" />
   <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" revision="323061f1b6ab85a288cc8f4b030f964738d2e648" />
-  <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" revision="f3a22b8ec6f172831606598663dead220f76957b" />
+  <!--<project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" revision="f3a22b8ec6f172831606598663dead220f76957b" />-->
   <project path="packages/apps/Mms" name="platform/packages/apps/Mms" revision="e639a94554521f0295ca213d22d2d826fe8fdb0d" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" revision="03b0c5cdf1cbd7bcba24a6b742d9c129ac201fee" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" revision="ba971463d8c182480d666a078f2ee14a863fd8bc" />
