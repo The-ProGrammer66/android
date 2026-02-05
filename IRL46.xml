@@ -33,7 +33,7 @@
   <project path="device/moto/stingray" name="device/moto/stingray" revision="9ada8c0a9ab866f27e949a3a26a1b0700d7de72e" />
   <project path="device/moto/wingray" name="device/moto/wingray" revision="ec123868b93d086c877d7525b2a69f2df3563d57" />
   <project path="device/sample" name="device/sample" revision="cb7046fd5aaafee268ce7d753a02ec5cfd0ffcd0" />
-  <project path="device/samsung/crespo" name="device/samsung/crespo" revision="37631d1d6d1e4dfe0da075c96fb624d0638bba5e" />
+  <project path="device/samsung/crespo" name="device/samsung/crespo" revision="22ba2f351a4f25a99a4804cb062b279a1b505219" />
   <project path="device/samsung/crespo4g" name="device/samsung/crespo4g" revision="6e9e9105b7ee2204dbaf116c7755fa3e9213a7d1" />
   <project path="device/samsung/maguro" name="device/samsung/maguro" revision="738869c442899b1ff27d872725c5a2791a38834f" />
   <project path="device/samsung/toro" name="device/samsung/toro" revision="d2da1175e26d27a4f5759bb09b0b14d15fe4e5aa" />
@@ -50,7 +50,7 @@
   <project path="external/astl" name="platform/external/astl" />
   <project path="external/bison" name="platform/external/bison" />
   <project path="external/blktrace" name="platform/external/blktrace" />
-  <project path="external/bluetooth/bluez" name="platform/external/bluetooth/bluez" revision="f3a378982a6443fdc70042fc61f970b001361729" />
+  <project path="external/bluetooth/bluez" name="platform/external/bluetooth/bluez" revision="fbc7cb2301b0a5d5c0c4564c7e46ffb47aadb4dd" />
   <project path="external/bluetooth/glib" name="platform/external/bluetooth/glib" />
   <project path="external/bluetooth/hcidump" name="platform/external/bluetooth/hcidump" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" revision="e8ed366ff44ad9448d697cfc54f162f7f1c07617" />
@@ -93,7 +93,7 @@
   <project path="external/gtest" name="platform/external/gtest" revision="da9840204224b02a3392168960187db6612605ff" />
   <project path="external/guava" name="platform/external/guava" revision="436f221940e8b7757119b00031f61cdae085bc84" />
   <project path="external/hamcrest" name="platform/external/hamcrest" revision="56d3323ed028becea3e7649e7af69318d540d2f0" />
-  <project path="external/harfbuzz" name="platform/external/harfbuzz" revision="54505262b863f79a445106beaa72be1e3b43b3c6" />
+  <project path="external/harfbuzz" name="platform/external/harfbuzz" revision="e39b0cc5a6606880051b7bd6a101399cc687eabe" />
   <project path="external/hyphenation" name="platform/external/hyphenation" revision="2c8b0b3430ee6a9ee501e6cc7921f8790851c286" />
   <project path="external/icu4c" name="platform/external/icu4c" revision="0fa67b93b831c6636ca18b152a1b1b14cc99b034" />
   <project path="external/iproute2" name="platform/external/iproute2" revision="132841c0d7e86fabcec443b3b54aee2699b301a4" />
@@ -118,7 +118,7 @@
   <project path="external/libnl-headers" name="platform/external/libnl-headers" />
   <project path="external/libpcap" name="platform/external/libpcap" />
   <project path="external/libphonenumber" name="platform/external/libphonenumber" revision="1507920ac94db27c1e98a3975be2482fa7fe70c0" />
-  <project path="external/libpng" name="platform/external/libpng" revision="97aac99763e1d3e77afe175291595c31eabd9c9f" />
+  <project path="external/libpng" name="platform/external/libpng" revision="17b24482db9fb75020b91a9c17f2014beebc86ed" />
   <!--<project path="external/libselinux" name="platform/external/libselinux" />-->
   <!--<project path="external/libsepol" name="platform/external/libsepol" />-->
   <project path="external/libusb" name="platform/external/libusb" />
