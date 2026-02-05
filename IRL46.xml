@@ -239,7 +239,7 @@
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" revision="8108249511dea62efe9ab4fe5de18d34ea142f3a" />
   <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" revision="2183fee938e6f7be3d2a58a61e7db52716189a2c" />
   <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" revision="14b3edca78e9058c008e2b1f11cd581f557120d7" />
-  <project path="packages/apps/Email" name="platform/packages/apps/Email" revision="bed1b4fa7ae3f9a4a546f2aa367a8f2e7ba4b7b1" />
+  <project path="packages/apps/Email" name="platform/packages/apps/Email" revision="e103e90fa1fe7c440a99d3f5484adc45097f3caa" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" revision="a6422eb8fb98ae7e365ba34bdb41c85df5d8a16c" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" revision="f4c354508bfd6d4172c2f15c92e3eaf7bd3270a1" />
   <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" revision="f46eec4a9a2c0a6f15a1a92a42b50dbf36f309fd" />
