@@ -25,7 +25,7 @@ To get started with downloading the source code, experience with Git and [`repo`
 
 To initialize a repository tree using one of the manifests provided by this project, execute a command like this (see the table above for available `<build>`s):
 
-    repo init -u https://github.com/froyocomb/android.git -b jolly-all-the-beans -m <build>.xml
+    repo init -u https://github.com/froyocomb/android.git -b jelly-flavored-beans -m <build>.xml
 
 Then to download the respective code, execute:
 
