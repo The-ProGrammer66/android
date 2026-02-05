@@ -177,6 +177,8 @@
   <project path="external/webkit" name="platform/external/webkit" revision="7bf174c53e86f57599bffbaa016433458d5624a4" />
   <project path="external/webp" name="platform/external/webp" />
   <project path="external/webrtc" name="platform/external/webrtc" revision="4b6dc1ec58105d17dc8c2f550124cc0621dc93b7" />
+  <!-- Not in retail 4.1.1 but is in the pre-release manifests and etc -->
+  <project path="external/wpa_supplicant" name="platform/external/wpa_supplicant" revision="a01d37870bbf9892d43e792e5de0683ca41c5497" />
   <project path="external/wpa_supplicant_6" name="platform/external/wpa_supplicant_6" revision="3d8fdea07212e99beb0ef9b1ef1e9e2c3d48482d" />
   <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" revision="81e9700b8fb135b898181ad3aeb44d39f0a01907" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
