@@ -133,7 +133,7 @@
   <project path="external/lohit-fonts" name="platform/external/lohit-fonts" revision="93831fc2533ad2048b6d787dbd1839112625b8ad" />
   <project path="external/markdown" name="platform/external/markdown" />
   <project path="external/mdnsresponder" name="platform/external/mdnsresponder" revision="c9efbc19057449cc86923b3eb9b30256de9dcee7" />
-  <project path="external/mesa3d" name="platform/external/mesa3d" revision="2d016a471ad9fc79bffd382cb9666ff7be1149f5" />
+  <project path="external/mesa3d" name="platform/external/mesa3d" revision="d4bf901a2c27b8c124bfc0d4c34159a634895a2b" />
   <project path="external/mksh" name="platform/external/mksh" revision="03ebf06f4e1112a0e9533b93062d169232c4cbfe" />
   <project path="external/mockwebserver" name="platform/external/mockwebserver" revision="dcf52bd71fc3b0c07f9919b5d82064c425abcbdb" />
   <project path="external/mtpd" name="platform/external/mtpd" revision="0269612ac00a0700997dda333faf0a3c33a388b8" />
