@@ -1,4 +1,4 @@
-jolly-bean-jolly-bean-jolly-all-the-beans: Jelly Bean Restoration Project
+jelly-flavored-beans: Jelly Bean Restoration Project
 =========================================================
 
 This repository contains reconstructed `repo` manifests of pre-release Android 4.1-4.3 ("Ice Cream Sandwich MR2 / Jelly Bean ") builds.
