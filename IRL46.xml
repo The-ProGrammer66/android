@@ -197,7 +197,7 @@
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" revision="9111c8283b5b26a2b3540a269d3e9679fde1d0e3" />
   <project path="frameworks/ex" name="platform/frameworks/ex" revision="c55f3e2d88912b2e0d2d2920ca83a6529d701929" />
   <!-- Not in retail 4.1.1 but is in the pre-release manifests and etc -->
-  <project path="frameworks/media/libvideoeditor" name="platform/frameworks/media/libvideoeditor" revision="42919e8fbadfb15a9bc9270463e679829aa74cb8" />
+  <project path="frameworks/media/libvideoeditor" name="platform/frameworks/media/libvideoeditor" revision="0d2c710a293d68fb729eff148d40002f5deacf17" />
   <project path="frameworks/mff" name="platform/frameworks/mff" />
   <project path="frameworks/ml" name="platform/frameworks/ml" revision="11ac59df683f8c63530a970d058ca30e6bfe1b89" />
   <!--<project path="frameworks/native" name="platform/frameworks/native" revision="487a993b4ac1d502e1988a54409172b75659cffe" />-->
