@@ -38,7 +38,7 @@
   <project path="device/samsung/maguro" name="device/samsung/maguro" revision="738869c442899b1ff27d872725c5a2791a38834f" />
   <project path="device/samsung/toro" name="device/samsung/toro" revision="d2da1175e26d27a4f5759bb09b0b14d15fe4e5aa" />
   <project path="device/samsung/torospr" name="device/samsung/torospr" revision="33866ce5437aeaa3570faeea568664c412a7485e" />
-  <project path="device/samsung/tuna" name="device/samsung/tuna" revision="245b6425c1f30be9f2ffb86d1b29d5028cce90b3" />
+  <project path="device/samsung/tuna" name="device/samsung/tuna" revision="ac183f3ed169d1990814b04c0711a124136fc4c6" />
   <project path="device/ti/panda" name="device/ti/panda" revision="3272e8aea20fc5f773bba612bc435995a147c1ed" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" revision="5ddbb0a58a692c68ac743fa94d1f3359ce0aa06e" />
   <!--<project path="external/aac" name="platform/external/aac" />-->
