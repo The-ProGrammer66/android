@@ -59,6 +59,8 @@
   <project path="external/chromium-trace" name="platform/external/chromium-trace" revision="13e4634df7a3e7537908508d53b52c9a31fa1c01" />
   <project path="external/cibu-fonts" name="platform/external/cibu-fonts" revision="e5943be86d0d448cd0778744e30f10bd1eb8a5b5" />
   <project path="external/clang" name="platform/external/clang" revision="d6341f46fdb1077ff8fcbfaff38518ab300af385" />
+  <!-- Not in retail 4.1.1 but is in the pre-release manifests and etc -->
+  <project path="external/collada" name="platform/external/collada" revision="538700ec332c8306a1283f8dfdb016e493905e6f" />
   <project path="external/compiler-rt" name="platform/external/compiler-rt" revision="279a22ab3a2a5c838b7e80d67cbc970b7c12bbd8" />
   <project path="external/dbus" name="platform/external/dbus" revision="12a8f9246cc292e34c0c0fa20f2dbf8d738dc11e" />
   <!--<project path="external/dexmaker" name="platform/external/dexmaker" />-->
@@ -144,6 +146,8 @@
   <project path="external/openssh" name="platform/external/openssh" revision="8273adc47a9f7405a0e038e9364a3c45f3609347" />
   <project path="external/openssl" name="platform/external/openssl" revision="50bef863032f6b6980bea59d7d30dec6aeb081f9" />
   <project path="external/oprofile" name="platform/external/oprofile" revision="07c74c1f62f3250d4b0cf69d4d6bbba5598edcb6" />
+  <!-- Not in retail 4.1.1 but is in the pre-release manifests and etc -->
+  <project path="external/pcre" name="platform/external/pcre" revision="0c84e04724db3a5c658be99847eb196edce6009f" />
   <project path="external/ping" name="platform/external/ping" />
   <project path="external/ping6" name="platform/external/ping6" />
   <project path="external/ppp" name="platform/external/ppp" />
@@ -192,6 +196,8 @@
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" revision="7a83dfa572a3ae9da136c30c62f6d6cdab3dd064" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" revision="9111c8283b5b26a2b3540a269d3e9679fde1d0e3" />
   <project path="frameworks/ex" name="platform/frameworks/ex" revision="c55f3e2d88912b2e0d2d2920ca83a6529d701929" />
+  <!-- Not in retail 4.1.1 but is in the pre-release manifests and etc -->
+  <project path="frameworks/media/libvideoeditor" name="platform/frameworks/media/libvideoeditor" revision="42919e8fbadfb15a9bc9270463e679829aa74cb8" />
   <project path="frameworks/mff" name="platform/frameworks/mff" />
   <project path="frameworks/ml" name="platform/frameworks/ml" revision="11ac59df683f8c63530a970d058ca30e6bfe1b89" />
   <!--<project path="frameworks/native" name="platform/frameworks/native" revision="487a993b4ac1d502e1988a54409172b75659cffe" />-->
@@ -264,6 +270,8 @@
   <project path="packages/providers/ContactsProvider" name="platform/packages/providers/ContactsProvider" revision="c883b50491cf1403781fbb4d417040a1491c4852" />
   <project path="packages/providers/DownloadProvider" name="platform/packages/providers/DownloadProvider" revision="febd5117df1018eda7edc0ba3a3c82503d251529" />
   <project path="packages/providers/DrmProvider" name="platform/packages/providers/DrmProvider" revision="1bbada4a87f3924316e207a21e65456d720dcd2a" />
+  <!-- Not in retail 4.1.1 but is in the pre-release manifests and etc -->
+  <project path="packages/providers/GoogleContactsProvider" name="platform/packages/providers/GoogleContactsProvider" revision="4886c7a0cfba5df74b213b1fc8286c6e3f2ddaa2" />
   <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" revision="4dc73b624afd2cc96cd9a59538b33b57625c4dbb" />
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" revision="6b04cb56970c528aaf379a64c1492af01ce9ef7e" />
   <project path="packages/providers/TelephonyProvider" name="platform/packages/providers/TelephonyProvider" revision="167566461cdaa669634e360e6e969fbd58ed16a0" />
