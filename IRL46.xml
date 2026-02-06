@@ -11,7 +11,7 @@
            sync-j="4" />
 
   <notice>
-  After the repository is done synchronizing, run "chmod a+x ./move-blobs.sh", then "./move-blobs.sh" in order to move the device vendor blobs into the correct spot.
+  After the repository is done synchronizing, run "chmod a+x ./move-blobs.sh" and then "./move-blobs.sh" in order to move the device vendor blobs into the correct spot.
   </notice>
   <!-- Manifest of Android Jelly Bean (ICS MR2) build IRL46. Tagged on 15 November 2011. No revision = RTM commit. Manifest made on 5 February 2026. -->
   <project path="build" name="platform/build" revision="79a7a267b848c701a6e59fb5833a7f7e8a724fbf" >
@@ -36,7 +36,8 @@
   <project path="device/moto/stingray" name="device/moto/stingray" revision="9ada8c0a9ab866f27e949a3a26a1b0700d7de72e" />
   <project path="device/moto/wingray" name="device/moto/wingray" revision="ec123868b93d086c877d7525b2a69f2df3563d57" />
   <project path="device/sample" name="device/sample" revision="cb7046fd5aaafee268ce7d753a02ec5cfd0ffcd0" />
-  <project path="device/samsung/crespo" name="device/samsung/crespo" revision="22ba2f351a4f25a99a4804cb062b279a1b505219" />
+  <!-- Original commit is 22ba2f351a4f25a99a4804cb062b279a1b505219 -->
+  <project path="device/samsung/crespo" name="device_samsung_crespo" remote="github" revision="IRL46-kernel-upgrade" />
   <project path="device/samsung/crespo4g" name="device/samsung/crespo4g" revision="6e9e9105b7ee2204dbaf116c7755fa3e9213a7d1" />
   <project path="device/samsung/maguro" name="device/samsung/maguro" revision="738869c442899b1ff27d872725c5a2791a38834f" />
   <project path="device/samsung/toro" name="device/samsung/toro" revision="d2da1175e26d27a4f5759bb09b0b14d15fe4e5aa" />
@@ -324,6 +325,7 @@
   <project path="system/vold" name="platform/system/vold" revision="8c4873319a77c54cc198a4e5f4429099ff9da4f7" />
 
 <!-- Vendor blobs and custom scripts, not a part of the main manifest -->
+  <project path="vendor_crespo" name="vendor_crespo" remote="github" revision="IML74K-ICS4.0.3-blobs" />
   <project path="vendor_tuna" name="vendor_tuna" remote="github" revision="ICL53F-ICS4.0.2-blobs" />
   <project path="vendor_stingray" name="vendor_stingray" remote="github" revision="IML74K-ICS4.0.3-blobs" />
   <project path="tools/move-blobs" name="move-blobs" remote="github" revision="jellybean-rev1" >
