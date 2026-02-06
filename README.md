@@ -3,7 +3,11 @@ jelly-flavored-beans: Jelly Bean Restoration Project
 
 This repository contains reconstructed `repo` manifests of pre-release Android 4.1-4.3 ("Ice Cream Sandwich MR2 / Jelly Bean ") builds.
 
-As of now, no pre-release builds have been reconstructed. 
+Following pre-release builds were reconstructed:
+
+| Build number         | Status           |
+| :---:                |   :---:          |
+| IRL46                |  Done            |
 
 Preparing a Build Environment
 -----------------
