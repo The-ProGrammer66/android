@@ -326,6 +326,8 @@ Please run the script located within the root of the build directory to move the
 <!-- Vendor blobs and custom scripts, not a part of the main manifest -->
   <project path="vendor_tuna" name="vendor_tuna" remote="github" revision="ICL53F-ICS4.0.2-blobs" />
   <project path="vendor_stingray" name="vendor_stingray" remote="github" revision="IML74K-ICS4.0.3-blobs" />
-  <project path="" name="move-blobs" remote="github" revision="jellybean-rev1" />
+  <project path="tools/move-blobs" name="move-blobs" remote="github" revision="jellybean-rev1" >
+    <copyfile src="move-blobs.sh" dest="move-blobs.sh" />
+  </project>
 
 </manifest>
