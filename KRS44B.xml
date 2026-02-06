@@ -49,7 +49,7 @@
   <project path="device/generic/common" name="device/generic/common" groups="pdk" revision="11c092a6cbfcf6207f07a9a8e3398e747e7f5461" />
   <project path="device/generic/goldfish" name="device/generic/goldfish" groups="pdk" revision="3ad13188d4e7e873947040ec22a35d73efb76812" />
   <!-- RTM revision -->
-  <project path="device/generic/mips" name="device/generic/misps" groups="pdk" revision="cba3ddadffd8f92b453b74ea1f2886df3be35314" />
+  <project path="device/generic/mips" name="device/generic/mips" groups="pdk" revision="cba3ddadffd8f92b453b74ea1f2886df3be35314" />
   <project path="device/generic/mini-emulator-armv7-a-neon" name="device/generic/mini-emulator-armv7-a-neon" groups="pdk" revision="9494d18d2b95e5c6c7b990d8d8676301e2e19337" />
   <!-- RTM revision -->
   <project path="device/generic/mini-emulator-mips" name="device/generic/mini-emulator-mips" groups="pdk" revision="2ff06dda649ba43507a911057f7854a3373ef7d6" />
