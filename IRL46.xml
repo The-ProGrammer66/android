@@ -11,7 +11,7 @@
            sync-j="4" />
 
   <notice>
-Please run the script located within the root of the build directory to move the device vendor blobs to the correct spot.
+  After the repository is done synchronizing, run "chmod a+x ./move-blobs.sh", then "./move-blobs.sh" in order to move the device vendor blobs into the correct spot.
   </notice>
   <!-- Manifest of Android Jelly Bean (ICS MR2) build IRL46. Tagged on 15 November 2011. No revision = RTM commit. Manifest made on 5 February 2026. -->
   <project path="build" name="platform/build" revision="79a7a267b848c701a6e59fb5833a7f7e8a724fbf" >
