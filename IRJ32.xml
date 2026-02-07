@@ -11,6 +11,9 @@
            remote="aosp"
            sync-j="4" />
 
+  <notice>
+  After the repository is done synchronizing, run "./move-blobs.sh" in order to move the device vendor blobs into the correct spot.
+  </notice>
   <!-- Manifest of IRJ32. Tagged date is 02 May 2011, commit is d79b75eb4a51b2bc2eaf779a235876821e93537e, manifest reconstructed on 18 January 2026. No revision = RTM commit. -->
   <project name="platform_build" remote="github" path="build" revision="i-scream-sandwich_IRJ32-fix">
     <copyfile src="core/root.mk" dest="Makefile"/>
@@ -238,6 +241,11 @@
   <project name="platform/system/media" path="system/media" revision="90e90c753de8c410ea7ccaf36510a612b4235713"/>
   <project name="platform/system/netd" path="system/netd" revision="1eef3e2f220e264984e1c9a94f3782a1350a3ff9"/>
   <project name="platform/system/vold" path="system/vold" revision="cc8e96c8dccea1e8041db3146d389175582d3890"/>
-  <project name="vendor_crespo" path="vendor" remote="github" revision="GWK74-gingerbread-blobs-rev-1" />
-  <project name="vendor_stingray" path="vendor/moto" remote="github" revision="HMJ37-honeycomb-blobs-rev-1" />
+
+  <!-- Vendor blobs and custom scripts, not a part of the main manifest -->
+  <project name="vendor_crespo" path="vendor_crespo" remote="github" revision="GWK74-gingerbread-blobs-rev-1" />
+  <project name="vendor_stingray" path="vendor_stingray" remote="github" revision="HMJ37-honeycomb-blobs-rev-1" />
+  <project path="tools/move-blobs" name="move-blobs" remote="github" revision="ics-rev1" >
+    <copyfile src="move-blobs.sh" dest="move-blobs.sh" />
+  </project>
 </manifest>
