@@ -228,7 +228,7 @@
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" revision="4adf0a82f66de9379c5e37d5dd0831a70cb6f236" />
   <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" revision="12ddecd1fa87e02a12de5993e2ad31e3ebb9648e" />
   <project path="libcore" name="platform/libcore" revision="ccde60e2ceda36fe10a872542038d4402148e0bd" />
-  <project path="libnativehelper" name="platform/libnativehelper" revision="292b1c28091b32a418eb44dcdef157a7b808abd4" />
+  <!--<project path="libnativehelper" name="platform/libnativehelper" revision="292b1c28091b32a418eb44dcdef157a7b808abd4" />-->
   <project path="ndk" name="platform/ndk" revision="8325e215273e755afd9e97d4efb2781fd01df0e4" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" revision="29c7f784cc8cb7004d0da1a8721e7a5a715363ee" />
