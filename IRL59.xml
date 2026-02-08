@@ -200,7 +200,7 @@
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" revision="9f4c28af2b830f6400c32d1f481e680346bbf33f" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" revision="4e2dd7255d3e5dc31f067f8e672f2f862ee749c2" />
   <project path="frameworks/ex" name="platform/frameworks/ex" revision="f186f8fbdea3a1716cba4af62ef27cdd4410c80d" />
-  <!-- Not in retail 4.1.1 but is in the pre-release manifests and etc, original commit is 42919e8fbadfb15a9bc9270463e679829aa74cb8 -->
+  <!-- Not in retail 4.1.1 but is in the pre-release manifests and etc, original commit is 42919e8fbadfb15a9bc9270463e679829aa74cb8, older than intended (?) -->
   <project path="frameworks/media/libvideoeditor" name="platform_frameworks_media_libvideoeditor" remote="github" revision="IRL46-fix" />
   <project path="frameworks/mff" name="platform/frameworks/mff" />
   <project path="frameworks/ml" name="platform/frameworks/ml" revision="11ac59df683f8c63530a970d058ca30e6bfe1b89" />
