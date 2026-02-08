@@ -11,9 +11,6 @@
            remote="aosp"
            sync-j="4" />
 
-  <notice>
-  After the repository is done synchronizing, run "./move-blobs.sh" in order to move the device vendor blobs into the correct spot.
-  </notice>
   <!-- Manifest of IRJ20. Reconstructed prior to 2026. Original build commit is 77bd03d3e782821bd228a5675a84448f8d978147 No revision = RTM commit. -->
   <project name="platform_build" remote="github" path="build" revision="i-scream-sandwich_IRJ20-fix">
     <copyfile src="core/root.mk" dest="Makefile"/>
@@ -244,10 +241,4 @@
   <project name="platform/system/netd" path="system/netd" revision="8cd1bc2c5f2033e29d036210dfe5cb07666d0850"/>
   <project name="platform/system/vold" path="system/vold" revision="cf5af171190c26f62f23d45d0c653a4137b1b291"/>
 
-  <!-- Vendor blobs and custom scripts, not a part of the main manifest -->
-  <project name="vendor_crespo" path="vendor_crespo" remote="github" revision="GWK74-gingerbread-blobs-rev-1" />
-  <project name="vendor_stingray" path="vendor_stingray" remote="github" revision="HMJ37-honeycomb-blobs-rev-1" />
-  <project path="tools/move-blobs" name="move-blobs" remote="github" revision="ics-rev1" >
-    <copyfile src="move-blobs.sh" dest="move-blobs.sh" />
-  </project>
 </manifest>
