@@ -12,7 +12,7 @@
 
   <!-- Manifest of Android Jelly Bean (ICS MR2) build IRL59. Tagged on 28 November 2011. No revision = RTM commit. Manifest made on 8 February 2026. -->
   <!-- Based on manifest 5f8c416796921e9f8bd3df8490edb116ddc76cd8 of platform/manifest -->
-  <!-- Repos added that were not in the original manifest: external/gcc-demangle, moto/common, moto/stingray, moto/wingray, samsung/crespo, samsung/crespo4g. -->
+  <!-- Repos added that were not in the original manifest: moto/common, moto/stingray, moto/wingray, samsung/crespo, samsung/crespo4g. -->
   <project path="build" name="platform/build" revision="254ca7096e0a2d47d4a55aa339308b624b415dee" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
@@ -74,7 +74,6 @@
   <project path="external/flac" name="platform/external/flac" revision="5893fbe890f5dab8e4146d2baa4bd2691c0739e0" />
   <project path="external/freetype" name="platform/external/freetype" revision="a56904260208e9306d661349cc2bddfad8f29019" />
   <project path="external/fsck_msdos" name="platform/external/fsck_msdos" revision="8af338f520b04f8360a452875b9885374a1b7d29" />
-  <project path="external/gcc-demangle" name="platform/external/gcc-demangle" />
   <project path="external/genext2fs" name="platform/external/genext2fs" />
   <project path="external/giflib" name="platform/external/giflib" />
   <project path="external/google-diff-match-patch" name="platform/external/google-diff-match-patch" />
