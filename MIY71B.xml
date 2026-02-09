@@ -9,7 +9,7 @@
   <remote name="github"
            fetch="https://github.com/froyocomb" />
 
-  <project path="build" name="platform_build" groups="pdk" remote="github" revision="MIY71B-fix" >
+  <project path="build" name="platform_build" groups="pdk" remote="github" revision="marshmallow-MIY71B-fix" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" revision="36b381298a4efb7c293d394d8b1acbda68230989" />
