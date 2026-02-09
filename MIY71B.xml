@@ -109,7 +109,7 @@
   <project path="external/fsck_msdos" name="platform/external/fsck_msdos" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/giflib" name="platform/external/giflib" groups="pdk,qcom_msm8x26" />
   <project path="external/glide" name="platform/external/glide" groups="pdk-fs" revision="f469545b1d629b8e11ad7cfed1f0e3cd2798bfe7" />
-  <project path="external/google-breakpad" name="platform/external/google-breakpad" groups="dragon" revision="4eb247bbf2fde47d6ecdde8214a35c1a9bb06c49" />
+  <project path="external/google-breakpad" name="platform/external/google-breakpad" groups="dragon" revision="02dfbb4ebfe9a01be464fb342277d198c59e86ce" />
   <project path="external/google-fonts/carrois-gothic-sc" name="platform/external/google-fonts/carrois-gothic-sc" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/google-fonts/coming-soon" name="platform/external/google-fonts/coming-soon" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/google-fonts/cutive-mono" name="platform/external/google-fonts/cutive-mono" groups="pdk-cw-fs,pdk-fs" />
