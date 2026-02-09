@@ -44,7 +44,7 @@
   <project path="external/antlr" name="platform/external/antlr" revision="939f4a47010d361698e8f81a67e2337e180fc086" />
   <project path="external/apache-harmony" name="platform/external/apache-harmony" />
   <project path="external/apache-http" name="platform/external/apache-http" revision="719e14938db79a6d98ab2bdfdaf1b7b15e1ecbdd" />
-  <project path="external/apache-qp" name="platform/external/apache-qp" />  
+  <project path="external/apache-qp" name="platform/external/apache-qp" revision="64ea622b23e6612eb8e7dcae6bfd4314beb022a8" />  
   <project path="external/apache-xml" name="platform/external/apache-xml" />
   <project path="external/astl" name="platform/external/astl" />
   <project path="external/bison" name="platform/external/bison" />
@@ -75,7 +75,6 @@
   <project path="external/flac" name="platform/external/flac" revision="5893fbe890f5dab8e4146d2baa4bd2691c0739e0" />
   <project path="external/freetype" name="platform/external/freetype" revision="bff90fb5ec88ad7fdfb6d1d2f5a5719c20a2c5dc" />
   <project path="external/fsck_msdos" name="platform/external/fsck_msdos" revision="8af338f520b04f8360a452875b9885374a1b7d29" />
-  <project path="external/gcc-demangle" name="platform/external/gcc-demangle" />
   <project path="external/genext2fs" name="platform/external/genext2fs" />
   <project path="external/giflib" name="platform/external/giflib" />
   <project path="external/google-diff-match-patch" name="platform/external/google-diff-match-patch" />
@@ -111,8 +110,6 @@
   <project path="external/libvpx" name="platform/external/libvpx" revision="3a40da0d96da5c520e7707aa14f48a80956e20d7" />
   <project path="external/libxml2" name="platform/external/libxml2" revision="82fe084c750cb2e6c839ec8b6aad5e2bb87c14dd" />
   <project path="external/libxslt" name="platform/external/libxslt" revision="d9120218522dc5da663e78996d0f042c0a62bc5e" />
-  <project path="external/linux-tools-perf" name="platform/external/linux-tools-perf" revision="0ac95d24c96258485f471382fbc5da460e8fd866" />
-  <project path="external/littlemock" name="platform/external/littlemock" revision="666c7baae9a364f69ed39032affd783f103205d9" />
   <project path="external/llvm" name="platform/external/llvm" revision="2151acf5fb0137bacdaa0efcb1a03905c99772e6" />
   <project path="external/lohit-fonts" name="platform/external/lohit-fonts" revision="93831fc2533ad2048b6d787dbd1839112625b8ad" />
   <project path="external/markdown" name="platform/external/markdown" />
@@ -255,7 +252,6 @@
   <project path="system/extras" name="platform/system/extras" revision="a4b510ac884c061229037a5a0b08af3ce1056764" />
   <project path="system/media" name="platform/system/media" revision="e7dd8136dc179f1ab70efc077857aca8d63b649d" />
   <project path="system/netd" name="platform/system/netd" revision="29563474fd66b03d5bc5b11bc54cd4001e2327a7" />
-  <project path="system/security" name="platform/system/security" revision="984d6fa91345087eb50af3829f6d1ff20db8c7bf" />
   <project path="system/vold" name="platform/system/vold" revision="8c4873319a77c54cc198a4e5f4429099ff9da4f7" />
 
 </manifest>
