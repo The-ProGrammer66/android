@@ -9,10 +9,9 @@
   <remote name="github"
            fetch="https://github.com/froyocomb" />
 
-  <project path="build" name="platform/build" groups="pdk" revision="fa42e16613dfaf19a2ecaf41a798cb6bd670421a" >
+  <project path="build" name="platform_build" groups="pdk" remote="github" revision="MIY71B-fix" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" revision="36b381298a4efb7c293d394d8b1acbda68230989" />
   <project path="art" name="platform/art" groups="pdk" revision="40c3bb4cc97bb78f10e674150e6dc7b9fb6ad196" />
   <project path="bionic" name="platform/bionic" groups="pdk" revision="3e7d8d200fffd9df08e760b8b0e62b49b7974d25" />
