@@ -299,49 +299,49 @@
   <project path="frameworks/volley" name="platform/frameworks/volley" groups="pdk-cw-fs,pdk-fs" revision="0d17c243dba2211e9ba094c7ed2199a30bb876b2" />
   <project path="frameworks/webview" name="platform/frameworks/webview" groups="pdk-cw-fs,pdk-fs" revision="f12c9f599e2e9e6ef8b4eb5341441caac62addf1" />
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" groups="pdk-cw-fs,pdk-fs" revision="52e35b2c9f25450452ab422c46737a7fb5b67380" />
-  <!-- Modified manifest ends here, DO NOT TOUCH -->
   <project path="hardware/akm" name="platform/hardware/akm" />
-  <project path="hardware/broadcom/libbt" name="platform/hardware/broadcom/libbt" groups="pdk" />
-  <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="pdk,broadcom_wlan" />
+  <project path="hardware/broadcom/libbt" name="platform/hardware/broadcom/libbt" groups="pdk" revision="386db4e578ee023c449fc52777729fcc92ebfcf3" />
+  <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="pdk,broadcom_wlan" revision="e6b84f933e7b09e7bda0887403edd803a8899dc5" />
   <project path="hardware/intel/audio_media" name="platform/hardware/intel/audio_media" groups="intel" />
-  <project path="hardware/intel/bootstub" name="platform/hardware/intel/bootstub" groups="intel" />
+  <project path="hardware/intel/bootstub" name="platform/hardware/intel/bootstub" groups="intel" revision="f35042d850c2a056c937a1140a6462dd6411279b" />
   <project path="hardware/intel/common/bd_prov" name="platform/hardware/intel/common/bd_prov" groups="intel" />
-  <project path="hardware/intel/common/libmix" name="platform/hardware/intel/common/libmix" groups="intel" />
-  <project path="hardware/intel/common/libstagefrighthw" name="platform/hardware/intel/common/libstagefrighthw" groups="intel" />
-  <project path="hardware/intel/common/libva" name="platform/hardware/intel/common/libva" groups="intel" />
-  <project path="hardware/intel/common/libwsbm" name="platform/hardware/intel/common/libwsbm" groups="intel" />
-  <project path="hardware/intel/common/omx-components" name="platform/hardware/intel/common/omx-components" groups="intel" />
-  <project path="hardware/intel/common/utils" name="platform/hardware/intel/common/utils" groups="intel" />
+  <project path="hardware/intel/common/libmix" name="platform/hardware/intel/common/libmix" groups="intel" revision="98c0349840fc047b137db8c1708f9dc748e97ce5" />
+  <project path="hardware/intel/common/libstagefrighthw" name="platform/hardware/intel/common/libstagefrighthw" groups="intel" revision="8cb439a0dd0cf7c8d7b7fb8ebd617e7e2e7fc020" />
+  <project path="hardware/intel/common/libva" name="platform/hardware/intel/common/libva" groups="intel" revision="e836b0f31783747970ae03758185983fbc7f8129" />
+  <project path="hardware/intel/common/libwsbm" name="platform/hardware/intel/common/libwsbm" groups="intel" revision="3406d98844b1ad6733aaa61b4cdaa4f664981bfa" />
+  <project path="hardware/intel/common/omx-components" name="platform/hardware/intel/common/omx-components" groups="intel" revision="8bd55dabe11dd10f3d574c80e7f83cfcc3761623" />
+  <project path="hardware/intel/common/utils" name="platform/hardware/intel/common/utils" groups="intel" revision="ce70dcd9a00883626adc4def15776639428625d9" />
   <project path="hardware/intel/common/wrs_omxil_core" name="platform/hardware/intel/common/wrs_omxil_core" groups="intel" />
-  <project path="hardware/intel/img/hwcomposer" name="platform/hardware/intel/img/hwcomposer" groups="intel" />
-  <project path="hardware/intel/img/psb_headers" name="platform/hardware/intel/img/psb_headers" groups="intel" />
-  <project path="hardware/intel/img/psb_video" name="platform/hardware/intel/img/psb_video" groups="intel" />
+  <project path="hardware/intel/img/hwcomposer" name="platform/hardware/intel/img/hwcomposer" groups="intel" revision="311d811754ec8f629dc14e98f1b586eda0ff46e8" />
+  <project path="hardware/intel/img/psb_headers" name="platform/hardware/intel/img/psb_headers" groups="intel" revision="a9def98ead34169ef97a54fc70b2213e16c6f362" />
+  <project path="hardware/intel/img/psb_video" name="platform/hardware/intel/img/psb_video" groups="intel" revision="79ce0c61eaae039bcf52df8b35c94a9eeeb345dd" />
   <project path="hardware/intel/sensors" name="platform/hardware/intel/sensors" groups="intel_sensors" />
-  <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
-  <project path="hardware/libhardware" name="platform/hardware/libhardware" groups="pdk" />
-  <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" />
-  <project path="hardware/marvell/bt" name="platform/hardware/marvell/bt" groups="marvell_bt" />
+  <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" revision="f5f584ee173faef40f226c6e0e8580a2ecbe079b" />
+  <project path="hardware/libhardware" name="platform/hardware/libhardware" groups="pdk" revision="ed94111cce5b3b6fff9833f99ea80f4ab7b37c04" />
+  <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" revision="9f1683255c912b87b49ef7f48aa04f92c5a5db83" />
+  <project path="hardware/marvell/bt" name="platform/hardware/marvell/bt" groups="marvell_bt" revision="f2045d311bb67a5739033a4e96d0526c2f803d26" />
   <project path="hardware/mediatek" name="platform/hardware/mediatek" groups="mediatek,mediatek_wear" />
   <project path="hardware/nvidia/audio" name="platform/hardware/nvidia/audio" groups="nvidia_audio" />
-  <project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" groups="qcom,qcom_audio" />
-  <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="qcom" />
-  <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" groups="qcom" />
-  <project path="hardware/qcom/display" name="platform/hardware/qcom/display" groups="pdk,qcom,qcom_display" />
-  <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" groups="qcom,qcom_gps" />
-  <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" groups="qcom,qcom_keymaster" />
-  <project path="hardware/qcom/media" name="platform/hardware/qcom/media" groups="qcom" />
+  <project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" groups="qcom,qcom_audio" revision="a51dbfd4d104b001e5f576723386e41ddd7de321" />
+  <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="qcom" revision="d2b071c3683bace40c9ed666107367dac5a5bb45" />
+  <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" groups="qcom" revision="9043979fe76373a4e9408949bbbe1aae85277652" />
+  <project path="hardware/qcom/display" name="platform/hardware/qcom/display" groups="pdk,qcom,qcom_display" revision="4ee9ce6a957fbecdc26c9732b6483cc6c5967eea" />
+  <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" groups="qcom,qcom_gps" revision="0e4f46908f8e5e2b2a4e467a2e132ed5244566a8" />
+  <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" groups="qcom,qcom_keymaster" revision="c859008e96e05a63274275b0bd7427e0be8a0b65" />
+  <project path="hardware/qcom/media" name="platform/hardware/qcom/media" groups="qcom" revision="41dd41ec09382cfe9d9ac869850aafd9d925d166" />
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960" />
-  <project path="hardware/qcom/msm8x26" name="platform/hardware/qcom/msm8x26" groups="qcom_msm8x26" />
+  <project path="hardware/qcom/msm8x26" name="platform/hardware/qcom/msm8x26" groups="qcom_msm8x26" revision="ddd168278c8c1170fe774c394de6b7ddee63d27c" />
   <project path="hardware/qcom/msm8x27" name="platform/hardware/qcom/msm8x27" groups="qcom_msm8x27" />
-  <project path="hardware/qcom/msm8x74" name="platform/hardware/qcom/msm8x74" groups="pdk,qcom_msm8x74" />
-  <project path="hardware/qcom/msm8x84" name="platform/hardware/qcom/msm8x84" groups="qcom_msm8x84" />
+  <project path="hardware/qcom/msm8x74" name="platform/hardware/qcom/msm8x74" groups="pdk,qcom_msm8x74" revision="39122a9905ea437593ad4f5171683bcaafad156f" />
+  <project path="hardware/qcom/msm8x84" name="platform/hardware/qcom/msm8x84" groups="qcom_msm8x84" revision="1e53b4f3127fe66d332459af891580cde8e0f741" />
   <project path="hardware/qcom/power" name="platform/hardware/qcom/power" groups="qcom" />
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" groups="qcom" />
-  <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" groups="qcom_wlan" />
-  <project path="hardware/ril" name="platform/hardware/ril" groups="pdk" />
+  <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" groups="qcom_wlan" revision="bd461f354cd559f3c3e753ab3f050d42df509037" />
+  <project path="hardware/ril" name="platform/hardware/ril" groups="pdk" revision="8905d89997ee4e4884a563254da87a3d341dbebb" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" groups="omap3" />
   <project path="hardware/ti/omap4-aah" name="platform/hardware/ti/omap4-aah" groups="omap4-aah" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" groups="omap4" />
+  <!-- Modified manifest ends here, DO NOT TOUCH -->
   <project path="libcore" name="platform/libcore" groups="pdk" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
   <project path="ndk" name="platform/ndk" groups="generic_fs" />
