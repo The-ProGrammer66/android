@@ -11,8 +11,6 @@
            sync-j="4" />
 
   <!-- Manifest of Android Jelly Bean (ICS MR2) build IRL59. Tagged on 28 November 2011. No revision = RTM commit. Manifest made on 8 February 2026. -->
-  <!-- Based on manifest 5f8c416796921e9f8bd3df8490edb116ddc76cd8 of platform/manifest -->
-  <!-- Repos added that were not in the original manifest: moto/common, moto/stingray, moto/wingray, samsung/crespo, samsung/crespo4g. -->
   <project path="build" name="platform/build" revision="254ca7096e0a2d47d4a55aa339308b624b415dee" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
@@ -24,7 +22,10 @@
   <project path="cts" name="platform/cts" revision="22e20841fb51f97e660bfdabe677d1c56548fe0b" />
   <project path="dalvik" name="platform/dalvik" revision="bdbd8d1f046913230d23ffd920aa133b23945e84" />
   <project path="development" name="platform/development" revision="1da4353debed3b520ab43e13bb9b7205588be4ea" />
+  <project path="device/asus/grouper" name="device/asus/grouper" revision="150e057022abf927ab342e039530d47e50267f51" />
   <project path="device/common" name="device/common" revision="231f72c18de4d2cae4a17cf72a1cf7856dbd6552" />
+  <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" revision="62e685ff51119fdd2c86bf8368bf84aa50e60756" />
+  <project path="device/generic/armv7-a" name="device/generic/armv7-a" revision="13cbad84aa37de9c22e93af0fc764f975971ef73" />
   <project path="device/generic/goldfish" name="device/generic/goldfish" revision="a4502214f51be9122d36aa9a68b88d7deadbed38" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" />
@@ -36,14 +37,16 @@
   <project path="device/samsung/crespo" name="device_samsung_crespo" remote="github" revision="IRL59-kernel-upgrade" />
   <project path="device/samsung/crespo4g" name="device/samsung/crespo4g" revision="457ab6f4a035baba3932a8f11c5a8743d8a2d024" />
   <project path="device/samsung/maguro" name="device/samsung/maguro" revision="27d62652ac1e3555658fdccd0e33dab5cd46a626" />
+  <project path="device/samsung/toro" name="device/samsung/toro" revision="1c14a606c8162606eb6202f6a5c066acc803d04e" />
+  <project path="device/samsung/torospr" name="device/samsung/torospr" revision="33866ce5437aeaa3570faeea568664c412a7485e" />
   <project path="device/samsung/tuna" name="device/samsung/tuna" revision="b69afed65177361c1b801b197891c4fc34ed7359" />
   <project path="device/ti/panda" name="device/ti/panda" revision="129dd76f4190ff9c89091dcd0b5211d9b2817e5d" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" revision="74aedde0c5296d27cb9cb431d006133090a11f2f" />
+  <!--<project path="external/aac" name="platform/external/aac" />-->
   <project path="external/android-mock" name="platform/external/android-mock" />
   <project path="external/antlr" name="platform/external/antlr" />
   <project path="external/apache-harmony" name="platform/external/apache-harmony" />
   <project path="external/apache-http" name="platform/external/apache-http" revision="719e14938db79a6d98ab2bdfdaf1b7b15e1ecbdd" />
-  <project path="external/apache-qp" name="platform/external/apache-qp" revision="64ea622b23e6612eb8e7dcae6bfd4314beb022a8" />
   <project path="external/apache-xml" name="platform/external/apache-xml" />
   <project path="external/astl" name="platform/external/astl" />
   <project path="external/bison" name="platform/external/bison" />
@@ -54,16 +57,24 @@
   <project path="external/bouncycastle" name="platform/external/bouncycastle" revision="e8ed366ff44ad9448d697cfc54f162f7f1c07617" />
   <project path="external/bsdiff" name="platform/external/bsdiff" />
   <project path="external/bzip2" name="platform/external/bzip2" revision="048dacdca43eed1534689ececcf2781c63e1e4ba" />
+  <!--<project path="external/checkpolicy" name="platform/external/checkpolicy" />-->
   <project path="external/chromium" name="platform/external/chromium" revision="940e47a8a93a8720ca55c0966689f4cdd4bf5b4e" />
+  <project path="external/chromium-trace" name="platform/external/chromium-trace" revision="13e4634df7a3e7537908508d53b52c9a31fa1c01" />
+  <project path="external/cibu-fonts" name="platform/external/cibu-fonts" revision="e5943be86d0d448cd0778744e30f10bd1eb8a5b5" />
   <project path="external/clang" name="platform/external/clang" revision="19b6e7b1b8c221e12efe9886ff7cc6ae51fec3fc" />
+  <!-- Not in retail 4.1.1 but is in the pre-release manifests and etc -->
   <project path="external/collada" name="platform/external/collada" revision="538700ec332c8306a1283f8dfdb016e493905e6f" />
+  <project path="external/compiler-rt" name="platform/external/compiler-rt" revision="91354d7be8b43a5008f8bc5bb53b8e396afb3d20" />
   <project path="external/dbus" name="platform/external/dbus" revision="12a8f9246cc292e34c0c0fa20f2dbf8d738dc11e" />
+  <!--<project path="external/dexmaker" name="platform/external/dexmaker" />-->
   <project path="external/dhcpcd" name="platform/external/dhcpcd" revision="733caa815709ef629b67fbf33ddba7c553930cdb" />
   <project path="external/dnsmasq" name="platform/external/dnsmasq" />
   <project path="external/doclava" name="platform/external/doclava" revision="7efab0654228208ba605ffafc38b433a70e62933" />
   <project path="external/dropbear" name="platform/external/dropbear" revision="f57594030e578089ecf52e29559f0703b1a8ea6b" />
   <project path="external/e2fsprogs" name="platform/external/e2fsprogs" revision="dc3069ab9b1ccdf39058fe1729a5cd8533a93734" />
   <project path="external/easymock" name="platform/external/easymock" />
+  <project path="external/eclipse-basebuilder" name="platform/external/eclipse-basebuilder" revision="4962dcfd83c5fc8a01c807185230afbfd62a0c4a" />
+  <project path="external/eclipse-windowbuilder" name="platform/external/eclipse-windowbuilder" revision="062f011b9ecb3e13ecdd5f72a1156046e6764a32" />
   <project path="external/elfutils" name="platform/external/elfutils" revision="669e96ff41a1b72aa034a26563d90b4768d51482" />
   <project path="external/embunit" name="platform/external/embunit" />
   <project path="external/emma" name="platform/external/emma" />
@@ -74,12 +85,15 @@
   <project path="external/flac" name="platform/external/flac" revision="5893fbe890f5dab8e4146d2baa4bd2691c0739e0" />
   <project path="external/freetype" name="platform/external/freetype" revision="a56904260208e9306d661349cc2bddfad8f29019" />
   <project path="external/fsck_msdos" name="platform/external/fsck_msdos" revision="8af338f520b04f8360a452875b9885374a1b7d29" />
+  <project path="external/ganymed-ssh2" name="platform/external/ganymed-ssh2" revision="dca8ebfb5703cd5d0f6f60e9e9d52854ff13aaf5" />
+  <project path="external/gcc-demangle" name="platform/external/gcc-demangle" />
   <project path="external/genext2fs" name="platform/external/genext2fs" />
   <project path="external/giflib" name="platform/external/giflib" />
   <project path="external/google-diff-match-patch" name="platform/external/google-diff-match-patch" />
   <project path="external/grub" name="platform/external/grub" />
   <project path="external/gtest" name="platform/external/gtest" revision="da9840204224b02a3392168960187db6612605ff" />
   <project path="external/guava" name="platform/external/guava" revision="436f221940e8b7757119b00031f61cdae085bc84" />
+  <project path="external/hamcrest" name="platform/external/hamcrest" revision="56d3323ed028becea3e7649e7af69318d540d2f0" />
   <project path="external/harfbuzz" name="platform/external/harfbuzz" revision="e39b0cc5a6606880051b7bd6a101399cc687eabe" />
   <project path="external/hyphenation" name="platform/external/hyphenation" revision="2c8b0b3430ee6a9ee501e6cc7921f8790851c286" />
   <project path="external/icu4c" name="platform/external/icu4c" revision="0fa67b93b831c6636ca18b152a1b1b14cc99b034" />
@@ -90,6 +104,8 @@
   <project path="external/javassist" name="platform/external/javassist" />
   <project path="external/jdiff" name="platform/external/jdiff" />
   <project path="external/jhead" name="platform/external/jhead" revision="658ad712aea2756b797d1042b3b4171fccdc5ecf" />
+  <project path="external/jmdns" name="platform/external/jmdns" revision="76f0067cea0428b683cba2f187d81e723658f964" />
+  <project path="external/jmonkeyengine" name="platform/external/jmonkeyengine" revision="f9b30489e75ac1eabc365064959804e99534f7ab" />
   <project path="external/jpeg" name="platform/external/jpeg" />
   <project path="external/jsilver" name="platform/external/jsilver" />
   <project path="external/jsr305" name="platform/external/jsr305" revision="100f99d625909fd17a722a0ed0148549afd55cf8" />
@@ -104,26 +120,36 @@
   <project path="external/libpcap" name="platform/external/libpcap" />
   <project path="external/libphonenumber" name="platform/external/libphonenumber" revision="96a7214cdabf08f53f5b1a560304601c9f65e0b9" />
   <project path="external/libpng" name="platform/external/libpng" revision="17b24482db9fb75020b91a9c17f2014beebc86ed" />
+  <!--<project path="external/libselinux" name="platform/external/libselinux" />-->
+  <!--<project path="external/libsepol" name="platform/external/libsepol" />-->
   <project path="external/libusb" name="platform/external/libusb" />
   <project path="external/libusb-compat" name="platform/external/libusb-compat" />
   <project path="external/libvpx" name="platform/external/libvpx" revision="3a40da0d96da5c520e7707aa14f48a80956e20d7" />
   <project path="external/libxml2" name="platform/external/libxml2" revision="82fe084c750cb2e6c839ec8b6aad5e2bb87c14dd" />
   <project path="external/libxslt" name="platform/external/libxslt" revision="d9120218522dc5da663e78996d0f042c0a62bc5e" />
+  <project path="external/libyuv" name="platform/external/libyuv" />
+  <project path="external/linux-tools-perf" name="platform/external/linux-tools-perf" revision="0ac95d24c96258485f471382fbc5da460e8fd866" />
+  <project path="external/littlemock" name="platform/external/littlemock" revision="da0be1ebc3a6f7dbd434a3a60c5b89a1f96cbc62" />
   <project path="external/llvm" name="platform/external/llvm" revision="ac212abcc6d858470ad35ce7d660af0c1800364a" />
   <project path="external/lohit-fonts" name="platform/external/lohit-fonts" revision="93831fc2533ad2048b6d787dbd1839112625b8ad" />
   <project path="external/markdown" name="platform/external/markdown" />
+  <project path="external/mdnsresponder" name="platform/external/mdnsresponder" revision="c9efbc19057449cc86923b3eb9b30256de9dcee7" />
   <project path="external/mesa3d" name="platform/external/mesa3d" revision="c976701adf344808694880ef3a5c86133d74df2c" />
   <project path="external/mksh" name="platform/external/mksh" revision="03ebf06f4e1112a0e9533b93062d169232c4cbfe" />
   <project path="external/mockwebserver" name="platform/external/mockwebserver" revision="dcf52bd71fc3b0c07f9919b5d82064c425abcbdb" />
   <project path="external/mtpd" name="platform/external/mtpd" revision="0269612ac00a0700997dda333faf0a3c33a388b8" />
+  <project path="external/naver-fonts" name="platform/external/naver-fonts"/>
   <project path="external/netcat" name="platform/external/netcat" />
   <project path="external/netperf" name="platform/external/netperf" />
   <project path="external/neven" name="platform/external/neven" revision="7164d6ac08ab9fc1247aa29f1dafd0ef7808f0f2" />
   <project path="external/nist-sip" name="platform/external/nist-sip" />
   <project path="external/oauth" name="platform/external/oauth" />
   <project path="external/opencv" name="platform/external/opencv" />
+  <project path="external/openfst" name="platform/external/openfst" revision="a92766f0a6ba4fac46cd6fd3856ef20c3b204f0d" />
+  <project path="external/openssh" name="platform/external/openssh" revision="8273adc47a9f7405a0e038e9364a3c45f3609347" />
   <project path="external/openssl" name="platform/external/openssl" revision="50bef863032f6b6980bea59d7d30dec6aeb081f9" />
   <project path="external/oprofile" name="platform/external/oprofile" revision="07c74c1f62f3250d4b0cf69d4d6bbba5598edcb6" />
+  <!-- Not in retail 4.1.1 but is in the pre-release manifests and etc -->
   <project path="external/pcre" name="platform/external/pcre" revision="0c84e04724db3a5c658be99847eb196edce6009f" />
   <project path="external/ping" name="platform/external/ping" />
   <project path="external/ping6" name="platform/external/ping6" />
@@ -133,8 +159,12 @@
   <project path="external/qemu" name="platform/external/qemu" revision="9720f45e2156d90112da14d7fc5d323a2e798e26" />
   <project path="external/qemu-pc-bios" name="platform/external/qemu-pc-bios" revision="930baf66aeb08c8c72fb5ab3194014d41bb18f94" />
   <project path="external/quake" name="platform/external/quake" revision="72ba5ff08b2ee59f79ba674aa47542e44b9ff539" />
+  <project path="external/regex-re2" name="platform/external/regex-re2" revision="6849b47ff6a92539a62165fd1306f9b6ac52c9b3" />
+  <project path="external/replicaisland" name="platform/external/replicaisland" revision="2b1168acefb6a4104bb7f008df6ac51fcd1de7ec" />
   <project path="external/safe-iop" name="platform/external/safe-iop" />
+  <!--<project path="external/sepolicy" name="platform/external/sepolicy" />-->
   <project path="external/skia" name="platform/external/skia" revision="c5aa24e46801297fa7412c85aef95eb6bda76e69" />
+  <project path="external/smali" name="platform/external/smali" />
   <project path="external/sonivox" name="platform/external/sonivox" revision="5f9600971859fe072f31b38a51c38157f5f9b381" />
   <project path="external/speex" name="platform/external/speex" />
   <project path="external/sqlite" name="platform/external/sqlite" revision="7a085f91d907104242c7bd06ee94b6162866d0cc" />
@@ -142,6 +172,7 @@
   <project path="external/srtp" name="platform/external/srtp" />
   <project path="external/stlport" name="platform/external/stlport" revision="a6734e0645fce81c9610de0488b729207bfa576e" />
   <project path="external/strace" name="platform/external/strace" revision="c9fd2e5ef7d002e12e7cf2512506c84a9414b0fd" />
+  <project path="external/stressapptest" name="platform/external/stressapptest" />
   <project path="external/svox" name="platform/external/svox" revision="08b6dfa56e704bef98369302f1d0650286086b39" />
   <project path="external/tagsoup" name="platform/external/tagsoup" />
   <project path="external/tcpdump" name="platform/external/tcpdump" />
@@ -153,26 +184,35 @@
   <project path="external/webkit" name="platform/external/webkit" revision="24a74a6a3162a65b04cffdf6660803d73f9f440e" />
   <project path="external/webp" name="platform/external/webp" />
   <project path="external/webrtc" name="platform/external/webrtc" revision="4b6dc1ec58105d17dc8c2f550124cc0621dc93b7" />
+  <!-- Not in retail 4.1.1 but is in the pre-release manifests and etc -->
   <project path="external/wpa_supplicant" name="platform/external/wpa_supplicant" revision="a01d37870bbf9892d43e792e5de0683ca41c5497" />
   <project path="external/wpa_supplicant_6" name="platform/external/wpa_supplicant_6" revision="3d8fdea07212e99beb0ef9b1ef1e9e2c3d48482d" />
   <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" revision="a4d23b8131874ba2380817014f9190b737ce785d" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/yaffs2" name="platform/external/yaffs2" revision="6232e2d5ab34a40d710e4b05ab0ec6e3727804e7" />
   <project path="external/zlib" name="platform/external/zlib" revision="69e5801bd16a495e1c1666669fe827b1ddb8d56b" />
+  <project path="external/zxing" name="platform/external/zxing" revision="8dab53a2e7248ddba49f06d9f0beeb261b8fa589" />
+  <!--<project path="frameworks/av" name="platform/frameworks/av" revision="2db767137112a619751b70b9947aaa064030a210" />-->
   <project path="frameworks/base" name="platform/frameworks/base" revision="773766ecdbc15ac0cdb64fabdc446b7de9d36fb5" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" revision="8ff15ca12e41096f6d14af052ee722530929e51b" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" revision="9f4c28af2b830f6400c32d1f481e680346bbf33f" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" revision="4e2dd7255d3e5dc31f067f8e672f2f862ee749c2" />
   <project path="frameworks/ex" name="platform/frameworks/ex" revision="f186f8fbdea3a1716cba4af62ef27cdd4410c80d" />
-  <!-- Original commit is 42919e8fbadfb15a9bc9270463e679829aa74cb8 -->
+  <!-- Not in retail 4.1.1 but is in the pre-release manifests and etc, original commit is 42919e8fbadfb15a9bc9270463e679829aa74cb8 -->
   <project path="frameworks/media/libvideoeditor" name="platform_frameworks_media_libvideoeditor" remote="github" revision="IRL46-fix" />
+  <project path="frameworks/mff" name="platform/frameworks/mff" />
+  <project path="frameworks/ml" name="platform/frameworks/ml" revision="11ac59df683f8c63530a970d058ca30e6bfe1b89" />
+  <!--<project path="frameworks/native" name="platform/frameworks/native" revision="487a993b4ac1d502e1988a54409172b75659cffe" />-->
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" revision="8d8d7cf86ebf7e34dc42dab0bfbe3930ad95f983" />
-  <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" revision="f08aa2df132dd8dc32a0013d3750137d9dd9280a" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" revision="a95d8db002770469d72dfaf59ff37ac96db29a87" />
   <project path="frameworks/opt/inputmethodcommon" name="platform/frameworks/opt/inputmethodcommon" />
   <project path="frameworks/opt/mailcommon" name="platform/frameworks/opt/mailcommon" revision="5e51a731de32c1d41c542b61fad35fc253f12451" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" />
+  <!--<project path="frameworks/rs" name="platform/frameworks/rs" revision="ade1e2229d95f3e258b0dd81298be23aa17dd70d" />-->
   <project path="frameworks/support" name="platform/frameworks/support" revision="c0740e5de0d1f0dc41fb9f379a5d35afe14d1305" />
+  <project path="frameworks/testing" name="platform/frameworks/testing" revision="83ad9f36a8f34dfb2b7280667ba1f2f02282ac72" />
+  <!--<project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" revision="8ed5993c605b62423d63e63092a4aaf0c855aa0f" />-->
+  <project path="gdk" name="platform/gdk" revision="0f8a40e4cfdc5f6cd47c22e81f69ed0446067c54" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" revision="f4caa722abd2e1798bcde68ceccf2286c12493b0" />
   <project path="hardware/invensense" name="platform/hardware/invensense" revision="7291b77f00cfda5ea7321c89644b05b2329e6ff2" />
   <project path="hardware/libhardware" name="platform/hardware/libhardware" revision="bfab47864a07568d74d5582656ebbcf028392b04" />
@@ -186,6 +226,7 @@
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" revision="4adf0a82f66de9379c5e37d5dd0831a70cb6f236" />
   <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" revision="12ddecd1fa87e02a12de5993e2ad31e3ebb9648e" />
   <project path="libcore" name="platform/libcore" revision="ccde60e2ceda36fe10a872542038d4402148e0bd" />
+  <!--<project path="libnativehelper" name="platform/libnativehelper" revision="292b1c28091b32a418eb44dcdef157a7b808abd4" />-->
   <project path="ndk" name="platform/ndk" revision="8325e215273e755afd9e97d4efb2781fd01df0e4" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" revision="29c7f784cc8cb7004d0da1a8721e7a5a715363ee" />
@@ -204,6 +245,7 @@
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" revision="0a44c24b08e9414da31f30545600b324b83c6b4b" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" revision="92b24f5b7f8273313d081abf2e6824a2fd76c001" />
   <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" revision="a09041adad23eec43df69941d9e98d9aefc99554" />
+  <!--<project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" revision="7c881ad57ef6e4e1a2ced01eefedbc6d5ecc4418" />-->
   <project path="packages/apps/Mms" name="platform/packages/apps/Mms" revision="e91cde5dd6f8ad2a14edb4bf5bb7806a8c7050c7" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" revision="6f7ba24c65de07a29c0ceea06c3324912007e47b" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" revision="b88114a93f4b89b395a7dda08fbf6c63755f97d3" />
@@ -214,7 +256,6 @@
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" revision="cc754849253cef084e63cef5c1dcc2f82ef3447a" />
   <project path="packages/apps/Settings" name="platform/packages/apps/Settings" revision="272b2f506f60985539b5c7273312859e04f23aca" />
-  <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" revision="29eae320a4bd222b5ff1c092f84f1aebba88d0b7" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" revision="aa0176ef6e3e8d497770e1ebedaa2561609b2e87" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" />
@@ -231,6 +272,7 @@
   <project path="packages/providers/ContactsProvider" name="platform/packages/providers/ContactsProvider" revision="3db23b7b6f607867ee549fcd511e8bffb1ce8f26" />
   <project path="packages/providers/DownloadProvider" name="platform/packages/providers/DownloadProvider" revision="11eeec272fa13316d8f7f7731f53cc0304d2b3bb" />
   <project path="packages/providers/DrmProvider" name="platform/packages/providers/DrmProvider" revision="dc8faa4f51f2d764a3207aec24a5a013f89e5839" />
+  <!-- Not in retail 4.1.1 but is in the pre-release manifests and etc -->
   <project path="packages/providers/GoogleContactsProvider" name="platform/packages/providers/GoogleContactsProvider" revision="4886c7a0cfba5df74b213b1fc8286c6e3f2ddaa2" />
   <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" revision="4dc73b624afd2cc96cd9a59538b33b57625c4dbb" />
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" revision="6b04cb56970c528aaf379a64c1492af01ce9ef7e" />
@@ -244,13 +286,36 @@
   <project path="packages/wallpapers/MusicVisualization" name="platform/packages/wallpapers/MusicVisualization" revision="45f7052444625ba1701197286abd989bb803205e" />
   <project path="packages/wallpapers/NoiseField" name="platform/packages/wallpapers/NoiseField" revision="bba215a1f4387c66db758755d79b4574d2649794" />
   <project path="packages/wallpapers/PhaseBeam" name="platform/packages/wallpapers/PhaseBeam" revision="bb84caeb637dea9d89e9087d1089c303a2a1048a" />
+  <project path="pdk" name="platform/pdk" revision="9d85bee9f1f83696a3b90f538be5634a795eae1d" />
   <project path="prebuilt" name="platform/prebuilt" revision="14bad5b5cbd58e3eb0299ed8cb234048b560771b" />
+  <project path="prebuilts/eclipse" name="platform/prebuilts/eclipse" revision="293a542db733c69ef443f366ad7a6ae0c4887c40" />
+  <project path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" />
+  <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" revision="a372811b0c7cf920eabb4b9d8d079aa509cef4b2" />
+  <project path="prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.4.3" name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.4.3" revision="ab3b7cbd040e44324deb24cf68f5c4b92631d2a6" />
+  <project path="prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.6" name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.6" />
+  <project path="prebuilts/gcc/darwin-x86/x86/i686-android-linux-4.4.3" name="platform/prebuilts/gcc/darwin-x86/x86/i686-android-linux-4.4.3" revision="7332c44eba74e08c6f8a95a5de999c404248d065" />
+  <project path="prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" name="platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" revision="9c70d52e35b00ae90f0a29efbe191f8ebc8f51eb" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" revision="bb91c1a10991c8c3245b6a578b99393fe6495af6" />
+  <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" revision="4c0f9817f605ad9f6da98b46aa1530f6af97de1b" />
+  <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" revision="6e29c6df94faed985db57a1875cbcd317698c0fd" />
+  <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" revision="c054f352bafcffa05812051dc16053926dc99489" />
+  <project path="prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.4.3" name="platform/prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.4.3" revision="b832c77812d4735e04acf368e0f2b7628fc4b242" />
+  <project path="prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.6" name="platform/prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.6" />
+  <project path="prebuilts/gcc/linux-x86/x86/i686-android-linux-4.4.3" name="platform/prebuilts/gcc/linux-x86/x86/i686-android-linux-4.4.3" revision="e3fe0334bbf8c904fa5a556ceff6a3ff7aad183c" />
+  <project path="prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" name="platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" />
+  <project path="prebuilts/misc" name="platform/prebuilts/misc" revision="a35d07a4629e514c566c87757d6407fcdcd6fef0" />
+  <project path="prebuilts/ndk" name="platform/prebuilts/ndk" revision="01bcdfab92e34f2c2af4ab723c7f3bbf397e21f8" />
+  <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" revision="682a1b342e6b4901cf0cc102925ca7b6457d682c" />
+  <project path="prebuilts/sdk" name="platform/prebuilts/sdk" revision="c10b88d2365e173f0038279d981f985bb48276ee" />
+  <project path="prebuilts/tools" name="platform/prebuilts/tools" revision="88968e44f35345bdf685db43e57e067537c5ab38" />
   <project path="sdk" name="platform/sdk" revision="340c0284a79efc5af7cc0746512456217c1cefb7" />
   <project path="system/bluetooth" name="platform/system/bluetooth" revision="a816b24b045ae827f8fdd75041ebc0f2fad1d160" />
   <project path="system/core" name="platform/system/core" revision="151cd8a0440869c8c272483f922c42701da6610a" />
   <project path="system/extras" name="platform/system/extras" revision="d3cb030b4df7fd8fbdfa503840740592fc7061a3" />
   <project path="system/media" name="platform/system/media" revision="12c5e48d23dd36834e6ccbe6a35fca9ca925419e" />
   <project path="system/netd" name="platform/system/netd" revision="bae6aaf08c8b3c49d426f3d4ebdb1a0c2d78dd8e" />
+  <project path="system/security" name="platform/system/security" revision="984d6fa91345087eb50af3829f6d1ff20db8c7bf" />
   <project path="system/vold" name="platform/system/vold" revision="8c4873319a77c54cc198a4e5f4429099ff9da4f7" />
 
 </manifest>
