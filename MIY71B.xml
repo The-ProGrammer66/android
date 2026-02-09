@@ -341,58 +341,58 @@
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" groups="omap3" />
   <project path="hardware/ti/omap4-aah" name="platform/hardware/ti/omap4-aah" groups="omap4-aah" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" groups="omap4" />
-  <!-- Modified manifest ends here, DO NOT TOUCH -->
-  <project path="libcore" name="platform/libcore" groups="pdk" />
-  <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
-  <project path="ndk" name="platform/ndk" groups="generic_fs" />
-  <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/apps/Browser" name="platform/packages/apps/Browser" groups="pdk-fs"/>
-  <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" groups="pdk-fs" />
-  <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" groups="pdk-fs" />
+  <project path="libcore" name="platform/libcore" groups="pdk" revision="db957cb415c1ccaf35353f41172e6c6dfcf62403" />
+  <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" revision="305f2218b79ee8d1e816201cdc92cd4a730a48d5" />
+  <project path="ndk" name="platform/ndk" groups="generic_fs" revision="a134ff3fd16f07b4cdfc6392a754fab313cce67a" />
+  <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" groups="pdk-cw-fs,pdk-fs" revision="02138871f68da0412463df022d25e6517e12939f" />
+  <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" groups="pdk-cw-fs,pdk-fs" revision="cafa35bd3b5f2309111fd3136553a1dd33f30458" />
+  <project path="packages/apps/Browser" name="platform/packages/apps/Browser" groups="pdk-fs" revision="5c91d966d472a88b553633c714fcb3ef2bdf892f" />
+  <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" groups="pdk-fs" revision="3d98bce6fcdc3311449cb13f2361d7e0874a58f8" />
+  <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" groups="pdk-fs" revision="735fa79a17f3272abfef10109587685f8e0dec18" />
   <project path="packages/apps/Camera" name="platform/packages/apps/Camera" groups="pdk-fs" />
-  <project path="packages/apps/Camera2" name="platform/packages/apps/Camera2" groups="pdk-fs" />
-  <project path="packages/apps/CarrierConfig" name="platform/packages/apps/CarrierConfig" groups="pdk-fs" />
-  <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" groups="pdk-fs" />
-  <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" groups="pdk-fs" />
-  <project path="packages/apps/ContactsCommon" name="platform/packages/apps/ContactsCommon" groups="pdk-fs"/>
-  <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" groups="pdk-fs" />
-  <project path="packages/apps/Dialer" name="platform/packages/apps/Dialer" groups="pdk-fs" />
-  <project path="packages/apps/Email" name="platform/packages/apps/Email" groups="pdk-fs" />
-  <project path="packages/apps/ExactCalculator" name="platform/packages/apps/ExactCalculator" groups="pdk-fs" />
-  <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" groups="pdk-fs" />
-  <project path="packages/apps/FMRadio" name="platform/packages/apps/FMRadio" groups="pdk-fs" />
-  <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" groups="pdk-fs" />
-  <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" groups="pdk-fs" />
+  <project path="packages/apps/Camera2" name="platform/packages/apps/Camera2" groups="pdk-fs" revision="7b132e3a555529a3add373fe169a1eca5cf006e8" />
+  <project path="packages/apps/CarrierConfig" name="platform/packages/apps/CarrierConfig" groups="pdk-fs" revision="a95a70f06c98c02d21d1911598ea5b778366724b" />
+  <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" groups="pdk-fs" revision="408bf30ffd5980d956b7fd43002e3e6aa99cdbdc" />
+  <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" groups="pdk-cw-fs,pdk-fs" revision="8158f4ca8fda73b94aff64f7cf4ebb25b39732da" />
+  <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" groups="pdk-fs" revision="e86779565132ee1af98ecb0dcbdbfe29a447ad58" />
+  <project path="packages/apps/ContactsCommon" name="platform/packages/apps/ContactsCommon" groups="pdk-fs" revision="8729fc5244b041d76b079f473d451841f95d9222" />
+  <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" groups="pdk-fs" revision="3d2b76f4db7431d5e7aa94eb450e1ba4d9115ab4" />
+  <project path="packages/apps/Dialer" name="platform/packages/apps/Dialer" groups="pdk-fs" revision="616b7f2c33a4294e100cc1851a012cd04ac3500d" />
+  <project path="packages/apps/Email" name="platform/packages/apps/Email" groups="pdk-fs" revision="8346a3b3b7c13673126270bee1648f0172f95135" />
+  <project path="packages/apps/ExactCalculator" name="platform/packages/apps/ExactCalculator" groups="pdk-fs" revision="682ff5e8ad465d74b289590e5c88e0cf129ca90b" />
+  <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" groups="pdk-fs" revision="553e079a32db3df26646248b536d2589ba9fea0e" />
+  <project path="packages/apps/FMRadio" name="platform/packages/apps/FMRadio" groups="pdk-fs" revision="308ad4e17cb201375f08375595ab8601cb666738" />
+  <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" groups="pdk-fs" revision="4eb0018dfbdb1c217fbafb3ffbccb3e1359de03b" />
+  <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" groups="pdk-fs" revision="e11712deb75ad395c85b799d6b7a9b53d34e383c" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" groups="pdk-fs" />
-  <project path="packages/apps/InCallUI" name="platform/packages/apps/InCallUI" groups="pdk-fs" />
-  <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" groups="pdk-fs" />
-  <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" groups="pdk-fs" />
-  <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" groups="pdk-fs" />
+  <project path="packages/apps/InCallUI" name="platform/packages/apps/InCallUI" groups="pdk-fs" revision="351db3a57661ffa5264e1e0c0311679f26d3931b" />
+  <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" groups="pdk-fs" revision="9efc6caba0a2aa2ca90828ca801289db11ba455d" />
+  <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" groups="pdk-fs" revision="f7f01cb2dd296fb3929fa73fa099aab874feaa6c" />
+  <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" groups="pdk-fs" revision="74081b02730bb7205f5cfe43f206039df38a20db" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" groups="pdk-fs" />
-  <project path="packages/apps/ManagedProvisioning" name="platform/packages/apps/ManagedProvisioning" groups="pdk-fs" />
-  <project path="packages/apps/Messaging" name="platform/packages/apps/Messaging" groups="pdk-fs" />
-  <project path="packages/apps/Music" name="platform/packages/apps/Music" groups="pdk-fs" />
-  <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" groups="pdk-fs" />
-  <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" groups="apps_nfc,pdk-fs" />
+  <project path="packages/apps/ManagedProvisioning" name="platform/packages/apps/ManagedProvisioning" groups="pdk-fs" revision="761290c0cc7c7f16bdc2ea39f714a3579af9982d" />
+  <project path="packages/apps/Messaging" name="platform/packages/apps/Messaging" groups="pdk-fs" revision="8b3e2b9c1b0a09423a7ba5d1091b9192106502f8" />
+  <project path="packages/apps/Music" name="platform/packages/apps/Music" groups="pdk-fs" revision="262f9d9aedc8037c3d4c1e1adce57ac255225d57" />
+  <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" groups="pdk-fs" revision="da7d93dcc14b967b66e8f83f7ac9460be7700ab8" />
+  <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" groups="apps_nfc,pdk-fs" revision="5c60679435a61e2a6d3ae81bdcf1d9e71a7c0531" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" groups="pdk-fs" />
-  <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" groups="pdk-fs" />
+  <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" groups="pdk-fs" revision="45214cae6b98967d4cbfba0a4cbb4710928b8dcb" />
   <project path="packages/apps/Phone" name="platform/packages/apps/Phone" groups="pdk-fs" />
-  <project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" groups="pdk-cw-fs,pdk-fs"/>
+  <project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" groups="pdk-cw-fs,pdk-fs" revision="7df582dd815f275046aa8f2e3dcb557ecb670fea" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" groups="pdk-fs" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" groups="pdk-fs" />
-  <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" groups="pdk-fs" />
-  <project path="packages/apps/Settings" name="platform/packages/apps/Settings" groups="pdk-fs" />
+  <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" groups="pdk-fs" revision="5e305b1f44db912b20b462d3f330b7f3e535f47f" />
+  <project path="packages/apps/Settings" name="platform/packages/apps/Settings" groups="pdk-fs" revision="fe08c383665dcdd43c2313ce5d54874d1f92aebc" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" groups="pdk-fs" />
-  <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" groups="pdk-fs" />
+  <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" groups="pdk-fs" revision="f65e2cc0d6c75112d2e5c24ffe16f9d29ef817b7" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" groups="pdk-fs" />
-  <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" groups="pdk-fs" />
-  <project path="packages/apps/Stk" name="platform/packages/apps/Stk" groups="apps_stk,pdk-fs" />
-  <project path="packages/apps/Tag" name="platform/packages/apps/Tag" groups="pdk-fs" />
+  <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" groups="pdk-fs" revision="536aa74ff3a77186bef29dc9333a34688fa59d13" />
+  <project path="packages/apps/Stk" name="platform/packages/apps/Stk" groups="apps_stk,pdk-fs" revision="8afe719f772b8a4c02154f39b75d3175e1bd1e82" />
+  <project path="packages/apps/Tag" name="platform/packages/apps/Tag" groups="pdk-fs" revision="fb7a6e0a8e25c613ecc9d10a3ab564d1a5b058aa" />
   <project path="packages/apps/Terminal" name="platform/packages/apps/Terminal" groups="pdk-fs" />
-  <project path="packages/apps/TvSettings" name="platform/packages/apps/TvSettings" groups="generic_fs" />
-  <project path="packages/apps/UnifiedEmail" name="platform/packages/apps/UnifiedEmail" groups="pdk-fs" />
+  <project path="packages/apps/TvSettings" name="platform/packages/apps/TvSettings" groups="generic_fs" revision="a70fa256d962b0ee8372813f0c279c3be40e412c" />
+  <project path="packages/apps/UnifiedEmail" name="platform/packages/apps/UnifiedEmail" groups="pdk-fs" revision="cbc198d0fe07836489b3bdac295c26d09fb5f492" />
+  <!-- Modified manifest ends here, DO NOT TOUCH -->
   <project path="packages/experimental" name="platform/packages/experimental" />
   <project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" groups="pdk-fs" />
   <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" groups="pdk-fs" />
