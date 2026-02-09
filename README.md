@@ -51,9 +51,11 @@ sudo ln -s /usr/lib/i386-linux-gnu/mesa/libGL.so.1 /usr/lib/i386-linux-gnu/libGL
 sudo apt-get autoremove
 ```
 
+**WARNING: Autoremove deletes X11 when running this... for some reason. After running the command, run `sudo apt-get install --reinstall xserver-xorg`!**
+
 Certain builds of Lollipop require Sun Java 1.6, while certain ones require OpenJDK 7. OpenJDK 7 is installed in the above command. For builds requiring Sun Java 1.6.0, do the following:
 
-Afterwards, install Sun Java 1.6.0. The package for this is named `jdk-6u45-linux-x64.bin` - mirrors or the official download can be found by searching it up.
+The package for this is named `jdk-6u45-linux-x64.bin` - mirrors or the official download can be found by searching it up.
 
 After acquiring the package, run the following (this assumes the package is on the Desktop and the terminal is on the same path where the file is):
 ```
@@ -86,10 +88,6 @@ tar -xvf Python-3.6.15.tgz && cd Python-3.6.15
 sudo ./configure --enable-optimizations
 sudo make -j6 && sudo make install
 ```
-
-I would also recommend setting a root password because of the next step.
-
-If you somehow manage to screw up the X11 install on 12.04 LTS (for example being stuck on the boot screen with all 5 dots lit orange), which is for some reason super common, access a terminal (via any method, e.g. switching TTY modes, recovery mode...), then run `sudo apt-get install --reinstall xserver-xorg`, and reboot.
  
 Downloading Source
 ------------------

@@ -327,17 +327,17 @@
   <project path="hardware/intel/audio_media" name="platform/hardware/intel/audio_media" groups="intel" />
   <project path="hardware/intel/bootstub" name="platform/hardware/intel/bootstub" groups="intel" revision="5721f8e2cd5a1b7cd47660135f73b0a48452e82a" />
   <project path="hardware/intel/common/bd_prov" name="platform/hardware/intel/common/bd_prov" groups="intel" />
-  <project path="hardware/intel/common/libmix" name="platform/hardware/intel/common/libmix" groups="intel" revision="ab91fc73dbc26c5fc5a88d2c81809e8fa72e6dff" />
+  <project path="hardware/intel/common/libmix" name="platform/hardware/intel/common/libmix" groups="intel" revision="82b428e49a70ddc051a36d2b3a25d90db79770dc" />
   <project path="hardware/intel/common/libstagefrighthw" name="platform/hardware/intel/common/libstagefrighthw" groups="intel" revision="62eda150077c34389d5a778ad884173de36be391" />
   <project path="hardware/intel/common/libva" name="platform/hardware/intel/common/libva" groups="intel" revision="5fbbefcd02643d592a8d93a2035562625fbad7bb" />
   <project path="hardware/intel/common/libwsbm" name="platform/hardware/intel/common/libwsbm" groups="intel" revision="975ec0f71d4986aa9b49a4147b2c4201faffdb31" />
-  <project path="hardware/intel/common/omx-components" name="platform/hardware/intel/common/omx-components" groups="intel" revision="233d2500723e5594f3e7c70896ffeeef32b9c950" />
+  <project path="hardware/intel/common/omx-components" name="platform/hardware/intel/common/omx-components" groups="intel" revision="34569a16a3f752d435f896cbec97ad8913db207d" />
   <project path="hardware/intel/common/utils" name="platform/hardware/intel/common/utils" groups="intel" revision="aa52981e835d562beb339c06e15e6e24e8e5d2ba" />
   <project path="hardware/intel/common/wrs_omxil_core" name="platform/hardware/intel/common/wrs_omxil_core" groups="intel" revision="3f7ceee13aa17ae32d4263aed2ce67eb9a37c58b" />
   <project path="hardware/intel/img/hwcomposer" name="platform/hardware/intel/img/hwcomposer" groups="intel" revision="b0984533c985e449d14a576a6beca0221ec3fabd" />
   <project path="hardware/intel/img/libdrm" name="platform/hardware/intel/img/libdrm" groups="intel" />
   <project path="hardware/intel/img/psb_headers" name="platform/hardware/intel/img/psb_headers" groups="intel" revision="301c46eab7003f0bce2ca43e0b362c183cc573ee" />
-  <project path="hardware/intel/img/psb_video" name="platform/hardware/intel/img/psb_video" groups="intel" revision="53a98849b5284c80989f039a3972bdcf2b38a080" />
+  <project path="hardware/intel/img/psb_video" name="platform/hardware/intel/img/psb_video" groups="intel" revision="ba2d3b1bba4f6221cd2b386d60cbaac08155d88e" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" revision="424ca7d41df7b1ea0df51c90d6cb84ef5800ef80" />
   <project path="hardware/libhardware" name="platform/hardware/libhardware" groups="pdk" revision="005b123e41f3fe91344b475d4a3218d2c0171b3e" />
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" revision="a311a983eb4035b272033105119cb44d814fb2db" />
