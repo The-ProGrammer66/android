@@ -62,7 +62,7 @@
   <project path="external/chromium-trace" name="platform/external/chromium-trace" revision="13e4634df7a3e7537908508d53b52c9a31fa1c01" />
   <project path="external/cibu-fonts" name="platform/external/cibu-fonts" revision="e5943be86d0d448cd0778744e30f10bd1eb8a5b5" />
   <project path="external/clang" name="platform/external/clang" revision="19b6e7b1b8c221e12efe9886ff7cc6ae51fec3fc" />
-  <!-- Not in retail 4.1.1 but is in the pre-release manifests and etc -->
+  <!-- Required for compile at this time -->
   <project path="external/collada" name="platform/external/collada" revision="538700ec332c8306a1283f8dfdb016e493905e6f" />
   <project path="external/compiler-rt" name="platform/external/compiler-rt" revision="91354d7be8b43a5008f8bc5bb53b8e396afb3d20" />
   <project path="external/dbus" name="platform/external/dbus" revision="12a8f9246cc292e34c0c0fa20f2dbf8d738dc11e" />
@@ -149,7 +149,7 @@
   <project path="external/openssh" name="platform/external/openssh" revision="8273adc47a9f7405a0e038e9364a3c45f3609347" />
   <project path="external/openssl" name="platform/external/openssl" revision="50bef863032f6b6980bea59d7d30dec6aeb081f9" />
   <project path="external/oprofile" name="platform/external/oprofile" revision="07c74c1f62f3250d4b0cf69d4d6bbba5598edcb6" />
-  <!-- Not in retail 4.1.1 but is in the pre-release manifests and etc -->
+  <!-- Required for compile at this time -->
   <project path="external/pcre" name="platform/external/pcre" revision="0c84e04724db3a5c658be99847eb196edce6009f" />
   <project path="external/ping" name="platform/external/ping" />
   <project path="external/ping6" name="platform/external/ping6" />
@@ -184,7 +184,7 @@
   <project path="external/webkit" name="platform/external/webkit" revision="24a74a6a3162a65b04cffdf6660803d73f9f440e" />
   <project path="external/webp" name="platform/external/webp" />
   <project path="external/webrtc" name="platform/external/webrtc" revision="4b6dc1ec58105d17dc8c2f550124cc0621dc93b7" />
-  <!-- Not in retail 4.1.1 but is in the pre-release manifests and etc -->
+  <!-- Required for compile at this time -->
   <project path="external/wpa_supplicant" name="platform/external/wpa_supplicant" revision="a01d37870bbf9892d43e792e5de0683ca41c5497" />
   <project path="external/wpa_supplicant_6" name="platform/external/wpa_supplicant_6" revision="3d8fdea07212e99beb0ef9b1ef1e9e2c3d48482d" />
   <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" revision="a4d23b8131874ba2380817014f9190b737ce785d" />
@@ -198,7 +198,7 @@
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" revision="9f4c28af2b830f6400c32d1f481e680346bbf33f" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" revision="4e2dd7255d3e5dc31f067f8e672f2f862ee749c2" />
   <project path="frameworks/ex" name="platform/frameworks/ex" revision="f186f8fbdea3a1716cba4af62ef27cdd4410c80d" />
-  <!-- Not in retail 4.1.1 but is in the pre-release manifests and etc, original commit is 42919e8fbadfb15a9bc9270463e679829aa74cb8 -->
+  <!-- Required for compile at this time, original commit is 42919e8fbadfb15a9bc9270463e679829aa74cb8 -->
   <project path="frameworks/media/libvideoeditor" name="platform_frameworks_media_libvideoeditor" remote="github" revision="IRL46-fix" />
   <project path="frameworks/mff" name="platform/frameworks/mff" />
   <project path="frameworks/ml" name="platform/frameworks/ml" revision="11ac59df683f8c63530a970d058ca30e6bfe1b89" />
@@ -272,8 +272,6 @@
   <project path="packages/providers/ContactsProvider" name="platform/packages/providers/ContactsProvider" revision="3db23b7b6f607867ee549fcd511e8bffb1ce8f26" />
   <project path="packages/providers/DownloadProvider" name="platform/packages/providers/DownloadProvider" revision="11eeec272fa13316d8f7f7731f53cc0304d2b3bb" />
   <project path="packages/providers/DrmProvider" name="platform/packages/providers/DrmProvider" revision="dc8faa4f51f2d764a3207aec24a5a013f89e5839" />
-  <!-- Not in retail 4.1.1 but is in the pre-release manifests and etc -->
-  <project path="packages/providers/GoogleContactsProvider" name="platform/packages/providers/GoogleContactsProvider" revision="4886c7a0cfba5df74b213b1fc8286c6e3f2ddaa2" />
   <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" revision="4dc73b624afd2cc96cd9a59538b33b57625c4dbb" />
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" revision="6b04cb56970c528aaf379a64c1492af01ce9ef7e" />
   <project path="packages/providers/TelephonyProvider" name="platform/packages/providers/TelephonyProvider" revision="d81b00a73068b46263bd6fb683a0cf893a2a8c52" />
