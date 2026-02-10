@@ -14,7 +14,7 @@
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" revision="36b381298a4efb7c293d394d8b1acbda68230989" />
   <project path="art" name="platform/art" groups="pdk" revision="40c3bb4cc97bb78f10e674150e6dc7b9fb6ad196" />
-  <project path="bionic" name="platform/bionic" groups="pdk" revision="3e7d8d200fffd9df08e760b8b0e62b49b7974d25" />
+  <project path="bionic" name="platform/bionic" groups="pdk" revision="be86f87711ee71ff971da2e2ae7a092081177951" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" revision="d5369e5d91c9c7c55cbd8f1c306098182c209baf" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs" revision="5f0eec0d7093d213a48aa48c6c9f511a6534a2b6" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs" revision="aee282b16bb667a492f0e7cec12ac22c22e1af46" />
