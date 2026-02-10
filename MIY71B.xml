@@ -71,6 +71,8 @@
   <project path="external/bzip2" name="platform/external/bzip2" groups="pdk" />
   <project path="external/cblas" name="platform/external/cblas" groups="pdk" revision="8d25e88ce922f2a16c93248aa71f47aa66394751" />
   <project path="external/ceres-solver" name="platform/external/ceres-solver" groups="pdk-cw-fs,pdk-fs" revision="d5069fa598da2b15235378d4e7c20f42f5bad43c" />
+  <!-- Cherrypicked from android-m-preview  -->
+  <project path="external/checkpolicy" name="platform/external/checkpolicy" groups="pdk" revision="14170b5ed9f0fc06e0398ae07f369a8d25a734b2" />
   <project path="external/chromium-libpac" name="platform/external/chromium-libpac" groups="pdk-fs" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" groups="pdk" revision="93216d0b8afcc23eb8811175ca32338cd09c9dca" />
   <project path="external/chromium-webview" name="platform/external/chromium-webview" groups="pdk" revision="2a566f8da0b9bbc0ee711d4fd1dcc0863db0b1da" />
@@ -226,7 +228,6 @@
   <project path="external/safe-iop" name="platform/external/safe-iop" groups="pdk" />
   <project path="external/scrypt" name="platform/external/scrypt" groups="pdk" />
   <project path="external/selinux" name="platform/external/selinux" groups="pdk" revision="93e557cab6deeec09a9dc3294dba2a830ce27587"/>
-  <project path="external/sepolicy" name="platform/external/sepolicy" groups="pdk" revision="893cfee5d4a3a38ec2f8c65f964094120219614d" />
   <project path="external/sfntly" name="platform/external/sfntly" groups="pdk,qcom_msm8x26" />
   <project path="external/skia" name="platform/external/skia" groups="pdk,qcom_msm8x26" revision="fc14c40b143ae36a4ce6acf7bcc902e84683b90d" />
   <project path="external/slf4j" name="platform/external/slf4j" groups="pdk-fs" revision="d18e5e9252a8fb2a789e0c7c9ab33a9b185872ee" />
