@@ -9,12 +9,12 @@
   <remote name="github"
            fetch="https://github.com/froyocomb" />
 
+  <!-- Original commit is bcfe6fafe01c91552e572225b9cb303f1c2c0b61 -->
   <project path="build" name="platform_build" groups="pdk" remote="github" revision="MIY71B-fix" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" revision="36b381298a4efb7c293d394d8b1acbda68230989" />
   <project path="art" name="platform/art" groups="pdk" revision="40c3bb4cc97bb78f10e674150e6dc7b9fb6ad196" />
-  <!-- Cherrypicked from android-m-preview  -->
   <project path="bionic" name="platform/bionic" groups="pdk" revision="3e7d8d200fffd9df08e760b8b0e62b49b7974d25" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" revision="d5369e5d91c9c7c55cbd8f1c306098182c209baf" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs" revision="5f0eec0d7093d213a48aa48c6c9f511a6534a2b6" />
@@ -72,7 +72,7 @@
   <project path="external/bzip2" name="platform/external/bzip2" groups="pdk" />
   <project path="external/cblas" name="platform/external/cblas" groups="pdk" revision="8d25e88ce922f2a16c93248aa71f47aa66394751" />
   <project path="external/ceres-solver" name="platform/external/ceres-solver" groups="pdk-cw-fs,pdk-fs" revision="d5069fa598da2b15235378d4e7c20f42f5bad43c" />
-  <!-- Cherrypicked from android-m-preview  -->
+  <!-- Not in retail manifest, m-preview  -->
   <project path="external/checkpolicy" name="platform/external/checkpolicy" groups="pdk" revision="14170b5ed9f0fc06e0398ae07f369a8d25a734b2" />
   <project path="external/chromium-libpac" name="platform/external/chromium-libpac" groups="pdk-fs" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" groups="pdk" revision="93216d0b8afcc23eb8811175ca32338cd09c9dca" />
@@ -239,7 +239,7 @@
   <project path="external/sqlite" name="platform/external/sqlite" groups="pdk" revision="bcc81dc23b736a4f21d18d381fe76f954a6172d2" />
   <project path="external/squashfs-tools" name="platform/external/squashfs-tools" groups="pdk" revision="0d14130862ca4ad2d6509725833123ea6101227f" />
   <project path="external/srtp" name="platform/external/srtp" groups="pdk-cw-fs,pdk-fs" />]
-  <!-- Cherrypicked from android-m-preview  -->
+  <!-- Not in retail manifest, m-preview  -->
   <project path="external/stlport" name="platform/external/stlport" groups="pdk" revision="176973f0a182bab49f43993aefa34e0d76790ac9" />
   <project path="external/strace" name="platform/external/strace" groups="pdk-cw-fs,pdk-fs" revision="64fc9cedc475b2fc0d940509dc4232b02b5f83ec" />
   <project path="external/svox" name="platform/external/svox" groups="pdk-cw-fs,pdk-fs" revision="fa11da97875605d0372a86035b9cd397334d6bb6" />
@@ -286,7 +286,7 @@
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/inputconnectioncommon" name="platform/frameworks/opt/inputconnectioncommon" groups="pdk-fs" />
   <project path="frameworks/opt/inputmethodcommon" name="platform/frameworks/opt/inputmethodcommon" groups="pdk-cw-fs,pdk-fs" />
-  <!-- Cherrypicked from android-m-preview  -->
+  <!-- Not in retail manifest, m-preview  -->
   <project path="frameworks/opt/mms" name="platform/frameworks/opt/mms" groups="pdk-cw-fs" revision="4a5bba9cfefb96706390307b7cf06271b7f9f5e2" />
   <project path="frameworks/opt/net/ethernet" name="platform/frameworks/opt/net/ethernet" groups="pdk-fs" revision="399830a4096b343dfd5e7f83c43e8241a2c98513" />
   <project path="frameworks/opt/net/ims" name="platform/frameworks/opt/net/ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs" revision="1463174fa4bab35f04dfa71196c277dfeb603717" />
@@ -447,8 +447,7 @@
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8"  groups="pdk,linux" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" groups="pdk-fs" />
   <project path="prebuilts/gcc/linux-x86/mips/mips64el-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/mips/mips64el-linux-android-4.9" groups="pdk,linux,mips" revision="170cc0748910c7a19612f73a8382c24de4811ef1" />
-  <!-- WARNING, REPO IS NEWER THAN TAGGED BUILD, ONLY INCLUDED AS A FIX -->
-  <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" groups="pdk,linux,x86" revision="fa97aa34c7af62b32ebff7f01663dc0df08b7991" />
+  <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" groups="pdk,linux,x86" revision="469c65ad4eef1d43e79d8399e4e4282a00161ac5" />
   <project path="prebuilts/gradle-plugin" name="platform/prebuilts/gradle-plugin" groups="pdk-cw-fs,pdk-fs" revision="403dc5acf442ee45809382ee2742d8a9555d8311" />
   <project path="prebuilts/libs/libedit" name="platform/prebuilts/libs/libedit" groups="pdk-cw-fs,pdk-fs" />
   <project path="prebuilts/maven_repo/android" name="platform/prebuilts/maven_repo/android" groups="pdk-cw-fs,pdk-fs" revision="a679ccbc5f55e475a0c2a15f0ec43be44764705d" />
