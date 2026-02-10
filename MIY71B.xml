@@ -227,7 +227,7 @@
   <project path="external/roboto-fonts" name="platform/external/roboto-fonts" groups="pdk-cw-fs,pdk-fs" revision="030a88d385cfb65af621702eef0134dd50b1023e" />
   <project path="external/safe-iop" name="platform/external/safe-iop" groups="pdk" />
   <project path="external/scrypt" name="platform/external/scrypt" groups="pdk" />
-  <project path="external/selinux" name="platform/external/selinux" groups="pdk" revision="93e557cab6deeec09a9dc3294dba2a830ce27587"/>
+  <!-- <project path="external/selinux" name="platform/external/selinux" groups="pdk" revision="93e557cab6deeec09a9dc3294dba2a830ce27587"/> -->
   <project path="external/sfntly" name="platform/external/sfntly" groups="pdk,qcom_msm8x26" />
   <project path="external/skia" name="platform/external/skia" groups="pdk,qcom_msm8x26" revision="fc14c40b143ae36a4ce6acf7bcc902e84683b90d" />
   <project path="external/slf4j" name="platform/external/slf4j" groups="pdk-fs" revision="d18e5e9252a8fb2a789e0c7c9ab33a9b185872ee" />
