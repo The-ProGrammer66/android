@@ -359,7 +359,6 @@
   <project path="hardware/nvidia/tegra124" name="platform/hardware/nvidia/tegra124" groups="tegra124" />
   <project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" groups="qcom,qcom_audio" revision="e005e9e7480887ab04fdd8c77815ff775e99809a" />
   <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="qcom" />
-  <!-- Original commit is 44da6a7f59830a09c6287400e3eddf5d7333ab28 -->
   <project path="hardware/qcom/display" name="hardware_qcom_display" remote="github" revision="AAU70-fix" />
   <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" groups="qcom,qcom_gps" revision="07bee4d85b552fcfde126a00c70731707a2e9e65" />
   <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" groups="qcom" revision="d2ae6c44f8fb2cd6f007b7289b01e391c9298956" />
