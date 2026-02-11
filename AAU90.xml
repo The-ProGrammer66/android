@@ -13,8 +13,8 @@
   <remote name="chromium"
            fetch="https://chromium.googlesource.com" />
 
-<!-- Manifest of Android L build AAU90B. Build commit: ba06976d07174e808dbd2d752c89dc076d8e0bcc, Base build: 0779aac6d32a00892e327135b95f97ebf1933b80, Reconstructed on 11 February 2026. -->
-  <project path="build" name="platform/build" groups="pdk" revision="ba06976d07174e808dbd2d752c89dc076d8e0bcc" >
+<!-- Manifest of Android L build AAU90. Build commit: 0779aac6d32a00892e327135b95f97ebf1933b80, Reconstructed on 11 February 2026. -->
+  <project path="build" name="platform/build" groups="pdk" revision="0779aac6d32a00892e327135b95f97ebf1933b80" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
