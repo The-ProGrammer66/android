@@ -221,7 +221,7 @@
   <project path="external/pdfium" name="platform/external/pdfium" groups="pdk" revision="86957661fc29ce82c3101107f95a11d1f9e59932" />
   <project path="external/ppp" name="platform/external/ppp" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/proguard" name="platform/external/proguard" groups="pdk" />
-  <project path="external/protobuf" name="platform/external/protobuf" groups="pdk" revision="decd20a067811244b705d3d3cd9e45fdb3081bb8" />
+  <project path="external/protobuf" name="platform/external/protobuf" groups="pdk" revision="69463b21c8dcc156bcdaf18191d0d8076c5ac93d" />
   <project path="external/regex-re2" name="platform/external/regex-re2" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/replicaisland" name="platform/external/replicaisland" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/robolectric" name="platform/external/robolectric" groups="pdk-cw-fs,pdk-fs" />
