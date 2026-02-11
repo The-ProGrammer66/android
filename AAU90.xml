@@ -495,7 +495,7 @@
   <project path="system/extras" name="platform/system/extras" groups="pdk" revision="014cf80b5040ed443142b2a8b2f348330f720db4" />
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" revision="77996a7f4d2b8b7dbf22c8e227a2c68571f94c7d" />
   <project path="system/media" name="platform/system/media" groups="pdk" revision="29a973df1ce9999b29d351643b0cc091a4cb77b5" />
-  <project path="system/netd" name="platform/system/netd" groups="pdk" revision="a0efaece8c05370f201efe099a537ceb014c6fdf" />
+  <project path="system/netd" name="platform/system/netd" groups="pdk" revision="948922bedd835252130cc4d86c2df4878e301a4b" />
   <project path="system/security" name="platform/system/security" groups="pdk" revision="a7700b7300b4c136c34ecdacfe6bd581357ede88" />
   <project path="system/vold" name="platform/system/vold" groups="pdk" revision="07987073341e7f49d49b287e265f7dee4ae3081c" />
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" />
