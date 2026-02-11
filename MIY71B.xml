@@ -428,6 +428,8 @@
   <project path="platform_testing" name="platform/platform_testing" revision="5dae519ecb83163b32299ca2e80869b2f1ee8fcd" />
   <project path="prebuilts/android-emulator" name="platform/prebuilts/android-emulator" groups="pdk-fs" clone-depth="1" revision="566708fd6330aee00ce4139779d048429433099a" />
   <project path="prebuilts/clang/darwin-x86/host/3.6" name="platform/prebuilts/clang/darwin-x86/host/3.6" groups="pdk,darwin" revision="0d97dd81b09a704f897d300edae3bf96f8c98ec1" />
+  <!-- Not in retail manifest, required -->
+  <project path="prebuilts/clang/linux-x86/host/3.5" name="platform/prebuilts/clang/linux-x86/host/3.5" groups="pdk,linux" revision="bb02bdf737ba8511177e2aee1f722e0ce5f14f2e" />
   <project path="prebuilts/clang/linux-x86/host/3.6" name="platform/prebuilts/clang/linux-x86/host/3.6" groups="pdk,linux" revision="a56d7bee5ad891f50db27b7ca251b62af24d8656" />
   <project path="prebuilts/devtools" name="platform/prebuilts/devtools" groups="pdk-fs" revision="f03b94d6856cf1b1a23c9fa0cb9162f19d17b9d0" />
   <project path="prebuilts/eclipse" name="platform/prebuilts/eclipse" groups="pdk" />
