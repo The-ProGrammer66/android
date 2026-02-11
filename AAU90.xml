@@ -23,7 +23,7 @@
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" groups="pdk-cw-fs" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" revision="276f37e4d4596ca2eeea801046d75ec10a702b78" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs" revision="080c79f01616c7b65bcbe4569f9e480788a16d52" />
-  <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs" revision="d561fe9e2c935d4591e835aa682b20885f059ed4" />
+  <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs" revision="e35ccf0ee952c2e9d4945116f65be0f642eae3d9" />
   <project path="developers/build" name="platform/developers/build" revision="8e0378c044a9c8bd8a9968e5542b2bfb0444cb09" />
   <project path="developers/demos" name="platform/developers/demos" revision="64526120cd8da89bcb9a48acf95307d2c172a6e8" />
   <project path="developers/docs" name="platform/developers/docs"/>
