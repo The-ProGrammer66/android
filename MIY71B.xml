@@ -221,6 +221,7 @@
   <project path="external/pdfium" name="platform/external/pdfium" groups="pdk" revision="86957661fc29ce82c3101107f95a11d1f9e59932" />
   <project path="external/ppp" name="platform/external/ppp" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/proguard" name="platform/external/proguard" groups="pdk" />
+  <!-- Much older commit than intended... But it wants it! -->
   <project path="external/protobuf" name="platform/external/protobuf" groups="pdk" revision="b2a9d4321578139677c146ce37eba5e27e8f5c79" />
   <project path="external/regex-re2" name="platform/external/regex-re2" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/replicaisland" name="platform/external/replicaisland" groups="pdk-cw-fs,pdk-fs" />
