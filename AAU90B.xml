@@ -263,7 +263,7 @@
   <project path="external/scrypt" name="platform/external/scrypt" groups="pdk" />
   <project path="external/sepolicy" name="platform/external/sepolicy" groups="pdk" revision="6d8fa69548af532b7d73a21e2d4678f2413c359d" />
   <project path="external/sfntly" name="platform/external/sfntly" groups="pdk-cw-fs,qcom_msm8x26" revision="fa7aae3642754610576328469c6afc68740cec5e" />
-  <project path="external/skia" name="platform/external/skia" groups="pdk-cw-fs,qcom_msm8x26" revision="188a0d3a1400a63185f0b0c6fbe2d3d6edf48434" />
+  <project path="external/skia" name="platform/external/skia" groups="pdk-cw-fs,qcom_msm8x26" revision="16a266718aab125b2f9192802f70a51369528c7a" />
   <project path="external/smack" name="platform/external/smack" groups="pdk-cw-fs" />
   <project path="external/smali" name="platform/external/smali" groups="pdk-cw-fs" />
   <project path="external/sonivox" name="platform/external/sonivox" groups="pdk" revision="2dbbd3bac0f0e819d196a80cc7855054148ef8b6" />
