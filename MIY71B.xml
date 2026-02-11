@@ -5,7 +5,7 @@
   <default revision="refs/tags/android-6.0.0_r1"
            remote="aosp"
            sync-j="4" />
-     
+		   
   <remote name="github"
            fetch="https://github.com/froyocomb" />
 
@@ -77,11 +77,9 @@
   <project path="external/chromium-libpac" name="platform/external/chromium-libpac" groups="pdk-fs" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" groups="pdk" revision="93216d0b8afcc23eb8811175ca32338cd09c9dca" />
   <project path="external/chromium-webview" name="platform/external/chromium-webview" groups="pdk" revision="2a566f8da0b9bbc0ee711d4fd1dcc0863db0b1da" />
-  <!-- Fast-Forward commit to rebased toolchain to fix LLVM related issues -->
-  <project path="external/clang" name="platform/external/clang" groups="pdk" revision="3ea9e33ea25e0c2b12db56418ba3f994eb662c04" />
+  <project path="external/clang" name="platform/external/clang" groups="pdk" revision="45731bcfad9d9a20d53e17c94197d9aa5995d842" />
   <project path="external/cmockery" name="platform/external/cmockery" groups="pdk-fs" />
-  <!-- Fast-Forward commit to rebased toolchain to fix LLVM related issues -->
-  <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" revision="3d7bf861dbf6f15644b7afa060a02557e3ff8855" />
+  <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" revision="08f33467ca23956d92f5d66d63d082aa38da1235" />
   <project path="external/conscrypt" name="platform/external/conscrypt" groups="pdk-cw-fs,pdk-fs" revision="aff9780b18f86f60e396d6521456b91e7d0e3fb3" />
   <project path="external/crcalc" name="platform/external/crcalc" groups="pdk-fs" revision="e96bec4f09552f6f85fc6d763a7fec938a008fea" />
   <project path="external/deqp" name="platform/external/deqp" groups="pdk-fs" revision="da9829f1bdad57a396728922a406486c2a0d700c" />
@@ -188,8 +186,7 @@
   <project path="external/littlemock" name="platform/external/littlemock" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/lld" name="platform/external/lld" groups="pdk-fs" />
   <project path="external/lldb" name="platform/external/lldb" groups="pdk-cw-fs,pdk-fs" revision="8aaa52329ade20107fe28af7085b0a1f395816a8" />
-  <!-- Fast-Forward commit to rebased toolchain to fix LLVM related issues -->
-  <project path="external/llvm" name="platform/external/llvm" groups="pdk" revision="2c3e0051c31c3f5b2328b447eadf1cf9c4427442" />
+  <project path="external/llvm" name="platform/external/llvm" groups="pdk" revision="6e02f7fbb7a2ee363b33aa58c3be7613e5a79426" />
   <project path="external/ltrace" name="platform/external/ltrace" groups="pdk-cw-fs,pdk-fs" revision="c0bdf6d825ceb88b29cf27727fab187f43b09464"/>
   <project path="external/lz4" name="platform/external/lz4" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/lzma" name="platform/external/lzma" groups="pdk" />
@@ -274,8 +271,7 @@
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs,pdk-fs" revision="2b56cc1c1442ba598ed1ee9c23e8e9eade076e77" />
   <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" revision="88b456640085fa0e92d66e42ddaf24449c8c4fdb" />
   <project path="frameworks/base" name="platform/frameworks/base" groups="pdk-cw-fs,pdk-fs" revision="158ac454073a460375123d7d05152a7c6490efb6" />
-  <!-- Fast-Forward commit to rebased toolchain to fix LLVM related issues -->
-  <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" revision="60b76aa2d6161b36f30b6042cc54a70c41b9798c" />
+  <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" revision="6da4e253a513feef3405759fef6d0760828808ca" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" revision="61067ee94d7ecaec60008be2b58f6d7d97300714"/>
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" revision="b61f465eb465706d31a8dc7cd9ef344b4c7cb532" />
   <project path="frameworks/ex" name="platform/frameworks/ex" groups="pdk-cw-fs,pdk-fs" revision="2ae49ab73f4ace163b9b6aa9e59e15cc5cc4cfd5"/>
