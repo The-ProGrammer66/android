@@ -380,7 +380,7 @@
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" revision="bc4d1ed48c9d34ff2223c2099f49d1bc4902824d" />
   <project path="ndk" name="platform/ndk" revision="41f8d27dd55426c9853a04fb46e3139c85143dfe" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" revision="74a11bc45df74cc966c3e8364d90fbce51322aad" />
-  <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" groups="pdk-cw-fs" revision="b529d1fedc05d16542e5106746ab653465ee8e30" />
+  <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" groups="pdk-cw-fs" revision="7903540c80a44140966ad8a4c9e30907494e2e18" />
   <project path="packages/apps/Browser" name="platform/packages/apps/Browser" revision="4c1e2fb40bee6d3361b2d90a27493006f33f729b" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" revision="2484a5e65a6b69a99572887ddbd8e63a0101ba4f" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" revision="b98bac9c3b334a0bff7d7e8683dd8bd0901b7eb2" />
