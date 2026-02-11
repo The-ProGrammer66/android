@@ -184,8 +184,7 @@
   <project path="external/littlemock" name="platform/external/littlemock" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/lld" name="platform/external/lld" groups="pdk-fs" />
   <project path="external/lldb" name="platform/external/lldb" groups="pdk-cw-fs,pdk-fs" revision="8aaa52329ade20107fe28af7085b0a1f395816a8" />
-  <!-- Slightly older commit than intended -->
-  <project path="external/llvm" name="platform/external/llvm" groups="pdk" revision="848d771ddb35416be6acee900d0936fc037b2d6e" />
+  <project path="external/llvm" name="platform/external/llvm" groups="pdk" revision="6e02f7fbb7a2ee363b33aa58c3be7613e5a79426" />
   <project path="external/ltrace" name="platform/external/ltrace" groups="pdk-cw-fs,pdk-fs" revision="c0bdf6d825ceb88b29cf27727fab187f43b09464"/>
   <project path="external/lz4" name="platform/external/lz4" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/lzma" name="platform/external/lzma" groups="pdk" />
