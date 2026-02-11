@@ -79,7 +79,7 @@
   <project path="external/chromium-webview" name="platform/external/chromium-webview" groups="pdk" revision="2a566f8da0b9bbc0ee711d4fd1dcc0863db0b1da" />
   <project path="external/clang" name="platform/external/clang" groups="pdk" revision="45731bcfad9d9a20d53e17c94197d9aa5995d842" />
   <project path="external/cmockery" name="platform/external/cmockery" groups="pdk-fs" />
-  <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" revision="733ea8d8c0176479ae0926f13dcec3ba086438c1" />
+  <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" revision="08f33467ca23956d92f5d66d63d082aa38da1235" />
   <project path="external/conscrypt" name="platform/external/conscrypt" groups="pdk-cw-fs,pdk-fs" revision="aff9780b18f86f60e396d6521456b91e7d0e3fb3" />
   <project path="external/crcalc" name="platform/external/crcalc" groups="pdk-fs" revision="e96bec4f09552f6f85fc6d763a7fec938a008fea" />
   <project path="external/deqp" name="platform/external/deqp" groups="pdk-fs" revision="da9829f1bdad57a396728922a406486c2a0d700c" />
