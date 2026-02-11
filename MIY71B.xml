@@ -472,6 +472,7 @@
   <project path="system/media" name="platform/system/media" groups="pdk" revision="a166f50ac5f5393236685418ce45509212f706bd" />
   <project path="system/netd" name="platform/system/netd" groups="pdk" revision="8656c84dcab2800fd7c1d64bba307527619d7bdb" />
   <project path="system/security" name="platform/system/security" groups="pdk" revision="6cce2c3420458fe7a29da6b6c7e6a246017dac3b" />
+  <project path="system/sepolicy" name="platform/system/sepolicy" groups="pdk" revision="893cfee5d4a3a38ec2f8c65f964094120219614d" />
   <project path="system/vold" name="platform/system/vold" groups="pdk" revision="6bbb3906d09ec7eaf92f2d72645fa0a7b51b8aee" />
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" />
   <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" revision="0025f6326a41b9164dac35a1420d1f7675bc2de4" />
