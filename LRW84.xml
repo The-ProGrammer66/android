@@ -325,19 +325,23 @@
   <project path="hardware/broadcom/libbt" name="platform/hardware/broadcom/libbt" groups="pdk" revision="83829bf30ec53daa0eff2ba77be1f3337f624075" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="broadcom_wlan" revision="27e40e5cd620349d27d85573de3c9019d811d32e" />
   <project path="hardware/intel/audio_media" name="platform/hardware/intel/audio_media" groups="intel" />
-  <project path="hardware/intel/bootstub" name="platform/hardware/intel/bootstub" groups="intel" revision="18600ec0b88a9b69d412e667dee181e0a6ba33f4" />
+  <!-- Newer commit than intended in order to get fugu to compile -->
+  <project path="hardware/intel/bootstub" name="platform/hardware/intel/bootstub" groups="intel" revision="f35042d850c2a056c937a1140a6462dd6411279b" />
   <project path="hardware/intel/common/bd_prov" name="platform/hardware/intel/common/bd_prov" groups="intel" />
   <project path="hardware/intel/common/libmix" name="platform/hardware/intel/common/libmix" groups="intel" revision="e7ada7a9c711b7722d6389491183588326bc0b3b" />
   <project path="hardware/intel/common/libstagefrighthw" name="platform/hardware/intel/common/libstagefrighthw" groups="intel" />
   <project path="hardware/intel/common/libva" name="platform/hardware/intel/common/libva" groups="intel" revision="08242d89f401a0e6cf6659163d2a01d8a79d4a81" />
   <project path="hardware/intel/common/libwsbm" name="platform/hardware/intel/common/libwsbm" groups="intel" />
-  <project path="hardware/intel/common/omx-components" name="platform/hardware/intel/common/omx-components" groups="intel" revision="a555afd83603a03f9b7fc946596c569696c2e156" />
+  <!-- Newer commit than intended in order to get fugu to compile -->
+  <project path="hardware/intel/common/omx-components" name="platform/hardware/intel/common/omx-components" groups="intel" revision="11ef2daa6d47bd094dc9925977ca3ebebf625d14" />
   <project path="hardware/intel/common/utils" name="platform/hardware/intel/common/utils" groups="intel" revision="bc0b49155603ba1c0c1fc86d13127d04021e7c70" />
   <project path="hardware/intel/common/wrs_omxil_core" name="platform/hardware/intel/common/wrs_omxil_core" groups="intel" revision="3f7ceee13aa17ae32d4263aed2ce67eb9a37c58b" />
   <project path="hardware/intel/img/hwcomposer" name="platform/hardware/intel/img/hwcomposer" groups="intel" revision="3f31c90394ea4bf14f8d35b1b550093fdf8d217d" />
   <project path="hardware/intel/img/libdrm" name="platform/hardware/intel/img/libdrm" groups="intel" />
-  <project path="hardware/intel/img/psb_headers" name="platform/hardware/intel/img/psb_headers" groups="intel" revision="301c46eab7003f0bce2ca43e0b362c183cc573ee" />
-  <project path="hardware/intel/img/psb_video" name="platform/hardware/intel/img/psb_video" groups="intel" revision="53a98849b5284c80989f039a3972bdcf2b38a080" />
+  <!-- Newer commit than intended in order to get fugu to compile -->
+  <project path="hardware/intel/img/psb_headers" name="platform/hardware/intel/img/psb_headers" groups="intel" revision="58ab4ceb5ea3d2733f108cacfcccb93e0c8d84da" />
+  <!-- Newer commit than intended in order to get fugu to compile -->
+  <project path="hardware/intel/img/psb_video" name="platform/hardware/intel/img/psb_video" groups="intel" revision="ba2d3b1bba4f6221cd2b386d60cbaac08155d88e" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" revision="b4065fdea50997dc485ab9a4b16266650c156b36" />
   <project path="hardware/libhardware" name="platform/hardware/libhardware" groups="pdk" revision="f170c13731c0314479d93d8ce56914ff3a9b6044" />
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" revision="472a4c35487bdb135f97b635eb4754369f3030ec" />
