@@ -376,7 +376,6 @@
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" groups="omap3" revision="3bbaa29066a684d01df42ddf0365266e59f2dc44" />
   <project path="hardware/ti/omap4-aah" name="platform/hardware/ti/omap4-aah" groups="omap4-aah" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" groups="omap4" revision="c32caab84ff9edc1489ed6c8079c7d252caafc4d" />
-  <!-- Older commit than intended in order to get build compiled -->
   <project path="libcore" name="platform/libcore" groups="pdk" revision="9c35ce4ed21698062c154a79e9bdbc0e893ce303" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" revision="bc4d1ed48c9d34ff2223c2099f49d1bc4902824d" />
   <project path="ndk" name="platform/ndk" revision="41f8d27dd55426c9853a04fb46e3139c85143dfe" />
