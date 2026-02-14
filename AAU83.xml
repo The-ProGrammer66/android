@@ -247,8 +247,6 @@
   <project path="external/libnfc-nxp" name="platform/external/libnfc-nxp" groups="pdk" revision="a5282496f1c25f5c8cfefd3b8bc4220ee2192881" />
   <!-- RTM -->
   <project path="external/libnl" name="platform/external/libnl" groups="pdk" revision="f6c30c401b0a9608bbf8c88a4408f3d94b8f7e51" />
-  <!-- RTM, did not survive 5.0, survived to l-preview though! -->
-  <project path="external/libnl-headers" name="platform/external/libnl-headers" groups="pdk" revision="f7ec189065f81b00dea7f222f149a2f688624046" />
   <!-- RTM -->
   <project path="external/libogg" name="platform/external/libogg" groups="pdk" revision="ec0b24fb1468abe37be4164a6feb16568e036bde" />
   <project path="external/libopus" name="platform/external/libopus" groups="pdk" revision="7d3252c995c3210dd20ace61b9d9c27b19f0e7e7" />
