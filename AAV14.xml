@@ -198,8 +198,6 @@
   <project path="external/libnfc-nci" name="platform/external/libnfc-nci" groups="pdk" revision="686b51e61ccb676f393bac12f5ff7bac4013f926" />
   <project path="external/libnfc-nxp" name="platform/external/libnfc-nxp" groups="pdk" revision="15d81f71a668b3092549c6b7f83694bf680d9c49" />
   <project path="external/libnl" name="platform/external/libnl" groups="pdk" />
-  <!-- Did not survive 5.0, survived to l-preview though -->
-  <!--<project path="external/libnl-headers" name="platform/external/libnl-headers" groups="pdk" revision="f7ec189065f81b00dea7f222f149a2f688624046" />-->
   <project path="external/libogg" name="platform/external/libogg" groups="pdk" />
   <project path="external/libopus" name="platform/external/libopus" groups="pdk" revision="7d3252c995c3210dd20ace61b9d9c27b19f0e7e7" />
   <project path="external/libpcap" name="platform/external/libpcap" groups="pdk,pdk-cw-fs" />
