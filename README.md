@@ -9,6 +9,7 @@ Following pre-release builds were reconstructed:
 | :---:                                     |   :---:          |
 | [`15 April 2010`]                         | Done             |
 | [`GRF70`] (June 11 2010)                  | Work in progress |
+| [`GRH84`]                                 | Done             |
 | [`GRI34`]                                 | Done             |
 
 The following builds are uncompilable and have been unfortunately cancelled due to not possible way to compile them:
@@ -19,6 +20,7 @@ The following builds are uncompilable and have been unfortunately cancelled due 
 [`15 April 2010`]:  https://github.com/froyocomb/android/blob/zombiebread/MASTER-20100415.xml
 [`05 May 2010`]:  https://github.com/froyocomb/android/blob/zombiebread/MASTER-20100505.xml
 [`GRF70`]:  https://github.com/froyocomb/android/blob/zombiebread/GRF70.xml
+[`GRH84`]:  https://github.com/froyocomb/android/blob/zombiebread/GRH84.xml
 [`GRI34`]:  https://github.com/froyocomb/android/blob/zombiebread/GRI34.xml
 
 Preparing a Build Environment
