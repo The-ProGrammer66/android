@@ -377,7 +377,7 @@
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" groups="omap3" revision="3bbaa29066a684d01df42ddf0365266e59f2dc44" />
   <project path="hardware/ti/omap4-aah" name="platform/hardware/ti/omap4-aah" groups="omap4-aah" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" groups="omap4" revision="c32caab84ff9edc1489ed6c8079c7d252caafc4d" />
-  <project path="libcore" name="platform/libcore" groups="pdk" revision="743f7d5f35ac4d350788cd6a69872616d18e58cd" />
+  <project path="libcore" name="platform/libcore" groups="pdk" revision="2fad82337efe0c8b3a69e8bea39051a6270c16ef" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" revision="8f3e1ffc0c7f9f3f23e068de912229e8d3163163" />
   <project path="ndk" name="platform/ndk" revision="4bec877496ca2d298d3c14d8650b7749ae6ba48b" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" revision="74a11bc45df74cc966c3e8364d90fbce51322aad" />
