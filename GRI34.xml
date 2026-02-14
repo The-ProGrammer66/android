@@ -2,9 +2,13 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch=".." />
-  <default revision="refs/tags/android-2.3.3_r1"
-           remote="aosp"
+           fetch=".."
+           revision="refs/tags/android-2.3.3_r1" />
+
+  <remote name="github"
+          fetch="https://github.com/froyocomb" />
+
+  <default remote="aosp"
            sync-j="4" />
 
   <project path="build" name="platform/build" remote="aosp" revision="fca66ac564438985388d502f6e4b20de08ae8212">
