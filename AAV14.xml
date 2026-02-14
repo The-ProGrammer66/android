@@ -392,7 +392,7 @@
   <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" revision="19e193505df577d92e8bc3e2a2668899f6827bab" />
   <project path="packages/apps/ContactsCommon" name="platform/packages/apps/ContactsCommon" revision="879a0ab49de92a160e87a8985d2ee9ec68556da5" />
   <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" revision="3413d7a928de31bce2a0090a64a72ddf389267d4" />
-  <project path="packages/apps/Dialer" name="platform/packages/apps/Dialer" revision="0c887e89f9da3d2f5a758b23744d508bd37171a6" />
+  <project path="packages/apps/Dialer" name="platform/packages/apps/Dialer" revision="09a727e47df21d00a2e6cd814f4a4bc895155047" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" revision="80d76769852635096227ea467ce6375e61bfe01d" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" revision="102e1cf9d34fceebbad64356e58e3427ee4e6da4" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" revision="e56f3debe2512891add26a24e8ed7b0746aa7555" />
