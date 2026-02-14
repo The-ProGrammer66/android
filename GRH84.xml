@@ -20,7 +20,7 @@
   <project path="bootable/recovery" name="platform/bootable/recovery"  />
   <project path="cts" name="platform/cts" revision="56d8ae53f99e13b8b1dae7fdc505897ece31759d" />
   <project path="dalvik" name="platform/dalvik" revision="ebcd86461f9d61a1a5f25a8f6dde5a9ded5ba275" />
-  <project path="development" name="platform/development" revision="7a6d8e22525180d555804cfd83faeedc45211309" />
+  <project path="development" name="platform/development" revision="b10673eed8551245014a7f58613c76cf0acc8919" />
   <project path="device/common" name="device/common"  />
   <project path="device/htc/common" name="device/htc/common"  />
   <project path="device/htc/passion" name="device/htc/passion" />
@@ -110,7 +110,7 @@
   <project path="external/xmlwriter" name="platform/external/xmlwriter"  />
   <project path="external/yaffs2" name="platform/external/yaffs2"  />
   <project path="external/zlib" name="platform/external/zlib"  />
-  <project path="frameworks/base" name="platform/frameworks/base"   revision="2dda21b93f8a8e0fb70de44eae826bc68349813c"/>
+  <project path="frameworks/base" name="platform/frameworks/base"   revision="690d20bb53ba2485f59d128b365eff991d5cc3e6"/>
   <project path="frameworks/ex" name="platform/frameworks/ex"  />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji"  />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" revision="900f1defbe1f39ca6af8356521961c249174f304" />
