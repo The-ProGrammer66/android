@@ -392,7 +392,7 @@
   <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" revision="e0a517cf629c07a7855003792fa819f2e8ae7dd6" />
   <!-- AAV22B-->
   <project path="packages/apps/Dialer" name="platform/packages/apps/Dialer" revision="1a7e10162a668d2a433364f7fabd2168b97308f3" />
-  <project path="packages/apps/Email" name="platform/packages/apps/Email" revision="8aca0cd4087f1bc36dab71635944cbd5f201070d" />
+  <project path="packages/apps/Email" name="platform/packages/apps/Email" revision="93345dcd83d6db7ec15b36fb0aa75031d5e326c7" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" revision="d74dcf03b53d8bafeafc986878771f21e7277cf1" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" revision="2f42f1d5119bdf02e77189d08b7f466da262ab36" />
   <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" revision="3d73641843682089be63cd248465497f007b93a1" />
