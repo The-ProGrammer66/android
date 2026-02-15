@@ -322,32 +322,31 @@
   <project path="frameworks/volley" name="platform/frameworks/volley" groups="pdk-cw-fs" />
   <project path="frameworks/webview" name="platform/frameworks/webview" groups="pdk-cw-fs" revision="cf328063cfc729a6fc6093480cbd486927602c0d" />
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" groups="pdk-cw-fs" revision="d0081ece36dcb6ecdadeb9fc0ee912cffb7effc7" />
-  <!-- Edited manifest ends here, do not touch -->
   <project path="hardware/akm" name="platform/hardware/akm" />
-  <project path="hardware/broadcom/libbt" name="platform/hardware/broadcom/libbt" groups="pdk" revision="4169f6d038bd0fa3901ea43a70ed716a7ab184e6" />
-  <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="broadcom_wlan" revision="5c6810678f6d6066af0a028a59491c69bf041d6c" />
+  <project path="hardware/broadcom/libbt" name="platform/hardware/broadcom/libbt" groups="pdk" revision="2ff8d8600f4c1333d1ae9916edd95603d6b45826" />
+  <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="broadcom_wlan" revision="e9805b35425b814e2048ba0c67945352a0899f2a" />
   <project path="hardware/intel/audio_media" name="platform/hardware/intel/audio_media" groups="intel" />
-  <project path="hardware/intel/bootstub" name="platform/hardware/intel/bootstub" groups="intel" revision="23dfe463711d038d9fe42642e36a2ffb3c20de3b" />
+  <project path="hardware/intel/bootstub" name="platform/hardware/intel/bootstub" groups="intel" revision="310c3573727069755c3610939555aab5b4689759" />
   <project path="hardware/intel/common/bd_prov" name="platform/hardware/intel/common/bd_prov" groups="intel" />
-  <project path="hardware/intel/common/libmix" name="platform/hardware/intel/common/libmix" groups="intel" revision="9ac96fcb02aa1cc815dacaca83d9afff7c51b310" />
+  <project path="hardware/intel/common/libmix" name="platform/hardware/intel/common/libmix" groups="intel" revision="c0bd6aa75baa1fc30761a1bfe79fc5ebfe46f6b9" />
   <project path="hardware/intel/common/libstagefrighthw" name="platform/hardware/intel/common/libstagefrighthw" groups="intel" />
-  <project path="hardware/intel/common/libva" name="platform/hardware/intel/common/libva" groups="intel" revision="057d2ce49d1195761398676c756180b6c97d3b49" />
-  <project path="hardware/intel/common/libwsbm" name="platform/hardware/intel/common/libwsbm" groups="intel" revision="975ec0f71d4986aa9b49a4147b2c4201faffdb31" />
+  <project path="hardware/intel/common/libva" name="platform/hardware/intel/common/libva" groups="intel" revision="1b8f0933a73fed9be74220d0d15b288da3c91dda" />
+  <project path="hardware/intel/common/libwsbm" name="platform/hardware/intel/common/libwsbm" groups="intel" />
   <project path="hardware/intel/common/omx-components" name="platform/hardware/intel/common/omx-components" groups="intel" revision="34569a16a3f752d435f896cbec97ad8913db207d" />
   <project path="hardware/intel/common/utils" name="platform/hardware/intel/common/utils" groups="intel" revision="aa52981e835d562beb339c06e15e6e24e8e5d2ba" />
   <project path="hardware/intel/common/wrs_omxil_core" name="platform/hardware/intel/common/wrs_omxil_core" groups="intel" revision="3f7ceee13aa17ae32d4263aed2ce67eb9a37c58b" />
-  <project path="hardware/intel/img/hwcomposer" name="platform/hardware/intel/img/hwcomposer" groups="intel" revision="06bdd95e185587df624af7397867f046d60ecbe8" />
+  <project path="hardware/intel/img/hwcomposer" name="platform/hardware/intel/img/hwcomposer" groups="intel" revision="2fd23da6275d4aad7787fecdbf2a67989cb1cb76" />
   <project path="hardware/intel/img/libdrm" name="platform/hardware/intel/img/libdrm" groups="intel" />
   <project path="hardware/intel/img/psb_headers" name="platform/hardware/intel/img/psb_headers" groups="intel" revision="301c46eab7003f0bce2ca43e0b362c183cc573ee" />
   <project path="hardware/intel/img/psb_video" name="platform/hardware/intel/img/psb_video" groups="intel" revision="53a98849b5284c80989f039a3972bdcf2b38a080" />
-  <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" revision="424ca7d41df7b1ea0df51c90d6cb84ef5800ef80" />
-  <project path="hardware/libhardware" name="platform/hardware/libhardware" groups="pdk" revision="93d4e0db0e308d6295e11e7c4eed5f007c9a1b1f" />
-  <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" revision="726b5dada8055f705bb1ffb67d9acc3cad99457d" />
+  <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" revision="fa5f5ac98d6a03f488cf42e2bc4c7c8e75faf388" />
+  <project path="hardware/libhardware" name="platform/hardware/libhardware" groups="pdk" revision="6edd4d605f1c4a5b53d18382ff01c24225e94b01" />
+  <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" revision="fddda3f935c6eb21c70eede106baa9c85cc5bfdb" />
   <project path="hardware/nvidia/audio" name="platform/hardware/nvidia/audio" groups="nvidia_audio" />
   <project path="hardware/nvidia/tegra124" name="platform/hardware/nvidia/tegra124" groups="tegra124" />
-  <project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" groups="qcom,qcom_audio" revision="2fc22936fdbb749b00c65a86b0fbf863c9ecbe5c" />
+  <project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" groups="qcom,qcom_audio" revision="f94bf89186551ee654817f654bc9b28ebe5e4b60" />
   <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="qcom" />
-  <project path="hardware/qcom/display" name="platform/hardware/qcom/display" groups="qcom,qcom_display" revision="f41c66785a46545ea48fddfb24e39a29a35bed58" />
+  <project path="hardware/qcom/display" name="platform/hardware/qcom/display" groups="qcom,qcom_display" revision="7d292b3beb42d7fa80b40622b5a21ee33a6c8660" />
   <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" groups="qcom,qcom_gps" revision="74b189873062ef9f7a542c11ce0e0b1017e05fc7" />
   <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" groups="qcom" />
   <project path="hardware/qcom/media" name="platform/hardware/qcom/media" groups="qcom" revision="e5957fde919e5e4f5921d3f8224981a4607d8fb1" />
@@ -355,15 +354,16 @@
   <project path="hardware/qcom/msm8x26" name="platform/hardware/qcom/msm8x26" groups="qcom_msm8x26" />
   <project path="hardware/qcom/msm8x27" name="platform/hardware/qcom/msm8x27" groups="qcom_msm8x27" />
   <project path="hardware/qcom/msm8x74" name="platform/hardware/qcom/msm8x74" groups="qcom_msm8x74" />
-  <project path="hardware/qcom/msm8x84" name="platform/hardware/qcom/msm8x84" groups="qcom_msm8x84" revision="1cd2e2352d2a8fa85e962228c631726c5df5387f" />
+  <project path="hardware/qcom/msm8x84" name="platform/hardware/qcom/msm8x84" groups="qcom_msm8x84" revision="620bee93bd09aaa9343d4d09043f711c16bd2a37" />
   <project path="hardware/qcom/power" name="platform/hardware/qcom/power" groups="qcom" />
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" groups="qcom" />
   <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" groups="qcom_wlan" />
-  <project path="hardware/ril" name="platform/hardware/ril" groups="pdk" revision="6e5a42e6948b434815d12663eeb792600531fe08" />
-  <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" groups="exynos5" revision="39535d311e1f0b340e9d42583120daf68f0aa9db" />
+  <project path="hardware/ril" name="platform/hardware/ril" groups="pdk" revision="a1a5e0e2ce52ea91cac1d349601ef5edffe8f100" />
+  <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" groups="exynos5" revision="acd67d267c96887806245abeba6a228332faedd1" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" groups="omap3" />
   <project path="hardware/ti/omap4-aah" name="platform/hardware/ti/omap4-aah" groups="omap4-aah" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" groups="omap4" />
+  <!-- Edited manifest ends here, do not touch -->
   <project path="libcore" name="platform/libcore" groups="pdk" revision="f055eb74b9ed0eb54617265c88bcba390f85b77f" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" revision="bca5932019d2be9a70437694cd2dad372b8a4c08" />
   <project path="ndk" name="platform/ndk" />
