@@ -286,7 +286,7 @@
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs" />
   <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" revision="7bf083ed328d33499782215877c6c962706ca764" />
-  <project path="frameworks/base" name="platform/frameworks/base" groups="pdk-cw-fs" remote="github" revision="4b4fb835a93209e435d509bd33867f80c9851f96" />
+  <project path="frameworks/base" name="platform/frameworks/base" groups="pdk-cw-fs" revision="4b4fb835a93209e435d509bd33867f80c9851f96" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" revision="8d01bd8b61482f83539a7dbcec38df9a2e5a6c56" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" revision="4b0503e22a9357c28d6d6cdf7f1d667a43d80381" />
@@ -317,7 +317,7 @@
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" groups="pdk-cw-fs" />
   <project path="frameworks/opt/widget" name="platform/frameworks/opt/widget" groups="pdk-cw-fs" />
   <project path="frameworks/rs" name="platform/frameworks/rs" groups="pdk" revision="95d3cdab889a14bd3835741e0a1e863759ffa32c" />
-  <project path="frameworks/support" name="platform/frameworks/support" groups="pdk-cw-fs" remote="github" revision="26a73f1d725b6868f0a6355e1033b819e668f047" />
+  <project path="frameworks/support" name="platform/frameworks/support" groups="pdk-cw-fs" revision="26a73f1d725b6868f0a6355e1033b819e668f047" />
   <project path="frameworks/testing" name="platform/frameworks/testing" groups="pdk-cw-fs" revision="41d41dce8a720eacc151181dc8e9ef7f35f5d625" />
   <project path="frameworks/volley" name="platform/frameworks/volley" groups="pdk-cw-fs" />
   <project path="frameworks/webview" name="platform/frameworks/webview" groups="pdk-cw-fs" revision="cf328063cfc729a6fc6093480cbd486927602c0d" />
@@ -363,90 +363,82 @@
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" groups="omap3" />
   <project path="hardware/ti/omap4-aah" name="platform/hardware/ti/omap4-aah" groups="omap4-aah" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" groups="omap4" />
-  <!-- Edited manifest ends here, do not touch -->
-  <project path="libcore" name="platform/libcore" groups="pdk" revision="f055eb74b9ed0eb54617265c88bcba390f85b77f" />
-  <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" revision="bca5932019d2be9a70437694cd2dad372b8a4c08" />
+  <project path="libcore" name="platform/libcore" groups="pdk" revision="e08bf00178f634b104e7bc36f60a45396c1d18d9" />
+  <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" revision="3ae9ef82bcfd59c89939dce20088a8f6f8882b94" />
-  <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" groups="pdk-cw-fs" revision="03f23ee7d3868e97ec7ed1a3d81c149b5b0ebd69" />
+  <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" groups="pdk-cw-fs" revision="7c405bac41fc4ebb5c9cc7b5c896b023f7b1e9fc" />
   <project path="packages/apps/Browser" name="platform/packages/apps/Browser" revision="4b9f51307eb0d65063728ab7ae2d52e9dc5bd2ab" />
-  <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" revision="75649ef3d8ca217ce93859bb8d60187b3405f4e1" />
-  <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" revision="0f117c6ad12a4afe300da4e0815800c2de77e3d9" />
+  <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" revision="f79d6f699b04a735e1627b47a059760ff40c26b9" />
+  <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" revision="3640e476eaa712c20b62d97660c30e2b08a79f2e" />
   <project path="packages/apps/Camera" name="platform/packages/apps/Camera" />
-  <project path="packages/apps/Camera2" name="platform/packages/apps/Camera2" revision="2f87e15cd0d5b448813380fac2d35d0814ccd203" />
-  <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" revision="f79ee9627fff02dcb6222849f052dca5ffd19b69" />
-  <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" groups="pdk-cw-fs" revision="3201f961fbb2783c202b5e17d609daeab836a45e" />
-  <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" revision="691dd8fc7ce4b330cb6341f8e54fa6703564bd3e" />
-  <project path="packages/apps/ContactsCommon" name="platform/packages/apps/ContactsCommon" revision="4c70578a9883da7f196353622e565880738a9fd3" />
-  <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" revision="37cd8bbe49bfd7467b876a804acf4887517b9952" />
-  <project path="packages/apps/Dialer" name="platform/packages/apps/Dialer" revision="61e4fc4191d0455746b5228d4b693e4cb60170f0" />
-  <project path="packages/apps/Email" name="platform/packages/apps/Email" revision="d4236e71d7aee3112748e79c0631a821fd401568" />
-  <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" revision="03a3623f0a08f8266376a00d07208f4e2158588d" />
-  <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" revision="575bd81081a4d9756a0a4b1394c68a026872f35b" />
-  <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" revision="163a97c3d3e9e1a029e04a8e629eabd8de8f3d9f" />
+  <project path="packages/apps/Camera2" name="platform/packages/apps/Camera2" revision="eb6a5047a3a84782380fe5e0f25531b6b617aad7" />
+  <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" revision="881bf06f7eb9cc98921c935dbdd7bc477b60bfbe" />
+  <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" groups="pdk-cw-fs" revision="e9902377baf83e710f7b0ff89e7b2b245fb21874" />
+  <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" revision="76e62c1097c29734418420dfdd510e87eee0dfbf" />
+  <project path="packages/apps/ContactsCommon" name="platform/packages/apps/ContactsCommon" revision="cc1d9e656dceaf0d7cfb7116816647cb1b2ad7c7" />
+  <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" revision="3660eebbd2f35f2319538442eccab8feda63b8a5" />
+  <project path="packages/apps/Dialer" name="platform/packages/apps/Dialer" revision="6b739729e3b3a6831484a0674045405cb9ecf28b" />
+  <project path="packages/apps/Email" name="platform/packages/apps/Email" revision="7d0c1fcf277dae4e0b126916a251d6292d9eb365" />
+  <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" revision="050cbb2845cdb3b93f57dfd48d110487f5adc2f6" />
+  <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" revision="36b5358c699d5c81ff6610cf228ac97bf66ad74e" />
+  <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" revision="a1dfe362228d702e641096bdb825aad1f9e6b43c" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
-  <!-- LRW45E, LRW45J -->
-  <project path="packages/apps/InCallUI" name="platform/packages/apps/InCallUI" revision="8162c6f98d3bd03e62e3ee5d9ee9024432ad038f" />
-  <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" revision="087077bf2f484efa86c78326ccf8e76e9ddff4ed" />
-  <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" revision="2cdba7704e133db21c42edba2291c785e36e62f1" />
-  <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" revision="63f1ec00fbbd109130d1e476371dbc9a87bb544d" />
+  <project path="packages/apps/InCallUI" name="platform/packages/apps/InCallUI" revision="fcf917d6aafaed0ac577176f004339beaf71cf91" />
+  <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" revision="c78c452496bd346dce7fa65f13a402c641668321" />
+  <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" revision="b47e3c3a65ffe2f593a820192f5814ae8a2b9442" />
+  <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" revision="820d6057bd1c93ecbf5557dff15e518ea6fffc16" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" />
-  <project path="packages/apps/ManagedProvisioning" name="platform/packages/apps/ManagedProvisioning" revision="a7df7553798370483f8ccdcaec4a6bed0bb161b1" />
-    <!-- original commit for packages/apps/Mms: 2cd3077911f77975125da01c0f92d0210683346a -->
-  <project path="packages/apps/Mms" name="platform_packages_apps_Mms" remote="github" revision="LRW45K-fix" />
-  <project path="packages/apps/Music" name="platform/packages/apps/Music" revision="5b58854084fcb259ca746d5334506ffa77c3a6f6" />
-  <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" revision="ed432bd44603377c31f59c8886e972a2fbeeb886" />
-  <!-- LRW45K -->
-  <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" revision="3ff9362b79b0eb19bf4d7c3d2ecd3ab006e515a0" />
-  <!-- LRW45D -->
-  <project path="packages/apps/OMA-DM" name="android_packages_apps_OMA-DM" remote="github" revision="0d3b07c10fffa59900393500f17783fa15970d0f" />
+  <project path="packages/apps/ManagedProvisioning" name="platform/packages/apps/ManagedProvisioning" revision="eb3852765f2de1a807ef644ecb13f371a4244c7e" />
+  <project path="packages/apps/Mms" name="platform/packages/apps/Mms" revision="d6c0aa86f285785e3e3b579a626c9ac6ab1f9259" />
+  <project path="packages/apps/Music" name="platform/packages/apps/Music" revision="e5243941d893af83bc7b3cf0520d2d83804e6aba" />
+  <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" revision="cc818e71a6c5904a5eb1feb167f59ef2768e981d" />
+  <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" revision="4a225ab1cf6d32faf004ac9d4e5bd047a879cd45" />
+  <project path="packages/apps/OMA-DM" name="android_packages_apps_OMA-DM" remote="github" revision="9c8e01521e32aa51543dc7d28dba4d0889fe452d" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" />
-  <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" revision="3aeb50560ee8c383b7dfa65fd8c46642d2a6ef5c" />
+  <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" revision="344f112cffbc1e8cd1988bbae92f1eecbbb9e43a" />
   <project path="packages/apps/Phone" name="platform/packages/apps/Phone" />
-  <project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" revision="e8efa9a75c79e9a34b7ad4148b4338e4db74665e" />
+  <project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" revision="7bdf6528d15b41565862e911bf69ede2a9b3d8df" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
-  <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" revision="d9c5ba0eefcc4d3cff3506e16f67b5fbb79e35c3" />
-  <project path="packages/apps/Settings" name="platform/packages/apps/Settings" revision="2d2e83e9b22ef9b65b9a42e36cb32739528047de" />
+  <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" revision="d56b9e884b5a5dd55d6bb78a6515dda6a6e1a7e0" />
+  <project path="packages/apps/Settings" name="platform/packages/apps/Settings" revision="03c363f74b27e05ddd6faf1f1e9ddf78d83a2c58" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
-  <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" revision="fa27cc26efbde079af1747abb6eafdd326fc1a32" />
+  <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" revision="13833cfea588e07c72892f66fb775b51bdadaf75" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" />
-  <project path="packages/apps/Stk" name="platform/packages/apps/Stk" revision="f7a7b82256e91ad4e1fa996879c88f5199182676" />
-  <project path="packages/apps/Tag" name="platform/packages/apps/Tag" revision="f3568b893f65e6dd041c7d0e3ca80937b79e4b08" />
+  <project path="packages/apps/Stk" name="platform/packages/apps/Stk" revision="4f002af6c7b28945e93c93d5cae6bee979a3f371" />
+  <project path="packages/apps/Tag" name="platform/packages/apps/Tag" revision="e424b26d46a821d151d88724b6b6d6afc8de4317" />
   <project path="packages/apps/TvSettings" name="platform/packages/apps/TvSettings" revision="a6f8160152d4e1ae2503d13ee92ce7b499aea18f" />
-  <project path="packages/apps/UnifiedEmail" name="platform/packages/apps/UnifiedEmail" revision="14cf229701c46c6f4355587e954c090573852483" />
+  <project path="packages/apps/UnifiedEmail" name="platform/packages/apps/UnifiedEmail" revision="96f41b193728045965a7f134f54c134a64116331" />
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />
   <project path="packages/experimental" name="platform/packages/experimental" revision="1390028a0de623a60bec7fcf99362539dcbab7b9" />
-  <project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" revision="b9420efa4c78b6bde8ea6ed109f876d807c92130" />
+  <project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" revision="79def886c424d3d69a3d8344bea5e8fce1170984" />
   <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
-  <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" groups="pdk-cw-fs" revision="0ab307238107189b4717127b638e6c7dc9f988f1" />
-  <project path="packages/providers/ContactsProvider" name="platform/packages/providers/ContactsProvider" groups="pdk-cw-fs" revision="62fa1c1c2de0ef0aafd780cc5911d484c827d3aa" />
-  <project path="packages/providers/DownloadProvider" name="platform/packages/providers/DownloadProvider" groups="pdk-cw-fs" revision="35b0a916ca7fd9a3c0cbfec6eab4fe87c0f4ac13" />
-  <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" groups="pdk-cw-fs" revision="ca49441195494c1537c2ad1c563183098f1e333b" />
+  <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" groups="pdk-cw-fs" revision="3f7d0cce82795aae53380c5f757f42a4fbeeb638" />
+  <project path="packages/providers/ContactsProvider" name="platform/packages/providers/ContactsProvider" groups="pdk-cw-fs" revision="908c26bca2341cda14b448041cbb5a1a21d32b30" />
+  <project path="packages/providers/DownloadProvider" name="platform/packages/providers/DownloadProvider" groups="pdk-cw-fs" revision="629eed8893ba5ef978a9f777047d560e95e43456" />
+  <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" groups="pdk-cw-fs" revision="a9aa6ae4433635edbb4a1dd4304bcaac04bc7c7b" />
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" />
-  <!-- LRW45E -->
-  <project path="packages/providers/TelephonyProvider" name="platform/packages/providers/TelephonyProvider" revision="fa0cec31a0e9083ebfafa1de86ffa3ab16ba37f9" />
-  <project path="packages/providers/TvProvider" name="platform/packages/providers/TvProvider" revision="66deb422aaf1bc5400bdcefac78d3e2c6c4f3189" />
+  <project path="packages/providers/TelephonyProvider" name="platform/packages/providers/TelephonyProvider" revision="41c46ca208c5be8da158d1707fa784d5e6886b24" />
+  <project path="packages/providers/TvProvider" name="platform/packages/providers/TvProvider" revision="28f33edd74058a498cdfc84001ee2173895cba06" />
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" groups="pdk-cw-fs" revision="71fdc4b5b7632e149b29091b227cb3b90989dd9c" />
-  <project path="packages/screensavers/Basic" name="platform/packages/screensavers/Basic" revision="5154831fc0a186b0c425303a70a9fc2bbcfb6a40" />
-  <project path="packages/screensavers/PhotoTable" name="platform/packages/screensavers/PhotoTable" revision="c95e0e6e4fb039fd150d16ee3628d72aec7768dc" />
+  <project path="packages/screensavers/Basic" name="platform/packages/screensavers/Basic" revision="ec00b01d8c654fd82f57bebb822f6ef0779c49de" />
+  <project path="packages/screensavers/PhotoTable" name="platform/packages/screensavers/PhotoTable" revision="755df5d288d936e4278c485964c39067f24e4076" />
   <project path="packages/screensavers/WebView" name="platform/packages/screensavers/WebView" />
-  <project path="packages/services/Mms" name="platform/packages/services/Mms" revision="c984707ecf54d545a4a5809c6ce1d18bf7cee61e" />
-  <!-- LRW45D, LRW45G, LRW45J -->
-  <project path="packages/services/Telecomm" name="platform/packages/services/Telecomm" revision="27677baee2594641dd97ab752902df2db236315d" />
-  <!-- LRW45J -->
-  <project path="packages/services/Telephony" name="platform/packages/services/Telephony" revision="7296371011fe1fea06ecfdbf80712f65b9e08816" />
-  <project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" revision="4a02584af8bd1126134a37e7d4496d54c4a13206" />
-  <project path="packages/wallpapers/Galaxy4" name="platform/packages/wallpapers/Galaxy4" revision="34b31b45e75b2e73a770fef1a2f9a862b10f1a57" />
-  <project path="packages/wallpapers/HoloSpiral" name="platform/packages/wallpapers/HoloSpiral" revision="328892897a842fb499a90ce51e1e9714e1d701a2" />
-  <project path="packages/wallpapers/LivePicker" name="platform/packages/wallpapers/LivePicker" revision="2e59fdd3c9481b0720f5c4364a61b23820f42825" />
-  <project path="packages/wallpapers/MagicSmoke" name="platform/packages/wallpapers/MagicSmoke" revision="85b3c7729234afc4f2199abee2b3c4f58bd80761" />
-  <project path="packages/wallpapers/MusicVisualization" name="platform/packages/wallpapers/MusicVisualization" revision="e96873af8e248f5853f345a1b1e81aa0c9c8bc69" />
-  <project path="packages/wallpapers/NoiseField" name="platform/packages/wallpapers/NoiseField" revision="b7cfdd89b197ea9440bef558987202f5411ef762" />
-  <project path="packages/wallpapers/PhaseBeam" name="platform/packages/wallpapers/PhaseBeam" revision="51fa9b89899b9af8b53446d9d63a73b4e4316e77" />
-  <project path="pdk" name="platform/pdk" groups="pdk" revision="d223dabfa229c213b18b89458b25f8bb0e62566a" />
+  <project path="packages/services/Mms" name="platform/packages/services/Mms" revision="a7dccf6ee0a28244644ab17fbd48c70bec58f6b1" />
+  <project path="packages/services/Telecomm" name="platform/packages/services/Telecomm" revision="7e9238eb66864d0a2fa42a3343816178d755b533" />
+  <project path="packages/services/Telephony" name="platform/packages/services/Telephony" revision="055e870db2a97e339a1d936de1ec8a0260488561" />
+  <project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" revision="22e6e97271398007672650ad47ee123ef4301b88" />
+  <project path="packages/wallpapers/Galaxy4" name="platform/packages/wallpapers/Galaxy4" />
+  <project path="packages/wallpapers/HoloSpiral" name="platform/packages/wallpapers/HoloSpiral" />
+  <project path="packages/wallpapers/LivePicker" name="platform/packages/wallpapers/LivePicker" revision="e0cea71f78e193ac20612ada5afe511ebbf3536d" />
+  <project path="packages/wallpapers/MagicSmoke" name="platform/packages/wallpapers/MagicSmoke" revision="91ee5e7f14ac3ca016753e3bf0b50f187fcb5b69" />
+  <project path="packages/wallpapers/MusicVisualization" name="platform/packages/wallpapers/MusicVisualization" revision="212e7034f9302cbd0f4c5f4481dba7c257465a9d" />
+  <project path="packages/wallpapers/NoiseField" name="platform/packages/wallpapers/NoiseField" />
+  <project path="packages/wallpapers/PhaseBeam" name="platform/packages/wallpapers/PhaseBeam" />
+  <project path="pdk" name="platform/pdk" groups="pdk" revision="2507052399d987caa46fcb32854886beb0a3443b" />
   <project path="prebuilts/android-emulator" name="platform/prebuilts/android-emulator" clone-depth="1" />
   <project path="prebuilts/clang/darwin-x86/3.1" name="platform/prebuilts/clang/darwin-x86/3.1" groups="pdk,darwin" />
   <project path="prebuilts/clang/darwin-x86/3.2" name="platform/prebuilts/clang/darwin-x86/3.2" groups="pdk,darwin" />
@@ -459,10 +451,10 @@
   <project path="prebuilts/clang/linux-x86/3.2" name="platform/prebuilts/clang/linux-x86/3.2" groups="pdk,linux" />
   <project path="prebuilts/clang/linux-x86/arm/3.3" name="platform/prebuilts/clang/linux-x86/arm/3.3" groups="arm,linux,pdk-cw-fs" />
   <project path="prebuilts/clang/linux-x86/host/3.4" name="platform/prebuilts/clang/linux-x86/host/3.4" groups="pdk,linux" />
-  <project path="prebuilts/clang/linux-x86/host/3.5" name="platform/prebuilts/clang/linux-x86/host/3.5" groups="pdk,linux" revision="7b5b8881bfea712427dc460350819bde1b267076" />
+  <project path="prebuilts/clang/linux-x86/host/3.5" name="platform/prebuilts/clang/linux-x86/host/3.5" groups="pdk,linux" revision="ad73d165572256677d14bf2cb874460e0f56e895" />
   <project path="prebuilts/clang/linux-x86/mips/3.3" name="platform/prebuilts/clang/linux-x86/mips/3.3" groups="linux,mips,pdk-cw-fs" />
   <project path="prebuilts/clang/linux-x86/x86/3.3" name="platform/prebuilts/clang/linux-x86/x86/3.3" groups="linux,pdk-cw-fs,x86" />
-  <project path="prebuilts/devtools" name="platform/prebuilts/devtools" revision="fc145f6b9f91174c777745579cb711588fa700e5" />
+  <project path="prebuilts/devtools" name="platform/prebuilts/devtools" revision="ea79f9831e9ff72ce4251010eebe5185d3c6c548" />
   <project path="prebuilts/eclipse" name="platform/prebuilts/eclipse" groups="pdk" />
   <project path="prebuilts/eclipse-build-deps" name="platform/prebuilts/eclipse-build-deps" groups="notdefault,eclipse" />
   <project path="prebuilts/eclipse-build-deps-sources" name="platform/prebuilts/eclipse-build-deps-sources" groups="notdefault,eclipse" />
@@ -492,21 +484,21 @@
   <project path="prebuilts/gradle-plugin" name="platform/prebuilts/gradle-plugin" groups="pdk-cw-fs" />
   <project path="prebuilts/libs/libedit" name="platform/prebuilts/libs/libedit" groups="pdk-cw-fs" />
   <project path="prebuilts/maven_repo/android" name="platform/prebuilts/maven_repo/android" groups="pdk-cw-fs" revision="49ea973e2741b17dd874ced58d2c442e314d9bc4"/>
-  <project path="prebuilts/misc" name="platform/prebuilts/misc" groups="pdk,tradefed" revision="1e95ebba4f472e5d3aed4113025dabb56cdb5606" />
+  <project path="prebuilts/misc" name="platform/prebuilts/misc" groups="pdk,tradefed" revision="4698e92cd0454f5850d616ac7e6eb4d809f6ea6f" />
   <project path="prebuilts/ndk" name="platform/prebuilts/ndk" groups="pdk" revision="9c392c83f3c4fc2e41f6cff1fd3c04a82ed0cb92" />
   <project path="prebuilts/python/darwin-x86/2.7.5" name="platform/prebuilts/python/darwin-x86/2.7.5" groups="darwin,pdk,pdk-cw-fs" />
   <project path="prebuilts/python/linux-x86/2.7.5" name="platform/prebuilts/python/linux-x86/2.7.5" groups="linux,pdk,pdk-cw-fs" />
   <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" groups="pdk" clone-depth="1" revision="5f91f38eac40a8465f3a7e4aa298a75afcf2936a" />
-  <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk,tradefed" revision="80f8b3c376b6d7e6e33828938661b91d48f07e66" />
+  <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk,tradefed" revision="43a83caba18ca5cd6ad9402b952a0fa82c6b82d1" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs" />
-  <project path="system/core" name="platform/system/core" groups="pdk" revision="4459478957e0bbbe1b8181631242869fc559f963" />
-  <project path="system/extras" name="platform/system/extras" groups="pdk" revision="071b7a7b51986b04910f496add7704a4f31e1a1a" />
+  <project path="system/core" name="platform/system/core" groups="pdk" revision="8b6c1cf615db67a74c560e07a638882b753ede02" />
+  <project path="system/extras" name="platform/system/extras" groups="pdk" revision="e387cf43c3fa597cf158e894593a939912bbf6de" />
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" revision="77996a7f4d2b8b7dbf22c8e227a2c68571f94c7d" />
-  <project path="system/media" name="platform/system/media" groups="pdk" revision="81a6bcd24e51cab0748eb5cc2a27ff2c0f6d8c23" />
-  <project path="system/netd" name="platform/system/netd" groups="pdk" revision="83239ebd0cbedb228ca86ee801deb837da106c9c" />
+  <project path="system/media" name="platform/system/media" groups="pdk" revision="3e8a4b086c1c3232d579195caa7aa9827f581ac0" />
+  <project path="system/netd" name="platform/system/netd" groups="pdk" revision="de7c462da99af1766b2ebefb78e11427c9a5198d" />
   <project path="system/security" name="platform/system/security" groups="pdk" revision="50122db50bcb6c1aab50ef235c8f9d264b50e97a" />
-  <project path="system/vold" name="platform/system/vold" groups="pdk" revision="d0c7b17070d4321fef096873b4890794024a5f63" />
+  <project path="system/vold" name="platform/system/vold" groups="pdk" revision="00786076cd6a3a32a42f95b4813ea807321b3fda" />
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" />
   <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" />
   <project path="tools/base" name="platform/tools/base" groups="notdefault,tools" />
@@ -515,10 +507,10 @@
   <project path="tools/external/fat32lib" name="platform/tools/external/fat32lib" groups="tools" />
   <project path="tools/external/gradle" name="platform/tools/external/gradle" groups="tools" />
   <project path="tools/idea" name="platform/tools/idea" groups="notdefault,tools" />
-  <project path="tools/loganalysis" name="platform/tools/loganalysis" groups="notdefault,tradefed" revision="df2e25b0b50559b3d293a15a0714d41608eca305" />
+  <project path="tools/loganalysis" name="platform/tools/loganalysis" groups="notdefault,tradefed" revision="e337a91a147162fbad603c05c5ddffd12bff6f7d" />
   <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" />
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
   <project path="tools/studio/translation" name="platform/tools/studio/translation" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
-  <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" revision="45bd58317f1a590218badf0e737d64769e1d9027" />
+  <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" revision="038d98e822a9d36838e93d369efbc2fe128db706" />
 </manifest>
