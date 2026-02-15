@@ -89,7 +89,7 @@
   <project path="external/chromium_org/sdch/open-vcdiff" name="platform/external/chromium_org/sdch/open-vcdiff" />
   <project path="external/chromium_org/testing/gtest" name="platform/external/chromium_org/testing/gtest" />
   <project path="external/chromium_org/third_party/WebKit" name="platform/external/chromium_org/third_party/WebKit" revision="cc4e79c9a3a17a6ae8889fd6a12262da60a2b0e2" />
-  <project path="external/chromium_org/third_party/angle" name="platform/external/chromium_org/third_party/angle" revision="1056726094b11c834b6623d378baf3c7a19c00af" />
+  <project path="external/chromium_org/third_party/angle" name="platform/external/chromium_org/third_party/angle" revision="2c3e19986b211eba4b3e4ef65e9dbeddc9e47b89" />
   <project path="external/chromium_org/third_party/brotli/src" name="platform/external/chromium_org/third_party/brotli/src" revision="d15cb06af543ef57c7262877c3fea3cd9eb5a166" />
   <project path="external/chromium_org/third_party/eyesfree/src/android/java/src/com/googlecode/eyesfree/braille" name="platform/external/chromium_org/third_party/eyesfree/src/android/java/src/com/googlecode/eyesfree/braille" />
   <project path="external/chromium_org/third_party/freetype" name="platform/external/chromium_org/third_party/freetype" revision="be0632fad4b792155f230be37c1afa23b7b99712" />
@@ -174,7 +174,7 @@
   <project path="external/javassist" name="platform/external/javassist" groups="pdk-cw-fs" />
   <project path="external/jdiff" name="platform/external/jdiff" groups="pdk-cw-fs" />
   <project path="external/jemalloc" name="platform/external/jemalloc" groups="pdk" revision="3541a904d6fb949f3f0aea05418ccce7cbd4b705" />
-  <project path="external/jhead" name="platform/external/jhead" groups="pdk" revision="1ac7868ce4306c39ac9e32913e55c760e8ef9a78" />
+  <project path="external/jhead" name="platform/external/jhead" groups="pdk" revision="64af6148cfd55ad55ea491473ed42c168299c94e" />
   <project path="external/jline" name="platform/external/jline" groups="notdefault,tradefed" />
   <project path="external/jmdns" name="platform/external/jmdns" groups="pdk-cw-fs" />
   <project path="external/jpeg" name="platform/external/jpeg" groups="pdk" revision="746f1f0853ddbd14ab5da6af35cc1fa560453d1e" />
