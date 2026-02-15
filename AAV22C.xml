@@ -384,7 +384,7 @@
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" revision="1762b4aea89c70565078674ccdb56f313b0f4a03" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" revision="eed3b17a99298b8a6d8e340cfb30fdd14d543931" />
   <project path="packages/apps/Camera" name="platform/packages/apps/Camera" revision="c01c780ddc3d8946105771ecee1f1f4ee6237c71" />
-  <project path="packages/apps/Camera2" name="platform/packages/apps/Camera2" revision="c3cc3ae6e411e2472f63365189b621d846986b94" />
+  <project path="packages/apps/Camera2" name="platform/packages/apps/Camera2" revision="beeccf8d6193d0153a1a3f43944ebeff2c5649f7" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" revision="3cd541f9b99ec406ac51b74b4471301e1727bad8" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" groups="pdk-cw-fs" revision="b010ba91aad2910fe670d9e679beb5f31cfc7a2d" />
   <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" revision="84a60b16755f4e1f8a46a1d545384c76d26a6d8d" />
