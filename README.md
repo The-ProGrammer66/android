@@ -3,19 +3,7 @@ thou-shalt-take-the-L: Lollipop Restoration Project
 
 This repository contains reconstructed `repo` manifests of pre-release Android 5.0 ("Lollipop") builds.
 
-Following pre-release builds were reconstructed:
-
-| Build number         | Status           |
-| :---:                |   :---:          |
-| AAU36                |  Done            |
-| AAU42                |  Done            |
-| AAU55D               |  Done            |
-| AAU65C               |  Done            |
-| AAU70                |  Done            |
-| AAU83                |  WIP             |
-| LRW38                |  Done            |
-| LRW45K               |  Done            |
-| LRW84                |  Done            |
+**See the list of manifests above for the total amount of reconstructed builds.**
 
 Preparing a Build Environment
 -----------------
