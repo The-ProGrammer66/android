@@ -60,34 +60,34 @@
   <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device,mako" clone-depth="1" revision="837d58f9ae5fd46b3a2e6e3cfa21eaa876802c9f" />
   <!-- Edited manifest ends here, do not touch -->
   <project path="device/moto/shamu" name="device/moto/shamu" groups="device,shamu" revision="4dea31d8e5f41783a6b5f35478cee10236343521" />
-  <project path="device/moto/shamu-kernel" name="device/moto/shamu-kernel" groups="device,shamu" clone-depth="1" revision="be321350665a50ad25683e8ddf45ac4ecd6fc07b" />
-  <project path="device/sample" name="device/sample" groups="pdk" revision="49168f25eee250526822b2b7c42ced451936b7f4" />
-  <project path="device/samsung/manta" name="device/samsung/manta" groups="device,manta" revision="45ffcf08b2626797951f6c09848446ff904530b9" />
+  <project path="device/moto/shamu-kernel" name="device/moto/shamu-kernel" groups="device,shamu" clone-depth="1" revision="5f5bca47ea8695a94d8a0e58ac1c67f9f2589100" />
+  <project path="device/sample" name="device/sample" groups="pdk" revision="e3d215f9e241bce193ae1ef6cddcbd38c8f4b3ac" />
+  <project path="device/samsung/manta" name="device/samsung/manta" groups="device,manta" revision="76f15d504631102f3f976d35e3fb6c1c210163e9" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs" revision="949ae0bfad29dfa140bece1c4851f4d930c036e7" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
-  <project path="external/android-clat" name="platform/external/android-clat" groups="pdk-cw-fs" revision="545bdca4e73b5aa56b81a735ead316eb6d33c326" />
+  <project path="external/android-clat" name="platform/external/android-clat" groups="pdk-cw-fs" revision="dce3ddf54083ccd0e3752c4c08013688f79baa7a" />
   <project path="external/ant-glob" name="platform/external/ant-glob" groups="pdk-cw-fs" />
   <project path="external/antlr" name="platform/external/antlr" groups="pdk-cw-fs,tradefed" />
-  <project path="external/apache-harmony" name="platform/external/apache-harmony" groups="pdk-cw-fs" revision="71dd891bb89a38cf26be412eb894f804f16a0b7a" />
+  <project path="external/apache-harmony" name="platform/external/apache-harmony" groups="pdk-cw-fs" revision="ad8beef7613513eec615e17ec3f2aaedaf125d73" />
   <project path="external/apache-http" name="platform/external/apache-http" groups="pdk-cw-fs" />
   <project path="external/apache-qp" name="platform/external/apache-qp" groups="pdk-cw-fs" />
   <project path="external/apache-xml" name="platform/external/apache-xml" groups="pdk-cw-fs" />
   <project path="external/arduino" name="platform/external/arduino" groups="pdk-cw-fs" />
   <project path="external/bison" name="platform/external/bison" groups="pdk" />
   <project path="external/blktrace" name="platform/external/blktrace" groups="pdk-cw-fs" />
-  <project path="external/bluetooth/bluedroid" name="platform/external/bluetooth/bluedroid" groups="pdk" revision="b3a2284ce68b8b5c10b1e080dfca7ddf5da54415" />
+  <project path="external/bluetooth/bluedroid" name="platform/external/bluetooth/bluedroid" groups="pdk" revision="f56b1ba474d239561d98ec7114dfa1ce7db04b8b" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" groups="pdk" />
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" />
   <project path="external/bzip2" name="platform/external/bzip2" groups="pdk" />
   <project path="external/ceres-solver" name="platform/external/ceres-solver" groups="pdk-cw-fs" />
   <project path="external/checkpolicy" name="platform/external/checkpolicy" groups="pdk" />
-  <project path="external/chromium-libpac" name="platform/external/chromium-libpac" revision="56177d26c229cf1a7d8507ab58457b91004eb7e1" />
-  <project path="external/chromium-trace" name="platform/external/chromium-trace" groups="pdk" revision="8252ae6b83ea65cf871e7981e981da07379f5a0f"  />
-  <project path="external/chromium_org" name="platform/external/chromium_org" revision="6435ffe78285a262e3b7d6acf3cde43362018dc7" />
+  <project path="external/chromium-libpac" name="platform/external/chromium-libpac" />
+  <project path="external/chromium-trace" name="platform/external/chromium-trace" groups="pdk" />
+  <project path="external/chromium_org" name="platform/external/chromium_org" revision="5369d8e6d5abe87c22381a22f3a43e6cb1705ed9" />
   <project path="external/chromium_org/sdch/open-vcdiff" name="platform/external/chromium_org/sdch/open-vcdiff"  />
   <project path="external/chromium_org/testing/gtest" name="platform/external/chromium_org/testing/gtest" />
-  <project path="external/chromium_org/third_party/WebKit" name="platform/external/chromium_org/third_party/WebKit" revision="21475874d0fd1fa335e2f947be4975b99fee1d48" />
-  <project path="external/chromium_org/third_party/angle" name="platform/external/chromium_org/third_party/angle" revision="62fe2385907281231e53f05cc2bea7ba5adf4462"/>
+  <project path="external/chromium_org/third_party/WebKit" name="platform/external/chromium_org/third_party/WebKit" revision="feb69773a8fa9554d20bc50f5656b5dad957d30b" />
+  <project path="external/chromium_org/third_party/angle" name="platform/external/chromium_org/third_party/angle" revision="64be28160a13c210790863a2b05603acb37661ed"/>
   <project path="external/chromium_org/third_party/brotli/src" name="platform/external/chromium_org/third_party/brotli/src" />
   <project path="external/chromium_org/third_party/eyesfree/src/android/java/src/com/googlecode/eyesfree/braille" name="platform/external/chromium_org/third_party/eyesfree/src/android/java/src/com/googlecode/eyesfree/braille" />
   <project path="external/chromium_org/third_party/freetype" name="platform/external/chromium_org/third_party/freetype" revision="bfe0f08e261e819f74078db9a6cd3c0cc3708613" />
@@ -107,14 +107,14 @@
   <project path="external/chromium_org/third_party/opus/src" name="platform/external/chromium_org/third_party/opus/src" />
   <project path="external/chromium_org/third_party/ots" name="platform/external/chromium_org/third_party/ots" revision="a48c6b2c10223e9263a90092794da468d1269081" />
   <project path="external/chromium_org/third_party/sfntly/cpp/src" name="platform/external/chromium_org/third_party/sfntly/cpp/src" />
-  <project path="external/chromium_org/third_party/skia" name="platform/external/chromium_org/third_party/skia" revision="e90b557be8fb14d632e6243bf7c4efc9286740e3" />
+  <project path="external/chromium_org/third_party/skia" name="platform/external/chromium_org/third_party/skia" revision="413546c54f7ab90c8b584a2f7056fabd4f918acf" />
   <project path="external/chromium_org/third_party/smhasher/src" name="platform/external/chromium_org/third_party/smhasher/src" />
   <project path="external/chromium_org/third_party/usrsctp/usrsctplib" name="platform/external/chromium_org/third_party/usrsctp/usrsctplib" />
   <project path="external/chromium_org/third_party/webrtc" name="platform/external/chromium_org/third_party/webrtc" revision="fc979d28cd63985b0cd777068558d892bbaecdfd" />
   <project path="external/chromium_org/third_party/yasm/source/patched-yasm" name="platform/external/chromium_org/third_party/yasm/source/patched-yasm" />
   <project path="external/chromium_org/tools/grit" name="platform/external/chromium_org/tools/grit" />
-  <project path="external/chromium_org/tools/gyp" name="platform/external/chromium_org/tools/gyp" revision="b78c8be66904318d00edbb7a0a41400a2404e682" />
-  <project path="external/chromium_org/v8" name="platform/external/chromium_org/v8" revision="8e80fa11f77dc6df393069787b6730edad46200d" />
+  <project path="external/chromium_org/tools/gyp" name="platform/external/chromium_org/tools/gyp" />
+  <project path="external/chromium_org/v8" name="platform/external/chromium_org/v8" revision="5fadd689d674a068be2ff824f26829a6484384ff" />
   <project path="external/clang" name="platform/external/clang" groups="pdk" revision="ef8225444452a1486bd721f3285301fe84643b00" />
   <project path="external/cmockery" name="platform/external/cmockery" />
   <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" revision="6624ff8bf28e54e4791b86c3298729232ab56429" />
