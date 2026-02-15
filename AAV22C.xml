@@ -494,7 +494,7 @@
   <project path="system/core" name="platform/system/core" groups="pdk" revision="c2093264cb9c8845369d7ce45e1327ee2e69b9d5" />
   <project path="system/extras" name="platform/system/extras" groups="pdk" revision="8a49c074fb2ea770190ac8bab2de5139e311a455" />
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" revision="77996a7f4d2b8b7dbf22c8e227a2c68571f94c7d" />
-  <project path="system/media" name="platform/system/media" groups="pdk" revision="2c3197e35e2e6fbf281bde19dc978c94f711324e" />
+  <project path="system/media" name="platform/system/media" groups="pdk" revision="a9eadb1ef2bced19ba5c3ff8e68b7b605fe66d4d" />
   <project path="system/netd" name="platform/system/netd" groups="pdk" revision="3d24dcd5dc06df1c46fb30f4424b94ee18fe8e4b" />
   <project path="system/security" name="platform/system/security" groups="pdk" revision="a7700b7300b4c136c34ecdacfe6bd581357ede88" />
   <project path="system/vold" name="platform/system/vold" groups="pdk" revision="bf85d892e9a41040fc5d3755490b7a0d0b997d61" />
