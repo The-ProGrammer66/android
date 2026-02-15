@@ -13,7 +13,7 @@
   <remote name="chromium"
            fetch="https://chromium.googlesource.com" />
 
-<!-- Manifest of Android L build AAV22C. Tagged on 14 April 2014. Manifest made on 15 February 2026. Base build commit is 819f6e4d525a25020174dfe2e0c3b33dc82278eb -->
+<!-- Manifest of Android L build AAV22C. Tagged on 22 April 2014. Manifest made on 15 February 2026. Base build commit is 819f6e4d525a25020174dfe2e0c3b33dc82278eb -->
   <project path="build" name="platform/build" groups="pdk" revision="3bc62d2f54a342437f5466d8eafa7b3c62bcff57" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
