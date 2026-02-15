@@ -393,7 +393,7 @@
   <!-- AAV22B-->
   <project path="packages/apps/Dialer" name="platform/packages/apps/Dialer" revision="1a7e10162a668d2a433364f7fabd2168b97308f3" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" revision="93345dcd83d6db7ec15b36fb0aa75031d5e326c7" />
-  <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" revision="0cb6632e4fc3d7843aed8c072b11a7a8ad0e8c6d" />
+  <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" revision="e544c545c9cca446538fcf402863d271f85052c2" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" revision="2f42f1d5119bdf02e77189d08b7f466da262ab36" />
   <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" revision="3d73641843682089be63cd248465497f007b93a1" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" revision="f69007a64267fb914bd8401952ec283c31f72ae5" />
