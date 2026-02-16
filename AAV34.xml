@@ -395,7 +395,7 @@
   <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" revision="41996f5c3b60a51a4793107c09497e991c04c86e" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" revision="cf0bc998dd9561425471ec60ce2dbd0cd58801ee" />
   <project path="packages/apps/InCallUI" name="platform/packages/apps/InCallUI" revision="bb4b645991f2c96dcd4e70c3e19d5ea883d2f4d8" />
-  <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" revision="d1492deab0b9255efde310396f07510db48e5ce3 " />
+  <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" revision="d1492deab0b9255efde310396f07510db48e5ce3" />
   <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" revision="54fa54b4ddb43dc162f58f722d18ff0d28c7cd2d" />
   <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" revision="d0412c2c120d6b51e8add50c044c459daf83c70b" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" revision="86bbe959cc342fb0b436dc74adc5599f292ff5f4" />
