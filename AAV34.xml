@@ -296,6 +296,7 @@
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs" revision="c54dc204ef4278f949a965dc90e693799b6aae41" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs" />
   <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" revision="5258138c65b3566e3cf10de99d46b987f870a0f9" />
+  <!-- Original commit is 86d884312e656049a4ce6170e2e02951fad04962 -->
   <project path="frameworks/base" name="platform_frameworks_base" remote="github" revision="AAV34-HDMI-MHL-fix" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" revision="4215c36c1ce6725bf094219f18caa4ef3a3dac0e" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" revision="6842f6449ff10ef8a49bed05ef55e90338afcb99" />
@@ -330,7 +331,8 @@
   <project path="frameworks/support" name="platform/frameworks/support" groups="pdk-cw-fs" revision="aaeddd3d703a597945778a749fbef2d85532802d" />
   <project path="frameworks/testing" name="platform/frameworks/testing" groups="pdk-cw-fs" revision="fbfc72f3b192d2e76fdfd64c428cc1928c3822b1" />
   <project path="frameworks/volley" name="platform/frameworks/volley" groups="pdk-cw-fs" revision="b3ce0ec59179108b99895b30d634b4a64cb12cc9" />
-  <project path="frameworks/webview" name="platform/frameworks/webview" groups="pdk-cw-fs" revision="99806d91dae24d5c5b793ad1c40a48e75acf53f3" />
+  <!-- Original commit is 99806d91dae24d5c5b793ad1c40a48e75acf53f3 -->
+  <project path="frameworks/webview" name="frameworks_webview" remote="github" revision="AAV34-fix" />
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" groups="pdk-cw-fs" revision="f1a8dbbda361ce5e4ce96cc1586964d9e18a2a2f" />
   <project path="hardware/akm" name="platform/hardware/akm" />
   <project path="hardware/broadcom/libbt" name="platform/hardware/broadcom/libbt" groups="pdk" revision="9d92bb3912424313fde5b6b8ef3e2b03ad170280" />
