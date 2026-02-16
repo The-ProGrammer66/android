@@ -296,7 +296,8 @@
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs" revision="c54dc204ef4278f949a965dc90e693799b6aae41" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs" />
   <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" revision="83aa4c9cfb45dd6aaaf9dccb399b1138352a2c52" />
-  <project path="frameworks/base" name="platform/frameworks/base" groups="pdk" revision="1c38dc03b352f9e8ccea07f199ac09aec9ba43f0" />
+  <!-- Original revision is 1c38dc03b352f9e8ccea07f199ac09aec9ba43f0 -->
+  <project path="frameworks/base" name="platform_frameworks_base" groups="pdk" remote="github" revision="AAV27-HDMI-MHL-fix" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" revision="9125696fcbfdae4428f6ffbfdcee323de70da118" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" revision="61eb0a03ea216a65e668b705ecee2a18e7e2f8c6" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" revision="fd31394cdc2ba60b9ad948235e7bfed26f5a16f6" />
@@ -466,10 +467,6 @@
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" groups="pdk,linux,arm" revision="2d1b4c4666a0b2c3bc8e34039f0f7996270d2617" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" groups="pdk,linux,arm" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" groups="pdk,linux,arm" />
-  <!-- Did not survive 5.0, did survive to L-preview -->
-  <!--<project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" groups="pdk,linux" revision="d2685281e2e54ca14d1df304867aa82c37b27162" />-->
-  <!-- Did not survive 5.0, did survive to L-preview -->
-  <!--<project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" groups="pdk,linux" revision="627f9b20fc518937b93747a7ff1ed4f5ed46e06f" />-->
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6" groups="pdk,linux" revision="4767fbccbf079b59346f0f22a62508d6d26ce5bf" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" groups="pdk,linux" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" revision="666d064761b26de3834d47eabda11c372a9c7ed1" />
