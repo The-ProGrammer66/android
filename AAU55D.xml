@@ -13,7 +13,7 @@
   <remote name="chromium"
            fetch="https://chromium.googlesource.com" />
 
-<!-- Manifest of Android L build AAU55D. -->
+<!-- Manifest of Android L build AAU55D. This manifest has to be re-done as it was done before i knew how to properly do revision builds. -->
   <project path="build" name="platform/build" groups="pdk,tradefed" revision="8d362c6f577adbf1eeb937862474ea77d3002027" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
@@ -486,7 +486,7 @@
   <project path="packages/apps/ContactsCommon" name="platform/packages/apps/ContactsCommon" revision="39ca93caf3206842d17b8f3f6d04a4b523bccb56" />
   <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" revision="06df36fc57966b2143b33e2f405ad1bab98b0810" />
   <project path="packages/apps/Dialer" name="platform/packages/apps/Dialer" revision="a8ff9750831fcc276354ed80fad3b54316489383" />
-  <project path="packages/apps/Email" name="platform/packages/apps/Email" revision="220dc1bf572caed51c578164434b1ace5816829e" />
+  <project path="packages/apps/Email" name="platform/packages/apps/Email" revision="9beac5ce876f4f641af9120d04e1c648c2f69f5f" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" revision="1a3827bae5f5e32a2145dff60956bd9f288227f0" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" revision="2089b8cb56644baddea64096d1465860a90bba8d" />
   <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" revision="fd62b68dd0ba0222567e4faa417e6b3e82207054" />
@@ -522,7 +522,7 @@
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" revision="875907bd912b398bda3f7bf47651a3ee3f98bfe7" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" revision="8b3bbe66abdd210c456c971de4190126dcf95aa3" />
   <project path="packages/apps/TvSettings" name="platform/packages/apps/TvSettings" revision="a6f8160152d4e1ae2503d13ee92ce7b499aea18f" />
-  <project path="packages/apps/UnifiedEmail" name="platform/packages/apps/UnifiedEmail" revision="7e65b85f087904539252e3a83190058680914999" />
+  <project path="packages/apps/UnifiedEmail" name="platform/packages/apps/UnifiedEmail" revision="d74c7b470bf1f5f495d65b5e64017a7bc782ed7d" />
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" revision="3d9e00c8e59b0838afc560c515ea3cf1170c4342" />
   <project path="packages/experimental" name="platform/packages/experimental" revision="db164b7998344c4c2bfb408667d13822f5c66d7c" />
   <project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" revision="6af1c25a507e5b9b5adb59deb75bc0b3ea18881a" />

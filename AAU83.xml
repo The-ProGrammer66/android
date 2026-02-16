@@ -498,8 +498,8 @@
   <project path="packages/apps/ContactsCommon" name="platform/packages/apps/ContactsCommon" revision="5e31db34a93f4e400a39f722d50187682a6431dc" />
   <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" revision="e92550d05e88703bbb928c755531a0a6e5d9f003" />
   <project path="packages/apps/Dialer" name="platform/packages/apps/Dialer" revision="4b28a12a11a522c3c76219f4689481dec9271815" />
-  <project path="packages/apps/Email" name="platform/packages/apps/Email" revision="e9c8ffac1f8e31796a2e42b019d2ab103f06d663" />
-  <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" revision="c0efae08efe0b337aa406b50f9d2dbc6bbbd56fd" />
+  <project path="packages/apps/Email" name="platform/packages/apps/Email" revision="d3cde5dbf0e2d568522fac6c3b1a89f93b7abe9b" />
+  <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" revision="51bcd64337dde776b5f36050e8831824ed9972a1" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" revision="523a0047b9126d2d6ce4cddc3d3c1745ecb0f54c" />
   <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" revision="4a234df4e97dc72e433bc4e16717e57916b77c62" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" revision="70f07acf98cfe9d150ea245be6ccb4731126e4fb" />
@@ -535,7 +535,7 @@
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" revision="923b8df3f50bbcb72b048bf5d0191f5317a2fc61" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" revision="8b3bbe66abdd210c456c971de4190126dcf95aa3" />
   <project path="packages/apps/TvSettings" name="platform/packages/apps/TvSettings" revision="a6f8160152d4e1ae2503d13ee92ce7b499aea18f" />
-  <project path="packages/apps/UnifiedEmail" name="platform/packages/apps/UnifiedEmail" revision="f50aafa8f98545b1a0f88523c253bc2b94117783" />
+  <project path="packages/apps/UnifiedEmail" name="platform/packages/apps/UnifiedEmail" revision="41211261614de85f4705bb4560cc7f2e7198bbd4" />
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" revision="3d9e00c8e59b0838afc560c515ea3cf1170c4342" />
   <project path="packages/experimental" name="platform/packages/experimental" revision="b9fb686d2e41edcb4fe5a24292ec9717c8e97a5c" />
   <project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" revision="c4db2a72b31c6b8e9f4fb67f38cc1e6d6f39da24" />
