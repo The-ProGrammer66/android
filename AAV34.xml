@@ -483,7 +483,7 @@
   <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" groups="pdk" clone-depth="1" revision="c8e83b5f7a5c1e79d9aa1a0774da4a7f036b19f0" />
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" revision="687c1edae8b55e27619f95a6672f7bd227074800" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" revision="f02e6e6bd539b97ce4b1a55a27485a83fc93fbb4" />
-  <project path="sdk" name="platform/sdk" groups="pdk-cw-fs" revision="c489705369a39253cd146302d60810fed0cbde89s" />
+  <project path="sdk" name="platform/sdk" groups="pdk-cw-fs" revision="c489705369a39253cd146302d60810fed0cbde89" />
   <project path="system/core" name="platform/system/core" groups="pdk" revision="c28560a15463400a8589bae369892be9307c3fda" />
   <project path="system/extras" name="platform/system/extras" groups="pdk" revision="e798a23402f2ccf8c30b8dd1610e444ec06f2049" />
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" revision="77996a7f4d2b8b7dbf22c8e227a2c68571f94c7d" />
