@@ -330,7 +330,7 @@
   <project path="frameworks/support" name="platform/frameworks/support" groups="pdk-cw-fs" revision="aaeddd3d703a597945778a749fbef2d85532802d" />
   <project path="frameworks/testing" name="platform/frameworks/testing" groups="pdk-cw-fs" revision="fbfc72f3b192d2e76fdfd64c428cc1928c3822b1" />
   <project path="frameworks/volley" name="platform/frameworks/volley" groups="pdk-cw-fs" revision="b3ce0ec59179108b99895b30d634b4a64cb12cc9" />
-  <project path="frameworks/webview" name="platform/frameworks/webview" groups="pdk-cw-fs" revision="15ecd3c837f088579316ee419bcc5528ce215228" />
+  <project path="frameworks/webview" name="platform/frameworks/webview" groups="pdk-cw-fs" revision="65548e241e7a42cd0190c1bf57b2c81c1bf4ad4c" />
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" groups="pdk-cw-fs" revision="f1a8dbbda361ce5e4ce96cc1586964d9e18a2a2f" />
   <project path="hardware/akm" name="platform/hardware/akm" />
   <project path="hardware/broadcom/libbt" name="platform/hardware/broadcom/libbt" groups="pdk" revision="9d92bb3912424313fde5b6b8ef3e2b03ad170280" />
