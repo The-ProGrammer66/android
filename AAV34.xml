@@ -84,7 +84,7 @@
   <project path="external/chromium-libpac" name="platform/external/chromium-libpac" revision="cd268d937be2ea90bfc969315c5eeb9455314e6f" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" groups="pdk" revision="8252ae6b83ea65cf871e7981e981da07379f5a0f" />
   <!-- these-spaces-are-normal-i'm-just-moving-this-so-i-can-see-it-with-visual-studio-scrolled-to-the-right...Chromium revision: 267519 -->
-  <project path="external/chromium_org" name="platform/external/chromium_org" revision="4b5dcb97c2e6b26e306489adc85d467e36589f1e" />
+  <project path="external/chromium_org" name="platform/external/chromium_org" revision="08c107de54178bb0990a09adec724924e8bc9486" />
   <project path="external/chromium_org/sdch/open-vcdiff" name="platform/external/chromium_org/sdch/open-vcdiff" />
   <project path="external/chromium_org/testing/gtest" name="platform/external/chromium_org/testing/gtest" />
   <project path="external/chromium_org/third_party/WebKit" name="platform/external/chromium_org/third_party/WebKit" revision="ab1547edae854bd609b073580a92573605c29f66" />
