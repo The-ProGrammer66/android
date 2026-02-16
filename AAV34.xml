@@ -268,7 +268,7 @@
   <project path="external/sqlite" name="platform/external/sqlite" groups="pdk" revision="79a958ee9766577e9d517cf415df06c2ff8bda3a" />
   <project path="external/srec" name="platform/external/srec" groups="pdk-cw-fs" revision="b8f86496166793a1deab81273ea27c3c31a2c376" />
   <project path="external/srtp" name="platform/external/srtp" groups="pdk-cw-fs" />
-  <project path="external/stlport" name="platform/external/stlport" groups="pdk" revision="ecca567340aae01466e3a84f42ec11744bb26775s" />
+  <project path="external/stlport" name="platform/external/stlport" groups="pdk" revision="ecca567340aae01466e3a84f42ec11744bb26775" />
   <project path="external/strace" name="platform/external/strace" groups="pdk-cw-fs" revision="502224d4cd4c8aaa7f017c97fc466368b88c49d9" />
   <project path="external/stressapptest" name="platform/external/stressapptest" groups="pdk-cw-fs" />
   <project path="external/svox" name="platform/external/svox" groups="pdk-cw-fs" revision="6bd5fa6441c478531d2af2afc25292d0c0bfa03f" />
