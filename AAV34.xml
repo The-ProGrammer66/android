@@ -75,7 +75,7 @@
   <project path="external/arduino" name="platform/external/arduino" groups="pdk-cw-fs" />
   <project path="external/bison" name="platform/external/bison" groups="pdk" />
   <project path="external/blktrace" name="platform/external/blktrace" groups="pdk-cw-fs" />
-  <project path="external/bluetooth/bluedroid" name="platform/external/bluetooth/bluedroid" groups="pdk" revision="2a73b6deaaf2c12dec215ddeab1e0223c9f28446" />
+  <project path="external/bluetooth/bluedroid" name="platform/external/bluetooth/bluedroid" groups="pdk" revision="f5726daa6c720685cbc0e5250a2a5ee6b4860210" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" groups="pdk" revision="e6bfacd124b9cf9cd50c4147fe92d4fef3d3e1f2" />
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" revision="23e322ab19fb7d74c2c37e40ce364d9f709bdcee" />
   <project path="external/bzip2" name="platform/external/bzip2" groups="pdk" />
