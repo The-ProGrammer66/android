@@ -1,56 +1,53 @@
-jelly-flavored-beans: Jelly Bean Restoration Project
+jelly-flavored-beans: Jelly Bean Reconstruction Project
 =========================================================
 
-This repository contains reconstructed `repo` manifests of pre-release Android 4.1-4.3 ("Ice Cream Sandwich MR2 / Jelly Bean ") builds.
+This repository contains reconstructed `repo` manifests of pre-release Android 4.1-4.3 ("ICS MR2/Jelly Bean") builds.
 
-Following pre-release builds were reconstructed:
-
-| Build number         | Status           |
-| :---:                |   :---:          |
-| IRL46                |  Done            |
+**See the list of manifests above for the total amount of reconstructed builds.**
 
 Preparing a Build Environment
 -----------------
 
-For installing dependencies, refer to the article ["Initializing a Build Environment"](https://web.archive.org/web/20140208084633/http://source.android.com/source/initializing.html) from the AOSP documentation.
+It is recommended to use an older Linux distribution. All builds have been tested on Ubuntu 12.04 LTS ("Precise Pangolin"), which can be downloaded from [here](https://old-releases.ubuntu.com/releases/12.04/ubuntu-12.04.4-desktop-amd64.iso). 
 
-It is recommended to use an older Linux distribution. All builds have been tested on Ubuntu 12.04 ("Precise Pangolin"), which can be downloaded from [here](https://old-releases.ubuntu.com/releases/12.04/ubuntu-12.04.5-desktop-amd64.iso).
+To prepare a build environment, you can use our own Bash script, which you can obtain [here](https://raw.githubusercontent.com/froyocomb/tools/refs/heads/main/envsetup.sh). Download it in your compiling environment and use chmod (or GUI interface) to give it executing permissions. 
 
-For the repositories to work, it is needed to replace any `archive.ubuntu.com` and `security.ubuntu.com` mentions in your repository list (which is under /etc/apt/sources.list) with `old-releases.ubuntu.com`. Then, it will be possible to install required dependencies.
+After you execute the script, select the first option by typing in 1 and pressing Enter. It should automatically update the system and install required dependencies, including the repo script. After the option is done, restart the computer.
 
-Ubuntu 12.04 usually bundles newer GCC version, like 4.6. However, for those builds, GCC 4.4 is more recommended. To download older GCC, execute:
+After the machine restarts, run the script again to install Java. Android 4.1-4.3 ("Jelly Bean") utilized Sun Java 6 to compile. To install it - select the 2nd option in the main menu and then select option 2. The script can also change the default Java version, which can be useful if compiling different Android versions.
 
-    sudo apt-get install gcc-4.4 g++-4.4 gcc-4.4-multilib g++-4.4-multilib  
+After the script is finished, create a folder in which the build files will be kept in, such as "android", then move on to the next step.
 
 Downloading Source
 ------------------
+To initialize a repository tree using one of the manifests provided by this project, execute a command like this (see the list of manifests above for available `<build>`s):
 
-To get started with downloading the source code, experience with Git and [`repo`](https://source.android.com/docs/setup/reference/repo) is needed.
-
-To initialize a repository tree using one of the manifests provided by this project, execute a command like this (see the table above for available `<build>`s):
-
-    repo init -u https://github.com/froyocomb/android.git -b jelly-flavored-beans -m <build>.xml
+    repo init -u https://github.com/froyocomb/android.git -b jelly-flavored-beans -m <build>.xml --depth=1
 
 Then to download the respective code, execute:
 
-    repo sync
+    repo sync --no-tags --no-clone-bundle -c
 
 Compiling
 ---------
 
 To initialize the build environment, execute the following command:
 
-    source build/envsetup.sh
+ ```
+. build/envsetup.sh
+ ```
 
 Then pick from one of the available build targets by executing the command:
 
     lunch
 
-As appropriate device trees are not available in the source, the only targets that are possible to pick are the generic ones.
+To compile for specific devices, use our "proprietary-vendor" repository to extract vendor blobs, or download and extract their driver binaries from Google's official website (https://developers.google.com/android/drivers).
 
 To compile Android, type:
 
-    make CC=gcc-4.4 CXX=g++-4.4
+    make CC=gcc-4.4 CXX=g++-4.4 -j$(nproc)
+
+Please make sure to remember that certain builds may require exclusive patches that are mentioned on their respective BetaWiki page. If you face any issues during the compile, ask in the Discord server or on the "Issues" page on GitHub.
 
 Running
 -------
@@ -61,11 +58,4 @@ In the Ubuntu build environment, you may run the currently compiled build with t
 
     emulator
 
-Useful Links
-------------
-
-* GitHub search filter for non-SVN (i.e. Android) commits from the LineageOS LLVM & Clang mirrors, ordered by commit date
-  * [LLVM](https://github.com/search?q=repo%3ALineageOS%2Fandroid_external_llvm+NOT+%22git-svn-id%3A%22&type=commits&s=committer-date&o=asc)
-  * [Clang](https://github.com/search?q=repo%3ALineageOS%2Fandroid_external_clang+NOT+%22git-svn-id%3A%22&type=commits&s=committer-date&o=asc)
-* [Every IR-series build from before 4.1.1 r1 was tagged](https://android.googlesource.com/platform/build/+log/refs/tags/android-4.1.1_r1)
-* [Froyocomb Helper](https://gist.github.com/Dobby233Liu/c55c1e9c816facd153eeb19e386f53fd): userscript to assist finding commits before a certain time 
+To set a custom resolution, type `-skin 1920x1080`, replacing 1920x1080 with your desired resolution.
