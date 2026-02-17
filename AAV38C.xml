@@ -363,7 +363,7 @@
   <project path="hardware/qcom/display" name="platform/hardware/qcom/display" groups="qcom,qcom_display" revision="f0336ae3e21ef0eb26231ab4093ee6eaaad0e14c" />
   <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" groups="qcom,qcom_gps" revision="07bee4d85b552fcfde126a00c70731707a2e9e65" />
   <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" groups="qcom" revision="571f501fbd1b8961606e5ca24643fe1366e5d2e0" />
-  <project path="hardware/qcom/media" name="platform/hardware/qcom/media" groups="qcom" revision="073c5e91be587a9f90fe39719e1e9fa7cd2a3525" />
+  <project path="hardware/qcom/media" name="platform/hardware/qcom/media" groups="qcom" revision="a66301743224ed885fc1b5275acd16f4843a03f5" />
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960" revision="4e0f671b2c86f5aa01502bea53c2e09fba1f8019" />
   <project path="hardware/qcom/msm8x26" name="platform/hardware/qcom/msm8x26" groups="qcom_msm8x26" revision="5cce06f54966bfecfac589e9c013ca6510dd7d18" />
   <project path="hardware/qcom/msm8x27" name="platform/hardware/qcom/msm8x27" groups="qcom_msm8x27" />
