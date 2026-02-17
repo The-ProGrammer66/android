@@ -14,7 +14,7 @@ To prepare a build environment, you can use our own Bash script, which you can o
 
 After you execute the script, select the first option by typing in 1 and pressing Enter. It should automatically update the system and install required dependencies, including the repo script. After the option is done, restart the computer.
 
-After the machine restarts, run the script again to install Java - select the 2nd option in the main menu and then select option 2. The script can also change the default Java version, which can be useful if compiling different Android versions.
+After the machine restarts, run the script again to install Java. Android 4.4 ("KitKat") utilized Sun Java 6 to compile. To install it - select the 2nd option in the main menu and then select option 2. The script can also change the default Java version, which can be useful if compiling different Android versions.
 
 After the script is finished, create a folder in which the build files will be kept in, such as "android", then move on to the next step.
 
