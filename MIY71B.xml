@@ -468,7 +468,7 @@
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" revision="6919a9f58da89e0ff322c0105148aada34b865b6"/>
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs,pdk-fs" revision="1a07e4871edc089e976adb9351db50469e0aeb99" />
   <project path="system/bt" name="platform/system/bt" groups="pdk" revision="8e58aab816ed3c402244f4bae68268a00ace368c" />
-  <project path="system/core" name="platform/system/core" groups="pdk" revision="0d6fca8a4f9a89752d80296abb4031aafe070b9f" />
+  <project path="system/core" name="platform/system/core" groups="pdk" revision="7e9fe7d86de665bcb2615d8c24de39416c48cdec" />
   <project path="system/extras" name="platform/system/extras" groups="pdk" revision="88ea006e101703d0da66d9b43a7b2349da4db260" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" revision="99482129e592892ef40613195d2cbcd640e031cd" />
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" revision="9b676ba91f0551d36036ae9a8e8b12219007ab0f" />
