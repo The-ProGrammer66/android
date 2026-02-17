@@ -331,7 +331,7 @@
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" groups="pdk-cw-fs" revision="4950d922815e16a0724e2509a6d04ccef8bd810b" />
   <project path="frameworks/opt/widget" name="platform/frameworks/opt/widget" groups="pdk-cw-fs" />
   <project path="frameworks/rs" name="platform/frameworks/rs" groups="pdk" revision="cd03ef9a55a569d753612dbae673f6b492475fd0" />
-  <project path="frameworks/support" name="platform/frameworks/support" groups="pdk-cw-fs" revision="ecce91d619d659ef920fc797c4f18b26445c85d2" />
+  <project path="frameworks/support" name="platform/frameworks/support" groups="pdk-cw-fs" revision="073496aaeffef25e0833e6398ce836566a05ff52" />
   <project path="frameworks/testing" name="platform/frameworks/testing" groups="pdk-cw-fs" revision="fbfc72f3b192d2e76fdfd64c428cc1928c3822b1" />
   <project path="frameworks/volley" name="platform/frameworks/volley" groups="pdk-cw-fs" revision="b3ce0ec59179108b99895b30d634b4a64cb12cc9" />
   <!-- Original commit is 99806d91dae24d5c5b793ad1c40a48e75acf53f3 -->
