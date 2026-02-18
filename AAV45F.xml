@@ -387,8 +387,7 @@
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" revision="eff61499a618d6d2f61191fe480d4175e1bf36bb" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" revision="a78b976d5b600b5616b2fcd0a4bef7a632164257" />
   <project path="packages/apps/Camera" name="platform/packages/apps/Camera" revision="0b92c60ce5feafb698e6eb14424ebddb5fcfca39" />
-  <!-- Wrong commit on purpose, i want to see the redesgined Camera app... -->
-  <project path="packages/apps/Camera2" name="platform/packages/apps/Camera2" revision="60c1209724940e7d27005851ca192be20548f161" />
+  <project path="packages/apps/Camera2" name="platform/packages/apps/Camera2" revision="e4b371301b236e9226a709e9b52fe76addd2f1f4" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" revision="eca74379af36352ecd4207d2ca416698b627788e" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" groups="pdk-cw-fs" revision="ddceb3264ca51c2e46a449264f5bc451705eb990" />
   <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" revision="5f057fa8a0d1be9529024846c9e69b5764078d2c" />
