@@ -186,7 +186,8 @@
   <project path="external/ksoap2" name="platform/external/ksoap2" groups="pdk-cw-fs" revision="895b9b972a578dc105165a81f7d062424418b0ec" />
   <project path="external/kernel-headers" name="platform/external/kernel-headers" groups="pdk-cw-fs" revision="9f04f41dbcf9aad1c698e1354e9c98ccf309f02f" />
   <project path="external/libcap-ng" name="platform/external/libcap-ng" groups="pdk-cw-fs" />
-  <project path="external/libcxx" name="platform/external/libcxx" groups="pdk" revision="8f40a19e1d41444842b11b82fec2d46f7ee5c436" />
+  <!-- Slightly newer commit to fix build error -->
+  <project path="external/libcxx" name="platform/external/libcxx" groups="pdk" revision="1894928715e7182e498208a06fc83a42725e59b8" />
   <project path="external/libcxxabi" name="platform/external/libcxxabi" groups="pdk" revision="3be37f7492fb54dcf821b954efa74dda23751bab" />
   <project path="external/libedit" name="platform/external/libedit" />
   <project path="external/libexif" name="platform/external/libexif" groups="pdk-cw-fs" />
