@@ -186,9 +186,10 @@
   <project path="external/ksoap2" name="platform/external/ksoap2" groups="pdk-cw-fs" revision="895b9b972a578dc105165a81f7d062424418b0ec" />
   <project path="external/kernel-headers" name="platform/external/kernel-headers" groups="pdk-cw-fs" revision="9f04f41dbcf9aad1c698e1354e9c98ccf309f02f" />
   <project path="external/libcap-ng" name="platform/external/libcap-ng" groups="pdk-cw-fs" />
-  <!-- Slightly newer commit to fix build error -->
-  <project path="external/libcxx" name="platform/external/libcxx" groups="pdk" revision="1721831a268be6ede16e533fade17837cd405e70" />
+  <project path="external/libcxx" name="platform/external/libcxx" groups="pdk" revision="8f40a19e1d41444842b11b82fec2d46f7ee5c436" />
   <project path="external/libcxxabi" name="platform/external/libcxxabi" groups="pdk" revision="3be37f7492fb54dcf821b954efa74dda23751bab" />
+  <!-- In l-preview, but not in 5.0. Required since AAV44C. -->
+  <project path="external/libcxxrt" name="platform/external/libcxxrt" groups="pdk" revision="b9d834bf13354e369d1e0dd96201e9fe3a952e03" />
   <project path="external/libedit" name="platform/external/libedit" />
   <project path="external/libexif" name="platform/external/libexif" groups="pdk-cw-fs" />
   <project path="external/libhevc" name="platform/external/libhevc" revision="446ae52464da2263587877973845fe044100e205" />
