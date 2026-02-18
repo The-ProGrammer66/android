@@ -299,8 +299,8 @@
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs" revision="c54dc204ef4278f949a965dc90e693799b6aae41" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs" />
   <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" revision="1b87d8e1db5eac5a20bea75bccab9da917f1466d" />
-  <!-- AAV44B, AAV44C -->
-  <project path="frameworks/base" name="platform/frameworks/base" groups="pdk" revision="d765edf2c9f4ffaa633fe1dfe49a05f8b4f08b70" />
+  <!-- AAV44B, AAV44C, original commit is d765edf2c9f4ffaa633fe1dfe49a05f8b4f08b70 -->
+  <project path="frameworks/base" name="platform_frameworks_base" remote="github" revision="AAV44C-HDMI-MHL-fix" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" revision="1253c195dd7911ad91bd66790f03e4c2f8888ad2" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" revision="6842f6449ff10ef8a49bed05ef55e90338afcb99" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" revision="483f47c87b2f69a766b5a33845091f7c800846b0" />
