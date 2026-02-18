@@ -295,8 +295,8 @@
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs" />
   <!-- LRW58B, LRW58E -->
   <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" revision="638794db70e692a0f5a6094809be0deedc0f94f4" />
-  <!-- LRW58B, LRW58C x3, LRW58E, LRW58G x2, LRW58H x4, LRW58I x5, LRW58J, LRW58K x4, LRW58L, LRW58M x2, LRW58N, LRW58O -->
-  <project path="frameworks/base" name="platform/frameworks/base" groups="pdk-cw-fs" revision="203de745524aa36949d0e1bf6f3d47126cd0d361" />
+  <!-- LRW58B, LRW58C x3, LRW58E, LRW58G x2, LRW58H x4, LRW58I x5, LRW58J, LRW58K x4, LRW58L, LRW58M x2, LRW58N, LRW58O, original commit: 203de745524aa36949d0e1bf6f3d47126cd0d361 -->
+  <project path="frameworks/base" name="platform/frameworks/base" groups="pdk-cw-fs" remote="github" revision="LRW58O-fix" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" revision="8d01bd8b61482f83539a7dbcec38df9a2e5a6c56" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" revision="4b0503e22a9357c28d6d6cdf7f1d667a43d80381" />
