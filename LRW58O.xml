@@ -121,7 +121,7 @@
   <project path="external/chromium_org/third_party/yasm/source/patched-yasm" name="platform/external/chromium_org/third_party/yasm/source/patched-yasm" />
   <project path="external/chromium_org/tools/grit" name="platform/external/chromium_org/tools/grit" />
   <project path="external/chromium_org/tools/gyp" name="platform/external/chromium_org/tools/gyp" />
-  <project path="external/chromium_org/v8" name="platform/external/chromium_org/v8" revision="5fadd689d674a068be2ff824f26829a6484384ff" />
+  <project path="external/chromium_org/v8" name="platform/external/chromium_org/v8" revision="8e6b6de2b0230c99212993c460bbeed9342bee30" />
   <project path="external/clang" name="platform/external/clang" groups="pdk" revision="8b0b2d671156262172b5a04b84cf191bd93fa59e" />
   <project path="external/cmockery" name="platform/external/cmockery" />
   <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" revision="6624ff8bf28e54e4791b86c3298729232ab56429" />
@@ -201,7 +201,7 @@
   <project path="external/libopus" name="platform/external/libopus" groups="pdk" />
   <project path="external/libpcap" name="platform/external/libpcap" groups="pdk,pdk-cw-fs" />
   <project path="external/libphonenumber" name="platform/external/libphonenumber" groups="pdk-cw-fs" />
-  <project path="external/libpng" name="platform/external/libpng" groups="pdk" revision="7f21a7f1c312334ba3548100d6fbdb5679127026a" />
+  <project path="external/libpng" name="platform/external/libpng" groups="pdk" revision="7f21a7f1c312334ba3548100d6fbdb5679127026" />
   <project path="external/libseccomp-helper" name="platform/external/libseccomp-helper" groups="pdk-cw-fs" />
   <project path="external/libselinux" name="platform/external/libselinux" groups="pdk" />
   <project path="external/libsepol" name="platform/external/libsepol" groups="pdk" />
