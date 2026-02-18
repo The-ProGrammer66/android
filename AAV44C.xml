@@ -444,7 +444,7 @@
   <project path="packages/screensavers/PhotoTable" name="platform/packages/screensavers/PhotoTable" revision="df0e90ba06d1be2d33be43aed7017027153125c3" />
   <project path="packages/screensavers/WebView" name="platform/packages/screensavers/WebView" />
   <project path="packages/services/Mms" name="platform/packages/services/Mms" revision="b081c10139e1e596015df7c99e6ce2cfd1158b77" />
-  <project path="packages/services/Telecomm" name="platform/packages/services/Telecomm" revision="766d04f7cad00b0b09e39db6835676354acd2cda"/>
+  <project path="packages/services/Telecomm" name="platform/packages/services/Telecomm" revision="74d420be72fa30735fe9b7a25715f6db046c0398"/>
   <project path="packages/services/Telephony" name="platform/packages/services/Telephony" revision="fd282cd33406b47ecefea86edb86392961a0ab8c" />
   <project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" revision="9ba71200080710a2afbf2ef2ecfa098c608a80f2" />
   <project path="packages/wallpapers/Galaxy4" name="platform/packages/wallpapers/Galaxy4" revision="34b31b45e75b2e73a770fef1a2f9a862b10f1a57" />
