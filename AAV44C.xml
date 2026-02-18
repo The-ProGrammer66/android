@@ -163,7 +163,7 @@
   <project path="external/hamcrest" name="platform/external/hamcrest" groups="pdk-cw-fs,tradefed" revision="f79c5d901a0e83f829c2325f5304f2b2c87fac70" />
   <project path="external/harfbuzz_ng" name="platform/external/harfbuzz_ng" groups="pdk-cw-fs,qcom_msm8x26" revision="f9f004a535cf5c36d55f2b102520aac8badfda36" />
   <!-- WEE WOO WEE WOO EARLY BUILD PATCH FIX THIS LATER-->
-  <project path="external/icu4c" name="platform/external/icu" groups="pdk" revision="669e16b836ba680046ed6a61dff35bbda0a6e59f" />
+  <project path="external/icu4c" name="platform/external/icu" groups="pdk" revision="197818f1ddf55947bfd8b69b398b06caa702e00b" />
   <project path="external/iproute2" name="platform/external/iproute2" groups="pdk" revision="e085575aa584c6248092ef8aaf0cba8a281d71ac" />
   <project path="external/ipsec-tools" name="platform/external/ipsec-tools" groups="pdk-cw-fs" />
   <project path="external/iptables" name="platform/external/iptables" groups="pdk-cw-fs" />
