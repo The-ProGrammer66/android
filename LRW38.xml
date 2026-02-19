@@ -15,7 +15,6 @@
   <project path="build" name="platform/build" groups="pdk,tradefed" revision="7692975bcea6dd056e668ed79822c5ad89913ec1" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="platform/art" groups="pdk" revision="47ba978e95896c932300fb3236ce5eb4b438d971" />
   <project path="bionic" name="platform/bionic" groups="pdk" revision="6b9b454d553306a4aab0f9fe6c2d03e869502514" />

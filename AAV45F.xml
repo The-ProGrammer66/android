@@ -361,6 +361,8 @@
   <project path="hardware/nvidia/tegra124" name="platform/hardware/nvidia/tegra124" groups="tegra124" />
   <project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" groups="qcom,qcom_audio" revision="aeac395b9fef46d9e80c3838d42f9b6c75d38618" />
   <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="qcom" />
+  <!-- Removed once Nexus 5 and 6 had Camera in their device tree. Use until they do. Even though it doesn't work... (i think) -->
+  <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" groups="qcom,qcom_camera" revision="1271352d99c53ca11417017c94541fc1d600e723" />
   <project path="hardware/qcom/display" name="platform/hardware/qcom/display" groups="qcom,qcom_display" revision="869ba57828f97e0b3cf8e1413b3f15248888f114" />
   <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" groups="qcom,qcom_gps" revision="07bee4d85b552fcfde126a00c70731707a2e9e65" />
   <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" groups="qcom" revision="0475512ab90137a970523b6ede86d2fc289ed8ce" />
