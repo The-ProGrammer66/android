@@ -407,7 +407,8 @@
   <project path="packages/apps/Mms" name="platform/packages/apps/Mms" revision="e4f1be623e63c1b80f38d71ea3eb30dc63c282a9" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" revision="c7c0addcaf5110981ecda43d913d0b80fc84dbdc" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" revision="522b9d9b9d27ce8aa6a72c256dceefef7b39e3fb" />
-  <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" revision="2431df510d39935f96a27d055708d9e1795aac6d" />
+  <!-- One commit newer to have secure element removed merged in (compile fails otherwise) -->
+  <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" revision="f354330f2dfbc3baddea2b9162bebd8df8573fd5" />
   <project path="packages/apps/OMA-DM" name="android_packages_apps_OMA-DM" remote="github" revision="cf0ca5e246daf7ff4337524b1baaa6259256ba8f" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" revision="717b1c4d998a606878cd68484e3d13e3dafa0fff" />
