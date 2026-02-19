@@ -324,8 +324,8 @@
   <project path="frameworks/opt/net/wifi" name="platform/frameworks/opt/net/wifi" groups="pdk" revision="fa2e7e8179dae8b9d214876228f9953124c31aec" />
   <project path="frameworks/opt/net/ethernet" name="platform/frameworks/opt/net/ethernet" revision="20c1c99c4351abd8bb3d6e8f966fcf3b6de0e5b0" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" groups="pdk-cw-fs" revision="72f4f7c012c499f0d182c4c19daacfb35e831646" />
-  <project path="frameworks/opt/setupwizard" name="platform/frameworks/opt/setupwizard" groups="pdk-cw-fs" revision="245d73b772f05f2907e000fc77ffa52c2f541ecc" />
-  <project path="frameworks/opt/telephony" name="platform/frameworks/opt/telephony" groups="pdk" revision="cf21ff80a2a0dd0bb1a6760da0a0ff2527938c73" />
+  <project path="frameworks/opt/setupwizard" name="platform/frameworks/opt/setupwizard" groups="pdk-cw-fs" revision="7d493f63be4d5721f9909d3641f65cf93010f71b" />
+  <project path="frameworks/opt/telephony" name="platform/frameworks/opt/telephony" groups="pdk" revision="245d73b772f05f2907e000fc77ffa52c2f541ecc" />
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" groups="pdk-cw-fs" revision="01565699a4210ef4eca55a1b27d8c87f695df867" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" groups="pdk-cw-fs" revision="4950d922815e16a0724e2509a6d04ccef8bd810b" />
   <project path="frameworks/opt/widget" name="platform/frameworks/opt/widget" groups="pdk-cw-fs" />
@@ -417,7 +417,7 @@
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" revision="b465adb431f05c0faef2a19ddaa70a291ee36736" />
   <project path="packages/apps/Settings" name="platform/packages/apps/Settings" revision="474c704221a945b0dc7a0a3676d9bdda2dd5df01" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
-  <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" revision="0b50b666dea5a7fd56019b9b266511d42319f9a9s" />
+  <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" revision="0b50b666dea5a7fd56019b9b266511d42319f9a9" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" revision="bf07dde4fa052105540328389f0d2dc15c0d6889" />
