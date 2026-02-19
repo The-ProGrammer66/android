@@ -196,7 +196,7 @@
   <project path="external/libgsm" name="platform/external/libgsm" groups="pdk" />
   <project path="external/liblzf" name="platform/external/liblzf" groups="pdk" />
   <project path="external/libmtp" name="platform/external/libmtp" groups="pdk-cw-fs" />
-  <project path="external/libnfc-nci" name="platform/external/libnfc-nci" groups="pdk" revision="8ea91d26af20cb3c049ed4d31013719aed917e2a" />
+  <project path="external/libnfc-nci" name="platform/external/libnfc-nci" groups="pdk" revision="686b51e61ccb676f393bac12f5ff7bac4013f926" />
   <project path="external/libnfc-nxp" name="platform/external/libnfc-nxp" groups="pdk" revision="15d81f71a668b3092549c6b7f83694bf680d9c49" />
   <project path="external/libnl" name="platform/external/libnl" groups="pdk" />
   <project path="external/libogg" name="platform/external/libogg" groups="pdk" />
@@ -408,7 +408,7 @@
   <project path="packages/apps/Music" name="platform/packages/apps/Music" revision="c7c0addcaf5110981ecda43d913d0b80fc84dbdc" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" revision="522b9d9b9d27ce8aa6a72c256dceefef7b39e3fb" />
   <!-- One commit newer to have secure element removed merged in (compile fails otherwise) -->
-  <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" revision="f354330f2dfbc3baddea2b9162bebd8df8573fd5" />
+  <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" revision="2431df510d39935f96a27d055708d9e1795aac6d" />
   <project path="packages/apps/OMA-DM" name="android_packages_apps_OMA-DM" remote="github" revision="cf0ca5e246daf7ff4337524b1baaa6259256ba8f" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" revision="717b1c4d998a606878cd68484e3d13e3dafa0fff" />
