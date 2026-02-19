@@ -208,7 +208,7 @@
   <project path="external/libselinux" name="platform/external/libselinux" groups="pdk" revision="0d9519987f850f328aeaa1f63401c8d4cae0c1e5" />
   <project path="external/libsepol" name="platform/external/libsepol" groups="pdk" revision="c71644b06ebd417ef060f3f07472125516f86c41" />
   <project path="external/libssh2" name="platform/external/libssh2" groups="pdk-cw-fs" />
-  <project path="external/libunwind" name="platform/external/libunwind" groups="pdk" revision="7b240c746cd3e656aaaf5c37a28669fb15095e18" />
+  <project path="external/libunwind" name="platform/external/libunwind" groups="pdk" revision="7e10fa72f0d9e6160b917a62d9d91a87c9b47ffb" />
   <project path="external/libusb" name="platform/external/libusb" groups="pdk-cw-fs" />
   <project path="external/libusb-compat" name="platform/external/libusb-compat" groups="pdk-cw-fs" />
   <project path="external/libutf" name="platform/external/libutf" groups="pdk-cw-fs" />
