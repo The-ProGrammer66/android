@@ -115,7 +115,7 @@
   <project path="external/chromium_org/third_party/yasm/source/patched-yasm" name="platform/external/chromium_org/third_party/yasm/source/patched-yasm" />
   <project path="external/chromium_org/tools/grit" name="platform/external/chromium_org/tools/grit" revision="275362421e548ad87a0654fc00c423cccf198131" />
   <project path="external/chromium_org/tools/gyp" name="platform/external/chromium_org/tools/gyp" revision="e43543ec8d663133aa9c8ea2f5b7848716ded1e7" />
-  <project path="external/chromium_org/v8" name="platform/external/chromium_org/v8" revision="b568173f438efbc737f24b361026cfb9e295eec4" />
+  <project path="external/chromium_org/v8" name="platform/external/chromium_org/v8" revision="e4491a4fba30d0ae5033fd142675c02c00d821c7" />
   <project path="external/clang" name="platform/external/clang" revision="f25695ca96408777b9711a87374d3c781f7bcd1f" />
   <project path="external/cmockery" name="platform/external/cmockery" />
   <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" revision="c9811bc56f3c7624deec240b22511b6fb0fee5a9" />
