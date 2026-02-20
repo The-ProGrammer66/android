@@ -478,7 +478,7 @@
   <project path="prebuilts/gradle-plugin" name="platform/prebuilts/gradle-plugin" groups="pdk-cw-fs" revision="e461355c7152d1590f7ae0a06b954b7af87e1d3a" />
   <project path="prebuilts/libs/libedit" name="platform/prebuilts/libs/libedit" groups="pdk-cw-fs" />
   <project path="prebuilts/maven_repo/android" name="platform/prebuilts/maven_repo/android" groups="pdk-cw-fs" revision="0dbe3df0f057de9e83e599b9be2ca866c673130d" />
-  <project path="prebuilts/misc" name="platform/prebuilts/misc" groups="pdk,tradefed" revision="ca47fe13c1a6ea175596ca74fe0ea25a9a3ba6e1" />
+  <project path="prebuilts/misc" name="platform/prebuilts/misc" groups="pdk,tradefed" revision="e7eca09a281fe818eec44fae2da195dffc6bf986" />
   <project path="prebuilts/ndk" name="platform/prebuilts/ndk" groups="pdk" revision="320332227575ecfa56440142c15cccda1e0cfbe6" />
   <project path="prebuilts/python/linux-x86/2.7.5" name="platform/prebuilts/python/linux-x86/2.7.5" groups="linux,pdk,pdk-cw-fs" />
   <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" groups="pdk" clone-depth="1" revision="26729840404b5a15e9f61d36ef1a18554d2ad670" />
