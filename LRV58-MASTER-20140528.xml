@@ -19,7 +19,7 @@
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="platform/art" groups="pdk" revision="da843e11bd5f2177a776c37de033228a7ea230af" />
-  <project path="bionic" name="platform/bionic" groups="pdk" revision="bdca3802c9c9d033fbc553ed24b92ac78859a463" />
+  <project path="bionic" name="platform/bionic" groups="pdk" revision="0f1a221b3a83cd135e6228462d48c3b983329837" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" groups="pdk-cw-fs" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" revision="c704e06ce596bd0a6de66b10b108aee95535468a" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs" revision="8d46464128c0d2bd518049fdffd248c2dc1ea181" />
@@ -494,7 +494,7 @@
   <project path="system/extras" name="platform/system/extras" groups="pdk" revision="f55c8e93e08b81b5f265a90640f7809d344411ca" />
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" revision="77996a7f4d2b8b7dbf22c8e227a2c68571f94c7d" />
   <project path="system/media" name="platform/system/media" groups="pdk" revision="9c766ad019249dcd238b33f2cd8865a394e2ab26" />
-  <project path="system/netd" name="platform/system/netd" groups="pdk" revision="ec00884cac216d1cb79556ca23b21ce55e35af3e" />
+  <project path="system/netd" name="platform/system/netd" groups="pdk" revision="a5d6875887a63797711093a169e7ef19c5a1ab3b" />
   <project path="system/security" name="platform/system/security" groups="pdk" revision="b2725a556a8a6b373ef3405f2187ddf9c3030ae8" />
   <project path="system/vold" name="platform/system/vold" groups="pdk" revision="12e36398b5ec3596b2a310fe594981a86a56c818" />
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" />
