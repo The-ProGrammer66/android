@@ -490,7 +490,7 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" revision="5cc19feaae5d7740b04a37daba157d93133853cc" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" revision="6238c2780ab4551e67f050dbb5c07f3e6dc71adf" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs" revision="a509402a6b907a871b62f89ea713ff63286c23ae" />
-  <project path="system/core" name="platform/system/core" groups="pdk" revision="7206eccbd904508a199c7ec302d7395b3b674968" />
+  <project path="system/core" name="platform/system/core" groups="pdk" revision="accd09581eae7a7d3c746a4d9a7415c9a131d59e" />
   <project path="system/extras" name="platform/system/extras" groups="pdk" revision="f55c8e93e08b81b5f265a90640f7809d344411ca" />
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" revision="77996a7f4d2b8b7dbf22c8e227a2c68571f94c7d" />
   <project path="system/media" name="platform/system/media" groups="pdk" revision="9c766ad019249dcd238b33f2cd8865a394e2ab26" />
