@@ -321,7 +321,7 @@
   <project path="frameworks/opt/net/ethernet" name="platform/frameworks/opt/net/ethernet" revision="0d1b1749dad71372d9baeb0f852d3d91fccac73d" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" groups="pdk-cw-fs" revision="a81339837c017b0be3a3d7ace00378c3ac76ad9f" />
   <project path="frameworks/opt/setupwizard" name="platform/frameworks/opt/setupwizard" groups="pdk-cw-fs" revision="7d493f63be4d5721f9909d3641f65cf93010f71b" />
-  <project path="frameworks/opt/telephony" name="platform/frameworks/opt/telephony" groups="pdk" revision="72dd19208f0803c12daf10d52189d4cca95c1159" />
+  <project path="frameworks/opt/telephony" name="platform/frameworks/opt/telephony" groups="pdk" revision="62c954a7a7c4199956c127fcb575ed9114d44491" />
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" groups="pdk-cw-fs" revision="67c1fd65b5abdca3951643fefe4b00256ae54139" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" groups="pdk-cw-fs" revision="4950d922815e16a0724e2509a6d04ccef8bd810b" />
   <project path="frameworks/opt/widget" name="platform/frameworks/opt/widget" groups="pdk-cw-fs" />
