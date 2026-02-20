@@ -387,8 +387,7 @@
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" revision="58a78570cf9a70ac3229ecadef4785d42864a7b9" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" revision="50a9045c97a318cb30c0105bafb7b97242a7200d" />
   <project path="packages/apps/Camera" name="platform/packages/apps/Camera" revision="d060e74aa56a76d5b6f5f660a711956238b299a1" />
-  <!-- Wrong commit on purpose, wanna see if it compiles a-gain, correct is fbaed3dde742bdc47e6227f0c219ebb11e6cdc64 -->
-  <project path="packages/apps/Camera2" name="platform/packages/apps/Camera2" revision="77d9085e2837dd0ac5bf25931e22edbe75a209b0" />
+  <project path="packages/apps/Camera2" name="platform/packages/apps/Camera2" revision="fbaed3dde742bdc47e6227f0c219ebb11e6cdc64" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" revision="776ea2c087ada317ab3f3779fd77c572a4e4dc9a" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" groups="pdk-cw-fs" revision="ddceb3264ca51c2e46a449264f5bc451705eb990" />
   <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" revision="2e239567ea85ef2f3bfb572d3107921313a71968" />
