@@ -378,7 +378,7 @@
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" groups="omap3" revision="3bbaa29066a684d01df42ddf0365266e59f2dc44" />
   <project path="hardware/ti/omap4-aah" name="platform/hardware/ti/omap4-aah" groups="omap4-aah" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" groups="omap4" />
-  <project path="libcore" name="platform/libcore" groups="pdk" revision="fa023837b8be8e9eda6008398648b4c9b1aa1e3e" />
+  <project path="libcore" name="platform/libcore" groups="pdk" revision="f75a9a5c455b47724fa64435865d34e02f701e7e" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" revision="fcc5743784feeeb90d73b14b03bfddef0cefeeed" />
   <project path="ndk" name="platform/ndk" revision="1268108456a166a6d0f4636e398e333f36d9508b" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" revision="74dabfb034e6fccd67f58a0c047980706c18d9ad" />
@@ -493,7 +493,7 @@
   <project path="system/core" name="platform/system/core" groups="pdk" revision="accd09581eae7a7d3c746a4d9a7415c9a131d59e" />
   <project path="system/extras" name="platform/system/extras" groups="pdk" revision="f55c8e93e08b81b5f265a90640f7809d344411ca" />
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" revision="77996a7f4d2b8b7dbf22c8e227a2c68571f94c7d" />
-  <project path="system/media" name="platform/system/media" groups="pdk" revision="b28dd76ee4cbc715671ad2cfe4c98bf14a078484" />
+  <project path="system/media" name="platform/system/media" groups="pdk" revision="9c766ad019249dcd238b33f2cd8865a394e2ab26" />
   <project path="system/netd" name="platform/system/netd" groups="pdk" revision="a5d6875887a63797711093a169e7ef19c5a1ab3b" />
   <project path="system/security" name="platform/system/security" groups="pdk" revision="b2725a556a8a6b373ef3405f2187ddf9c3030ae8" />
   <project path="system/vold" name="platform/system/vold" groups="pdk" revision="12e36398b5ec3596b2a310fe594981a86a56c818" />
