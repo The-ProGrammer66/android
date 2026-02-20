@@ -122,7 +122,7 @@
   <project path="external/chromium_org/v8" name="platform/external/chromium_org/v8" revision="edb489a68698df139b6afa7feb1c8c5bb8490001" />
   <project path="external/clang" name="platform/external/clang" revision="909da7e7f57065714bb7527b7177c8a3c710b4db" />
   <project path="external/cmockery" name="platform/external/cmockery" />
-  <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" revision="d0728a763df6285d8c8cf82314cd6c22dd4f747e" />
+  <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" revision="ffeb7991ba2db2e9d86750e6df203d8ccda36759" />
   <project path="external/conscrypt" name="platform/external/conscrypt" groups="pdk-cw-fs" revision="6d441b268b0733dc5cde70a734310d31cb957e27" />
   <project path="external/deqp" name="platform/external/deqp" revision="49238d46b847a2099e64118ff22aef9563c8b81f" />
   <project path="external/dexmaker" name="platform/external/dexmaker" groups="pdk-cw-fs" revision="9ffe901bd7cb9f8050dafed9155b627cd094d410" />
