@@ -1,7 +1,7 @@
 thou-shalt-take-the-L: Lollipop Restoration Project
 =========================================================
 
-This repository contains reconstructed `repo` manifests of pre-release Android 5.0 ("Lollipop") builds.
+This repository contains reconstructed `repo` manifests of pre-release Android 5.x ("Lollipop") builds.
 
 **See the list of manifests above for the total amount of reconstructed builds.**
 
