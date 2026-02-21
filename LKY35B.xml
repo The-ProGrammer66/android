@@ -8,7 +8,7 @@
            remote="aosp"
            sync-j="4" />
 
-  <!-- Manifest of Android 5.2 (?) or post-5.1.1 build LKY35B. Build tagged on February 04 2015. -->
+  <!-- Manifest of Android 5.2 (?) or post-5.1 build LKY35B. Build tagged on February 04 2015. -->
   <project path="build" name="platform/build" groups="pdk,tradefed" revision="8708cdaf248e15c9e392bfca51ad831e85ea0a6f" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
@@ -305,10 +305,8 @@
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs" revision="2b56cc1c1442ba598ed1ee9c23e8e9eade076e77" />
   <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" revision="0d09182a1dde960f7acda1c28469e5deead1b996" />
-
-  <!-- ??? -->
-  <project path="frameworks/base" name="platform/frameworks/base" groups="pdk-cw-fs" />
-  <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
+  <project path="frameworks/base" name="platform/frameworks/base" groups="pdk-cw-fs" revision="75fa38539d1343eb7d4360c3a183e295a18185a8" />
+  <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" revision="4d357af938b1d52754bbbc6b3954ea6aadef167a" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
   <project path="frameworks/ex" name="platform/frameworks/ex" groups="pdk-cw-fs" />
