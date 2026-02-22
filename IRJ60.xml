@@ -17,7 +17,7 @@
   </project>
   <project name="platform/abi/cpp" path="abi/cpp" revision="7efaedecf216fce967a8d9147f3a053fd6a2b9d7"/>
   <project name="platform/bionic" path="bionic" revision="1f8e2672a8f261d5bb08e3ab26f026b30f5ff77b" />
-  <project name="platform/bootable/bootloader/legacy" path="bootable/bootloader/legacy" revision="d3271024770ddcc2fb87dd22f8280764545ab05a" />
+  <project name="platform/bootable/bootloader/legacy" path="bootable/bootloader/legacy" />
   <project name="platform/bootable/diskinstaller" path="bootable/diskinstaller" revision="b354f6abda00461eae4cb0215faa8b5a7268e275" />
   <project name="platform/bootable/recovery" path="bootable/recovery" revision="28a08efe15fc14bf1f4937024d4b73cf299313e5" />
   <project name="platform/cts" path="cts" revision="d9f4846f8eba556b85de3beaa57118ebdb926d6b" />
@@ -41,7 +41,7 @@
   <project name="platform/external/antlr" path="external/antlr" revision="3447a5916aa62f44de24cc441fc9987116ddff52" />
   <project name="platform/external/apache-harmony" path="external/apache-harmony" revision="2f410c0211acf340e15aec2bb3ae18aed58729ce" />
   <project name="platform/external/apache-http" path="external/apache-http" revision="61cfd01713e62f4997e3937886c887eaa6603c69" />
-  <project name="platform/external/apache-xml" path="external/apache-xml" revision="74b8044dcd1208a1fc11ee9638584be74663c5a3" />
+  <project name="platform/external/apache-xml" path="external/apache-xml" />
   <project name="platform/external/astl" path="external/astl" />
   <project name="platform/external/bison" path="external/bison" />
   <project name="platform/external/blktrace" path="external/blktrace" revision="1e2f2877319669fc4be61b4b46182b44390d3bc9" />
@@ -66,6 +66,7 @@
   <project name="platform/external/emma" path="external/emma" />
   <project name="platform/external/esd" path="external/esd" />
   <project name="platform/external/expat" path="external/expat" />
+  <project name="platform/external/eyes-free" path="external/eyes-free" revision="ab95ac474e65fdbdddbbd69263f310eb2a7e6980" />
   <project name="platform/external/fdlibm" path="external/fdlibm" />
   <project name="platform/external/flac" path="external/flac" revision="70ac10088e30935a1030f1d8b2a6633afa9a1f8a" />
   <project name="platform/external/freetype" path="external/freetype" revision="a7b5128d4c350ad98c48949d0b711a12a18addc4" />
@@ -110,7 +111,7 @@
   <project name="platform/external/mockwebserver" path="external/mockwebserver" revision="33331096634bb62581a838161292d1e82f7ccbc6"/>
   <project name="platform/external/mtpd" path="external/mtpd" revision="fccbc17685cd8bd43cf1c1e533c4d02f6f79d667" />
   <project name="platform/external/netcat" path="external/netcat" revision="fc2dc55c510657073ef4235658167a878e82cefa" />
-  <project name="platform/external/netperf" path="external/netperf" revision="58ecd3b7c76263900e38921360e334a416aec362" />
+  <project name="platform/external/netperf" path="external/netperf" />
   <project name="platform/external/neven" path="external/neven" />
   <project name="platform/external/nist-sip" path="external/nist-sip" />
   <project name="platform/external/oauth" path="external/oauth" />
@@ -202,8 +203,8 @@
   <project name="platform/packages/apps/QuickSearchBox" path="packages/apps/QuickSearchBox" revision="475d70569e8ca40597f2ce5edebed8522bb5799d" />
   <project name="platform/packages/apps/Settings" path="packages/apps/Settings" revision="a862f2b14b94fe246a1f47919885d9a81ede9376" />
   <project name="platform/packages/apps/SoundRecorder" path="packages/apps/SoundRecorder" revision="2188f9e45637c11c407f6719f063136ad2dddfda" />
-  <project name="platform/packages/apps/SpareParts" path="packages/apps/SpareParts" revision="10f05a57805c5409f990959dcad25c67a82ec16d" />
-  <project name="platform/packages/apps/SpeechRecorder" path="packages/apps/SpeechRecorder" revision="62db451fb742f17669300b9915b9f446f43361ce" />
+  <project name="platform/packages/apps/SpareParts" path="packages/apps/SpareParts" />
+  <project name="platform/packages/apps/SpeechRecorder" path="packages/apps/SpeechRecorder" />
   <project name="platform/packages/apps/Stk" path="packages/apps/Stk" revision="ba8baab92a3f477197c0a8d2fba2866a71157a87" />
   <project name="platform/packages/apps/Tag" path="packages/apps/Tag" revision="94d5875cb6f43343df5134bc4f817012423b67ef" />
   <project name="platform/packages/apps/VideoEditor" path="packages/apps/VideoEditor" revision="de3b9ca0d8c149596c3745bcbabbe6770dbad70f" />
@@ -220,7 +221,7 @@
   <project name="platform/packages/providers/GoogleContactsProvider" path="packages/providers/GoogleContactsProvider" revision="4886c7a0cfba5df74b213b1fc8286c6e3f2ddaa2" />
   <project name="platform/packages/providers/MediaProvider" path="packages/providers/MediaProvider" revision="72c1aa18080ad0b0fc7f494b77126591b272d4e5" />
   <project name="platform/packages/providers/TelephonyProvider" path="packages/providers/TelephonyProvider" revision="b9bd35d3c07b3dbab97dcabb521d7909304670c9" />
-  <project name="platform/packages/providers/UserDictionaryProvider" path="packages/providers/UserDictionaryProvider" revision="d7eb9d4b59640175877a6f53f32b6e3e3d7154e9" />
+  <project name="platform/packages/providers/UserDictionaryProvider" path="packages/providers/UserDictionaryProvider" />
   <project name="platform/packages/wallpapers/Basic" path="packages/wallpapers/Basic" revision="056f6a4cbfc27adcb43c1537652f7190828f762d" />
   <project name="platform/packages/wallpapers/Galaxy4" path="packages/wallpapers/Galaxy4" revision="b6650fb2291e35a29536e95e1a584ade34a6d053"/>
   <project name="platform/packages/wallpapers/HoloSpiral" path="packages/wallpapers/HoloSpiral" revision="a1b111eb2c9175513923ddd6b480de0f04cf1ced" />
