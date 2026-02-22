@@ -274,7 +274,7 @@
   <project path="external/strace" name="platform/external/strace" groups="pdk-cw-fs" revision="f6a63a709368d3063d1ce5f4170a909040230ca8" />
   <project path="external/stressapptest" name="platform/external/stressapptest" groups="pdk-cw-fs" />
   <project path="external/svox" name="platform/external/svox" groups="pdk-cw-fs" revision="6bd5fa6441c478531d2af2afc25292d0c0bfa03f" />
-  <!-- Did not survive 5.0 RTM, did survive to L-preview -->
+  <!-- RTM, Did not survive 5.0 RTM, did survive to L-preview -->
   <project path="external/syspatch" name="platform/external/syspatch" groups="pdk-cw-fs" revision="4029ced07661bbe144d290b390cd56406111dbf8" />
   <project path="external/tagsoup" name="platform/external/tagsoup" groups="pdk-cw-fs,tradefed" />
   <project path="external/tcpdump" name="platform/external/tcpdump" groups="pdk,pdk-cw-fs" />
@@ -290,7 +290,7 @@
   <project path="external/webrtc" name="platform/external/webrtc" groups="pdk" revision="d386a8071665150c3d08677f795042b75c66687f" />
   <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" groups="pdk" revision="15f1742631bd80013697505636721d34482d4d6b" />
   <!-- Did not survive 5.0 RTM, did survive to L-preview -->
-  <project path="external/xdelta3" name="platform/external/xdelta3" groups="pdk" revision="f028309eae1bb2d046a5d7c2fe3dcc5dbca71f82" />
+  <project path="external/xdelta3" name="platform/external/xdelta3" groups="pdk" revision="52d9c642e6a307c43881f20a4ed1c10e947234ba" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" groups="pdk-cw-fs" />
   <project path="external/xmp_toolkit" name="platform/external/xmp_toolkit" groups="pdk-cw-fs" />
   <project path="external/yaffs2" name="platform/external/yaffs2" groups="pdk" />
