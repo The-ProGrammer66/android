@@ -116,52 +116,62 @@
   <project path="external/chromium-libpac" name="platform/external/chromium-libpac" />
   <!-- RTM -->
   <project path="external/chromium-trace" name="platform/external/chromium-trace" groups="pdk" revision="0d58d5ea0b5204ee69da4f1cd04597a4c37a2fb7" />
+  <project path="external/chromium_org" name="platform/external/chromium_org" revision="b02a00de5205248a003a0a84442279555dc16142" />
+  <!-- ALLLL OF THEEESE ARE RTMMMMMMMMMMMMMM -->
+  <project path="external/chromium_org/sdch/open-vcdiff" name="platform/external/chromium_org/sdch/open-vcdiff" revision="6d634da5463d9bc5fc88f86aec1d2ac4fe6f612e" />
+  <project path="external/chromium_org/testing/gtest" name="platform/external/chromium_org/testing/gtest" revision="f2c08b9201e74d4896de174d47403a2486c9cf31" />
+  <project path="external/chromium_org/third_party/WebKit" name="platform/external/chromium_org/third_party/WebKit" revision="febf6a42ef603f522e427610c048d3ea4da2371b" />
+  <project path="external/chromium_org/third_party/angle" name="platform/external/chromium_org/third_party/angle" revision="b2d0531d1e6d1188c79bb94165ff992ad28a57a5" />
+  <project path="external/chromium_org/third_party/boringssl/src" name="platform/external/chromium_org/third_party/boringssl/src" revision="7c4e52cd7aebb9f2fa64355c58bc75509685da94" />
+  <project path="external/chromium_org/third_party/brotli/src" name="platform/external/chromium_org/third_party/brotli/src" revision="96f298ac43a9216b251d6c3264d8f5ada89e107f" />
+  <project path="external/chromium_org/third_party/eyesfree/src/android/java/src/com/googlecode/eyesfree/braille" name="platform/external/chromium_org/third_party/eyesfree/src/android/java/src/com/googlecode/eyesfree/braille" revision="bb4c72f1deb0b8b2b0468b0bf1050462ebcf6135" />
+  <project path="external/chromium_org/third_party/freetype" name="platform/external/chromium_org/third_party/freetype" revision="ee66979188298603d410b2bc6413a7991a9bbb6e" />
+  <project path="external/chromium_org/third_party/icu" name="platform/external/chromium_org/third_party/icu" revision="a7ec6023d8769fa13fb2076d6e84f84062960eb4" />
+  <project path="external/chromium_org/third_party/leveldatabase/src" name="platform/external/chromium_org/third_party/leveldatabase/src" revision="d4e10f2a91f5de7bd17adcdbd80c54b19ab336fe" />
+  <project path="external/chromium_org/third_party/libaddressinput/src" name="platform/external/chromium_org/third_party/libaddressinput/src" revision="c29dd2308a9beb970579e2a38ff1d02f218565a7" />
+  <project path="external/chromium_org/third_party/libjingle/source/talk" name="platform/external/chromium_org/third_party/libjingle/source/talk" revision="da0509e3087cc5ee9adc0fe1abb85112ea6529a5" />
+  <project path="external/chromium_org/third_party/libjpeg_turbo" name="platform/external/chromium_org/third_party/libjpeg_turbo" revision="c80d6100125b1f9fcb38e77827a9a023085090e2" />
+  <project path="external/chromium_org/third_party/libphonenumber/src/phonenumbers" name="platform/external/chromium_org/third_party/libphonenumber/src/phonenumbers" revision="de6af28b9f9f34a31ffb7772b7510fd215a0814e" />
+  <project path="external/chromium_org/third_party/libphonenumber/src/resources" name="platform/external/chromium_org/third_party/libphonenumber/src/resources" revision="8f194ead1ebd76ebb28b7e2dfc0a7baddc62bb22" />
+  <project path="external/chromium_org/third_party/libsrtp" name="platform/external/chromium_org/third_party/libsrtp" revision="705c2f139ddb6b20cacb79d8ff49c67726f2ccbf" />
+  <project path="external/chromium_org/third_party/libvpx" name="platform/external/chromium_org/third_party/libvpx" revision="7fa9f2501250a0245e34390cab81f792a9618791" />
+  <project path="external/chromium_org/third_party/libyuv" name="platform/external/chromium_org/third_party/libyuv" revision="4a38e49f572127cfe59378fbd320a2ae0531d597" />
+  <project path="external/chromium_org/third_party/mesa/src" name="platform/external/chromium_org/third_party/mesa/src" revision="e70a8ff30d20e1bf6bb5c06b5cd7bd4ea9ae20e1" />
+  <project path="external/chromium_org/third_party/openmax_dl" name="platform/external/chromium_org/third_party/openmax_dl" revision="044095cb834cec6d376a7d8f52361760800270e3" />
+  <project path="external/chromium_org/third_party/opus/src" name="platform/external/chromium_org/third_party/opus/src" revision="3f583a81e9073ccf59df6a8eb747a85c49923783" />
+  <project path="external/chromium_org/third_party/ots" name="platform/external/chromium_org/third_party/ots" revision="e295524b407ba92fd399d4a83de8d44a588173cf" />
+  <project path="external/chromium_org/third_party/sfntly/cpp/src" name="platform/external/chromium_org/third_party/sfntly/cpp/src" revision="2bac2ec7167835b214bfe42e762cd2ce6cf8cf1a" />
+  <project path="external/chromium_org/third_party/skia" name="platform/external/chromium_org/third_party/skia" revision="4d54ce897cc8ad20f597acfd594438a3be98753f" />
+  <project path="external/chromium_org/third_party/smhasher/src" name="platform/external/chromium_org/third_party/smhasher/src" revision="09e3094b8ab52bb1ad9ab8c8351d99df50327b67" />
+  <project path="external/chromium_org/third_party/usrsctp/usrsctplib" name="platform/external/chromium_org/third_party/usrsctp/usrsctplib" revision="6306c865a9a058a72d461702e959cd853f9f134d" />
+  <project path="external/chromium_org/third_party/webrtc" name="platform/external/chromium_org/third_party/webrtc" revision="2c1183888da889c9d5e8cadb61f195c800fd3733" />
+  <project path="external/chromium_org/third_party/yasm/source/patched-yasm" name="platform/external/chromium_org/third_party/yasm/source/patched-yasm" revision="0f308c9bc9aa3258a0e90285b9d4e69bbb5b0a73" />
+  <project path="external/chromium_org/tools/grit" name="platform/external/chromium_org/tools/grit" revision="06694d202087653f359acef3e1bb8325d8e2a14e" />
+  <project path="external/chromium_org/tools/gyp" name="platform/external/chromium_org/tools/gyp" revision="d59685f6e5928ab145487c3c25b011e686fb7b10" />
+  <project path="external/chromium_org/v8" name="platform/external/chromium_org/v8" revision="3514a38003f3d15dad030608e9a6d844fbd53043" />
+  <!-- https://android.googlesource.com/platform/external/clang/+log/ce7e695396b9715fd06e18f7412c860a313661cd -->
+  <project path="external/clang" name="platform/external/clang" groups="pdk" revision="9860b14abb2412d206cd0375819455cf89a71c06" />
+  <project path="external/cmockery" name="platform/external/cmockery" revision="bdd62c531bbdea115a3a7e71bba91c19dd319cc4" />
+  <!-- https://android.googlesource.com/platform/external/compiler-rt/+log/82f9cb33b564a9d72f09b478aabb44c4a83344c8 -->
+  <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" revision="733ea8d8c0176479ae0926f13dcec3ba086438c1" />
+  <!-- https://android.googlesource.com/platform/external/conscrypt/+log/8a9fc46ecb530ba779ba31e45e46ae91eb8ac036 -->
+  <project path="external/conscrypt" name="platform/external/conscrypt" groups="pdk-cw-fs" revision="c30e46817714560f9bb3ba7fb0946c6c38ad3ec6" />
+  <!-- https://android.googlesource.com/platform/external/deqp/+log/a521baf51c8da7d20712129c37a82306491bcafd -->
+  <project path="external/deqp" name="platform/external/deqp" revision="94355739baad2fc68ad4f6a0da8d448c832f48dc" />
+  <!-- https://android.googlesource.com/platform/external/dexmaker/+log/5a76501daf6208f95ef96c2a9ae2b277361394cd -->
+  <project path="external/dexmaker" name="platform/external/dexmaker" groups="pdk-cw-fs" revision="00bf6870ff223dec90d9fac39e5dfb464a59f6de" />
+  <!-- https://android.googlesource.com/platform/external/dhcpcd/+log/a975f64d97a5b41e0f4f9410d84d84eeb1aa6918 -->
+  <project path="external/dhcpcd" name="platform/external/dhcpcd" groups="pdk-cw-fs" revision="688bf62225e5a639d17bf7421fa865714aa3a92c" />
+  <!-- RTM -->
+  <project path="external/dnsmasq" name="platform/external/dnsmasq" groups="pdk" revision="e226badb960695447af4c480bb183ec35c411bbf" />
+  <!-- https://android.googlesource.com/platform/external/doclava/+log/8a613fb4a68bcc33490a89646f2a346e5b798875 -->
+  <project path="external/doclava" name="platform/external/doclava" groups="pdk-cw-fs,tradefed" revision="467748ab0693964c58bb376025eeb5f7d9af7e9a" />
+  <!-- https://android.googlesource.com/platform/external/droiddriver/+log/c1f89919ed5e88650548f34fe8ca9e5d458a41df -->
+  <project path="external/droiddriver" name="platform/external/droiddriver" groups="pdk-cw-fs" revision="b8fc7911443ee5666ba46e016f11284f8ffa3662" />
+  <!-- RTM -->
+  <project path="external/e2fsprogs" name="platform/external/e2fsprogs" groups="pdk" revision="d25948b9b4a9e361ef071dc8175df0407f60b7e0" />
+  <project path="external/easymock" name="platform/external/easymock" groups="pdk-cw-fs,tradefed" revision="c9a234086537e5fd820b110bbd99e3cdc695004c" />
 
-  
-  <project path="external/chromium_org" name="platform/external/chromium_org" />
-  <project path="external/chromium_org/sdch/open-vcdiff" name="platform/external/chromium_org/sdch/open-vcdiff" />
-  <project path="external/chromium_org/testing/gtest" name="platform/external/chromium_org/testing/gtest" />
-  <project path="external/chromium_org/third_party/WebKit" name="platform/external/chromium_org/third_party/WebKit" />
-  <project path="external/chromium_org/third_party/angle" name="platform/external/chromium_org/third_party/angle" />
-  <project path="external/chromium_org/third_party/boringssl/src" name="platform/external/chromium_org/third_party/boringssl/src" />
-  <project path="external/chromium_org/third_party/brotli/src" name="platform/external/chromium_org/third_party/brotli/src" />
-  <project path="external/chromium_org/third_party/eyesfree/src/android/java/src/com/googlecode/eyesfree/braille" name="platform/external/chromium_org/third_party/eyesfree/src/android/java/src/com/googlecode/eyesfree/braille" />
-  <project path="external/chromium_org/third_party/freetype" name="platform/external/chromium_org/third_party/freetype" />
-  <project path="external/chromium_org/third_party/icu" name="platform/external/chromium_org/third_party/icu" />
-  <project path="external/chromium_org/third_party/leveldatabase/src" name="platform/external/chromium_org/third_party/leveldatabase/src" />
-  <project path="external/chromium_org/third_party/libaddressinput/src" name="platform/external/chromium_org/third_party/libaddressinput/src" />
-  <project path="external/chromium_org/third_party/libjingle/source/talk" name="platform/external/chromium_org/third_party/libjingle/source/talk" />
-  <project path="external/chromium_org/third_party/libjpeg_turbo" name="platform/external/chromium_org/third_party/libjpeg_turbo" />
-  <project path="external/chromium_org/third_party/libphonenumber/src/phonenumbers" name="platform/external/chromium_org/third_party/libphonenumber/src/phonenumbers" />
-  <project path="external/chromium_org/third_party/libphonenumber/src/resources" name="platform/external/chromium_org/third_party/libphonenumber/src/resources" />
-  <project path="external/chromium_org/third_party/libsrtp" name="platform/external/chromium_org/third_party/libsrtp" />
-  <project path="external/chromium_org/third_party/libvpx" name="platform/external/chromium_org/third_party/libvpx" />
-  <project path="external/chromium_org/third_party/libyuv" name="platform/external/chromium_org/third_party/libyuv" />
-  <project path="external/chromium_org/third_party/mesa/src" name="platform/external/chromium_org/third_party/mesa/src" />
-  <project path="external/chromium_org/third_party/openmax_dl" name="platform/external/chromium_org/third_party/openmax_dl" />
-  <project path="external/chromium_org/third_party/opus/src" name="platform/external/chromium_org/third_party/opus/src" />
-  <project path="external/chromium_org/third_party/ots" name="platform/external/chromium_org/third_party/ots" />
-  <project path="external/chromium_org/third_party/sfntly/cpp/src" name="platform/external/chromium_org/third_party/sfntly/cpp/src" />
-  <project path="external/chromium_org/third_party/skia" name="platform/external/chromium_org/third_party/skia" />
-  <project path="external/chromium_org/third_party/smhasher/src" name="platform/external/chromium_org/third_party/smhasher/src" />
-  <project path="external/chromium_org/third_party/usrsctp/usrsctplib" name="platform/external/chromium_org/third_party/usrsctp/usrsctplib" />
-  <project path="external/chromium_org/third_party/webrtc" name="platform/external/chromium_org/third_party/webrtc" />
-  <project path="external/chromium_org/third_party/yasm/source/patched-yasm" name="platform/external/chromium_org/third_party/yasm/source/patched-yasm" />
-  <project path="external/chromium_org/tools/grit" name="platform/external/chromium_org/tools/grit" />
-  <project path="external/chromium_org/tools/gyp" name="platform/external/chromium_org/tools/gyp" />
-  <project path="external/chromium_org/v8" name="platform/external/chromium_org/v8" />
-  <project path="external/clang" name="platform/external/clang" groups="pdk" />
-  <project path="external/cmockery" name="platform/external/cmockery" />
-  <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" />
-  <project path="external/conscrypt" name="platform/external/conscrypt" groups="pdk-cw-fs" />
-  <project path="external/deqp" name="platform/external/deqp" />
-  <project path="external/dexmaker" name="platform/external/dexmaker" groups="pdk-cw-fs" />
-  <project path="external/dhcpcd" name="platform/external/dhcpcd" groups="pdk-cw-fs" />
-  <project path="external/dnsmasq" name="platform/external/dnsmasq" groups="pdk" />
-  <project path="external/doclava" name="platform/external/doclava" groups="pdk-cw-fs,tradefed" />
-  <project path="external/droiddriver" name="platform/external/droiddriver" groups="pdk-cw-fs" />
-  <project path="external/e2fsprogs" name="platform/external/e2fsprogs" groups="pdk" />
-  <project path="external/easymock" name="platform/external/easymock" groups="pdk-cw-fs,tradefed" />
   <project path="external/eclipse-basebuilder" name="platform/external/eclipse-basebuilder" groups="pdk-cw-fs" />
   <project path="external/eclipse-windowbuilder" name="platform/external/eclipse-windowbuilder" groups="pdk-cw-fs" />
   <project path="external/eigen" name="platform/external/eigen" groups="pdk-cw-fs" />
@@ -324,19 +334,30 @@
   <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs" />
-  <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" />
-  <project path="frameworks/base" name="platform/frameworks/base" groups="pdk-cw-fs" />
-  <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
-  <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
-  <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
-  <project path="frameworks/ex" name="platform/frameworks/ex" groups="pdk-cw-fs" />
+  
+  <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" revision="8e2b445fabd05132de57226de71c7860a5391954" />
+  <!-- https://android.googlesource.com/platform/frameworks/base/+log/a2d193183fc4f5727c0b875a48c5dd8032bc87bb/?s=38d969c5c85f930cefef6f2fcad99d5aa8a0d5f7 -->
+  <project path="frameworks/base" name="platform/frameworks/base" groups="pdk-cw-fs" revision="0dfba38010dc3d3dbab5801427726f252113ac6c" />
+  <!-- https://android.googlesource.com/platform/frameworks/compile/libbcc/+log/fa0c1b9d9f2d6876f0f37049e2ea59abc7a217ae -->
+  <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" revision="c6f64093492cdfb3c98d8ae8f877bbd81f882897" />
+  <!-- https://android.googlesource.com/platform/frameworks/compile/mclinker/+log/fdc86e090cd0308ba880937cf55ed162abfd20a0 -->
+  <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" revision="61067ee94d7ecaec60008be2b58f6d7d97300714" />
+  <!-- https://android.googlesource.com/platform/frameworks/compile/slang/+log/91eae4ae72f5f8ed251c270082abb0d18a2922c5 -->
+  <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" revision="216ac82c9b6a7179552eea30450f6108c65606f8" />
+  <!-- https://android.googlesource.com/platform/frameworks/ex/+log/d90222baefb107ddc08d024b02d664d18f50f44f -->
+  <project path="frameworks/ex" name="platform/frameworks/ex" groups="pdk-cw-fs" revision="f924719d491c2b1a1c42234a0a174d975691b483" />
   <project path="frameworks/mff" name="platform/frameworks/mff" groups="pdk-cw-fs" />
-  <project path="frameworks/minikin" name="platform/frameworks/minikin" groups="pdk-cw-fs" />
+  <!-- RTM -->
+  <project path="frameworks/minikin" name="platform/frameworks/minikin" groups="pdk-cw-fs" revision="79298c346088e13a0ddc93d49f4bb100afdbd14b" />
   <project path="frameworks/ml" name="platform/frameworks/ml" groups="pdk-cw-fs" />
-  <project path="frameworks/multidex" name="platform/frameworks/multidex" groups="pdk-cw-fs" />
-  <project path="frameworks/native" name="platform/frameworks/native" groups="pdk" />
-  <project path="frameworks/opt/bitmap" name="platform/frameworks/opt/bitmap" />
-  <project path="frameworks/opt/bluetooth" name="platform/frameworks/opt/bluetooth" groups="pdk-cw-fs" />
+  <!-- RTM -->
+  <project path="frameworks/multidex" name="platform/frameworks/multidex" groups="pdk-cw-fs" revision="94968516ca9ae681df18f463c2f66ce0f8c5c5c0" />
+  <!-- https://android.googlesource.com/platform/frameworks/native/+log/fc35dd8bc9601f693eeed6d807c261666d09378f -->
+  <project path="frameworks/native" name="platform/frameworks/native" groups="pdk" revision="16c62c468aacf40496a7cad94f49795a797cdd37" />
+  <!-- RTM -->
+  <project path="frameworks/opt/bitmap" name="platform/frameworks/opt/bitmap" revision="5c102db5a1a16a2adcc7728693a6e65a981f91ae" />
+  <!-- RTM -->
+  <project path="frameworks/opt/bluetooth" name="platform/frameworks/opt/bluetooth" groups="pdk-cw-fs" revision="192d793d2586b620027edd5b45ff4c72a86cc7be" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" groups="pdk-cw-fs" />
   <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" groups="pdk-cw-fs" />
   <project path="frameworks/opt/chips" name="platform/frameworks/opt/chips" groups="pdk-cw-fs" />
