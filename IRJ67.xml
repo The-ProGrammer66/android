@@ -34,7 +34,8 @@
   <project name="device_samsung_crespo" path="device/samsung/crespo" remote="github" revision="IRJ67-kernel-downgrade" />
   <project name="device/samsung/crespo4g" path="device/samsung/crespo4g" revision="0e092d5c13243353f2f95a2ef9de6b4d886c0f01"/>
   <project name="device/samsung/maguro" path="device/samsung/maguro" revision="72a603475cac661b6cf346744e409d097d46daa4"/>
-  <project name="device/samsung/tuna" path="device/samsung/tuna" revision="a8d86dba04d0ce22956e1daf6c033372f3ecfd19"/>
+  <!-- Original commit is a8d86dba04d0ce22956e1daf6c033372f3ecfd19 -->
+  <project name="device_samsung_tuna" path="device/samsung/tuna" remote="github" revision="IRJ67-disable-gpu"/>
   <project name="device/ti/panda" path="device/ti/panda" revision="9864e0a205c76be842a736fb946f8a439e32ca6e"/>
   <project name="platform/docs/source.android.com" path="docs/source.android.com" revision="f5e108fb7197ab5108f31d60dff23ad18d9fd251"/>
   <project name="platform/external/android-mock" path="external/android-mock" />
