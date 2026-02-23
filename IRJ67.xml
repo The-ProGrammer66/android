@@ -240,7 +240,7 @@
   <project name="platform/system/core" path="system/core" revision="c9cd3b976111d91ede6cd88bd06eb57b10b2f0e7" />
   <project name="platform/system/extras" path="system/extras" revision="337847a149d956ed6d5990f84006f7340475f715" />
   <project name="platform/system/media" path="system/media" revision="10cb5ce55b5ff657a6bcea5a4920001b43bd536f" />
-  <project name="platform/system/netd" path="system/netd" revision="f65f16552da0a10cc01e99b85b73d3f07188336f" />
+  <project name="platform/system/netd" path="system/netd" revision="4d0342ec22cc5ef0edc27033e2dcdacbb31d47f3" />
   <project name="platform/system/vold" path="system/vold" revision="06aaa410962ec14cddcc8a6efed203a48cbd3653" />
 
 </manifest>
