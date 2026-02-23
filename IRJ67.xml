@@ -56,7 +56,7 @@
   <project name="platform/external/bsdiff" path="external/bsdiff" revision="df980d633fd0bdc0b89af26630f543d91bb87e68" />
   <project name="platform/external/bzip2" path="external/bzip2" revision="9ac1ec23f7a9ad61bec16960ec33635f78097441" />
   <project name="platform/external/chromium" path="external/chromium" revision="fc1e79c2b539be25f76e40f653d1fcfdf4f6e522" />
-  <project name="platform/external/clang" path="external/clang" revision="c7f532f9b8e934a0a284d15a739333372e979f61" />
+  <project name="platform/external/clang" path="external/clang" revision="3f546dd2bab32759568511c4784c2633540323c3" />
   <project name="platform/external/collada" path="external/collada" revision="02162e6493a2ed2517de46bf822ffc9e01168e1c" />
   <project name="platform/external/dbus" path="external/dbus" revision="f022f55d3ce46acf1fba3121642668c2b1262c72" />
   <project name="platform/external/dhcpcd" path="external/dhcpcd" revision="62e2ee120e41a91a2547311d33cb4681132cdaa2" />
