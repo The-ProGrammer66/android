@@ -218,7 +218,7 @@
   <project name="platform/packages/providers/ContactsProvider" path="packages/providers/ContactsProvider" revision="90d5c8fd4377c5f2b79559c3ac13a10dda9cc210" />
   <project name="platform/packages/providers/DownloadProvider" path="packages/providers/DownloadProvider" revision="9321f8656228b57f42549536512de684ce584a4d" />
   <project name="platform/packages/providers/DrmProvider" path="packages/providers/DrmProvider" revision="4f063183643e0312e62dec5c539f51f7e55e66e3" />
-  <project name="platform/packages/providers/GoogleContactsProvider" path="packages/providers/GoogleContactsProvider" revision="4886c7a0cfba5df74b213b1fc8286c6e3f2ddaa2" />
+  <project name="platform/packages/providers/GoogleContactsProvider" path="packages/providers/GoogleContactsProvider" />
   <project name="platform/packages/providers/MediaProvider" path="packages/providers/MediaProvider" revision="72c1aa18080ad0b0fc7f494b77126591b272d4e5" />
   <project name="platform/packages/providers/TelephonyProvider" path="packages/providers/TelephonyProvider" revision="b9bd35d3c07b3dbab97dcabb521d7909304670c9" />
   <project name="platform/packages/providers/UserDictionaryProvider" path="packages/providers/UserDictionaryProvider" />
