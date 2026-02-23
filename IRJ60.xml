@@ -31,7 +31,7 @@
   <project name="device/moto/wingray" path="device/moto/wingray" revision="cb8a7bdf834b81c799f15471c7b089d4b80b4aeb" />
   <project name="device/sample" path="device/sample" revision="57012569262a072fc03721a369e20d244c9b447c" />
   <!-- Original commit is 848f6fb3ab35507a3412ec659e0a4dbfb31dac3a -->
-  <project name="device_samsung_crespo" path="device/samsung/crespo" remote="github" revision="kernel-revert-IRJ60-crespo" />
+  <project name="device_samsung_crespo" path="device/samsung/crespo" remote="github" revision="IRJ60-kernel-downgrade" />
   <project name="device/samsung/crespo4g" path="device/samsung/crespo4g" revision="06ff46d9a0f9c568eef74b86d81b8542a16c7f2b"/>
   <project name="device/samsung/maguro" path="device/samsung/maguro" revision="72a603475cac661b6cf346744e409d097d46daa4"/>
   <project name="device/samsung/tuna" path="device/samsung/tuna" revision="f2f0221a058f8c48f846709944cd8909c0a42788"/>

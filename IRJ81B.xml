@@ -27,7 +27,7 @@
   <project name="device/moto/stingray" path="device/moto/stingray" revision="32f4b56648facb06fcacbaad7bdc0578463b4d79" />
   <project name="device/moto/wingray" path="device/moto/wingray" revision="cfec010c0e9c85ce076753f27457cd59d027d1de" />
   <!-- Old revision was fa5519d349360dea298e0bb1ca83ba478ac63d08 -->
-  <project name="device_samsung_crespo" path="device/samsung/crespo" remote="github" revision="kernel-revert-IRJ81B-crespo" />
+  <project name="device_samsung_crespo" path="device/samsung/crespo" remote="github" revision="IRJ81B-kernel-downgrade" />
   <project name="device/sample" path="device/sample" revision="57012569262a072fc03721a369e20d244c9b447c" />
   <project name="platform/external/android-mock" path="external/android-mock" revision="40bb73886c61d4b2e96bab98b50c1cbfcb54d9a3" />
   <project name="platform/external/antlr" path="external/antlr" revision="3447a5916aa62f44de24cc441fc9987116ddff52" />
