@@ -19,7 +19,7 @@
   <project name="platform/bionic" path="bionic" revision="1f8e2672a8f261d5bb08e3ab26f026b30f5ff77b" />
   <project name="platform/bootable/bootloader/legacy" path="bootable/bootloader/legacy" />
   <project name="platform/bootable/diskinstaller" path="bootable/diskinstaller" revision="b354f6abda00461eae4cb0215faa8b5a7268e275" />
-  <project name="platform/bootable/recovery" path="bootable/recovery" revision="1117c69fe40dccfa6090d184094c4a6d407ab8d6" />
+  <project name="platform/bootable/recovery" path="bootable/recovery" revision="b7b7b37457ab4070a9f9f645501a236d38fd1a07" />
   <project name="platform/cts" path="cts" revision="759a2d93a6cfbdf8c97812786e7a281915b6a70c" />
   <project name="platform/dalvik" path="dalvik" revision="6f9edbe7d3a83f7741c4d56f9f5be1414ecabc9f" />
   <project name="platform/development" path="development" revision="7a16938f3a6d07965bbc778b0335b1970eeb7056" />
