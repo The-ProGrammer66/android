@@ -16,7 +16,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project name="platform/abi/cpp" path="abi/cpp" revision="7efaedecf216fce967a8d9147f3a053fd6a2b9d7"/>
-  <project name="platform/bionic" path="bionic" revision="8a5123740750298433cce102f93cf5871985aa09" />
+  <project name="platform/bionic" path="bionic" revision="b127b1f208e67d74a7ee94ad2bd0ffb2fed3af6b" />
   <project name="platform/bootable/bootloader/legacy" path="bootable/bootloader/legacy" />
   <project name="platform/bootable/diskinstaller" path="bootable/diskinstaller" revision="b354f6abda00461eae4cb0215faa8b5a7268e275" />
   <project name="platform/bootable/recovery" path="bootable/recovery" revision="6ebedf0053ccefd414e5887db316f84bd8f6c44c" />
@@ -237,7 +237,7 @@
   <project name="platform/prebuilt" path="prebuilt" revision="848535a10efe2b57ca1d787f03cb1855ff768fe2" />
   <project name="platform/sdk" path="sdk" revision="717a5e55cf0379f3a1588e4f30a6ca321e91f402" />
   <project name="platform/system/bluetooth" path="system/bluetooth" revision="ef070be0b11c4c729df75a46426d5666f31499ab" />
-  <project name="platform/system/core" path="system/core" revision="c9cd3b976111d91ede6cd88bd06eb57b10b2f0e7" />
+  <project name="platform/system/core" path="system/core" revision="b45280d259c5036dd066782d725c55284c7dae90" />
   <project name="platform/system/extras" path="system/extras" revision="337847a149d956ed6d5990f84006f7340475f715" />
   <project name="platform/system/media" path="system/media" revision="10cb5ce55b5ff657a6bcea5a4920001b43bd536f" />
   <project name="platform/system/netd" path="system/netd" revision="4d0342ec22cc5ef0edc27033e2dcdacbb31d47f3" />
