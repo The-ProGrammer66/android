@@ -28,8 +28,10 @@
   <project name="device/generic/goldfish" path="device/generic/goldfish" revision="3db6a2ae327131b6c1b8e8611b19f976d4d40091"/>
   <project name="device/google/accessory/arduino" path="device/google/accessory/arduino" revision="8a7156571fa629801d7731cb2aee70bb2d2da33f"/>
   <project name="device/google/accessory/demokit" path="device/google/accessory/demokit" revision="ffc2bc09112691b1fdf5cc4a9667119f77deafef"/>
-  <project name="device/moto/stingray" path="device/moto/stingray" revision="c3c6cccc7add6e28d646b3506b06e1b7fabe030e" />
-  <project name="device/moto/wingray" path="device/moto/wingray" revision="f94cedf0ec48b13a55a7a538d13ff62c6b47dc43" />  
+  <!-- Original commit is c3c6cccc7add6e28d646b3506b06e1b7fabe030e -->
+  <project name="device_moto_stingray" path="device/moto/stingray" remote="github" revision="stingray-extractfiles-IRI81" />
+  <!-- Original commit is f94cedf0ec48b13a55a7a538d13ff62c6b47dc43 -->
+  <project name="device_moto_wingray" path="device/moto/wingray" remote="github" revision="stingray-extractfiles-IRI81" />  
   <project name="device/sample" path="device/sample" revision="5d20be67795124a2a888fcf25472f14b96372d07" />
   <project name="device/samsung/crespo" path="device/samsung/crespo" revision="eafe37a68586064e72ba70301824d47d04a64eae" />
   <project name="device/samsung/crespo4g" path="device/samsung/crespo4g" revision="518787de48a6a21b7cb40ff66876c451fb7d9be5" />
