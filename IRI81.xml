@@ -20,8 +20,8 @@
   <project name="platform/bootable/bootloader/legacy" path="bootable/bootloader/legacy"/>
   <project name="platform/bootable/diskinstaller" path="bootable/diskinstaller" revision="b354f6abda00461eae4cb0215faa8b5a7268e275"/>
   <project name="platform/bootable/recovery" path="bootable/recovery" revision="3ed8e187212b06767e0ca5860cdbd79c11c9390e"/>
-  <!-- A few commits newer to fix compile -->
-  <project name="platform/cts" path="cts" revision="2902214370d38152d48e70673f60be2969e756d3"/>
+  <!-- One commit newer to fix compile -->
+  <project name="platform/cts" path="cts" revision="bb4477250c01c8bc9268ca2de09d947aa24dab96"/>
   <project name="platform/dalvik" path="dalvik" revision="4624f350313daaae52068c5d1d12b88859d43e54"/>
   <project name="platform/development" path="development" revision="5081289ad02d6cbc5e714d85885a630c62f14abe"/>
   <project name="device/common" path="device/common" revision="b76ffcccfc230016ff968bd38dcf9e4f03f0a16a"/>
@@ -241,5 +241,7 @@
   <project name="platform/system/media" path="system/media" revision="4ba05bae8b61e3eca963ead78393b7edc7c9a79d"/>
   <project name="platform/system/netd" path="system/netd" revision="34ffd85aed3838d53bd1136c751a7825de1940e0"/>
   <project name="platform/system/vold" path="system/vold" revision="ad2ac33460d6ee1436b68bab1f820e3b6d3efeb4"/>
+  <!-- Needed! -->
+  <project name="platform/tools/tradefederation" path="tools/tradefederation" revision="1737407ccb7a65a43e622c8537547f4192d9092e" />
 
 </manifest>
