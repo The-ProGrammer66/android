@@ -29,7 +29,7 @@
   <project name="device/google/accessory/demokit" path="device/google/accessory/demokit" revision="ffc2bc09112691b1fdf5cc4a9667119f77deafef"/>
   <project name="device/moto/stingray" path="device/moto/stingray" revision="c3c6cccc7add6e28d646b3506b06e1b7fabe030e" />
   <project name="device/moto/wingray" path="device/moto/wingray" revision="f94cedf0ec48b13a55a7a538d13ff62c6b47dc43" />  
-  <project name="device/sample" path="device/sample" revision="3ddec0257e587bfa7945195345340eca57dfebb4" />
+  <project name="device/sample" path="device/sample" revision="5d20be67795124a2a888fcf25472f14b96372d07" />
   <project name="device/samsung/crespo" path="device/samsung/crespo" revision="87b1edf0f5a0d8bd85c23f93ed77d13d33fa6ec7" />
   <project name="device/samsung/crespo4g" path="device/samsung/crespo4g" revision="518787de48a6a21b7cb40ff66876c451fb7d9be5" />
   <project name="device/samsung/maguro" path="device/samsung/maguro" revision="72a603475cac661b6cf346744e409d097d46daa4"/>
