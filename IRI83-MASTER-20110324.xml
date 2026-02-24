@@ -11,7 +11,7 @@
            remote="aosp"
            sync-j="4" />
 
-  <!-- Manifest of MASTER build IRI83. Reconstructed as a test on 23 Februrary 2026. No revision = RTM commit. -->
+  <!-- Manifest of Android 4.0 build "IRI83". Not actually IRI83, MASTER. Build tagged on 24 March 2011, manifest made on 24 February 2026. -->
   <project name="platform/build" path="build" revision="e4b2178329801789c0f20a97d5fde06e9da11d70">
     <copyfile src="core/root.mk" dest="Makefile"/>
   </project>
