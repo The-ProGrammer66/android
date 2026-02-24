@@ -163,7 +163,7 @@
   <project name="platform/frameworks/opt/inputmethodcommon" path="frameworks/opt/inputmethodcommon" revision="55f2b586128f6f6a4a6c9c7fc93ba591b16c162f"/>
   <project name="platform/frameworks/opt/mailcommon" path="frameworks/opt/mailcommon" revision="3577c816bdff9f85c28655858c332b4e1b6ee85f"/>
   <project name="platform/frameworks/opt/vcard" path="frameworks/opt/vcard" revision="48dd8e86a81d2ab40eb762975c8211c225002bf0"/>
-  <project name="platform/frameworks/support" path="frameworks/support" revision="c66d5ea8b9f22420230a9997bc357be0f595d887"/>
+  <project name="platform/frameworks/support" path="frameworks/support" revision="2f57cb1149f4ff23de0c8b926b893412704d3d35"/>
   <project name="platform/hardware/broadcom/wlan" path="hardware/broadcom/wlan" revision="2d4adb1c70c6bc9745b491dbcdac4014d13b3fff"/>
   <project name="platform/hardware/invensense" path="hardware/invensense" revision="54a27a44a439bf335f6940492ef4e6da9c5b4d4a"/>
   <project name="platform/hardware/libhardware" path="hardware/libhardware" revision="54f9dd032dfbd336ca90e3b44047373f0297c3a5"/>
