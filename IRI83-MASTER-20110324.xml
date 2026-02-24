@@ -11,7 +11,7 @@
            remote="aosp"
            sync-j="4" />
 
-  <!-- Manifest of MASTER build IRI81. Reconstructed as a test on 23 Februrary 2026. No revision = RTM commit. -->
+  <!-- Manifest of MASTER build IRI83. Reconstructed as a test on 23 Februrary 2026. No revision = RTM commit. -->
   <project name="platform/build" path="build" revision="e4b2178329801789c0f20a97d5fde06e9da11d70">
     <copyfile src="core/root.mk" dest="Makefile"/>
   </project>
@@ -23,15 +23,15 @@
   <project name="platform/cts" path="cts" revision="1462c320cb676a3e9161e4e18e4729e25fbf3759"/>
   <project name="platform/dalvik" path="dalvik" revision="4624f350313daaae52068c5d1d12b88859d43e54"/>
   <!-- Original commit is 3c0c736422dc60df41ddfa047d93ddcef5cb82d2 -->
-  <project name="development" path="development" remote="github" revision="IRI81-fix"/>
+  <project name="development" path="development" remote="github" revision="IRI83-fix"/>
   <project name="device/common" path="device/common" revision="b76ffcccfc230016ff968bd38dcf9e4f03f0a16a"/>
   <project name="device/generic/goldfish" path="device/generic/goldfish" revision="3db6a2ae327131b6c1b8e8611b19f976d4d40091"/>
   <project name="device/google/accessory/arduino" path="device/google/accessory/arduino" revision="8a7156571fa629801d7731cb2aee70bb2d2da33f"/>
   <project name="device/google/accessory/demokit" path="device/google/accessory/demokit" revision="ffc2bc09112691b1fdf5cc4a9667119f77deafef"/>
   <!-- Original commit is c3c6cccc7add6e28d646b3506b06e1b7fabe030e -->
-  <project name="device_moto_stingray" path="device/moto/stingray" remote="github" revision="stingray-extractfiles-IRI81" />
+  <project name="device_moto_stingray" path="device/moto/stingray" remote="github" revision="stingray-extractfiles-IRI83" />
   <!-- Original commit is f94cedf0ec48b13a55a7a538d13ff62c6b47dc43 -->
-  <project name="device_moto_wingray" path="device/moto/wingray" remote="github" revision="stingray-extractfiles-IRI81" />  
+  <project name="device_moto_wingray" path="device/moto/wingray" remote="github" revision="stingray-extractfiles-IRI83" />  
   <project name="device/sample" path="device/sample" revision="5d20be67795124a2a888fcf25472f14b96372d07" />
   <project name="device/samsung/crespo" path="device/samsung/crespo" revision="eafe37a68586064e72ba70301824d47d04a64eae" />
   <project name="device/samsung/crespo4g" path="device/samsung/crespo4g" revision="518787de48a6a21b7cb40ff66876c451fb7d9be5" />
@@ -198,7 +198,7 @@
   <project name="platform/packages/apps/HTMLViewer" path="packages/apps/HTMLViewer" revision="d962070f6c7847e8004d4d77d499caf2485e72bc"/>
   <project name="platform/packages/apps/Launcher2" path="packages/apps/Launcher2" revision="c2e26a028d1829bdddb1e47aac12951e12ef83e0"/>
   <!-- Original commit is c8859ed1e7b47996762dcb34f160521f276dccdf -->
-  <project name="platform_packages_apps_Mms" path="packages/apps/Mms" remote="github" revision="IRI81-fix"/>
+  <project name="platform_packages_apps_Mms" path="packages/apps/Mms" remote="github" revision="IRI83-fix"/>
   <project name="platform/packages/apps/Music" path="packages/apps/Music" revision="78fbd05053ed2f109e1de8524459fba37f2019ab"/>
   <!--<project name="platform/packages/apps/MusicFX" path="packages/apps/MusicFX" revision="no proper no file commit"/>-->
   <project name="platform/packages/apps/Nfc" path="packages/apps/Nfc" revision="619c58ace3524fb1c26dd67f0de41c0da0cc8e76"/>
