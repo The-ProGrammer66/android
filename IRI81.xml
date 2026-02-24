@@ -194,7 +194,7 @@
   <project name="platform/packages/apps/Gallery3D" path="packages/apps/Gallery3D" revision="986d2b05513e7cf4faaed54afd0931df7f9d5e4a" />
   <project name="platform/packages/apps/HTMLViewer" path="packages/apps/HTMLViewer" revision="d962070f6c7847e8004d4d77d499caf2485e72bc"/>
   <project name="platform/packages/apps/Launcher2" path="packages/apps/Launcher2" revision="c2e26a028d1829bdddb1e47aac12951e12ef83e0"/>
-  <project name="platform/packages/apps/Mms" path="packages/apps/Mms" revision="c8859ed1e7b47996762dcb34f160521f276dccdf"/>
+  <project name="platform/packages/apps/Mms" path="packages/apps/Mms" revision="68289510f5ae419d45719d99799db6c84d47ec77"/>
   <project name="platform/packages/apps/Music" path="packages/apps/Music" revision="78fbd05053ed2f109e1de8524459fba37f2019ab"/>
   <!--<project name="platform/packages/apps/MusicFX" path="packages/apps/MusicFX" revision="no proper no file commit"/>-->
   <project name="platform/packages/apps/Nfc" path="packages/apps/Nfc" revision="619c58ace3524fb1c26dd67f0de41c0da0cc8e76"/>
