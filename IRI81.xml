@@ -232,7 +232,7 @@
   <project name="platform/packages/wallpapers/MusicVisualization" path="packages/wallpapers/MusicVisualization" revision="b48cb0933dc6e807da104f5598aba48b5cfa439b"/>
   <project name="platform/packages/wallpapers/NoiseField" path="packages/wallpapers/NoiseField" revision="b80063d5b23cdde2d460cc9b17191af4c76ca07f"/>
   <project name="platform/packages/wallpapers/PhaseBeam" path="packages/wallpapers/PhaseBeam" revision="a467e16e4ae40c1ebba12a93315adbab4226e29e"/>
-  <project name="platform/prebuilt" path="prebuilt" revision="a1090aec00b5f2680bbcc3678c645660b21ec7ee"/>
+  <project name="platform/prebuilt" path="prebuilt" revision="2ddf3bafc462536c393318307a4925a60202801d"/>
   <project name="platform/sdk" path="sdk" revision="4accf6c87d857244219cd8870f16c7c29bf3bc86"/>
   <project name="platform/system/bluetooth" path="system/bluetooth" revision="596d8cae44844161b5b182d3defa681e1200dd46"/>
   <project name="platform/system/core" path="system/core" revision="9d157870345fa18ee7e639a85f6bcc4afb50c648"/>
