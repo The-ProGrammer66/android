@@ -119,7 +119,8 @@
   <project name="platform/external/oauth" path="external/oauth"/>
   <project name="platform/external/opencv" path="external/opencv" revision="58393d4eb582b3d88f46b88a459dfbbf853af5e4"/>
   <project name="platform/external/openssl" path="external/openssl" revision="d55f58d41a51c94eb4a60a244ba69bb66e404258"/>
-  <project name="platform/external/oprofile" path="external/oprofile" revision="0ff435ab0bf9d56ffe59a5f1efe66e4aabe02f53"/>
+  <!-- One commit newer on purpose -->
+  <project name="platform/external/oprofile" path="external/oprofile" revision="5e369a0402856d5514a4908b601fd46ec857cb2d"/>
   <project name="platform/external/pcre" path="external/pcre"/>
   <project name="platform/external/ping" path="external/ping" revision="2b77a5377db63d95d777a7d5aa14380dd0e71e72"/>
   <project name="platform/external/ping6" path="external/ping6" revision="7cf372809c69c92b0cadcdb1a43f31af821dc8cd"/>
