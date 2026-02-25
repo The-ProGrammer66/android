@@ -7,6 +7,9 @@
            remote="aosp"
            sync-j="4" />
 
+  <remote name="github"
+           fetch="https://github.com/froyocomb" />
+
   <project path="build" name="platform/build" revision="3b4525afe0da60a8a4dfbaa5825ffdd656ba173f">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
@@ -22,7 +25,8 @@
   <project path="device/htc/passion" name="device/htc/passion" revision="ed6d3307de029ce2555cdab0cf96b1e0064eda4e" />
   <project path="device/htc/passion-common" name="device/htc/passion-common" revision="5c27a1040314cd8231cb436c2160f68ba42e36f5" />
   <project path="device/sample" name="device/sample" />
-  <project path="device/samsung/crespo" name="device/samsung/crespo" revision="91869b6c7c213c1a389c45c9d0f4f5d3cccc7c52" />
+  <!-- Needed because the stupid Cypress Touchkey garbage wasnt finalized until very late for some reason, original commit is 91869b6c7c213c1a389c45c9d0f4f5d3cccc7c52 -->
+  <project path="device/samsung/crespo" name="device_samsung_crespo" remote="github" revision="GRH35-kernel-upgrade" />
   <project path="external/apache-http" name="platform/external/apache-http" />
   <project path="external/astl" name="platform/external/astl" />
   <project path="external/bison" name="platform/external/bison" />
