@@ -2,7 +2,7 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch=".." />
+           fetch="https://android.googlesource.com" />
   <default revision="refs/tags/android-6.0.0_r1"
            remote="aosp"
            sync-j="4" />
@@ -26,23 +26,22 @@
   <project path="bionic" name="platform/bionic" groups="pdk" revision="08d62b231045fd7dc4ee3bedf2b7b90635c820f0" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" revision="5f40ad936f043c557b6d56b74999be76ff9d56a4" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" revision="29df814eccd6c4a3505c14da5321a0eba8c005b7" />
-  <!-- Edited manifest ends here -->
-  <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs,pdk-fs" />
-  <project path="developers/build" name="platform/developers/build" />
+  <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs,pdk-fs" revision="dae49f641b63d0e5e2197cfbf3f0b0f45e979526" />
+  <project path="developers/build" name="platform/developers/build" revision="ba2fefe790697cc75fd1821491bf1f954e183607" />
   <project path="developers/demos" name="platform/developers/demos" />
   <project path="developers/docs" name="platform/developers/docs" />
-  <project path="developers/samples/android" name="platform/developers/samples/android" />
-  <project path="development" name="platform/development" groups="pdk-cw-fs,pdk-fs" />
-  <project path="device/asus/deb" name="device/asus/deb" groups="device,flo" />
-  <project path="device/asus/flo" name="device/asus/flo" groups="device,flo" />
-  <project path="device/asus/flo-kernel" name="device/asus/flo-kernel" groups="device,flo" clone-depth="1" />
-  <project path="device/asus/fugu" name="device/asus/fugu" groups="device,fugu,broadcom_pdk" />
-  <project path="device/asus/fugu-kernel" name="device/asus/fugu-kernel" groups="device,fugu,broadcom_pdk" clone-depth="1" />
+  <project path="developers/samples/android" name="platform/developers/samples/android" revision="77d610fafe55b7bd3dd3468260779d1b38fa1b33" />
+  <project path="development" name="platform/development" groups="pdk-cw-fs,pdk-fs" revision="f6c11994e7251387266e6a7a42eeecbccaaa390d" />
+  <project path="device/asus/deb" name="device/asus/deb" groups="device,flo" revision="9a682002d0f0da0292af5b8e96aa51b7942acf81" />
+  <project path="device/asus/flo" name="device/asus/flo" groups="device,flo" revision="84abce393657ec6fecca5c884c1b5e8b93f6f460" />
+  <project path="device/asus/flo-kernel" name="device/asus/flo-kernel" groups="device,flo" clone-depth="1" revision="5bd44c8420d942f7d694ddbfa55d62ecc564ab90" />
+  <project path="device/asus/fugu" name="device/asus/fugu" groups="device,fugu,broadcom_pdk" revision="14ac8eccf81efa58d9c1e0475222b5ec158e07e4" />
+  <project path="device/asus/fugu-kernel" name="device/asus/fugu-kernel" groups="device,fugu,broadcom_pdk" clone-depth="1" revision="1aa3c18382bed3c4c924a4052e092dd9e593c0be" />
   <project path="device/common" name="device/common" groups="pdk-cw-fs,pdk-fs" />
   <project path="device/generic/arm64" name="device/generic/arm64" groups="pdk" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" />
   <project path="device/generic/common" name="device/generic/common" groups="pdk" />
-  <project path="device/generic/goldfish" name="device/generic/goldfish" groups="pdk" />
+  <project path="device/generic/goldfish" name="device/generic/goldfish" groups="pdk" revision="49c0b471b7ab0dfbd3702effc0c7c1d4814dcbbd" />
   <project path="device/generic/mips" name="device/generic/mips" groups="pdk" />
   <project path="device/generic/mini-emulator-arm64" name="device/generic/mini-emulator-arm64" groups="pdk" />
   <project path="device/generic/mini-emulator-armv7-a-neon" name="device/generic/mini-emulator-armv7-a-neon" groups="pdk" />
@@ -54,15 +53,16 @@
   <project path="device/generic/x86_64" name="device/generic/x86_64" groups="pdk" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
-  <project path="device/google/atv" name="device/google/atv" groups="device,fugu,broadcom_pdk,generic_fs" />
-  <project path="device/htc/flounder" name="device/htc/flounder" groups="device,flounder,broadcom_pdk" />
-  <project path="device/htc/flounder-kernel" name="device/htc/flounder-kernel" groups="device,flounder,broadcom_pdk" clone-depth="1" />
-  <project path="device/lge/hammerhead" name="device/lge/hammerhead" groups="device,hammerhead,broadcom_pdk,generic_fs" />
-  <project path="device/lge/hammerhead-kernel" name="device/lge/hammerhead-kernel" groups="device,hammerhead,broadcom_pdk,generic_fs" clone-depth="1" />
-  <project path="device/moto/shamu" name="device/moto/shamu" groups="device,shamu,broadcom_pdk" />
-  <project path="device/moto/shamu-kernel" name="device/moto/shamu-kernel" groups="device,shamu,broadcom_pdk" clone-depth="1" />
-  <project path="device/sample" name="device/sample" groups="pdk" />
-  <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs,pdk-fs" />
+  <project path="device/google/atv" name="device/google/atv" groups="device,fugu,broadcom_pdk,generic_fs" revision="f1ced2dbabbc79395121a3d7def98f9e25750c97" />
+  <project path="device/htc/flounder" name="device/htc/flounder" groups="device,flounder,broadcom_pdk" revision="984b29a51f77d2f8d2edd662e3ac60901b4d292c" />
+  <project path="device/htc/flounder-kernel" name="device/htc/flounder-kernel" groups="device,flounder,broadcom_pdk" clone-depth="1" revision="2374b729aab6110b2635a3db1a227368b34c50c1" />
+  <project path="device/lge/hammerhead" name="device/lge/hammerhead" groups="device,hammerhead,broadcom_pdk,generic_fs" revision="c7171ef0865a5ac5776ac90a475dd0ae24cd0a0a" />
+  <project path="device/lge/hammerhead-kernel" name="device/lge/hammerhead-kernel" groups="device,hammerhead,broadcom_pdk,generic_fs" clone-depth="1" revision="f214cf12ef7cd18c6bfcefdbe97df93d5fc6dcee" />
+  <project path="device/moto/shamu" name="device/moto/shamu" groups="device,shamu,broadcom_pdk" revision="22d9be9db3662f89050e09f6ac339b3a616e40bf" />
+  <project path="device/moto/shamu-kernel" name="device/moto/shamu-kernel" groups="device,shamu,broadcom_pdk" clone-depth="1" revision="2cbb39d63d884e515e11dffae0a50333ea9d914f" />
+  <project path="device/sample" name="device/sample" groups="pdk" revision="0c0bceab19a463c3b2234a65e441d88fd9649427" />
+  <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs,pdk-fs" revision="6630e8ad6f2c2a5b98d2b42aef5a21e73cd4b74d" />
+  <!-- Edited manifest ends here -->
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
   <project path="external/android-clat" name="platform/external/android-clat" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/android-mock" name="platform/external/android-mock" groups="pdk-cw-fs,pdk-fs" />
