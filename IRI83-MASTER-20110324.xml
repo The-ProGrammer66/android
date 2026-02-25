@@ -200,7 +200,7 @@
   <project name="platform/packages/apps/Mms" path="packages/apps/Mms" revision="1952cdcf4785e81b18e6c45093b80fb5089e1c8b"/>
   <project name="platform/packages/apps/Music" path="packages/apps/Music" revision="78fbd05053ed2f109e1de8524459fba37f2019ab"/>
   <!--<project name="platform/packages/apps/MusicFX" path="packages/apps/MusicFX" revision="no proper no file commit"/>-->
-  <project name="platform/packages/apps/Nfc" path="packages/apps/Nfc" revision="619c58ace3524fb1c26dd67f0de41c0da0cc8e76"/>
+  <project name="platform/packages/apps/Nfc" path="packages/apps/Nfc" revision="6421b535fd7ae90e2ed5c858366340d00d7b726d"/>
   <project name="platform/packages/apps/PackageInstaller" path="packages/apps/PackageInstaller" revision="a54446497219d6dacd99510573d99314caa401e0"/>
   <project name="platform/packages/apps/Phone" path="packages/apps/Phone" revision="8ef8f988f35aa07cf681cb9ee9f5d6acebb2df2a"/>
   <project name="platform/packages/apps/Protips" path="packages/apps/Protips" revision="f5b7d7e0efca9858dbba389bb0930f825d043c3e"/>
