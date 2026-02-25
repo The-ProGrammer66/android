@@ -21,7 +21,7 @@
   <project name="platform/bootable/diskinstaller" path="bootable/diskinstaller" revision="b354f6abda00461eae4cb0215faa8b5a7268e275"/>
   <project name="platform/bootable/recovery" path="bootable/recovery" revision="3ed8e187212b06767e0ca5860cdbd79c11c9390e"/>
   <project name="platform/cts" path="cts" revision="2566c5c04019b49307138242419d4055e8d50442"/>
-  <project name="platform/dalvik" path="dalvik" revision="5cbbea35a90065c98c457410661bd64f64e63a75"/>
+  <project name="platform/dalvik" path="dalvik" revision="c6f3827e911f3d56148f7eecc3354080953d8a44"/>
   <project name="platform/development" path="development" revision="38eafa95f7a34ae62eee58b98f3f72d5cc9e4be1"/>
   <project name="device/common" path="device/common" revision="e3fa66e23194858a9992166b1d765fab66717acf"/>
   <project name="device/generic/goldfish" path="device/generic/goldfish" revision="3db6a2ae327131b6c1b8e8611b19f976d4d40091"/>
@@ -178,7 +178,7 @@
   <project name="platform/hardware/ril" path="hardware/ril" revision="ab1457197e42b64c4a847d57679ced32a5534134"/>
   <project name="platform/hardware/ti/omap3" path="hardware/ti/omap3" revision="49ba1f7d2941ef0a9e1201a42badaca9ecd8990c"/>
   <project name="platform/hardware/ti/omap4xxx" path="hardware/ti/omap4xxx" revision="8558b0909d3f42288f488e6fd1341877c639a594"/>
-  <project name="platform/libcore" path="libcore" revision="22e7bfd42eb08d6c68002415e0d2c6d2253e985e"/>
+  <project name="platform/libcore" path="libcore" revision="1662d76b21f3f77ed666f82977f02793569c1302"/>
   <project name="platform/ndk" path="ndk" revision="e9b7c49eb604afb2311e1514d43dd87679b905d8"/>
   <project name="platform/packages/apps/BasicSmsReceiver" path="packages/apps/BasicSmsReceiver" revision="12de25a6f806848952d8c334a90c5884aba4690f"/>
   <project name="platform/packages/apps/Bluetooth" path="packages/apps/Bluetooth" revision="fdd53743b3498251e567e5bd842d945247bc22c4"/>
