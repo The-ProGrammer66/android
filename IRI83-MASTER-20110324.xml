@@ -203,15 +203,15 @@
   <project name="platform/packages/apps/Nfc" path="packages/apps/Nfc" revision="6421b535fd7ae90e2ed5c858366340d00d7b726d"/>
   <project name="platform/packages/apps/PackageInstaller" path="packages/apps/PackageInstaller" revision="a54446497219d6dacd99510573d99314caa401e0"/>
   <project name="platform/packages/apps/Phone" path="packages/apps/Phone" revision="8ef8f988f35aa07cf681cb9ee9f5d6acebb2df2a"/>
-  <project name="platform/packages/apps/Protips" path="packages/apps/Protips" revision="f5b7d7e0efca9858dbba389bb0930f825d043c3e"/>
+  <project name="platform/packages/apps/Protips" path="packages/apps/Protips" revision="f90518a71a0ef5c780db90e8dfb30fa21dd80874"/>
   <project name="platform/packages/apps/Provision" path="packages/apps/Provision" revision="f31b933a8aebf07e3feb512ac650c5691c8c5e0f"/>
   <project name="platform/packages/apps/QuickSearchBox" path="packages/apps/QuickSearchBox" revision="a8dccdeb57617c022a69f0e2b3803ee8674a80ec"/>
   <project name="platform/packages/apps/Settings" path="packages/apps/Settings" revision="1dd8c92ccc5939b8bac14ad86096a9e8fb6041e4"/>
-  <project name="platform/packages/apps/SoundRecorder" path="packages/apps/SoundRecorder" revision="cb6de2eb56d8e2368ef00cd14da461f02865f544"/>
+  <project name="platform/packages/apps/SoundRecorder" path="packages/apps/SoundRecorder" revision="e9cf699884a716221a5ea36807e34971a07da7f9"/>
   <project name="platform/packages/apps/SpareParts" path="packages/apps/SpareParts" revision="856142f2f054bd6bf1567163e4ae0b7aa7495e7b"/>
   <project name="platform/packages/apps/SpeechRecorder" path="packages/apps/SpeechRecorder" revision="f075eb5cefb6357aa7562a6d156bda5383ac087d"/>
   <project name="platform/packages/apps/Stk" path="packages/apps/Stk" revision="a0300d9893e317b88492d91d4ce6af0187bbf430"/>
-  <project name="platform/packages/apps/Tag" path="packages/apps/Tag" revision="b9a773b3b0c00943942e07edf497e7323b42ceb2"/>
+  <project name="platform/packages/apps/Tag" path="packages/apps/Tag" revision="77003446f16a93b58d0ce0aabb2f20025b553b2d"/>
   <project name="platform/packages/apps/VideoEditor" path="packages/apps/VideoEditor" revision="d5ff2c5698708eb7a68b4aa6d7bb96e67e648401"/>
   <project name="platform/packages/apps/VoiceDialer" path="packages/apps/VoiceDialer" revision="5816adf08201636adb58b21c8d3cbda870e3f628"/>
   <project name="platform/packages/experimental" path="packages/experimental" revision="2ee65fd8f35335889530c8ed1a59b35afd015a81"/>
