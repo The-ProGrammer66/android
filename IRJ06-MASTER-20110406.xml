@@ -32,7 +32,7 @@
   <!-- Original commit is 8e293ab37d14d97719386e3eab60d11e7c1c36cc -->
   <project name="device_moto_wingray" path="device/moto/wingray" remote="github" revision="stingray-extractfiles-IRJ06" />  
   <project name="device/sample" path="device/sample" revision="6a57249bc3e56530ae5dc4d61d536ec23e578331" />
-  <project name="device/samsung/crespo" path="device/samsung/crespo" revision="ecb0c47f9f508d87083849c6798ab5d701ac79f6" />
+  <project name="device/samsung/crespo" path="device/samsung/crespo" revision="c08e2eacca7da55532d9740359c700ab971ec34f" />
   <!-- Redo them blobbers -->
   <project name="device/samsung/crespo4g" path="device/samsung/crespo4g" revision="e9ed9ff06bbe48b7509cbeae4b343058c38018d1" />
   <project name="device/samsung/maguro" path="device/samsung/maguro" revision="72a603475cac661b6cf346744e409d097d46daa4"/>
