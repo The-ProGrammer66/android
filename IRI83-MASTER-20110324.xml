@@ -224,7 +224,7 @@
   <project name="platform/packages/providers/DownloadProvider" path="packages/providers/DownloadProvider" revision="f32e29e2c1c7ef26d7b3e02268b365ea5bb6a578"/>
   <project name="platform/packages/providers/DrmProvider" path="packages/providers/DrmProvider" revision="d6e959da122731321e862206117d7ba2c9ce208d"/>
   <project name="platform/packages/providers/GoogleContactsProvider" path="packages/providers/GoogleContactsProvider"/>
-  <project name="platform/packages/providers/MediaProvider" path="packages/providers/MediaProvider" revision="38e208c2730ecf60402cf00e0f19d5d6004fd95e"/>
+  <project name="platform/packages/providers/MediaProvider" path="packages/providers/MediaProvider" revision="996d3c93f208f0d2c88a754d0287636d761fe6bf"/>
   <project name="platform/packages/providers/TelephonyProvider" path="packages/providers/TelephonyProvider" revision="ea5c40c18a83bd984da79ecda301bd5a7cd9daa1"/>
   <project name="platform/packages/providers/UserDictionaryProvider" path="packages/providers/UserDictionaryProvider"/>
   <project name="platform/packages/wallpapers/Basic" path="packages/wallpapers/Basic" revision="99bea0d3aa06bbf6bbf1e79ecf309abba8e7f3da"/>
