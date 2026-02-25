@@ -193,7 +193,7 @@
   <project name="platform/packages/apps/Exchange" path="packages/apps/Exchange" revision="82c5b4715d1ba7894cc1f6dff40476e244ee45ba"/>
   <project name="platform/packages/apps/Gallery" path="packages/apps/Gallery" revision="2aee24c468e4e12abab4c481963ae2de4675f8da"/>
   <project name="platform/packages/apps/Gallery2" path="packages/apps/Gallery2" revision="a053a3179cfee3d2bb666eff5f4f03a96b092e04"/>
-  <!-- Used until Sep 1, 2011 where it was replaced with Gallery2 -->
+  <!-- Used for a bit till being replaced with the proprietary GalleryNew3D, then later with Gallery2. -->
   <project name="platform/packages/apps/Gallery3D" path="packages/apps/Gallery3D" revision="986d2b05513e7cf4faaed54afd0931df7f9d5e4a" />
   <project name="platform/packages/apps/HTMLViewer" path="packages/apps/HTMLViewer" revision="d962070f6c7847e8004d4d77d499caf2485e72bc"/>
   <project name="platform/packages/apps/Launcher2" path="packages/apps/Launcher2" revision="c2e26a028d1829bdddb1e47aac12951e12ef83e0"/>
