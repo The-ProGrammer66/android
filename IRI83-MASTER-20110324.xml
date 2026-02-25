@@ -84,7 +84,7 @@
   <project name="platform/external/icu4c" path="external/icu4c" revision="36f18c496cca4c9ecbe07579f3e05137257bd05b"/>
   <project name="platform/external/iproute2" path="external/iproute2" revision="1a441f49ec87ef74b978d7ae17da2a9b2ca6e811"/>
   <project name="platform/external/ipsec-tools" path="external/ipsec-tools" revision="96869bdabff3948f0a6dc2dad2933d1aace21442"/>
-  <project name="platform/external/iptables" path="external/iptables" revision="c7948744bf591e0c46b6d19ccfa408cc59e11ef1"/>
+  <project name="platform/external/iptables" path="external/iptables" revision="4a820b4c41de49482adce1a4e7424ca124b6b233"/>
   <project name="platform/external/javasqlite" path="external/javasqlite" revision="b40324f8fc15bc949c74ff5ffc40272897b78fef"/>
   <project name="platform/external/javassist" path="external/javassist"/>
   <project name="platform/external/jdiff" path="external/jdiff"/>
