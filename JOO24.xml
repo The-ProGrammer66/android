@@ -67,7 +67,8 @@
   <!-- RTM -->
   <project path="external/bluetooth/bluedroid" name="platform/external/bluetooth/bluedroid" revision="refs/tags/android-4.2_r1_" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" revision="fd3e3ef2ef320b187b5818309c60d6d0a13ab80a" />
-  <project path="external/bsdiff" name="platform/external/bsdiff" revision="10e6119c595ed5bf3d20064709b57384a7f13b9f" />
+  <!-- One commit older -->
+  <project path="external/bsdiff" name="platform/external/bsdiff" revision="81872540236d9bb15cccf963d05b9de48baa5375" />
   <project path="external/bzip2" name="platform/external/bzip2" revision="72a1f3271db722307c7978c2c1ba89e1da8134a7" />
   <project path="external/checkpolicy" name="platform/external/checkpolicy" />
   <project path="external/chromium" name="platform/external/chromium" revision="cca3c6afa2152260d795e4d8802080b67c96c7ea" />
