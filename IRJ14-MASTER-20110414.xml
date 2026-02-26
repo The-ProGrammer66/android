@@ -160,7 +160,8 @@
   <project name="platform/frameworks/compile/linkloader" path="frameworks/compile/linkloader" revision="7ecae01d409b16ee2daaec79319646276d123a6f"/>
   <project name="platform/frameworks/compile/slang" path="frameworks/compile/slang" revision="acdb5edf598f5ad89b28e54998d272acb18cf3dd"/>
   <project name="platform/frameworks/ex" path="frameworks/ex" revision="a15ab452e6a7603fb289666177aa13e5e4803d18"/>
-  <project name="platform/frameworks/media/libvideoeditor" path="frameworks/media/libvideoeditor" revision="d42c415ecdcb9f37f0c359ade02cbb4c820e2b6b"/>
+  <!-- One commit older on purpose (cuz frameworks/base wasn't updated yet) -->
+  <project name="platform/frameworks/media/libvideoeditor" path="frameworks/media/libvideoeditor" revision="b98ab0eff4776a50859a2d0bf65cf3530472eb25"/>
   <project name="platform/frameworks/opt/calendar" path="frameworks/opt/calendar" revision="8fa82ef0bb1129284d7ed5032eca0a25a1aa94e6"/>
   <project name="platform/frameworks/opt/emoji" path="frameworks/opt/emoji" revision="49f8fa5f480ae382f9087fde333b50072b214ad2"/>
   <project name="platform/frameworks/opt/inputmethodcommon" path="frameworks/opt/inputmethodcommon" revision="55f2b586128f6f6a4a6c9c7fc93ba591b16c162f"/>
