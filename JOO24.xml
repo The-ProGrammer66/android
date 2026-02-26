@@ -11,11 +11,9 @@
            sync-j="4" />
 
   <!-- Manifest of Android Jelly Bean 4.2 (JB MR1) build JOO24. Tagged on 24 July 2012. No revision = RTM commit. Manifest made on 26 February 2026. -->
-
   <project path="build" name="platform/build" revision="de3edb7f8b01d446cd7d2436505a69b15079faad" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-
   <project path="abi/cpp" name="platform/abi/cpp" />
   <project path="bionic" name="platform/bionic" revision="7cfe2c5c071ce015352573cbb500a34ab8a58ecf" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
@@ -37,7 +35,14 @@
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
   <project path="device/lge/mako" name="device/lge/mako" groups="device" revision="736a039531b611a4a4754b2a4ad671abf0ba0582" />
   <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device" revision="61671cc97ac2b5008a54ad5a7ece40ec828d0854" />
+  <!-- The three below repos have been added to test if these devices still work in 4.2 this early -->
+  <project path="device/moto/common" name="device/moto/common" revision="88f2f2b4fcf01b3e3a2d9dcaf6e03449865ea251" />
+  <project path="device/moto/stingray" name="device/moto/stingray" revision="fa7e27dabfdf8b6cf6134c36c37fda44101b98cf" />
+  <project path="device/moto/wingray" name="device/moto/wingray" revision="9bfb004047c68179c82d1f6aaa8f061a88060a64" />
   <project path="device/sample" name="device/sample" revision="d08e04592e523f1ebbe8f0b8b653ef33c05f7a99" />
+  <!-- The two below repos have been added for the same reason as above. -->
+  <project path="device/samsung/crespo" name="device/samsung/crespo" revision="f48782cc8b8c0879f6d0f08e6d1d081acbc981cc" />
+  <project path="device/samsung/crespo4g" name="device/samsung/crespo4g" revision="068fffef0747bc1d0a84814c9ad467f88b2bd563" />
   <project path="device/samsung/maguro" name="device/samsung/maguro" groups="device" revision="5e9a85b32d186e02be7cfde7ca50b995ee3b0321" />
   <project path="device/samsung/manta" name="device/samsung/manta" groups="device" revision="cb40e5691379e68a2685898b527f974f96249ed1" />
   <project path="device/samsung/toro" name="device/samsung/toro" groups="device" revision="a54d92c638eccae5a60fb43e7db60a5959a3736e" />
@@ -221,7 +226,7 @@
   <project path="frameworks/opt/inputmethodcommon" name="platform/frameworks/opt/inputmethodcommon" />
   <project path="frameworks/opt/mailcommon" name="platform/frameworks/opt/mailcommon" />
   <project path="frameworks/opt/mms" name="platform/frameworks/opt/mms" revision="2a50f2b526d7772ade2e6caf8213a35f542fdede" />
-  <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" revision="928a39fb533255b34145285fabbd4f51961df63a" />
+  <!--<project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" revision="928a39fb533255b34145285fabbd4f51961df63a" />-->
   <project path="frameworks/opt/telephony" name="platform/frameworks/opt/telephony" revision="d95b0070db8345ecbb63bb41ffde2957aa36d091" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" revision="449d710428682b3f44ba20ce290564cd9352ca0a" />
   <project path="frameworks/rs" name="platform/frameworks/rs" revision="cd1e8c8d88330f02aec7092ab5bff8e4aa51f508" />
@@ -349,10 +354,4 @@
   <project path="tools/build" name="platform/tools/build" groups="toolsbuild" revision="1d963e6684952b9259e2be2b33b36b649f889f26" />
   <project path="tools/motodev" name="platform/tools/motodev" revision="1fc2254217371e1bae3c9373d2474b1053c869f9" />
 
-  <!-- Added here to test if these break since Android 4.2 drops support for these -->
-  <project path="device/moto/common" name="device/moto/common" revision="88f2f2b4fcf01b3e3a2d9dcaf6e03449865ea251" />
-  <project path="device/moto/stingray" name="device/moto/stingray" revision="fa7e27dabfdf8b6cf6134c36c37fda44101b98cf" />
-  <project path="device/moto/wingray" name="device/moto/wingray" revision="9bfb004047c68179c82d1f6aaa8f061a88060a64" />
-  <project path="device/samsung/crespo" name="device/samsung/crespo" revision="f48782cc8b8c0879f6d0f08e6d1d081acbc981cc" />
-  <project path="device/samsung/crespo4g" name="device/samsung/crespo4g" revision="068fffef0747bc1d0a84814c9ad467f88b2bd563" />
 </manifest>
