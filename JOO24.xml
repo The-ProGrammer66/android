@@ -195,7 +195,8 @@
   <project path="external/stlport" name="platform/external/stlport" revision="56ec8fc60f3effccd931efc387b068b5ef6e1438" />
   <project path="external/strace" name="platform/external/strace" />
   <project path="external/stressapptest" name="platform/external/stressapptest" />
-  <project path="external/svox" name="platform/external/svox" revision="28e5bccf28fe8b3a742ad46bdadf50a066ff8393" />
+  <!-- one commit earlier -->
+  <project path="external/svox" name="platform/external/svox" revision="ea66e3bf3510df7ab3051c90a740b8e11de42e92" />
   <project path="external/tagsoup" name="platform/external/tagsoup" />
   <project path="external/tcpdump" name="platform/external/tcpdump" />
   <project path="external/tinyalsa" name="platform/external/tinyalsa" revision="85dc38f5bee79c184260e8c665cc34143be12bd4" />
