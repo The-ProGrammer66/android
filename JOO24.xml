@@ -218,7 +218,7 @@
   <project path="external/zlib" name="platform/external/zlib" revision="09eb358bbbb9aad3fe48dd3368c8a7a481cbda1c" />
   <project path="external/zxing" name="platform/external/zxing" />
   <project path="frameworks/av" name="platform/frameworks/av" revision="7aa1b72252749c990c9a5efce3d8fe399261b88e" />
-  <project path="frameworks/base" name="platform/frameworks/base" revision="a13730f42449d97ec7206769ccaad9d95bc2924f" />
+  <project path="frameworks/base" name="platform/frameworks/base" revision="dda08b6309b8e3ca96870809b1983606bb6dfc4e" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" revision="10a9e6a8fef436602cfec041f0a0381f51c73e4a" />
   <!-- one commit earlier -->
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" revision="17eb07e01f6a864fa2f5ff3ed4b2d0cc3ac43ea8" />
