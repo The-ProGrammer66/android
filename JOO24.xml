@@ -18,7 +18,7 @@
   <project path="bionic" name="platform/bionic" revision="7cfe2c5c071ce015352573cbb500a34ab8a58ecf" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" revision="105600856ee338e3fbf53d603106263a14155197" />
-  <project path="bootable/recovery" name="platform/bootable/recovery" revision="64c5a59be97ce8c6d05fb16a9c9f49ba520a35b3" />
+  <project path="bootable/recovery" name="platform/bootable/recovery" revision="aade2e590e17b0f47dbf554f7df5824ba4096212" />
   <project path="cts" name="platform/cts" revision="0f07e87338540f8fe1f8ceb5ffeb42b91d7f047b" />
   <project path="dalvik" name="platform/dalvik" revision="eb97cda6e80e599e13ed13f7f841ba758590e6a3" />
   <project path="development" name="platform/development" revision="d720b263b12a027c361787835340bcff63a74d2f" />
@@ -52,7 +52,7 @@
   <project path="docs/source.android.com" name="platform/docs/source.android.com" revision="8151f6048f92ae3e22ec16a80c2e5050190ac121" />
   <project path="external/aac" name="platform/external/aac" revision="2228e360595641dd906bf1773307f43d304f5b2e" />
   <project path="external/android-clat" name="platform/external/android-clat" />
-  <project path="external/android-mock" name="platform/external/android-mock" />
+  <project path="external/android-mock" name="platform/external/android-mock" revision="46fe5f84b7d50bf9a01aaeea6bea4bce293f7408" />
   <project path="external/ant-glob" name="platform/external/ant-glob" />
   <project path="external/antlr" name="platform/external/antlr" />
   <project path="external/apache-harmony" name="platform/external/apache-harmony" revision="5b53d279675709a4beb54974c72e257c1262da2c" />
@@ -227,7 +227,7 @@
   <project path="frameworks/opt/mailcommon" name="platform/frameworks/opt/mailcommon" />
   <project path="frameworks/opt/mms" name="platform/frameworks/opt/mms" revision="2a50f2b526d7772ade2e6caf8213a35f542fdede" />
   <!--<project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" revision="928a39fb533255b34145285fabbd4f51961df63a" />-->
-  <project path="frameworks/opt/telephony" name="platform/frameworks/opt/telephony" revision="d95b0070db8345ecbb63bb41ffde2957aa36d091" />
+  <!--<project path="frameworks/opt/telephony" name="platform/frameworks/opt/telephony" revision="d95b0070db8345ecbb63bb41ffde2957aa36d091" />-->
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" revision="449d710428682b3f44ba20ce290564cd9352ca0a" />
   <project path="frameworks/rs" name="platform/frameworks/rs" revision="cd1e8c8d88330f02aec7092ab5bff8e4aa51f508" />
   <project path="frameworks/support" name="platform/frameworks/support" revision="8a0c51a3d438802df28612e02fdf0cc8fab06ddb" />
