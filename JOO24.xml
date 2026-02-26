@@ -77,7 +77,7 @@
   <!-- several commits earlier -->
   <project path="external/clang" name="platform/external/clang" revision="094004c9c6693abad38a37906ec4363a7ee9e0df" />
   <!-- several commits earlier -->
-  <project path="external/compiler-rt" name="platform/external/compiler-rt" revision="27590d73e7a656b92ed5789172a38468ce7b615e" />
+  <project path="external/compiler-rt" name="platform/external/compiler-rt" revision="d1a2f446e04701b98b723f3eb315bbc9722dad74" />
   <project path="external/dbus" name="platform/external/dbus" />
   <project path="external/dexmaker" name="platform/external/dexmaker" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" revision="a3a2260384a906e1674c7498c2f479e9f37bc503" />
