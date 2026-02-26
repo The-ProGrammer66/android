@@ -214,7 +214,7 @@
   <project path="frameworks/ex" name="platform/frameworks/ex" revision="d19540fb7139fc0baba3b55260a6aabdb029c831" />
   <project path="frameworks/mff" name="platform/frameworks/mff" />
   <project path="frameworks/ml" name="platform/frameworks/ml" />
-  <project path="frameworks/native" name="platform/frameworks/native" revision="921e6ac4b7610a178285898d191eb0e3afe906c0" />
+  <project path="frameworks/native" name="platform/frameworks/native" revision="493c4feb753760408a33a5bef29c0f9c0ea4fc3b" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" revision="50e69cf7b39993358644988484667c0f3ce0af9e" />
   <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
