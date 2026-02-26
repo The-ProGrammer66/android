@@ -52,7 +52,8 @@
   <project path="docs/source.android.com" name="platform/docs/source.android.com" revision="8151f6048f92ae3e22ec16a80c2e5050190ac121" />
   <project path="external/aac" name="platform/external/aac" revision="2228e360595641dd906bf1773307f43d304f5b2e" />
   <project path="external/android-clat" name="platform/external/android-clat" />
-  <project path="external/android-mock" name="platform/external/android-mock" revision="46fe5f84b7d50bf9a01aaeea6bea4bce293f7408" />
+  <!-- One commit older -->
+  <project path="external/android-mock" name="platform/external/android-mock" revision="40bb73886c61d4b2e96bab98b50c1cbfcb54d9a3" />
   <project path="external/ant-glob" name="platform/external/ant-glob" />
   <project path="external/antlr" name="platform/external/antlr" />
   <project path="external/apache-harmony" name="platform/external/apache-harmony" revision="5b53d279675709a4beb54974c72e257c1262da2c" />
