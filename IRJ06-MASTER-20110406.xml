@@ -35,6 +35,7 @@
   <project name="device/samsung/crespo" path="device/samsung/crespo" revision="c08e2eacca7da55532d9740359c700ab971ec34f" />
   <project name="device/samsung/crespo4g" path="device/samsung/crespo4g" revision="dfd51328a5db4c629d0d59f4e9c89631770783b2" />
   <project name="device/samsung/maguro" path="device/samsung/maguro" revision="72a603475cac661b6cf346744e409d097d46daa4"/>
+  <project name="device/samsung/toro" path="device/samsung/toro" revision="3111f1601498ba8affb9b5f62c35dc33fbbc37bb"/>
   <project name="device/samsung/tuna" path="device/samsung/tuna" revision="15d2cc58ac24aed35c06a48be23c63cf473e4fd3"/>
   <project name="device/ti/panda" path="device/ti/panda" revision="e100e5082cca255d84f2ae6a552aad100bb29506"/>
   <project name="platform/docs/source.android.com" path="docs/source.android.com" revision="3ce332f8590920442232fb0a1da9b2fa18be5842"/>
