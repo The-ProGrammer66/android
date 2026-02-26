@@ -114,7 +114,8 @@
   <project path="external/iptables" name="platform/external/iptables" />
   <project path="external/jack" name="platform/external/jack" />
   <project path="external/javasqlite" name="platform/external/javasqlite" />
-  <project path="external/javassist" name="platform/external/javassist" revision="5e839ffb9c72505b8361336534083eee9ddccde0" />
+  <!-- one commit earlier -->
+  <project path="external/javassist" name="platform/external/javassist" revision="14b4d945586243192c8118f4f49be59ebbf561b8" />
   <project path="external/jdiff" name="platform/external/jdiff" />
   <project path="external/jhead" name="platform/external/jhead" revision="5b403f360aed4c63920dd2ecb62cd172e2e62495" />
   <project path="external/jmdns" name="platform/external/jmdns" />
