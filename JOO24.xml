@@ -154,7 +154,7 @@
   <project path="external/linux-tools-perf" name="platform/external/linux-tools-perf" revision="cd6a555d53893369c7cba7486a013eb5394f5677" />
   <project path="external/littlemock" name="platform/external/littlemock" revision="39909902f8225d886e40f929aaa25a2ef2aa58ec" />
   <!-- a few commits earlier -->
-  <project path="external/llvm" name="platform/external/llvm" revision="9318a38869458cef6806cf85a7d7d8157101fb9f" />
+  <project path="external/llvm" name="platform/external/llvm" revision="7f57ba71d8512278cbf5fa70e478a5458b36407b" />
   <project path="external/lohit-fonts" name="platform/external/lohit-fonts" />
   <project path="external/markdown" name="platform/external/markdown" revision="664a65f876a2781cc176a4d346f83f6157fca797" />
   <project path="external/mdnsresponder" name="platform/external/mdnsresponder" />
