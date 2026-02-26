@@ -74,7 +74,8 @@
   <project path="external/chromium" name="platform/external/chromium" revision="cca3c6afa2152260d795e4d8802080b67c96c7ea" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" revision="22a2082298fd7f091d98d7dbb190206c867e2453" />
   <project path="external/cibu-fonts" name="platform/external/cibu-fonts" />
-  <project path="external/clang" name="platform/external/clang" revision="9f17408d50c1d76c5eab435e4ceb924cc10757ab" />
+  <!-- several commits earlier -->
+  <project path="external/clang" name="platform/external/clang" revision="094004c9c6693abad38a37906ec4363a7ee9e0df" />
   <project path="external/compiler-rt" name="platform/external/compiler-rt" revision="853733e772b2885d93fdf994dedc4a1b5dc1369e" />
   <project path="external/dbus" name="platform/external/dbus" />
   <project path="external/dexmaker" name="platform/external/dexmaker" />
