@@ -223,7 +223,7 @@
   <!-- one commit earlier -->
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" revision="17eb07e01f6a864fa2f5ff3ed4b2d0cc3ac43ea8" />
   <project path="frameworks/compile/llvm-ndk-cc" name="platform/frameworks/compile/llvm-ndk-cc" revision="8ad720504e84a65fc3d01947a2effed67ad47346" />
-  <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" revision="affc150dc44fab1911775a49636d0ce85333b634" />
+  <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" revision="355e7a7f2baba5076e1494f80f40cbb35e12f240" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" revision="80a642b4594c00d45b9ce2e742c5715564d70dd5" />
   <project path="frameworks/ex" name="platform/frameworks/ex" revision="d19540fb7139fc0baba3b55260a6aabdb029c831" />
   <project path="frameworks/mff" name="platform/frameworks/mff" />
