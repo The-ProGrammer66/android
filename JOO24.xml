@@ -65,7 +65,7 @@
   <project path="external/bison" name="platform/external/bison" />
   <project path="external/blktrace" name="platform/external/blktrace" />
   <!-- RTM -->
-  <project path="external/bluetooth/bluedroid" name="platform/external/bluetooth/bluedroid" revision="refs/tags/android-4.2_r1_" />
+  <!-- <project path="external/bluetooth/bluedroid" name="platform/external/bluetooth/bluedroid" revision="refs/tags/android-4.2_r1_" /> -->
   <project path="external/bouncycastle" name="platform/external/bouncycastle" revision="fd3e3ef2ef320b187b5818309c60d6d0a13ab80a" />
   <!-- One commit older -->
   <project path="external/bsdiff" name="platform/external/bsdiff" revision="81872540236d9bb15cccf963d05b9de48baa5375" />
