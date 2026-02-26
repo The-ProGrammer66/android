@@ -151,7 +151,8 @@
   <project path="external/libyuv" name="platform/external/libyuv" revision="351958316957352685f15674ee5bd71726dc993e" />
   <project path="external/linux-tools-perf" name="platform/external/linux-tools-perf" revision="cd6a555d53893369c7cba7486a013eb5394f5677" />
   <project path="external/littlemock" name="platform/external/littlemock" revision="39909902f8225d886e40f929aaa25a2ef2aa58ec" />
-  <project path="external/llvm" name="platform/external/llvm" revision="17d241911acaa9ca5372ea6f96251fab2c18f074" />
+  <!-- a few commits earlier -->
+  <project path="external/llvm" name="platform/external/llvm" revision="3651357441c0287c64dddfc57d307db1f4034f1d" />
   <project path="external/lohit-fonts" name="platform/external/lohit-fonts" />
   <project path="external/markdown" name="platform/external/markdown" revision="664a65f876a2781cc176a4d346f83f6157fca797" />
   <project path="external/mdnsresponder" name="platform/external/mdnsresponder" />
