@@ -65,7 +65,7 @@
   <project path="external/bison" name="platform/external/bison" />
   <project path="external/blktrace" name="platform/external/blktrace" />
   <!-- RTM -->
-  <!--  <project path="external/bluetooth/bluedroid" name="platform/external/bluetooth/bluedroid" revision="refs/tags/android-4.2_r1_" /> -->
+  <project path="external/bluetooth/bluedroid" name="platform/external/bluetooth/bluedroid" revision="refs/tags/android-4.2_r1_" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" revision="fd3e3ef2ef320b187b5818309c60d6d0a13ab80a" />
   <!-- One commit older -->
   <project path="external/bsdiff" name="platform/external/bsdiff" revision="81872540236d9bb15cccf963d05b9de48baa5375" />
@@ -245,7 +245,7 @@
   <project path="gdk" name="platform/gdk" revision="b600e602a2a0fed08855e69149a9dc6739d22186" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" revision="8a05c0f91519ff5c0c75d42e207db64fc500429a" />
   <project path="hardware/invensense" name="platform/hardware/invensense" revision="a45503dc4dc8d9331bbc9e3fce1b1c35cb57c39f" />
-  <project path="hardware/libhardware" name="platform/hardware/libhardware" revision="48915acb392773c1fcb86e2711eab468410a0baa" />
+  <project path="hardware/libhardware" name="platform/hardware/libhardware" remote="github" revision="JOO24-fix" />
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" revision="c94dccc97cc3ed5171b45f46a0f7f8762d37156f" />
   <project path="hardware/msm7k" name="platform/hardware/msm7k" revision="9aacb6fbf90d1642cbe757c90da455cf37b73320" />
   <project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" revision="86c852bd4ef7ab3bce78f27e102ca7c00d457966" />
