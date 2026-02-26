@@ -20,7 +20,7 @@
   <project name="platform/bootable/bootloader/legacy" path="bootable/bootloader/legacy"/>
   <project name="platform/bootable/diskinstaller" path="bootable/diskinstaller" revision="b354f6abda00461eae4cb0215faa8b5a7268e275"/>
   <project name="platform/bootable/recovery" path="bootable/recovery" revision="179b2d989532afe14a88d57c3d1533b8cfe76cb9"/>
-  <project name="platform/cts" path="cts" revision="9cdd6f0af6c176626cd8a5822780106ce7b74305"/>
+  <project name="platform/cts" path="cts" revision="fdefc342baaa9a47d928f983e90a6e51b12a7470"/>
   <project name="platform/dalvik" path="dalvik" revision="d9fa4f294fda1734c50f4f2b69a9347ad0e35d7f"/>
   <project name="platform/development" path="development" revision="de830eddbcae30306b9996e70cc23de78b5b56e3"/>
   <project name="device/common" path="device/common" revision="73c1b3f016d1149c44dcec055e9200e8eb1491af"/>
@@ -160,7 +160,6 @@
   <project name="platform/frameworks/compile/linkloader" path="frameworks/compile/linkloader" revision="7ecae01d409b16ee2daaec79319646276d123a6f"/>
   <project name="platform/frameworks/compile/slang" path="frameworks/compile/slang" revision="acdb5edf598f5ad89b28e54998d272acb18cf3dd"/>
   <project name="platform/frameworks/ex" path="frameworks/ex" revision="a15ab452e6a7603fb289666177aa13e5e4803d18"/>
-  <!-- One commit older on purpose (cuz frameworks/base wasn't updated yet) -->
   <project name="platform/frameworks/media/libvideoeditor" path="frameworks/media/libvideoeditor" revision="b98ab0eff4776a50859a2d0bf65cf3530472eb25"/>
   <project name="platform/frameworks/opt/calendar" path="frameworks/opt/calendar" revision="8fa82ef0bb1129284d7ed5032eca0a25a1aa94e6"/>
   <project name="platform/frameworks/opt/emoji" path="frameworks/opt/emoji" revision="49f8fa5f480ae382f9087fde333b50072b214ad2"/>
