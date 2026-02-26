@@ -45,7 +45,7 @@
   <project path="device/samsung/tuna" name="device/samsung/tuna" groups="device" revision="cb4ada104a663e738e27b794942a2bf10d97b9d0" />
   <project path="device/ti/panda" name="device/ti/panda" groups="device" revision="e4dd267376dfaabf299c4577f8c7f89f05c2fdf1" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" revision="8151f6048f92ae3e22ec16a80c2e5050190ac121" />
-  <project path="external/aac" name="platform/external/aac" revision="8151f6048f92ae3e22ec16a80c2e5050190ac121" />
+  <project path="external/aac" name="platform/external/aac" revision="2228e360595641dd906bf1773307f43d304f5b2e" />
   <project path="external/android-clat" name="platform/external/android-clat" />
   <project path="external/android-mock" name="platform/external/android-mock" revision="46fe5f84b7d50bf9a01aaeea6bea4bce293f7408" />
   <project path="external/ant-glob" name="platform/external/ant-glob" />
