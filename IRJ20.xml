@@ -35,6 +35,7 @@
   <project name="device/samsung/crespo" path="device/samsung/crespo" revision="cc747b1b169d45fd4f5c236f2354ae69c02ac86c" />
   <project name="device/samsung/crespo4g" path="device/samsung/crespo4g" revision="4b7f9c4e0322add8f9a7a149d81a751bbdca37ec" />
   <project name="device/samsung/maguro" path="device/samsung/maguro" revision="72a603475cac661b6cf346744e409d097d46daa4"/>
+  <project name="device/samsung/toro" path="device/samsung/toro" revision="f52532edccf9a8ce39648a4b2831e72f40a721ec"/>
   <project name="device/samsung/tuna" path="device/samsung/tuna" revision="a80f91a32d2decad24cf8175c2fcda1992985d10"/>
   <project name="device/ti/panda" path="device/ti/panda" revision="e100e5082cca255d84f2ae6a552aad100bb29506"/>
   <project name="platform/docs/source.android.com" path="docs/source.android.com" revision="ae228abefec9f9b9617145f33db5585f3732fec1"/>
@@ -176,7 +177,7 @@
   <project name="platform/hardware/ril" path="hardware/ril" revision="e70d0c9c1b85a233608d85433a8dfc5dcb8441c9"/>
   <project name="platform/hardware/ti/omap3" path="hardware/ti/omap3" revision="49ba1f7d2941ef0a9e1201a42badaca9ecd8990c"/>
   <project name="platform/hardware/ti/omap4xxx" path="hardware/ti/omap4xxx" revision="8558b0909d3f42288f488e6fd1341877c639a594"/>
-  <project name="platform/libcore" path="libcore" revision="51236bf3f42f234359ccbf1d09b41f7e09396889"/>
+  <project name="platform/libcore" path="libcore" revision="ae394a866dd86df8819b652dfe00b3d2c7ee204c"/>
   <project name="platform/ndk" path="ndk" revision="dc191ed1682a166d776e1940b242875aa3181f8b"/>
   <project name="platform/packages/apps/BasicSmsReceiver" path="packages/apps/BasicSmsReceiver" revision="12de25a6f806848952d8c334a90c5884aba4690f"/>
   <project name="platform/packages/apps/Bluetooth" path="packages/apps/Bluetooth" revision="b6a11f97addec9f7a9fbc51a2fedd567b3d0a276"/>
