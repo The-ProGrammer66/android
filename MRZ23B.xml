@@ -62,7 +62,6 @@
   <project path="device/moto/shamu-kernel" name="device/moto/shamu-kernel" groups="device,shamu,broadcom_pdk" clone-depth="1" revision="2cbb39d63d884e515e11dffae0a50333ea9d914f" />
   <project path="device/sample" name="device/sample" groups="pdk" revision="0c0bceab19a463c3b2234a65e441d88fd9649427" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs,pdk-fs" revision="6630e8ad6f2c2a5b98d2b42aef5a21e73cd4b74d" />
-  <!-- Edited manifest ends here -->
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
   <project path="external/android-clat" name="platform/external/android-clat" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/android-mock" name="platform/external/android-mock" groups="pdk-cw-fs,pdk-fs" />
@@ -70,67 +69,67 @@
   <project path="external/ant-glob" name="platform/external/ant-glob" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/antlr" name="platform/external/antlr" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/apache-commons-math" name="platform/external/apache-commons-math" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/apache-harmony" name="platform/external/apache-harmony" groups="pdk-cw-fs,pdk-fs" />
+  <project path="external/apache-harmony" name="platform/external/apache-harmony" groups="pdk-cw-fs,pdk-fs" revision="e0b1e11b154b9a2c31194020c1285f466d0cde22" />
   <project path="external/apache-http" name="platform/external/apache-http" groups="pdk" />
   <project path="external/apache-xml" name="platform/external/apache-xml" groups="pdk" />
   <project path="external/bison" name="platform/external/bison" groups="pdk" />
   <project path="external/blktrace" name="platform/external/blktrace" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/boringssl" name="platform/external/boringssl" groups="pdk" />
-  <project path="external/bouncycastle" name="platform/external/bouncycastle" groups="pdk" />
+  <project path="external/boringssl" name="platform/external/boringssl" groups="pdk" revision="b29520d1fd16935fa018a9a03cfc65ab395209c7" />
+  <project path="external/bouncycastle" name="platform/external/bouncycastle" groups="pdk" revision="7f729f07947047c1ceaad8a78febacd1269a62b3" />
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" />
   <project path="external/bzip2" name="platform/external/bzip2" groups="pdk" />
-  <project path="external/cblas" name="platform/external/cblas" groups="pdk" />
+  <project path="external/cblas" name="platform/external/cblas" groups="pdk" revision="57de99c2b856d5e2c47ca3deca2f5b89e843ee2c" />
   <project path="external/ceres-solver" name="platform/external/ceres-solver" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/chromium-libpac" name="platform/external/chromium-libpac" groups="pdk-fs" />
-  <project path="external/chromium-trace" name="platform/external/chromium-trace" groups="pdk" />
-  <project path="external/chromium-webview" name="platform/external/chromium-webview" groups="pdk" />
-  <project path="external/clang" name="platform/external/clang" groups="pdk" />
+  <project path="external/chromium-trace" name="platform/external/chromium-trace" groups="pdk" revision="2b01b7aeb523d0bdd2e4ce98dad27c3113941783" />
+  <project path="external/chromium-webview" name="platform/external/chromium-webview" groups="pdk" revision="179c69ae7cbe7616ca7feff7f0a1bc7292dce640" />
+  <project path="external/clang" name="platform/external/clang" groups="pdk" revision="47d90e5fb8adc87a7c355452f47c2533495271f4" />
   <project path="external/cmockery" name="platform/external/cmockery" groups="pdk-fs" />
-  <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" />
-  <project path="external/conscrypt" name="platform/external/conscrypt" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/crcalc" name="platform/external/crcalc" groups="pdk-fs" />
-  <project path="external/deqp" name="platform/external/deqp" groups="pdk-fs" />
-  <project path="external/dexmaker" name="platform/external/dexmaker" groups="pdk-cw-fs,pdk-fs" />
+  <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" revision="c36ad9499378cb89ca17a66f00deae378241ab5e" />
+  <project path="external/conscrypt" name="platform/external/conscrypt" groups="pdk-cw-fs,pdk-fs" revision="ec7f84fafd868db9bcf34fdacd2ca20c68eb070a" />
+  <project path="external/crcalc" name="platform/external/crcalc" groups="pdk-fs" revision="e96bec4f09552f6f85fc6d763a7fec938a008fea" />
+  <project path="external/deqp" name="platform/external/deqp" groups="pdk-fs" revision="45b7dbbfe93d87336754e8c06380953ec003aeaf" />
+  <project path="external/dexmaker" name="platform/external/dexmaker" groups="pdk-cw-fs,pdk-fs" revision="8239eb231c1fcc92f4d2d9ed3f4edaa9502ae54c" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/dnsmasq" name="platform/external/dnsmasq" groups="pdk" />
-  <project path="external/doclava" name="platform/external/doclava" groups="pdk-cw-fs,pdk-fs" />
+  <project path="external/dnsmasq" name="platform/external/dnsmasq" groups="pdk" revision="da2c6a7df19095aa2dbc5f722eac6c1bb85daaaa" />
+  <project path="external/doclava" name="platform/external/doclava" groups="pdk-cw-fs,pdk-fs" revision="3061ae5673f1f6c3e028af037134fef09eb68ef8" />
   <project path="external/donuts" name="platform/external/donuts" groups="pdk-fs" />
-  <project path="external/drm_gralloc" name="platform/external/drm_gralloc" groups="drm_gralloc" />
-  <project path="external/drm_hwcomposer" name="platform/external/drm_hwcomposer" groups="drm_hwcomposer" />
-  <project path="external/droiddriver" name="platform/external/droiddriver" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/e2fsprogs" name="platform/external/e2fsprogs" groups="pdk" />
+  <project path="external/drm_gralloc" name="platform/external/drm_gralloc" groups="drm_gralloc" revision="96d72b6dffd58043770b3d7d9e2e18171be4b650" />
+  <project path="external/drm_hwcomposer" name="platform/external/drm_hwcomposer" groups="drm_hwcomposer" revision="6efb79fc87d788b5e9230908646a8579f94b7532" />
+  <project path="external/droiddriver" name="platform/external/droiddriver" groups="pdk-cw-fs,pdk-fs" revision="c98dbbe420eb19353a075870e8236a514e29abd1" />
+  <project path="external/e2fsprogs" name="platform/external/e2fsprogs" groups="pdk" revision="ce5b6554b9d44e081e7c1f80d430188c23d86835" />
   <project path="external/easymock" name="platform/external/easymock" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/eclipse-basebuilder" name="platform/external/eclipse-basebuilder" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/eclipse-windowbuilder" name="platform/external/eclipse-windowbuilder" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/eigen" name="platform/external/eigen" groups="pdk" />
+  <project path="external/eigen" name="platform/external/eigen" groups="pdk" revision="55f89530793a8b08a088ac282675f968a9c42276" />
   <project path="external/elfutils" name="platform/external/elfutils" groups="pdk" />
   <project path="external/embunit" name="platform/external/embunit" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/emma" name="platform/external/emma" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/esd" name="platform/external/esd" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/expat" name="platform/external/expat" groups="pdk" />
   <project path="external/eyes-free" name="platform/external/eyes-free" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/f2fs-tools" name="platform/external/f2fs-tools" groups="pdk" />
+  <project path="external/f2fs-tools" name="platform/external/f2fs-tools" groups="pdk" revision="0ba31900a9bb7df6067feabc83bc7c18f04eb1d2" />
   <project path="external/fdlibm" name="platform/external/fdlibm" groups="pdk" />
   <project path="external/fio" name="platform/external/fio" groups="pdk-fs" />
   <project path="external/flac" name="platform/external/flac" groups="pdk" />
   <project path="external/fonttools" name="platform/external/fonttools" groups="pdk-fs" />
-  <project path="external/freetype" name="platform/external/freetype" groups="pdk" />
+  <project path="external/freetype" name="platform/external/freetype" groups="pdk" revision="9c745321260bb728ab1cd1c8fd5f075854b2ad49" />
   <project path="external/fsck_msdos" name="platform/external/fsck_msdos" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/giflib" name="platform/external/giflib" groups="pdk,qcom_msm8x26" />
-  <project path="external/glide" name="platform/external/glide" groups="pdk-fs" />
-  <project path="external/google-breakpad" name="platform/external/google-breakpad" groups="dragon" />
+  <project path="external/glide" name="platform/external/glide" groups="pdk-fs" revision="f8d945a26071eeff5a8680a028c1ade93fb215ae" />
+  <project path="external/google-breakpad" name="platform/external/google-breakpad" groups="dragon" revision="6cc86b6f8b67e827f3d50474d897df7fc2e1c1b3" />
   <project path="external/google-fonts/carrois-gothic-sc" name="platform/external/google-fonts/carrois-gothic-sc" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/google-fonts/coming-soon" name="platform/external/google-fonts/coming-soon" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/google-fonts/cutive-mono" name="platform/external/google-fonts/cutive-mono" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/google-fonts/dancing-script" name="platform/external/google-fonts/dancing-script" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/google-tv-pairing-protocol" name="platform/external/google-tv-pairing-protocol" groups="pdk-fs" />
-  <project path="external/gptfdisk" name="platform/external/gptfdisk" groups="pdk-fs" />
-  <project path="external/gtest" name="platform/external/gtest" groups="pdk" />
+  <project path="external/gptfdisk" name="platform/external/gptfdisk" groups="pdk-fs" revision="a76ec61a0b1ecfdd97034f93810852827d0b50ec" />
+  <project path="external/gtest" name="platform/external/gtest" groups="pdk" revision="db985372bfc2a91ddd62b04a743f479ae4ae2a77" />
   <project path="external/guava" name="platform/external/guava" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/hamcrest" name="platform/external/hamcrest" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/harfbuzz_ng" name="platform/external/harfbuzz_ng" groups="pdk,qcom_msm8x26" />
-  <project path="external/hyphenation-patterns" name="platform/external/hyphenation-patterns" groups="pdk-fs" />
-  <project path="external/icu" name="platform/external/icu" groups="pdk" />
+  <project path="external/hyphenation-patterns" name="platform/external/hyphenation-patterns" groups="pdk-fs" revision="b9c41210309de743298962f16b5272fed1a53a19" />
+  <project path="external/icu" name="platform/external/icu" groups="pdk" revision="e315f9503c604e95bb294115ba5a5c60094128e0" />
   <project path="external/iproute2" name="platform/external/iproute2" groups="pdk" />
   <project path="external/ipsec-tools" name="platform/external/ipsec-tools" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/iptables" name="platform/external/iptables" groups="pdk-cw-fs,pdk-fs" />
@@ -139,59 +138,59 @@
   <project path="external/jarjar" name="platform/external/jarjar" groups="pdk" />
   <project path="external/javasqlite" name="platform/external/javasqlite" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/javassist" name="platform/external/javassist" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/jdiff" name="platform/external/jdiff" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/jemalloc" name="platform/external/jemalloc" groups="pdk" />
+  <project path="external/jdiff" name="platform/external/jdiff" groups="pdk-cw-fs,pdk-fs" revision="e4694302d6a3786c64d954e0b3cf42786283bd3c" />
+  <project path="external/jemalloc" name="platform/external/jemalloc" groups="pdk" revision="58161cf52f217367a7fb486808adb1d15975b13c" />
   <project path="external/jetty" name="platform/external/jetty" groups="pdk-fs" />
-  <project path="external/jhead" name="platform/external/jhead" groups="pdk" />
+  <project path="external/jhead" name="platform/external/jhead" groups="pdk" revision="afe9f55ee6ba3eaee02e7b13809a534ebe98d34a" />
   <project path="external/jline" name="platform/external/jline" groups="notdefault,tradefed" />
   <project path="external/jmdns" name="platform/external/jmdns" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/jmonkeyengine" name="platform/external/jmonkeyengine" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/jpeg" name="platform/external/jpeg" groups="pdk" />
+  <project path="external/jpeg" name="platform/external/jpeg" groups="pdk" revision="59e63424c84b07256d453e2cae96bd29153ecfd5" />
   <project path="external/jsilver" name="platform/external/jsilver" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/jsmn" name="platform/external/jsmn" groups="pdk" />
-  <project path="external/jsoncpp" name="platform/external/jsoncpp" groups="pdk-cw-fs,pdk-fs" />
+  <project path="external/jsoncpp" name="platform/external/jsoncpp" groups="pdk-cw-fs,pdk-fs" revision="f13f9d254ca57581049ddbeaf9ee1e996ab9921b" />
   <project path="external/jsr305" name="platform/external/jsr305" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/junit" name="platform/external/junit" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/kernel-headers" name="platform/external/kernel-headers" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/ksoap2" name="platform/external/ksoap2" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/libavc" name="platform/external/libavc" groups="pdk" />
+  <project path="external/libavc" name="platform/external/libavc" groups="pdk" revision="fab9a811d267f2c71bd031512e2a230cea1fb96f" />
   <project path="external/libcap-ng" name="platform/external/libcap-ng" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/libcxx" name="platform/external/libcxx" groups="pdk" />
+  <project path="external/libcxx" name="platform/external/libcxx" groups="pdk" revision="e7c27b8dfab8798e05daf3d216502d60c9d86863" />
   <project path="external/libcxxabi" name="platform/external/libcxxabi" groups="pdk" />
-  <project path="external/libdrm" name="platform/external/libdrm" groups="pdk" />
+  <project path="external/libdrm" name="platform/external/libdrm" groups="pdk" revision="0f45884ffc7a46dd4aef14ae6d227a10d8d24fd7" />
   <project path="external/libedit" name="platform/external/libedit" groups="pdk-fs" />
   <project path="external/libexif" name="platform/external/libexif" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/libgsm" name="platform/external/libgsm" groups="pdk" />
-  <project path="external/libhevc" name="platform/external/libhevc" groups="pdk-fs" />
+  <project path="external/libhevc" name="platform/external/libhevc" groups="pdk-fs" revision="b0ddcd25beb4a5b8a33ed322b73e006938fb0b47" />
   <project path="external/liblzf" name="platform/external/liblzf" groups="pdk" />
-  <project path="external/libmpeg2" name="platform/external/libmpeg2" groups="pdk" />
+  <project path="external/libmpeg2" name="platform/external/libmpeg2" groups="pdk" revision="8a947018e3e721c99b0f548d28a922471d94365b" />
   <project path="external/libmtp" name="platform/external/libmtp" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/libnfc-nci" name="platform/external/libnfc-nci" groups="pdk" />
+  <project path="external/libnfc-nci" name="platform/external/libnfc-nci" groups="pdk" revision="4e788fb52a1d3ff3fb219e743ab0166bacaa33a6" />
   <project path="external/libnfc-nxp" name="platform/external/libnfc-nxp" groups="pdk" />
   <project path="external/libnl" name="platform/external/libnl" groups="pdk" />
   <project path="external/libogg" name="platform/external/libogg" groups="pdk" />
   <project path="external/libopus" name="platform/external/libopus" groups="pdk" />
   <project path="external/libpcap" name="platform/external/libpcap" groups="pdk,pdk-cw-fs,pdk-fs" />
   <project path="external/libphonenumber" name="platform/external/libphonenumber" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/libpng" name="platform/external/libpng" groups="pdk" />
+  <project path="external/libpng" name="platform/external/libpng" groups="pdk" revision="dcf0db2c568c7e85b913b97c3798a18289c84806" />
   <project path="external/libseccomp-helper" name="platform/external/libseccomp-helper" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/libselinux" name="platform/external/libselinux" groups="pdk" />
+  <project path="external/libselinux" name="platform/external/libselinux" groups="pdk" revision="ceaa55fce32209054e4b0555ae676b01117eb9e3" />
   <project path="external/libssh2" name="platform/external/libssh2" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/libunwind" name="platform/external/libunwind" groups="pdk" />
+  <project path="external/libunwind" name="platform/external/libunwind" groups="pdk" revision="25803f143faefe03b33bc642637a46eba4b866a0" />
   <project path="external/libusb" name="platform/external/libusb" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/libusb-compat" name="platform/external/libusb-compat" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/libutf" name="platform/external/libutf" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/libvncserver" name="platform/external/libvncserver" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/libvorbis" name="platform/external/libvorbis" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/libvpx" name="platform/external/libvpx" groups="pdk" />
+  <project path="external/libvpx" name="platform/external/libvpx" groups="pdk" revision="c1dac2a28d9609d1cca8a06ecf4cebd1dcc54dcd" />
   <project path="external/libvterm" name="platform/external/libvterm" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/libxml2" name="platform/external/libxml2" groups="pdk-cw-fs,pdk-fs,libxml2" />
-  <project path="external/libyuv" name="platform/external/libyuv" groups="libyuv,pdk-cw-fs,pdk-fs" />
+  <project path="external/libyuv" name="platform/external/libyuv" groups="libyuv,pdk-cw-fs,pdk-fs" revision="482a582884351288fb701532359652970b1ba7c0" />
   <project path="external/linux-tools-perf" name="platform/external/linux-tools-perf" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/littlemock" name="platform/external/littlemock" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/lld" name="platform/external/lld" groups="pdk-fs" />
   <project path="external/lldb" name="platform/external/lldb" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/llvm" name="platform/external/llvm" groups="pdk" />
+  <project path="external/llvm" name="platform/external/llvm" groups="pdk" revision="dc995261b1e56b80990965f4556311e50deae97e" />
   <project path="external/ltrace" name="platform/external/ltrace" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/lz4" name="platform/external/lz4" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/lzma" name="platform/external/lzma" groups="pdk" />
@@ -199,14 +198,15 @@
   <project path="external/markdown" name="platform/external/markdown" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/mdnsresponder" name="platform/external/mdnsresponder" groups="pdk" />
   <project path="external/mesa3d" name="platform/external/mesa3d" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/messageformat" name="platform/external/messageformat" groups="pdk-cw-fs,pdk-fs" />
+  <project path="external/messageformat" name="platform/external/messageformat" groups="pdk-cw-fs,pdk-fs" revision="ae0892942b6c7a5e47077e4a5a776bf1958b570a" />
   <project path="external/mksh" name="platform/external/mksh" groups="pdk" />
   <project path="external/mockftpserver" name="platform/external/mockftpserver" groups="pdk-fs" />
   <project path="external/mockito" name="platform/external/mockito" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/mockwebserver" name="platform/external/mockwebserver" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/mp4parser" name="platform/external/mp4parser" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/mtpd" name="platform/external/mtpd" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/nanohttpd" name="platform/external/nanohttpd" groups="pdk-fs" />
+  <project path="external/nanohttpd" name="platform/external/nanohttpd" groups="pdk-fs" revision="8d6a97830abf9685bc0724c24766c8f9704aacd2" />
+  <!-- Edited manifest ends here -->
   <project path="external/nanopb-c" name="platform/external/nanopb-c" groups="pdk" />
   <project path="external/naver-fonts" name="platform/external/naver-fonts" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/netcat" name="platform/external/netcat" groups="pdk-cw-fs,pdk-fs" />
