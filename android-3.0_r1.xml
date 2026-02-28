@@ -42,6 +42,7 @@
   <project path="external/dropbear" name="platform/external/dropbear" revision="0f917a9e985bd21ff5fbe54815a464c3b16e2b98"/>
   <project path="external/e2fsprogs" name="platform/external/e2fsprogs" revision="8bc4f69c082b6202f4ad25df0819dd2c61b84292"/>
   <project path="external/easymock" name="platform/external/easymock" revision="182c1814dba2de11b8c946527a7468bcf71d142c"/>
+  <project path="external/elfcopy" name="platform/external/elfcopy" revision="83a9e97f988380cb719825bcb054aa64455d7207"/>
   <project path="external/elfutils" name="platform/external/elfutils" revision="84cf4183ba6f577ee01abe7f1f5a6d4b23df35a8"/>
   <project path="external/embunit" name="platform/external/embunit" revision="336b7c65098af0d1be69f2db55f4e75342d73b3f"/>
   <project path="external/emma" name="platform/external/emma" />
@@ -63,7 +64,6 @@
   <project path="external/iproute2" name="platform/external/iproute2" revision="722fcc24bc9c1d1066e01ba8890c20602d5c8413"/>
   <project path="external/ipsec-tools" name="platform/external/ipsec-tools" revision="b4595a4fdd244fc67be9aafa4acd1f4dceb3d932"/>
   <project path="external/iptables" name="platform/external/iptables" revision="4a820b4c41de49482adce1a4e7424ca124b6b233"/>
-  <project path="external/javasqlite" name="platform/external/javasqlite" revision="91eb4c33cf4cd394037e957e877d7df71975b4a3" />
   <project path="external/jdiff" name="platform/external/jdiff" revision="e4694302d6a3786c64d954e0b3cf42786283bd3c"/>
   <project path="external/jhead" name="platform/external/jhead" revision="2856a2765bf15a8677a481cf8a38d0ad17f31a6e"/>
   <project path="external/jpeg" name="platform/external/jpeg" revision="07e6988e9c9ed5bf5cb457d4f0ba7ca08c4e0b22"/>
@@ -82,7 +82,6 @@
   <project path="external/libxslt" name="platform/external/libxslt" />
   <project path="external/llvm" name="platform/external/llvm" revision="1077c330eed643485d5bc2852abea1fb41bac5fb"/>
   <project path="external/markdown" name="platform/external/markdown" />
-  <project path="external/mesa3d" name="platform/external/mesa3d" revision="2ac1cf8a62bcf080b70eaa7c0e4f57d4e8001685" />
   <project path="external/mtpd" name="platform/external/mtpd" revision="fccbc17685cd8bd43cf1c1e533c4d02f6f79d667"/>
   <project path="external/netcat" name="platform/external/netcat" revision="2b3431e2762434dff96ff279069e3796ef2d4333"/> 
   <project path="external/netperf" name="platform/external/netperf" />
@@ -163,7 +162,7 @@
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" revision="d8dc5fd1f1c57d2ce1ed21152f8294c9e7ddc1ed"/>
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" revision="f075eb5cefb6357aa7562a6d156bda5383ac087d" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" revision="197a996db80dd1ec5dd3a1e29329d0e7934f457e"/>
-  <project path="packages/apps/Tag" name="platform/packages/apps/Tag" revision="cea7b6a8efddda4a8a34a693884dda1e52a8ea5a" />
+  <project path="packages/apps/Tag" name="platform/packages/apps/Tag" revision="bcb8a75a68efe0f8dcb6b78b9f0be24022aff4cd" />
   <project path="packages/apps/VideoEditor" name="platform/packages/apps/VideoEditor" revision="91591426ad4ea77f45a33eac57945529b8c46d1a" />
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" revision="697085c23073f07c200be453ae7824ab79364b70"/>
   <project path="packages/experimental" name="platform/packages/experimental" revision="330ecff66820f2f97f09699aadfbd1e0cd014fa1"/>
