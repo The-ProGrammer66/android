@@ -160,34 +160,29 @@
   <project path="external/yaffs2" name="platform/external/yaffs2" revision="f9485fe8567fc50f2eecf35055ee5c5c31d61362" />
   <!-- RTM is 96c70b1 -->
   <project path="external/zlib" name="platform/external/zlib" revision="381716e9396b55b1adb8235b020c37344f60ab07" />
+  <project path="frameworks/base" name="platform/frameworks/base" revision="b8bb78f54b48868465a9d69d65fda08524ab5ae1" />
+  <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" revision="e405ef4f8a375b440b31fed16471f5b52e2357e3" />
+  <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" revision="6322c93178711b935af4ffbfe5066d10280d26ba" />
+  <project path="frameworks/ex" name="platform/frameworks/ex" revision="b87362e0a6de2bf398fd4b135c66adcfbb42d8e7" />
+  <project path="frameworks/media/libvideoeditor" name="platform/frameworks/media/libvideoeditor" revision="5358e878396e1c451e9f9ef07237c2e6ab662d49" />
+  <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" revision="android-2.3.7_r1" />
+  <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" revision="147f1ae5371954ae845cb2330b221df6ca1d8831" />
+  <project path="frameworks/support" name="platform/frameworks/support" revision="8ef7ae33a3d189591fff394f3a20b5a88c623125" />
+  <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" revision="a5519f3b2916e870b48047444eb93535d45c8bbd" />
+  <project path="hardware/libhardware" name="platform/hardware/libhardware" revision="2b9fcc36e24ada3345faf7689a47d1bd3e9f4cf1" />
+  <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" revision="7c6051a4990d9c55245c90a233bb23e5cc5cb544" />
+  <project path="hardware/msm7k" name="platform/hardware/msm7k" revision="6688eab51d3d61e77e93c13d1525b4fd38dec0ae" />
+  <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" revision="3c865ec2f9efbe5e21b55c1b43a2fbe9ffe1000a" />
+  <project path="hardware/qcom/media" name="platform/hardware/qcom/media" revision="72c8c9f7d7f2f371e95918211e2bc514c96b9f83" />
+  <project path="hardware/ril" name="platform/hardware/ril" revision="16c00522e27da0cfcbc4d926900e534e1583168f" />
+  <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" revision="a0b2785f72203860a685b5acbe3c7d4a11e61d4d" />
+  <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" revision="41ecb6fc3e74edbf5c049054b299278e66d92fc1" />
+  <project path="libcore" name="platform/libcore" revision="2375e98761ddc54d0a30a6c06a835a2f723dc748" />
+  <project path="ndk" name="platform/ndk" revision="53d2b0dcc4fa5edad0994542f40e483485069ee5" />
+  <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" revision="c50682dac4ffdccc763c3886bafaa734796d166d" />
+  <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" revision="59a9d43a7f921d5aafd131d815570044f9e96f88" />
 
-  
-  <project path="frameworks/base" name="platform/frameworks/base" />
-  <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" />
-  <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" />
-  <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" />
-  <project path="frameworks/ex" name="platform/frameworks/ex" />
-  <project path="frameworks/media/libvideoeditor" name="platform/frameworks/media/libvideoeditor" />
-  <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" />
-  <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
-  <project path="frameworks/opt/inputmethodcommon" name="platform/frameworks/opt/inputmethodcommon" />
-  <project path="frameworks/opt/mailcommon" name="platform/frameworks/opt/mailcommon" />
-  <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" />
-  <project path="frameworks/support" name="platform/frameworks/support" />
-  <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" />
-  <project path="hardware/invensense" name="platform/hardware/invensense" />
-  <project path="hardware/libhardware" name="platform/hardware/libhardware" />
-  <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" />
-  <project path="hardware/msm7k" name="platform/hardware/msm7k" />
-  <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" />
-  <project path="hardware/qcom/media" name="platform/hardware/qcom/media" />
-  <project path="hardware/ril" name="platform/hardware/ril" />
-  <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
-  <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" />
-  <project path="libcore" name="platform/libcore" />
-  <project path="ndk" name="platform/ndk" />
-  <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
-  <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" />
+  <!-- EDITED MANIFEST ENDS HERE -->
   <project path="packages/apps/Browser" name="platform/packages/apps/Browser" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" />
