@@ -462,17 +462,17 @@
   <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" groups="pdk" clone-depth="1" revision="4baa2c3995cda158c7f357f88f27a2595e90c45b" />
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" revision="3a860a3fda3d74777887e507bdddfca1c4369e6c" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" revision="d5c8668f93205c8ee8cb4f38b6a1ea7387be0ce0" />
-  <!-- Edited manifest ends here -->
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs,pdk-fs" />
-  <project path="system/bt" name="platform/system/bt" groups="pdk" />
-  <project path="system/core" name="platform/system/core" groups="pdk" />
-  <project path="system/extras" name="platform/system/extras" groups="pdk" />
-  <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" />
-  <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" />
-  <project path="system/media" name="platform/system/media" groups="pdk" />
-  <project path="system/netd" name="platform/system/netd" groups="pdk" />
-  <project path="system/security" name="platform/system/security" groups="pdk" />
-  <project path="system/vold" name="platform/system/vold" groups="pdk" />
+  <project path="system/bt" name="platform/system/bt" groups="pdk" revision="ed57886be70b58873e5fe7103171b341b8784277" />
+  <project path="system/core" name="platform/system/core" groups="pdk" revision="7076796cab1ae275d9e9336f19e068abf28f946b" />
+  <project path="system/extras" name="platform/system/extras" groups="pdk" revision="e2c9cfd9de1398a49a0ec3a14a44aed25439b878" />
+  <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" revision="ec9fd1d44227dc0e8538153214eae9e7cedb66ab" />
+  <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" revision="148a75b7804d0ab2fce8f0859b054c08ebd32793" />
+  <project path="system/media" name="platform/system/media" groups="pdk" revision="1f6902ea391a84a33b0dca376285a5440ba5f55f" />
+  <project path="system/netd" name="platform/system/netd" groups="pdk" revision="a59c928252869242642edfed689902a488a6298f" />
+  <project path="system/security" name="platform/system/security" groups="pdk" revision="30ab66efa31e33ad8952be4d3b248fbc3054198c" />
+  <project path="system/vold" name="platform/system/vold" groups="pdk" revision="c8e04c5a8285de07d2c84bfbda8eda2c14a9457d" />
+  <!-- Edited manifest ends here -->
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" />
   <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" />
   <project path="tools/base" name="platform/tools/base" groups="notdefault,tools" />
