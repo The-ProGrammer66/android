@@ -246,6 +246,7 @@
   <project path="external/sqlite" name="platform/external/sqlite" groups="pdk" revision="66b62ef26410fb7a8490cbe9e09fb1478fe75f9f" />
   <project path="external/squashfs-tools" name="platform/external/squashfs-tools" groups="pdk" revision="39c3e017bcb287a67bb5752adec4867d0ef40c8d" />
   <project path="external/srtp" name="platform/external/srtp" groups="pdk-cw-fs,pdk-fs" />
+  <project path="external/stlport" name="platform/external/stlport" groups="pdk-cw-fs,pdk-fs" revision="176973f0a182bab49f43993aefa34e0d76790ac9" />
   <project path="external/strace" name="platform/external/strace" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/svox" name="platform/external/svox" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/tagsoup" name="platform/external/tagsoup" groups="pdk-cw-fs,pdk-fs" />
