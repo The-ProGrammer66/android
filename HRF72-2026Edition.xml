@@ -162,7 +162,7 @@
   <project path="external/yaffs2" name="platform/external/yaffs2" revision="f9485fe8567fc50f2eecf35055ee5c5c31d61362" />
   <!-- RTM is 96c70b1 -->
   <project path="external/zlib" name="platform/external/zlib" revision="381716e9396b55b1adb8235b020c37344f60ab07" />
-  <project path="frameworks/base" name="platform/frameworks/base" revision="b8bb78f54b48868465a9d69d65fda08524ab5ae1" />
+  <project path="frameworks/base" name="platform/frameworks/base" revision="6df7225660f7aa35757ef79bb5214fffbd5247b7" />
   <!-- EARLY BUILD PATCHES -->
   <project path="external/llvm/libbcc" name="platform/frameworks/compile/libbcc" revision="e405ef4f8a375b440b31fed16471f5b52e2357e3" />
   <project path="external/llvm/slang" name="platform/frameworks/compile/slang" revision="6322c93178711b935af4ffbfe5066d10280d26ba" />
