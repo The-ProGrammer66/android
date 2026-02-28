@@ -90,7 +90,8 @@
   <project path="external/ipsec-tools" name="platform/external/ipsec-tools" revision="4fe3597dce855ea199afa239498c9c1833a6fe48" />
   <!-- !!! Has HC tags. !!! -->
   <project path="external/iptables" name="platform/external/iptables" revision="4a820b4c41de49482adce1a4e7424ca124b6b233" />
-  <project path="external/javasqlite" name="platform/external/javasqlite" revision="b9ad9e32e2235f04fc8afbf4ff381190ae5745f2" />
+  <!-- Only added after they moved it from libcore -->
+  <!--<project path="external/javasqlite" name="platform/external/javasqlite" revision="b9ad9e32e2235f04fc8afbf4ff381190ae5745f2" />-->
   <project path="external/jdiff" name="platform/external/jdiff" revision="590cef7c1b48c9c3f4556ae65fbc0065d65da54a" />
   <!-- RTM is 2856a27 -->
   <project path="external/jhead" name="platform/external/jhead" revision="1ed8197f0cefb2541f630830993e109c59ba822c" />
