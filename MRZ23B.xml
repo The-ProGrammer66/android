@@ -329,7 +329,8 @@
   <project path="hardware/intel/img/psb_video" name="platform/hardware/intel/img/psb_video" groups="intel" revision="7de87243f14370339bca45b55d98624a2be48596" />
   <project path="hardware/intel/sensors" name="platform/hardware/intel/sensors" groups="intel_sensors" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" revision="da7d68b77214908887cfe6a709290d8c1b20e768" />
-  <project path="hardware/libhardware" name="platform/hardware/libhardware" groups="pdk" revision="43d3443ce2a7c6749582d6c70abb59ebc5af10c4" />
+  <!-- Original commit: 43d3443ce2a7c6749582d6c70abb59ebc5af10c4 -->
+  <project path="platform_hardware_libhardware" name="platform/hardware/libhardware" groups="pdk" remote="github" revision="MRZ23B-fix" />
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" revision="778ad703da9bb791e1a43ad673f4e5a9e38db1d3" />
   <project path="hardware/marvell/bt" name="platform/hardware/marvell/bt" groups="marvell_bt" revision="f2045d311bb67a5739033a4e96d0526c2f803d26" />
   <project path="hardware/mediatek" name="platform/hardware/mediatek" groups="mediatek,mediatek_wear" />
