@@ -45,7 +45,8 @@
   <project path="external/bzip2" name="platform/external/bzip2" revision="acecdb4ea44e810a5ddb53e0c3fa4baf04b4a5c9" />
   <!-- !!! Has HC tags. !!! -->
   <project path="external/chromium" name="platform/external/chromium" revision="5e43ad9465e402d595a3c960784b1effe2e9bd88" />
-  <project path="external/clang" name="platform/external/clang" revision="c8bfd0f8bb22ea019c673898bbdb07a834f0d821" />
+  <!-- EARLY BUILD PATCH -->
+  <project path="external/llvm/tools/clang" name="platform/external/clang" revision="c8bfd0f8bb22ea019c673898bbdb07a834f0d821" />
   <!-- Not in retail HC! -->
   <!--<project path="external/clearsilver" name="platform/external/clearsilver" revision="07dd92d42a6c10f06a25a5b021accd8848a8e029" />-->
   <!-- !!! Has HC tags. !!! -->
@@ -161,8 +162,9 @@
   <!-- RTM is 96c70b1 -->
   <project path="external/zlib" name="platform/external/zlib" revision="381716e9396b55b1adb8235b020c37344f60ab07" />
   <project path="frameworks/base" name="platform/frameworks/base" revision="b8bb78f54b48868465a9d69d65fda08524ab5ae1" />
-  <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" revision="e405ef4f8a375b440b31fed16471f5b52e2357e3" />
-  <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" revision="6322c93178711b935af4ffbfe5066d10280d26ba" />
+  <!-- EARLY BUILD PATCHES -->
+  <project path="external/llvm/llvm" name="platform/frameworks/compile/libbcc" revision="e405ef4f8a375b440b31fed16471f5b52e2357e3" />
+  <project path="external/llvm/llvm" name="platform/frameworks/compile/slang" revision="6322c93178711b935af4ffbfe5066d10280d26ba" />
   <project path="frameworks/ex" name="platform/frameworks/ex" revision="b87362e0a6de2bf398fd4b135c66adcfbb42d8e7" />
   <project path="frameworks/media/libvideoeditor" name="platform/frameworks/media/libvideoeditor" revision="5358e878396e1c451e9f9ef07237c2e6ab662d49" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" revision="refs/tags/android-2.3.7_r1" />
