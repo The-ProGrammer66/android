@@ -83,44 +83,43 @@
   <project path="external/harfbuzz" name="platform/external/harfbuzz" revision="9c3caf546f7c14c497d6c83d16b89e01b9ee9e3f" />
   <project path="external/hyphenation" name="platform/external/hyphenation" />
   <project path="external/icu4c" name="platform/external/icu4c" revision="2bae19d8f45dbf334f2ca6b38bb9f82357455a8f" />
-
-  <!-- EDITED MANIFEST ENDS HERE -->
-  <project path="external/iproute2" name="platform/external/iproute2" />
-  <project path="external/ipsec-tools" name="platform/external/ipsec-tools" />
-  <project path="external/iptables" name="platform/external/iptables" />
-  <project path="external/javasqlite" name="platform/external/javasqlite" />
-  <project path="external/javassist" name="platform/external/javassist" />
-  <project path="external/jdiff" name="platform/external/jdiff" />
-  <project path="external/jhead" name="platform/external/jhead" />
-  <project path="external/jpeg" name="platform/external/jpeg" />
-  <project path="external/jsilver" name="platform/external/jsilver" />
-  <project path="external/jsr305" name="platform/external/jsr305" />
-  <project path="external/junit" name="platform/external/junit" />
-  <project path="external/kernel-headers" name="platform/external/kernel-headers" />
+  <!-- !!! Has HC tags. !!! -->
+  <project path="external/iproute2" name="platform/external/iproute2" revision="a3bf26f14bd98e38677a685e34cb5d3bfbd4a816" />
+  <!-- RTM is b4595a4 -->
+  <project path="external/ipsec-tools" name="platform/external/ipsec-tools" revision="4fe3597dce855ea199afa239498c9c1833a6fe48" />
+  <!-- !!! Has HC tags. !!! -->
+  <project path="external/iptables" name="platform/external/iptables" revision="4a820b4c41de49482adce1a4e7424ca124b6b233" />
+  <project path="external/javasqlite" name="platform/external/javasqlite" revision="b9ad9e32e2235f04fc8afbf4ff381190ae5745f2" />
+  <project path="external/jdiff" name="platform/external/jdiff" revision="590cef7c1b48c9c3f4556ae65fbc0065d65da54a" />
+  <!-- RTM is 2856a27 -->
+  <project path="external/jhead" name="platform/external/jhead" revision="1ed8197f0cefb2541f630830993e109c59ba822c" />
+  <!-- RTM is 07e6988 -->
+  <project path="external/jpeg" name="platform/external/jpeg" revision="60ba49e6e7ce3276ad250447ad920b2434b0fbed" />
+  <project path="external/jsilver" name="platform/external/jsilver" revision="b175b218264f1f4bd254151612e4c3309e240564" />
+  <!-- RTM is 144058d -->
+  <project path="external/jsr305" name="platform/external/jsr305" revision="7dfa0d76ee2bf38078b295f50aab085747a72fcf" />
+  <project path="external/junit" name="platform/external/junit" revision="e9b8080d6d80d17729e0b7f8b1d2b573b3456cc4" />
+  <project path="external/kernel-headers" name="platform/external/kernel-headers" revision="41b702efb3d18195435a4311d97b3a2a875c2d43" />
   <project path="external/libffi" name="platform/external/libffi" />
-  <project path="external/libgsm" name="platform/external/libgsm" />
-  <project path="external/liblzf" name="platform/external/liblzf" />
-  <project path="external/libnfc-nxp" name="platform/external/libnfc-nxp" />
-  <project path="external/libnl-headers" name="platform/external/libnl-headers" />
+  <project path="external/libgsm" name="platform/external/libgsm" revision="4ccd528967799be8288711f46b8bdb57198ac8b1" />
+  <project path="external/libnfc-nxp" name="platform/external/libnfc-nxp" revision="4ff7c86a2c706b150078274455406f1b04966e1a" />
   <project path="external/libpcap" name="platform/external/libpcap" />
-  <project path="external/libphonenumber" name="platform/external/libphonenumber" />
-  <project path="external/libpng" name="platform/external/libpng" />
-  <project path="external/libvpx" name="platform/external/libvpx" />
-  <project path="external/libxml2" name="platform/external/libxml2" />
+  <project path="external/libphonenumber" name="platform/external/libphonenumber" revision="d644aa0ae3dea867301bead6f7dc27ac19189db4" />
+  <project path="external/libpng" name="platform/external/libpng" revision="342380c79a16cc2e5ba7859c3fc4e40f2661ea45" />
+  <project path="external/libvpx" name="platform/external/libvpx" revision="90d3ed91ae9228e1c8bab561b6138d4cb8c1e4fd" />
+  <project path="external/libxml2" name="platform/external/libxml2" revision="17b865f2a1a0ac37a545ac37a0ce489a2506e146" />
   <project path="external/libxslt" name="platform/external/libxslt" />
-  <project path="external/llvm" name="platform/external/llvm" />
-  <project path="external/lohit-fonts" name="platform/external/lohit-fonts" />
-  <project path="external/markdown" name="platform/external/markdown" />
-  <project path="external/mesa3d" name="platform/external/mesa3d" />
-  <project path="external/mksh" name="platform/external/mksh" />
-  <project path="external/mockwebserver" name="platform/external/mockwebserver" />
-  <project path="external/mtpd" name="platform/external/mtpd" />
-  <project path="external/netcat" name="platform/external/netcat" />
+  <project path="external/llvm" name="platform/external/llvm" revision="28188e1c4986d9e4985f0f4a8ce268743eb94631" />
+  <project path="external/mtpd" name="platform/external/mtpd" revision="7d4f656f92c2c846741c81facf13958d40570b0f" />
+  <!-- RTM is 2b3431e -->
+  <project path="external/netcat" name="platform/external/netcat" revision="fc2dc55c510657073ef4235658167a878e82cefa" />
   <project path="external/netperf" name="platform/external/netperf" />
-  <project path="external/neven" name="platform/external/neven" />
-  <project path="external/nist-sip" name="platform/external/nist-sip" />
-  <project path="external/oauth" name="platform/external/oauth" />
-  <project path="external/opencv" name="platform/external/opencv" />
+  <project path="external/neven" name="platform/external/neven" revision="d898f9992b4db8f63ec707b07f3802ce3181ffda" />
+  <project path="external/nist-sip" name="platform/external/nist-sip" revision="1c826275a754b66dc1eb8b786c8b5a44c75878b4" />
+  <!-- Not in retail HC! -->
+  <!--<project path="external/opencore" name="platform/external/opencore" revision="android-2.2.3_r2.1" />-->
+  <project path="external/oauth" name="platform/external/oauth" revision="c76276a1d6165cfb502b06f65b1735fef0754d26" />
+
   <project path="external/openssl" name="platform/external/openssl" />
   <project path="external/oprofile" name="platform/external/oprofile" />
   <project path="external/pcre" name="platform/external/pcre" />
