@@ -173,7 +173,7 @@
   <project path="frameworks/support" name="platform/frameworks/support" revision="8ef7ae33a3d189591fff394f3a20b5a88c623125" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" revision="a5519f3b2916e870b48047444eb93535d45c8bbd" />
   <project path="hardware/libhardware" name="platform/hardware/libhardware" revision="2b9fcc36e24ada3345faf7689a47d1bd3e9f4cf1" />
-  <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" revision="7c6051a4990d9c55245c90a233bb23e5cc5cb544" />
+  <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" revision="564c30323762685cdb811e2a985ad374a691745e" />
   <project path="hardware/msm7k" name="platform/hardware/msm7k" revision="6688eab51d3d61e77e93c13d1525b4fd38dec0ae" />
   <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" revision="3c865ec2f9efbe5e21b55c1b43a2fbe9ffe1000a" />
   <project path="hardware/qcom/media" name="platform/hardware/qcom/media" revision="72c8c9f7d7f2f371e95918211e2bc514c96b9f83" />
