@@ -82,8 +82,8 @@
   <project path="external/netperf" name="platform/external/netperf" />
   <project path="external/neven" name="platform/external/neven" revision="d898f9992b4db8f63ec707b07f3802ce3181ffda"/>
   <project path="external/nist-sip" name="platform/external/nist-sip" revision="701b995bc6fd59c6888510d46099d8e32e3c6511"/>
-  <project path="external/oauth" name="platform/external/oauth" revision=android-2.3.7_r1/>
-  <project path="external/opencore" name="platform/external/opencore" revision=android-2.3.7_r1/>
+  <project path="external/oauth" name="platform/external/oauth" revision="android-2.3.7_r1"/>
+  <project path="external/opencore" name="platform/external/opencore" revision="android-2.3.7_r1"/>
   <project path="external/openssl" name="platform/external/openssl" revision="b2c3821cf900ede3f0afe5137bfe9c98ffb012ce"/>
   <project path="external/oprofile" name="platform/external/oprofile" revision="802e057e6e55fc120cb6d344ca5e6a2690cff3f0"/>
   <project path="external/ping" name="platform/external/ping" revision="05cc700c9089ff72accb1c76a67c01b5d176bf3e"/>
@@ -116,7 +116,7 @@
   <project path="frameworks/ex" name="platform/frameworks/ex" revision="8320c15293c46f9f1de9137dd1ce9465a0c66e9c"/>
   <project path="external/llvm/libbcc" name="platform/frameworks/compile/libbcc" revision="e405ef4f8a375b440b31fed16471f5b52e2357e3"/>
   <project path="external/llvm/slang" name="platform/frameworks/compile/slang" revision="48bac230fe966771f3074975fc2426ffde519edf"/>
-  <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" revision=android-2.3.7_r1/>
+  <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" revision="android-2.3.7_r1"/>
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" revision="147f1ae5371954ae845cb2330b221df6ca1d8831"/>
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" revision="3143e3435f94b71d3ef5d87ac43dae590d750f97"/>
   <project path="hardware/libhardware" name="platform/hardware/libhardware" revision="ffc682e85771ce587c59c2bb01e948e1b373377a"/>
@@ -153,12 +153,12 @@
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" revision="e46ac8349b012ec2c649d4e20bc835fec9ec681f"/>
   <project path="packages/apps/Settings" name="platform/packages/apps/Settings" revision="97bdc93a3b461e50a12dd795589ae46a7545c92b"/>
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" revision="46fedaa25c077408e3e317ab4ad28626bd1ef765"/>
-  <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" revision=android-2.3.7_r1/>
+  <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" revision="android-2.3.7_r1"/>
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" revision="1f04bacb57af5ac14852cc1056f53016560cc656"/>
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" revision="38dad070c55c91d1c7abd909b5c37beb7c874a89"/>
   <project path="packages/experimental" name="platform/packages/experimental" revision="e87bd517767784bb40f1fac51309fee5b829b00e"/>
   <project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" revision="57691a35743e3705abe60db4902f9ad3c0e722d8"/>
-  <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" revision=android-2.3.7_r1/>
+  <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" revision="android-2.3.7_r1"/>
   <project path="packages/inputmethods/PinyinIME" name="platform/packages/inputmethods/PinyinIME" revision="6b7954e2967754a77c55dc4291941978e3508259"/>
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" revision="00787c8bd9aaa465e7a906141a3b676575834367"/>
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" revision="a84cc39ca05e0e799f03e04a1d3e30b5ff733cd7"/>

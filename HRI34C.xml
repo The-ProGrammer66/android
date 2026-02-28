@@ -87,8 +87,8 @@
   <project path="external/netperf" name="platform/external/netperf" />
   <project path="external/neven" name="platform/external/neven" revision="7164d6ac08ab9fc1247aa29f1dafd0ef7808f0f2"/>
   <project path="external/nist-sip" name="platform/external/nist-sip" revision="ee4818b89e806fb1ef6d241cb8199716b2d0ca85"/>
-  <project path="external/oauth" name="platform/external/oauth" revision=android-2.3.7_r1/>
-  <project path="external/opencore" name="platform/external/opencore" revision=android-2.3.7_r1/>
+  <project path="external/oauth" name="platform/external/oauth" revision="android-2.3.7_r1"/>
+  <project path="external/opencore" name="platform/external/opencore" revision="android-2.3.7_r1"/>
   <project path="external/openssl" name="platform/external/openssl" revision="8ec051acfe6cc3d798ba2be6f05a6268d4d9f77e"/>
   <project path="external/oprofile" name="platform/external/oprofile" revision="8cfa702f803c5ef6a2b062a489a1b2cf66b45b5e"/>
   <project path="external/ping" name="platform/external/ping" revision="2b77a5377db63d95d777a7d5aa14380dd0e71e72"/>
@@ -123,7 +123,7 @@
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" revision="000f261010bc11b1e245435b45a2e16bec474d92"/>
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" revision="65bfed579297cf782659bb1111c4654cd9b1909e"/>
   <project path="frameworks/media/libvideoeditor" name="platform/frameworks/media/libvideoeditor" revision="1240ce40fa728563b3c99b9a25dcfc6580e92c8b"/>
-  <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" revision=android-2.3.7_r1/>
+  <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" revision="android-2.3.7_r1"/>
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" revision="da2f6ef422b360827f2c5231552d8c9fad0ed8b1"/>
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" revision="74908cd3639fb033c9acbb8d42584346a4466a0a"/>
   <project path="hardware/libhardware" name="platform/hardware/libhardware" revision="8c45998962a5f5ca5e091a386767463e4054cf22"/>
@@ -158,12 +158,12 @@
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" revision="7037a39f54d18e30526df41a4638a7b58d368a9b"/>
   <project path="packages/apps/Settings" name="platform/packages/apps/Settings" revision="56ec25ff812c6338f6c800c918e58c2bb83f32bd"/>
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" revision="35b439e0885ea1e0222a154c21ac4751988290a8"/>
-  <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" revision=android-2.3.7_r1/>
+  <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" revision="android-2.3.7_r1"/>
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" revision="197a996db80dd1ec5dd3a1e29329d0e7934f457e"/>
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" revision="697085c23073f07c200be453ae7824ab79364b70"/>
   <project path="packages/experimental" name="platform/packages/experimental" revision="330ecff66820f2f97f09699aadfbd1e0cd014fa1"/>
   <project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" revision="f5cf266ad97d941cf5abfeffc0798ed410f623a4"/>
-  <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" revision=android-2.3.7_r1/>
+  <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" revision="android-2.3.7_r1"/>
   <project path="packages/inputmethods/PinyinIME" name="platform/packages/inputmethods/PinyinIME" revision="8c8df623b7097b008856c28b874a99a231eb278a"/>
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" revision="8d79f0aaf21b16b229cbf612b324914017761b4b"/>
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" revision="74ca9ba319a55a7dcb222344d2582e4dabe5d3bf"/>
