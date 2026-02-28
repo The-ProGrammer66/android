@@ -472,20 +472,19 @@
   <project path="system/netd" name="platform/system/netd" groups="pdk" revision="a59c928252869242642edfed689902a488a6298f" />
   <project path="system/security" name="platform/system/security" groups="pdk" revision="30ab66efa31e33ad8952be4d3b248fbc3054198c" />
   <project path="system/vold" name="platform/system/vold" groups="pdk" revision="c8e04c5a8285de07d2c84bfbda8eda2c14a9457d" />
-  <!-- Edited manifest ends here -->
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" />
-  <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" />
-  <project path="tools/base" name="platform/tools/base" groups="notdefault,tools" />
+  <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" revision="d7169a75224a2336627e8f67aa259939507b5ff4" />
+  <project path="tools/base" name="platform/tools/base" groups="notdefault,tools" revision="26c8c6a5cccb7e6965c22e25d204aadab97c022b" />
   <project path="tools/build" name="platform/tools/build" groups="notdefault,tools" />
   <project path="tools/emulator" name="platform/tools/emulator" groups="notdefault,tools" />
   <project path="tools/external/fat32lib" name="platform/tools/external/fat32lib" groups="tools" />
-  <project path="tools/external/gradle" name="platform/tools/external/gradle" groups="tools" />
+  <project path="tools/external/gradle" name="platform/tools/external/gradle" groups="tools" revision="2a5bdc2fb02573d70e7826885607e9a33f275e4e" />
   <project path="tools/idea" name="platform/tools/idea" groups="notdefault,tools" />
   <project path="tools/loganalysis" name="platform/tools/loganalysis" groups="notdefault,tradefed" />
   <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" />
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
   <project path="tools/studio/translation" name="platform/tools/studio/translation" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
-  <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
+  <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" revision="b846e0b0e4eec6fbfd7890189cc331092749e635" />
 
 </manifest>
