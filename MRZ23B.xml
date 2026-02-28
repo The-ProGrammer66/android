@@ -25,7 +25,8 @@
   <!-- Original commit: 021190bf584662e75b269ef47cd48e2044e34fe4 -->
   <project path="art" name="android_art" groups="pdk" remote="github" revision="MRZ23B-fix"  />
   <project path="bionic" name="platform/bionic" groups="pdk" revision="08d62b231045fd7dc4ee3bedf2b7b90635c820f0" />
-  <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" revision="5f40ad936f043c557b6d56b74999be76ff9d56a4" />
+  <!-- Original commit: 5f40ad936f043c557b6d56b74999be76ff9d56a4 -->
+  <project path="bootable/recovery" name="android_bootable_recovery" groups="pdk" remote="github" revision="MRZ23B-fix" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" revision="29df814eccd6c4a3505c14da5321a0eba8c005b7" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs,pdk-fs" revision="dae49f641b63d0e5e2197cfbf3f0b0f45e979526" />
   <project path="developers/build" name="platform/developers/build" revision="ba2fefe790697cc75fd1821491bf1f954e183607" />
