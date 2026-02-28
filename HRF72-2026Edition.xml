@@ -40,7 +40,7 @@
   <project path="external/bluetooth/hcidump" name="platform/external/bluetooth/hcidump" revision="refs/tags/android-3.0_r1" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" revision="12d0ec3d2ea5294af466f7644773a1ee396930f8" />
   <!-- RTM -->
-  <project path="external/bsdiff" name="platform/external/bsdiff" revision="refs/tags/ndroid-2.3.7_r1" />
+  <project path="external/bsdiff" name="platform/external/bsdiff" revision="refs/tags/android-2.3.7_r1" />
   <!-- RTM is one commit earlier than ICS's -->
   <project path="external/bzip2" name="platform/external/bzip2" revision="acecdb4ea44e810a5ddb53e0c3fa4baf04b4a5c9" />
   <!-- !!! Has HC tags. !!! -->
