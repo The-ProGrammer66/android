@@ -85,8 +85,8 @@
   <project path="external/netperf" name="platform/external/netperf" />
   <project path="external/neven" name="platform/external/neven" revision="7164d6ac08ab9fc1247aa29f1dafd0ef7808f0f2"/>
   <project path="external/nist-sip" name="platform/external/nist-sip" revision="96f517ad51c3afe83f4d12e78beba1122f5dc877"/>
-  <project path="external/oauth" name="platform/external/oauth" revision="android-2.3.7_r1"/>
-  <project path="external/opencore" name="platform/external/opencore" revision="android-2.3.7_r1"/>
+  <project path="external/oauth" name="platform/external/oauth" revision="c76276a1d6165cfb502b06f65b1735fef0754d26"/>
+  <project path="external/opencore" name="platform/external/opencore" revision="61bf9af643abf0011dcf82ae8a436aeb7e8aae97"/>
   <project path="external/openssl" name="platform/external/openssl" revision="6f9c08fba1081cc8bb4f1c38487ff2bd88857632"/>
   <project path="external/oprofile" name="platform/external/oprofile" revision="a9404b820caf434bba3c3c54c5e786a0eb9ebedb"/>
   <project path="external/ping" name="platform/external/ping" revision="f35ea57ab6d01badde92491274ff2d74cbe3cf01"/>
@@ -119,7 +119,7 @@
   <project path="frameworks/ex" name="platform/frameworks/ex" revision="63d56fd1c9834aea31af45ed06a7f892bec01ea4"/>
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" revision="c7c9cd517251e3e28c4628cf9ceba178b829f649"/>
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" revision="83fbfba1257bf334bbf00a37e4d2214634f45e4b"/>
-  <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" revision="android-2.3.7_r1"/>
+  <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" revision="49f8fa5f480ae382f9087fde333b50072b214ad2"/>
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" revision="37634a0179f74431317f50d2ce493e3fad36f5a9"/>
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" revision="3e465bed88a22de33d452e5ac8524813d916275d"/>
   <project path="hardware/libhardware" name="platform/hardware/libhardware" revision="6014b4ed9acbcbcf336e9fb69602b529a7502890"/>
@@ -155,12 +155,12 @@
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" revision="bd46adfc4be601182875636183062759cf4f4813"/>
   <project path="packages/apps/Settings" name="platform/packages/apps/Settings" revision="2ae97092c45b721d692abd4c32066ff6ae7fdfdb"/>
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" revision="0d7dd8ac9e1526cdf88112d13d32810834661895"/>
-  <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" revision="android-2.3.7_r1"/>
+  <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" revision="f075eb5cefb6357aa7562a6d156bda5383ac087d"/>
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" revision="d41f1d98d7bf42e9e867819593ad79f685604796"/>
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" revision="045224b2555e44d543568f88c735c8f9874d345a"/>
   <project path="packages/experimental" name="platform/packages/experimental" revision="0638534a73dd9fda1cc58f71ed0c838ef40db245"/>
   <project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" revision="b9c0ed59d0b1565eafbe34d7e38bee7564dbe3fd"/>
-  <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" revision="android-2.3.7_r1"/>
+  <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" revision="27ab9d1b806f03554d2abb50de26abe7bf234336"/>
   <project path="packages/inputmethods/PinyinIME" name="platform/packages/inputmethods/PinyinIME" revision="04d5d8f387c61472721905c664dd7a66e6027084"/>
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" revision="e2ee0b827380b18059ad1b86084fed22623a79f5"/>
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" revision="2c59eec67ab5a46ddb1ca9284f1116c1fd821a33"/>

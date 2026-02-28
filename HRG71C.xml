@@ -28,7 +28,7 @@
   <project path="external/blktrace" name="platform/external/blktrace" revision="ac4461c3b3e7bcbafe5336b9478657d0fa3e08aa"/>
   <project path="external/bluetooth/bluez" name="platform/external/bluetooth/bluez" revision="18f897c9453e21f26ee23840d77cf3fef75656a3"/>
   <project path="external/bluetooth/glib" name="platform/external/bluetooth/glib" revision="757b7f7d8917b43c77e43b5653e7674417ba298f"/>
-  <project path="external/bluetooth/hcidump" name="platform/external/bluetooth/hcidump" revision="android-3.0_r1"/>
+  <project path="external/bluetooth/hcidump" name="platform/external/bluetooth/hcidump" revision="ce36a6c7c5f8043c038415d8e270d55d9834008d"/>
   <project path="external/bouncycastle" name="platform/external/bouncycastle" revision="b3a9a89b23849a25f69192e943c8ffa2cee7adf0"/>
   <project path="external/bsdiff" name="platform/external/bsdiff" />
   <project path="external/bzip2" name="platform/external/bzip2" revision="e7bb50078e4a09f3d9b593d34bbff6e031bc1c1a"/>
@@ -82,8 +82,8 @@
   <project path="external/netperf" name="platform/external/netperf" />
   <project path="external/neven" name="platform/external/neven" revision="7164d6ac08ab9fc1247aa29f1dafd0ef7808f0f2"/>
   <project name="froyocomb-platform_external_nist-sip" remote="github" path="external/nist-sip" revision="honeycomb-release_HRG61_fix"/>
-  <project path="external/oauth" name="platform/external/oauth" revision="android-2.3.7_r1"/>
-  <project path="external/opencore" name="platform/external/opencore" revision="android-2.3.7_r1"/>
+  <project path="external/oauth" name="platform/external/oauth" revision="c76276a1d6165cfb502b06f65b1735fef0754d26"/>
+  <project path="external/opencore" name="platform/external/opencore" revision="61bf9af643abf0011dcf82ae8a436aeb7e8aae97"/>
   <project path="external/openssl" name="platform/external/openssl" revision="61e163095984f3e67249aecf9d2027c304e793e4"/>
   <project path="external/oprofile" name="platform/external/oprofile" revision="a9404b820caf434bba3c3c54c5e786a0eb9ebedb"/>
   <project path="external/ping" name="platform/external/ping" revision="f35ea57ab6d01badde92491274ff2d74cbe3cf01"/>
@@ -116,7 +116,7 @@
   <project path="frameworks/ex" name="platform/frameworks/ex" revision="a8d94efec0fd7a574b63984696f8f711021029f6"/>
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" revision="16016016c14b088561ef92e9181d7102b967296d"/>
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" revision="1ebc0ca6ffa7effb875883d18205ed4943ab8fc2"/>
-  <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" revision="android-2.3.7_r1"/>
+  <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" revision="49f8fa5f480ae382f9087fde333b50072b214ad2"/>
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" revision="465aa5d5706ba56c74c1249a17a6df80b0f42972"/>
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" revision="0aadf5b7aad75775971895533ddac4d6b452c66b"/>
   <project path="hardware/libhardware" name="platform/hardware/libhardware" revision="355e330fae9013c582f7f69f8004befe1ddb4b98"/>
@@ -152,12 +152,12 @@
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" revision="8671248f1bd43013266ca48a552a480caacd1da2"/>
   <project path="packages/apps/Settings" name="platform/packages/apps/Settings" revision="2712fb5d7992c78425a4845ffb23853de30f3a2a"/>
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" revision="0d7dd8ac9e1526cdf88112d13d32810834661895"/>
-  <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" revision="android-2.3.7_r1"/>
+  <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" revision="f075eb5cefb6357aa7562a6d156bda5383ac087d"/>
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" revision="d41f1d98d7bf42e9e867819593ad79f685604796"/>
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" revision="cab73d353878c12e1f34dfe194530e8e1af2276c"/>
   <project path="packages/experimental" name="platform/packages/experimental" revision="e5c6bdad9060918bfb4f00a6d68a95f37ce08df8"/>
   <project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" revision="67ffd0b0ea76489a57d70421dfa0b065f479b343"/>
-  <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" revision="android-2.3.7_r1"/>
+  <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" revision="27ab9d1b806f03554d2abb50de26abe7bf234336"/>
   <project path="packages/inputmethods/PinyinIME" name="platform/packages/inputmethods/PinyinIME" revision="04d5d8f387c61472721905c664dd7a66e6027084"/>
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" revision="e2ee0b827380b18059ad1b86084fed22623a79f5"/>
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" revision="b222a85a892be92fe380c36abeaea79aa8f160dd"/>
