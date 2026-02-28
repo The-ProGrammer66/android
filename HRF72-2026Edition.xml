@@ -46,7 +46,7 @@
   <!-- !!! Has HC tags. !!! -->
   <project path="external/chromium" name="platform/external/chromium" revision="5e43ad9465e402d595a3c960784b1effe2e9bd88" />
   <!-- EARLY BUILD PATCH -->
-  <project path="external/llvm/tools/clang" name="platform/external/clang" revision="c8bfd0f8bb22ea019c673898bbdb07a834f0d821" />
+  <project path="external/llvm/llvm/tools/clang" name="platform/external/clang" revision="c8bfd0f8bb22ea019c673898bbdb07a834f0d821" />
   <!-- Not in retail HC! -->
   <!--<project path="external/clearsilver" name="platform/external/clearsilver" revision="07dd92d42a6c10f06a25a5b021accd8848a8e029" />-->
   <!-- !!! Has HC tags. !!! -->
@@ -110,7 +110,7 @@
   <project path="external/libvpx" name="platform/external/libvpx" revision="90d3ed91ae9228e1c8bab561b6138d4cb8c1e4fd" />
   <project path="external/libxml2" name="platform/external/libxml2" revision="17b865f2a1a0ac37a545ac37a0ce489a2506e146" />
   <project path="external/libxslt" name="platform/external/libxslt" />
-  <project path="external/llvm" name="platform/external/llvm" revision="28188e1c4986d9e4985f0f4a8ce268743eb94631" />
+  <project path="external/llvm/llvm" name="platform/external/llvm" revision="28188e1c4986d9e4985f0f4a8ce268743eb94631" />
   <project path="external/mtpd" name="platform/external/mtpd" revision="7d4f656f92c2c846741c81facf13958d40570b0f" />
   <!-- RTM is 2b3431e -->
   <project path="external/netcat" name="platform/external/netcat" revision="fc2dc55c510657073ef4235658167a878e82cefa" />
@@ -163,8 +163,8 @@
   <project path="external/zlib" name="platform/external/zlib" revision="381716e9396b55b1adb8235b020c37344f60ab07" />
   <project path="frameworks/base" name="platform/frameworks/base" revision="b8bb78f54b48868465a9d69d65fda08524ab5ae1" />
   <!-- EARLY BUILD PATCHES -->
-  <project path="external/llvm/llvm" name="platform/frameworks/compile/libbcc" revision="e405ef4f8a375b440b31fed16471f5b52e2357e3" />
-  <project path="external/llvm/llvm" name="platform/frameworks/compile/slang" revision="6322c93178711b935af4ffbfe5066d10280d26ba" />
+  <project path="external/llvm/libbcc" name="platform/frameworks/compile/libbcc" revision="e405ef4f8a375b440b31fed16471f5b52e2357e3" />
+  <project path="external/llvm/slang" name="platform/frameworks/compile/slang" revision="6322c93178711b935af4ffbfe5066d10280d26ba" />
   <project path="frameworks/ex" name="platform/frameworks/ex" revision="b87362e0a6de2bf398fd4b135c66adcfbb42d8e7" />
   <project path="frameworks/media/libvideoeditor" name="platform/frameworks/media/libvideoeditor" revision="5358e878396e1c451e9f9ef07237c2e6ab662d49" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" revision="refs/tags/android-2.3.7_r1" />
