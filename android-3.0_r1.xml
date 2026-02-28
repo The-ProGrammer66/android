@@ -88,7 +88,7 @@
   <project path="external/netperf" name="platform/external/netperf" />
   <project path="external/neven" name="platform/external/neven" revision="7164d6ac08ab9fc1247aa29f1dafd0ef7808f0f2"/>
   <project path="external/nist-sip" name="platform/external/nist-sip" revision="ee4818b89e806fb1ef6d241cb8199716b2d0ca85"/>
-  <project path="external/oauth" name="platform/external/oauth" revision=android-2.3.7_r1/>
+  <project path="external/oauth" name="platform/external/oauth" revision="android-2.3.7_r1" />
   <project path="external/openssl" name="platform/external/openssl" revision="8ec051acfe6cc3d798ba2be6f05a6268d4d9f77e"/>
   <project path="external/oprofile" name="platform/external/oprofile" revision="8cfa702f803c5ef6a2b062a489a1b2cf66b45b5e"/>
   <project path="external/pcre" name="platform/external/pcre" revision="b223ba9e38990af0b4cbf5b104ef2a00bec33c2b" />
@@ -124,7 +124,7 @@
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" revision="d64e1e202423a18ea2eaed06725cdc004dbfb7a6"/>
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" revision="8d5a2f6ab321615bfb3a46f68aff0b643a71caa0"/>
   <project path="frameworks/media/libvideoeditor" name="platform/frameworks/media/libvideoeditor" revision="6ef749b13729d75bc76c9fc6700a8d17f55f83cb"/>
-  <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" revision=android-2.3.7_r1/>
+  <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" revision="android-2.3.7_r1" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" revision="da2f6ef422b360827f2c5231552d8c9fad0ed8b1"/>
   <project path="frameworks/support" name="platform/frameworks/support" revision="cba2e2c881e8e16ea5025b564c94320174d65f01" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" revision="74908cd3639fb033c9acbb8d42584346a4466a0a"/>
@@ -161,14 +161,14 @@
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" revision="7037a39f54d18e30526df41a4638a7b58d368a9b"/>
   <project path="packages/apps/Settings" name="platform/packages/apps/Settings" revision="805b5add435d2c639363d239cf9abf32cd5a1fdd"/>
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" revision="d8dc5fd1f1c57d2ce1ed21152f8294c9e7ddc1ed"/>
-  <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" revision=android-2.3.7_r1/>
+  <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" revision="android-2.3.7_r1" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" revision="197a996db80dd1ec5dd3a1e29329d0e7934f457e"/>
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" revision="cea7b6a8efddda4a8a34a693884dda1e52a8ea5a" />
   <project path="packages/apps/VideoEditor" name="platform/packages/apps/VideoEditor" revision="91591426ad4ea77f45a33eac57945529b8c46d1a" />
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" revision="697085c23073f07c200be453ae7824ab79364b70"/>
   <project path="packages/experimental" name="platform/packages/experimental" revision="330ecff66820f2f97f09699aadfbd1e0cd014fa1"/>
   <project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" revision="39c323eb1236797cab6fea432a5ee55f48344a5c"/>
-  <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" revision=android-2.3.7_r1/>
+  <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" revision="android-2.3.7_r1"/>
   <project path="packages/inputmethods/PinyinIME" name="platform/packages/inputmethods/PinyinIME" revision="8c8df623b7097b008856c28b874a99a231eb278a"/>
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" revision="a4cca183bbf1d39238fe31222da30970f308d47e"/>
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" revision="9163b04bc080b2289fcf94238e2dc742e4fd5f8f"/>
