@@ -119,44 +119,49 @@
   <!-- Not in retail HC! -->
   <!--<project path="external/opencore" name="platform/external/opencore" revision="android-2.2.3_r2.1" />-->
   <project path="external/oauth" name="platform/external/oauth" revision="c76276a1d6165cfb502b06f65b1735fef0754d26" />
-
-  <project path="external/openssl" name="platform/external/openssl" />
-  <project path="external/oprofile" name="platform/external/oprofile" />
-  <project path="external/pcre" name="platform/external/pcre" />
-  <project path="external/ping" name="platform/external/ping" />
-  <project path="external/ping6" name="platform/external/ping6" />
-  <project path="external/ppp" name="platform/external/ppp" />
-  <project path="external/proguard" name="platform/external/proguard" />
-  <project path="external/protobuf" name="platform/external/protobuf" />
-  <project path="external/qemu" name="platform/external/qemu" />
-  <project path="external/qemu-pc-bios" name="platform/external/qemu-pc-bios" />
-  <project path="external/quake" name="platform/external/quake" />
-  <project path="external/safe-iop" name="platform/external/safe-iop" />
-  <project path="external/skia" name="platform/external/skia" />
-  <project path="external/sonivox" name="platform/external/sonivox" />
-  <project path="external/speex" name="platform/external/speex" />
-  <project path="external/sqlite" name="platform/external/sqlite" />
-  <project path="external/srec" name="platform/external/srec" />
-  <project path="external/srtp" name="platform/external/srtp" />
-  <project path="external/stlport" name="platform/external/stlport" />
-  <project path="external/strace" name="platform/external/strace" />
-  <project path="external/svox" name="platform/external/svox" />
+  <project path="external/openssl" name="platform/external/openssl" revision="fdcda7f8d9262b78a07457945fb9d4f615e0bc38" />
+  <!-- !!! Has HC tags. !!! -->
+  <project path="external/oprofile" name="platform/external/oprofile" revision="802e057e6e55fc120cb6d344ca5e6a2690cff3f0" />
+  <!-- RTM is 2b77a53 -->
+  <project path="external/ping" name="platform/external/ping" revision="05cc700c9089ff72accb1c76a67c01b5d176bf3e" />
+  <!-- RTM is 43a588f -->
+  <project path="external/ppp" name="platform/external/ppp" revision="42d99d5976f48b5f604bda08d112d6f583674da7" />
+  <!-- RTM is ab470e0 -->
+  <project path="external/proguard" name="platform/external/proguard" revision="6660cb6cb4231a03a3c02127fa5c4e7828422caa" />
+  <project path="external/protobuf" name="platform/external/protobuf" revision="1b639e09d77de609bed080f5d2ca88d72ba42559" />
+  <project path="external/qemu" name="platform/external/qemu" revision="377eb2c7c762db6e28fa273ac7e4747a7c9e037e" />
+  <project path="external/quake" name="platform/external/quake" revision="0b098acc31bcd0f40288fc0b31466509ed5df2ee" />
+  <project path="external/safe-iop" name="platform/external/safe-iop" revision="084f46f834a5327a301984a0d72404551cd2cb6f" />
+  <project path="external/skia" name="platform/external/skia" revision="4e02f30f93ca861c99745986c5c92e0c685d5c76" />
+  <project path="external/sonivox" name="platform/external/sonivox" revision="4fe08534dea6b494dd6bbdfa5be605bd4f0e1ac7" />
+  <!-- RTM is a07c4fc -->
+  <project path="external/speex" name="platform/external/speex" revision="9965152ae52eb4dfdafbdcd8b55e39d1a23052e0" />
+  <project path="external/sqlite" name="platform/external/sqlite" revision="cf253ad93d73d548ac61115890b3b4c0943fc2d4" />
+  <!-- RTM is d2aa130 -->
+  <project path="external/srec" name="platform/external/srec" revision="35a6d12873c94f19efdf4763b7ed4f00212b1d15" />
+  <project path="external/stlport" name="platform/external/stlport" revision="c126c88241fa6322d9d78db0ca632814e3e62f9d" />
+  <!-- RTM is cfa96b3 -->
+  <project path="external/strace" name="platform/external/strace" revision="fb19d317e61dfbb8234bb23d5c7cc40827667ec2" />
+  <!-- RTM is b98275a -->
+  <project path="external/svox" name="platform/external/svox" revision="e0faec180004afb9a68ffe7dffce591f0dec305f" />
   <project path="external/tagsoup" name="platform/external/tagsoup" />
   <project path="external/tcpdump" name="platform/external/tcpdump" />
-  <project path="external/tinyalsa" name="platform/external/tinyalsa" />
   <project path="external/tinyxml" name="platform/external/tinyxml" />
-  <project path="external/tremolo" name="platform/external/tremolo" />
-  <project path="external/v8" name="platform/external/v8" />
-  <project path="external/valgrind" name="platform/external/valgrind" />
-  <project path="external/webkit" name="platform/external/webkit" />
-  <project path="external/webp" name="platform/external/webp" />
-  <project path="external/webrtc" name="platform/external/webrtc" />
-  <project path="external/wpa_supplicant" name="platform/external/wpa_supplicant" />
-  <project path="external/wpa_supplicant_6" name="platform/external/wpa_supplicant_6" />
-  <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" />
+  <!-- RTM is ef03ae1 -->
+  <project path="external/tremolo" name="platform/external/tremolo" revision="1a7ca64dd19ab9a5af3c4c3c58c815f764877bf7" />
+  <project path="external/v8" name="platform/external/v8" revision="f7060e27768c550ace7ec48ad8c093466db52dfa" />
+  <!-- !!! Has HC tags. !!! -->
+  <project path="external/webkit" name="platform/external/webkit" revision="a959a8f85742ffa810fd49d39e9fd91f23ce1610" />
+  <project path="external/webp" name="platform/external/webp" revision="f095c389ba60b29d91091acd2281f674cae9951b" />
+  <!-- RTM is 99202cf -->
+  <project path="external/wpa_supplicant" name="platform/external/wpa_supplicant" revision="4d8c3c1ca334d1319decf3e2c5d2be0cf472e3f9" />
+  <project path="external/wpa_supplicant_6" name="platform/external/wpa_supplicant_6" revision="ec77f00d1383799cc7d699c8ccaeed293251894e" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
-  <project path="external/yaffs2" name="platform/external/yaffs2" />
-  <project path="external/zlib" name="platform/external/zlib" />
+  <project path="external/yaffs2" name="platform/external/yaffs2" revision="f9485fe8567fc50f2eecf35055ee5c5c31d61362" />
+  <!-- RTM is 96c70b1 -->
+  <project path="external/zlib" name="platform/external/zlib" revision="381716e9396b55b1adb8235b020c37344f60ab07" />
+
+  
   <project path="frameworks/base" name="platform/frameworks/base" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" />
