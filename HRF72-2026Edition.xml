@@ -26,54 +26,65 @@
   <project path="device/moto/common" name="device/moto/common" revision="adc90e465c04a50e9dc4e2187854d58fd21a69f2" />  
   <project path="device/moto/stingray" name="device/moto/stingray" revision="1e5c156e12e35eb3a8a916bdc67cf0005ce882c4" />  
   <project path="device/sample" name="device/sample" revision="223669e41d1f6b250ab44080af09237ba011aa58" />
-  <!-- I am unsure if this is in 3.x, will see if anything needs it (don't change commit), added in Feb 22 2011. -->
-  <project path="external/android-mock" name="platform/external/android-mock" revision="f80b03ef6f80b03ef62a5afecdaf17e8ac9f05aa3ed21307b2a5afecdaf17e8ac9f05aa3ed21307b" />
-  <!-- I am unsure if this is in 3.x, will see if anything needs it (don't change commit), added in Apr 27 2011. -->
-  <project path="external/apache-harmony" name="platform/external/apache-harmony" revision="76ff2976759558e412aa06e3d77e88101dac7f9d" />
   <project path="external/apache-http" name="platform/external/apache-http" revision="ffdb17578754105930c12cf7989a06914b96190f" />
   <project path="external/apache-xml" name="platform/external/apache-xml" revision="6a48ad44c9d71a591a308196a8af7ba0068af957" />
-  <!-- RTM for below 2 repos is the same as ICS -->
   <project path="external/astl" name="platform/external/astl" revision="a9a7cf4eff812b972e6aabb89bed58f2013f6d3c" />
   <project path="external/bison" name="platform/external/bison" revision="889df9c1efa7ca5de113407ab7793b57a6db677d" />
   <!-- RTM for 3.x is 1e2f287 -->
   <project path="external/blktrace" name="platform/external/blktrace" revision="d523266d0c81d27e0afa29868b0d3c06aaff38b3" />
-
-  <!-- EDITED MANIFEST ENDS HERE -->
-  <project path="external/bluetooth/bluez" name="platform/external/bluetooth/bluez" />
-  <project path="external/bluetooth/glib" name="platform/external/bluetooth/glib" />
-  <project path="external/bluetooth/hcidump" name="platform/external/bluetooth/hcidump" />
-  <project path="external/bouncycastle" name="platform/external/bouncycastle" />
-  <project path="external/bsdiff" name="platform/external/bsdiff" />
-  <project path="external/bzip2" name="platform/external/bzip2" />
-  <project path="external/chromium" name="platform/external/chromium" />
-  <project path="external/clang" name="platform/external/clang" />
-  <project path="external/collada" name="platform/external/collada" />
-  <project path="external/dbus" name="platform/external/dbus" />
-  <project path="external/dhcpcd" name="platform/external/dhcpcd" />
-  <project path="external/dnsmasq" name="platform/external/dnsmasq" />
-  <project path="external/doclava" name="platform/external/doclava" />
-  <project path="external/dropbear" name="platform/external/dropbear" />
-  <project path="external/e2fsprogs" name="platform/external/e2fsprogs" />
-  <project path="external/easymock" name="platform/external/easymock" />
-  <project path="external/elfutils" name="platform/external/elfutils" />
-  <project path="external/embunit" name="platform/external/embunit" />
+  <!-- !!! Has HC tags. !!! -->
+  <project path="external/bluetooth/bluez" name="platform/external/bluetooth/bluez" revision="14be985aba4674bcf565a25355479d0391b73043" />
+  <!-- !!! Has HC tags. !!! -->
+  <project path="external/bluetooth/glib" name="platform/external/bluetooth/glib" revision="b469581b8f4b43847c592d34b08abce479ab44a3" />
+  <!-- !!! Has HC tags. !!!, RTM -->
+  <project path="external/bluetooth/hcidump" name="platform/external/bluetooth/hcidump" revision="android-3.0_r1" />
+  <project path="external/bouncycastle" name="platform/external/bouncycastle" revision="12d0ec3d2ea5294af466f7644773a1ee396930f8" />
+  <!-- RTM -->
+  <project path="external/bsdiff" name="platform/external/bsdiff" revision="android-2.3.7_r1" />
+  <!-- RTM is one commit earlier than ICS's -->
+  <project path="external/bzip2" name="platform/external/bzip2" revision="acecdb4ea44e810a5ddb53e0c3fa4baf04b4a5c9" />
+  <!-- !!! Has HC tags. !!! -->
+  <project path="external/chromium" name="platform/external/chromium" revision="5e43ad9465e402d595a3c960784b1effe2e9bd88" />
+  <project path="external/clang" name="platform/external/clang" revision="c8bfd0f8bb22ea019c673898bbdb07a834f0d821" />
+  <!-- Not in retail HC! -->
+  <!--<project path="external/clearsilver" name="platform/external/clearsilver" revision="07dd92d42a6c10f06a25a5b021accd8848a8e029" />-->
+  <!-- !!! Has HC tags. !!! -->
+  <project path="external/dbus" name="platform/external/dbus" revision="03a7537b6087f166afb3be3982763ea552f1e2e3" />
+  <project path="external/dhcpcd" name="platform/external/dhcpcd" revision="9661983ab7964d195432d905f721f9dd59163edc" />
+  <!-- !!! Has HC tags. !!! -->
+  <project path="external/dnsmasq" name="platform/external/dnsmasq" revision="ffd82a77512f2d0971660e9cbd77242d8982a0b5" />
+  <project path="external/doclava" name="platform/external/doclava" revision="c8f6c750effdcfe65efc5a7d3bb62c4693cf4231" />
+  <!-- RTM is one commit earlier than ICS's -->
+  <project path="external/dropbear" name="platform/external/dropbear" revision="d3a3a803df8f32e9ba26758b3a9d7fbd27a3dc9c" />
+  <!-- !!! Has HC tags. !!! -->
+  <project path="external/e2fsprogs" name="platform/external/e2fsprogs" revision="ec90414a0c6c8bf85395c6b56145189c62599e4d" />
+  <project path="external/easymock" name="platform/external/easymock" revision="cef83e796d0ab91f15a22f2eb837fce7cb8fe9c9" />
+  <!-- Not in retail HC! -->
+  <!--<project path="external/elfcopy" name="platform/external/elfcopy" revision="62c1bed1c4505369cac2e72fbe30452a598fb690" />-->
+  <project path="external/elfutils" name="platform/external/elfutils" revision="a25f6b75948b8253cef5ab0cd435b6fa7e1b65ae" />
+  <project path="external/embunit" name="platform/external/embunit" revision="f5eb8b0c9abf1e9911b5c84a555bc495651595e5" />
   <project path="external/emma" name="platform/external/emma" />
   <project path="external/esd" name="platform/external/esd" />
-  <project path="external/expat" name="platform/external/expat" />
-  <project path="external/eyes-free" name="platform/external/eyes-free" />
-  <project path="external/fdlibm" name="platform/external/fdlibm" />
-  <project path="external/flac" name="platform/external/flac" />
-  <project path="external/freetype" name="platform/external/freetype" />
-  <project path="external/fsck_msdos" name="platform/external/fsck_msdos" />
-  <project path="external/genext2fs" name="platform/external/genext2fs" />
-  <project path="external/giflib" name="platform/external/giflib" />
-  <project path="external/google-diff-match-patch" name="platform/external/google-diff-match-patch" />
-  <project path="external/grub" name="platform/external/grub" />
-  <project path="external/gtest" name="platform/external/gtest" />
-  <project path="external/guava" name="platform/external/guava" />
-  <project path="external/harfbuzz" name="platform/external/harfbuzz" />
+  <project path="external/expat" name="platform/external/expat" revision="8e73b59cb96728872715ab00b374815d6b974e24" />
+  <!-- RTM is 6baec82 -->
+  <project path="external/fdlibm" name="platform/external/fdlibm" revision="2d40e32fc1cb42719ed25f774bd6a6023e8a5c6b" />
+  <project path="external/freetype" name="platform/external/freetype" revision="bdbe09c32468272311d49ac8539c0378cf16ca08" />
+  <!-- RTM is 4779049 -->
+  <project path="external/fsck_msdos" name="platform/external/fsck_msdos" revision="a6eb0d1794880492a5779fd8e871eb9ceb3e8737" />
+  <project path="external/genext2fs" name="platform/external/genext2fs" revision="4c6c6f56ec399911c3722c4eb06b346905a57b02" />
+  <project path="external/giflib" name="platform/external/giflib" revision="b4ea220703d8257e5b467e3cb278e2604d9c8003" />
+  <project path="external/google-diff-match-patch" name="platform/external/google-diff-match-patch" revision="a74c9680ebe767a3fe0a0a9d5c9beeafcac5fec8" />
+  <!-- RTM is d48111f -->
+  <project path="external/grub" name="platform/external/grub" revision="a0be411871f2e71834a2cd75dea882d732557530" />
+  <!-- RTM is 40b3718 -->
+  <project path="external/gtest" name="platform/external/gtest" revision="75f109c3120bf78ee89124f1f21b50ea24225236" />
+  <project path="external/guava" name="platform/external/guava" revision="b13716b63ffa87e97e4f4c49d63b335da30e69d2" />
+  <!-- RTM is ca4c694 -->
+  <project path="external/harfbuzz" name="platform/external/harfbuzz" revision="9c3caf546f7c14c497d6c83d16b89e01b9ee9e3f" />
   <project path="external/hyphenation" name="platform/external/hyphenation" />
-  <project path="external/icu4c" name="platform/external/icu4c" />
+  <project path="external/icu4c" name="platform/external/icu4c" revision="2bae19d8f45dbf334f2ca6b38bb9f82357455a8f" />
+
+  <!-- EDITED MANIFEST ENDS HERE -->
   <project path="external/iproute2" name="platform/external/iproute2" />
   <project path="external/ipsec-tools" name="platform/external/ipsec-tools" />
   <project path="external/iptables" name="platform/external/iptables" />
