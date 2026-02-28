@@ -80,6 +80,7 @@
   <project path="external/bzip2" name="platform/external/bzip2" groups="pdk" />
   <project path="external/cblas" name="platform/external/cblas" groups="pdk" revision="57de99c2b856d5e2c47ca3deca2f5b89e843ee2c" />
   <project path="external/ceres-solver" name="platform/external/ceres-solver" groups="pdk-cw-fs,pdk-fs" />
+  <project path="external/checkpolicy" name="platform/external/checkpolicy" groups="pdk" revision="d33fe1742ea81a7e69094175e39700c1dbed927f" />
   <project path="external/chromium-libpac" name="platform/external/chromium-libpac" groups="pdk-fs" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" groups="pdk" revision="2b01b7aeb523d0bdd2e4ce98dad27c3113941783" />
   <project path="external/chromium-webview" name="platform/external/chromium-webview" groups="pdk" revision="179c69ae7cbe7616ca7feff7f0a1bc7292dce640" />
