@@ -383,6 +383,7 @@
   <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" groups="pdk-fs" revision="978f16d2e3c2e24a3fb6195957899c7556bcf587" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" groups="pdk-fs" />
   <project path="packages/apps/ManagedProvisioning" name="platform/packages/apps/ManagedProvisioning" groups="pdk-fs" revision="6079da1206b137da41db49fa7c3bf54f3ce62641" />
+  <project path="packages/apps/Mms" name="platform/packages/apps/Mms" revision="b047af4d846dea5d69e3b3d51cbf5f841dd65ca5" />
   <!-- Not present in this build, rather RTM. -->
   <!-- <project path="packages/apps/Messaging" name="platform/packages/apps/Messaging" groups="pdk-fs" /> -->
   <project path="packages/apps/Music" name="platform/packages/apps/Music" groups="pdk-fs" revision="aeafd51c43435f12a7fbd3f35356bd7d1b3c9bb7" />
