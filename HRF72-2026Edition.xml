@@ -119,7 +119,7 @@
   <project path="external/neven" name="platform/external/neven" revision="d898f9992b4db8f63ec707b07f3802ce3181ffda" />
   <project path="external/nist-sip" name="platform/external/nist-sip" revision="1c826275a754b66dc1eb8b786c8b5a44c75878b4" />
   <!-- Not in retail HC! -->
-  <!--<project path="external/opencore" name="platform/external/opencore" revision="refs/tags/android-2.2.3_r2.1" />-->
+  <project path="external/opencore" name="platform/external/opencore" revision="refs/tags/android-2.2.3_r2.1" />
   <project path="external/oauth" name="platform/external/oauth" revision="c76276a1d6165cfb502b06f65b1735fef0754d26" />
   <project path="external/openssl" name="platform/external/openssl" revision="fdcda7f8d9262b78a07457945fb9d4f615e0bc38" />
   <!-- !!! Has HC tags. !!! -->
