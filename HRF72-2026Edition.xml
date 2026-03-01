@@ -26,7 +26,7 @@
   <project path="device/moto/common" name="device/moto/common" revision="adc90e465c04a50e9dc4e2187854d58fd21a69f2" />  
   <project path="device/moto/stingray" name="device/moto/stingray" revision="1e5c156e12e35eb3a8a916bdc67cf0005ce882c4" />  
   <project path="device/sample" name="device/sample" revision="223669e41d1f6b250ab44080af09237ba011aa58" />
-  <project path="external/apache-http" name="platform/external/apache-http" revision="ffdb17578754105930c12cf7989a06914b96190f" />
+  <project path="external/apache-http" name="platform/external/apache-http" revision="5648c97be2c515bdafeff3d8a4b07ea0ddc3e357" />
   <project path="external/apache-xml" name="platform/external/apache-xml" revision="6a48ad44c9d71a591a308196a8af7ba0068af957" />
   <project path="external/astl" name="platform/external/astl" revision="a9a7cf4eff812b972e6aabb89bed58f2013f6d3c" />
   <project path="external/bison" name="platform/external/bison" revision="889df9c1efa7ca5de113407ab7793b57a6db677d" />
@@ -180,7 +180,7 @@
   <project path="hardware/ril" name="platform/hardware/ril" revision="16c00522e27da0cfcbc4d926900e534e1583168f" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" revision="a0b2785f72203860a685b5acbe3c7d4a11e61d4d" />
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" revision="41ecb6fc3e74edbf5c049054b299278e66d92fc1" />
-  <project path="libcore" name="platform/libcore" revision="6969125ec1a8073ca1142df2d663cf9c052bfb6c" />
+  <project path="libcore" name="platform/libcore" revision="590b99434696edf3f14843c85406eaf197dbc044" />
   <project path="ndk" name="platform/ndk" revision="53d2b0dcc4fa5edad0994542f40e483485069ee5" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" revision="c50682dac4ffdccc763c3886bafaa734796d166d" />
   <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" revision="59a9d43a7f921d5aafd131d815570044f9e96f88" />
