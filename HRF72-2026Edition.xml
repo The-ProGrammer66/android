@@ -23,8 +23,9 @@
   <project path="dalvik" name="platform/dalvik" revision="e31ed7e916d212840dd5639afa01938bea58b2b8" />
   <project path="development" name="platform/development" revision="194cf3b8fbd6a713b23f9b66c4e476e05d06c46b" />
   <project path="device/common" name="device/common" revision="d468cbeb023507ce9c0e01e688038b9c56c403e7" />
-  <project path="device/moto/common" name="device/moto/common" revision="adc90e465c04a50e9dc4e2187854d58fd21a69f2" />  
-  <project path="device/moto/stingray" name="device/moto/stingray" revision="1e5c156e12e35eb3a8a916bdc67cf0005ce882c4" />  
+  <project path="device/moto/common" name="device/moto/common" revision="adc90e465c04a50e9dc4e2187854d58fd21a69f2" />
+  <!-- Original commit is 1e5c156e12e35eb3a8a916bdc67cf0005ce882c4 -->
+  <project path="device/moto/stingray" name="device_moto_stingray" remote="github" revision="HRF72-AOSP-cherrypick" />  
   <project path="device/sample" name="device/sample" revision="223669e41d1f6b250ab44080af09237ba011aa58" />
   <project path="external/apache-http" name="platform/external/apache-http" revision="5648c97be2c515bdafeff3d8a4b07ea0ddc3e357" />
   <project path="external/apache-xml" name="platform/external/apache-xml" revision="6a48ad44c9d71a591a308196a8af7ba0068af957" />
