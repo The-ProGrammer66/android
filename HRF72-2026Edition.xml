@@ -20,7 +20,7 @@
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" revision="53bd9111b5ae1fc1180ec13755d9830f7cadacf5" />
   <project path="bootable/recovery" name="platform/bootable/recovery" revision="b3d9a15b66c5235c7c6cda3232b7b30da08c3780" />
   <project path="cts" name="platform/cts" revision="4e8123e2df00bca91947f7aa80225bf252b8df86" />
-  <project path="dalvik" name="platform/dalvik" revision="ebf98dfdb89d647223a95af4fb5d7ddf71dfbde7" />
+  <project path="dalvik" name="platform/dalvik" revision="e31ed7e916d212840dd5639afa01938bea58b2b8" />
   <project path="development" name="platform/development" revision="194cf3b8fbd6a713b23f9b66c4e476e05d06c46b" />
   <project path="device/common" name="device/common" revision="d468cbeb023507ce9c0e01e688038b9c56c403e7" />
   <project path="device/moto/common" name="device/moto/common" revision="adc90e465c04a50e9dc4e2187854d58fd21a69f2" />  
@@ -180,7 +180,7 @@
   <project path="hardware/ril" name="platform/hardware/ril" revision="16c00522e27da0cfcbc4d926900e534e1583168f" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" revision="a0b2785f72203860a685b5acbe3c7d4a11e61d4d" />
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" revision="41ecb6fc3e74edbf5c049054b299278e66d92fc1" />
-  <project path="libcore" name="platform/libcore" revision="2375e98761ddc54d0a30a6c06a835a2f723dc748" />
+  <project path="libcore" name="platform/libcore" revision="590b99434696edf3f14843c85406eaf197dbc044" />
   <project path="ndk" name="platform/ndk" revision="53d2b0dcc4fa5edad0994542f40e483485069ee5" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" revision="c50682dac4ffdccc763c3886bafaa734796d166d" />
   <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" revision="59a9d43a7f921d5aafd131d815570044f9e96f88" />
