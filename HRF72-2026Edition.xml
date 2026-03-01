@@ -121,7 +121,7 @@
   <!-- Not in retail HC! -->
   <project path="external/opencore" name="platform_external_opencore" remote="github" revision="honeycomb-opencore-patches-rev-1" />
   <project path="external/oauth" name="platform/external/oauth" revision="c76276a1d6165cfb502b06f65b1735fef0754d26" />
-  <project path="external/openssl" name="platform/external/openssl" revision="fdcda7f8d9262b78a07457945fb9d4f615e0bc38" />
+  <project path="external/openssl" name="platform/external/openssl" revision="b2c3821cf900ede3f0afe5137bfe9c98ffb012ce" />
   <!-- !!! Has HC tags. !!! -->
   <project path="external/oprofile" name="platform/external/oprofile" revision="802e057e6e55fc120cb6d344ca5e6a2690cff3f0" />
   <!-- RTM is 2b77a53 -->
