@@ -219,7 +219,8 @@
   <project path="frameworks/base" name="platform/frameworks/base" revision="91da14d2e93bd4637ccc3202eaefa80e4f85d57a" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" revision="0116d8b4247829adfb64b9cb7992eb783a54abd5" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" revision="cedee4b38f4786845183be7f5916dd520a170ae0" />
-  <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" revision="9221935c8a5cb48a53d7d316bbe0d860baf4a22e" />
+  <!-- Older commit, at the time of tagging, it's actually  9221935c8a5cb48a53d7d316bbe0d860baf4a22e -->
+  <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" revision="0cb30759c7f9d893e29dea643fb67a6dbe48a52d" />
   <project path="frameworks/ex" name="platform/frameworks/ex" revision="eb061b1b902c41fcd81c875540f1c153f01d8814" />
   <project path="frameworks/mff" name="platform/frameworks/mff" />
   <project path="frameworks/ml" name="platform/frameworks/ml" revision="47c0dc05cde9e9d9cc57e1393429006bf8b23b32" />
