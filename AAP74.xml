@@ -72,7 +72,8 @@
   <project path="external/checkpolicy" name="platform/external/checkpolicy" groups="pdk" revision="ba8e9924f575e267f1503b7669fe3120d68d4e1f" />
   <project path="external/chromium" name="platform/external/chromium" revision="cbfca5ff92c2e267878451fa882c989a1a49dbf4" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" groups="pdk" revision="fe4c594d0d9cd87bb0ca43c2b172ec4ab5079ae9" />
-  <project path="external/clang" name="platform/external/clang" groups="pdk" revision="40b66a000dca59be61117558bb54f3880a77cd14" />
+  <!-- VERY new commit, needed to fix .mk errors. just to test. at the time of tagging, it was actually: 40b66a000dca59be61117558bb54f3880a77cd14 -->
+  <project path="external/clang" name="platform/external/clang" groups="pdk" />
   <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" revision="9af645316cdb5e75033a7894e85009791ded7e4b" />
   <project path="external/dexmaker" name="platform/external/dexmaker" revision="95689a700bfea5e2d78380a442fc2903cc40a3f2" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" revision="400c611d3a71baccdfddb7bb085321d80db43fe4" />
@@ -147,8 +148,8 @@
   <project path="external/libyuv" name="platform/external/libyuv" groups="libyuv" revision="59535dc1ff51cb698bf9485dee9e147d5254e586" />
   <project path="external/linux-tools-perf" name="platform/external/linux-tools-perf" />
   <project path="external/littlemock" name="platform/external/littlemock" revision="500720cc631d69537831b9d01ad09dd064c97f7a" />
-  <!-- VERY Old commit, needed to fix .mk errors. just to test. at the time of tagging, it was actually: 1d3b7e749d988c4d8fa289287597891a7c432fd5 -->
-  <project path="external/llvm" name="platform/external/llvm" groups="pdk" revision="17d241911acaa9ca5372ea6f96251fab2c18f074" />
+  <!-- VERY new commit, needed to fix .mk errors. just to test. at the time of tagging, it was actually: 1d3b7e749d988c4d8fa289287597891a7c432fd5 -->
+  <project path="external/llvm" name="platform/external/llvm" groups="pdk" />
   <project path="external/marisa-trie" name="platform/external/marisa-trie" revision="efeb3428f25c1d8c547ab2678c0baa580a8226f0" />
   <project path="external/markdown" name="platform/external/markdown" />
   <project path="external/mdnsresponder" name="platform/external/mdnsresponder" groups="pdk" revision="8d61c6ee30ea24755dfd111fb497c0533c0ff461" />
