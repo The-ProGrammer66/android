@@ -20,7 +20,8 @@
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <!-- https://android.googlesource.com/platform/art/+log/7cc8f9aa1349fd6cb0814a653ee2d1164a7fb9f7 -->
   <project path="art" name="platform/art" groups="pdk" revision="1b5030f60fc87f8c374e3dc417090336409ba2b5" />
-  <project path="bionic" name="platform/bionic" groups="pdk" revision="63d2f6db2e13aefb7802f13d597d47583897df6d" />
+  <!-- https://android.googlesource.com/platform/bionic/+log/473d96c0a8bb890ac84f4a69a5c8c54134fd30ef -->
+  <project path="bionic" name="platform/bionic" groups="pdk" revision="5ace71de3f6280f086ac4a1b9bb403b88472953a" />
   <!-- RTM -->
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" groups="pdk-cw-fs" revision="3c491d6efb8ff2534a6934702760a6273f197918" />
   <!-- https://android.googlesource.com/platform/bootable/recovery/+log/dcbf4fc571236bf5aa5286294b3c727be725db70 -->
