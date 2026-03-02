@@ -220,7 +220,7 @@
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" revision="0116d8b4247829adfb64b9cb7992eb783a54abd5" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" revision="cedee4b38f4786845183be7f5916dd520a170ae0" />
   <!-- Older commit, at the time of tagging, it's actually  9221935c8a5cb48a53d7d316bbe0d860baf4a22e -->
-  <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" revision="0102aa80c6af71aa6d643358b45a6688e06b929e" />
+  <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" revision="7006f99d926cecbd07aef133ced9540e6d5f8052" />
   <project path="frameworks/ex" name="platform/frameworks/ex" revision="eb061b1b902c41fcd81c875540f1c153f01d8814" />
   <project path="frameworks/mff" name="platform/frameworks/mff" />
   <project path="frameworks/ml" name="platform/frameworks/ml" revision="47c0dc05cde9e9d9cc57e1393429006bf8b23b32" />
