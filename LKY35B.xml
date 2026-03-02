@@ -574,35 +574,43 @@
   <project path="prebuilts/libs/libedit" name="platform/prebuilts/libs/libedit" groups="pdk-cw-fs" />
   <!-- RTM -->
   <project path="prebuilts/maven_repo/android" name="platform/prebuilts/maven_repo/android" groups="pdk-cw-fs" revision="a11e1b22af73661f1123eb8521e1c03c10a0078b" />
-  
-  <project path="prebuilts/misc" name="platform/prebuilts/misc" groups="pdk,tradefed" />
-  <project path="prebuilts/ndk" name="platform/prebuilts/ndk" groups="pdk" />
-  <project path="prebuilts/python/darwin-x86/2.7.5" name="platform/prebuilts/python/darwin-x86/2.7.5" groups="darwin,pdk,pdk-cw-fs" />
-  <project path="prebuilts/python/linux-x86/2.7.5" name="platform/prebuilts/python/linux-x86/2.7.5" groups="linux,pdk,pdk-cw-fs" />
-  <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" groups="pdk" clone-depth="1" />
-  <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk,tradefed" />
-  <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
-  <project path="sdk" name="platform/sdk" groups="pdk-cw-fs" />
-  <project path="system/core" name="platform/system/core" groups="pdk" />
-  <project path="system/extras" name="platform/system/extras" groups="pdk" />
-  <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" />
-  <project path="system/media" name="platform/system/media" groups="pdk" />
-  <project path="system/netd" name="platform/system/netd" groups="pdk" />
-  <project path="system/security" name="platform/system/security" groups="pdk" />
-  <project path="system/vold" name="platform/system/vold" groups="pdk" />
+  <project path="prebuilts/misc" name="platform/prebuilts/misc" groups="pdk,tradefed" revision="d9ff7c0a64b25ee29c4840437ff8cecc13130620" />
+  <!-- RTM -->
+  <project path="prebuilts/ndk" name="platform/prebuilts/ndk" groups="pdk" revision="b0b8d245896000ddc49633e33227596a69483df1" />
+  <!-- RTM -->
+  <project path="prebuilts/python/darwin-x86/2.7.5" name="platform/prebuilts/python/darwin-x86/2.7.5" groups="darwin,pdk,pdk-cw-fs" revision="2bdd4fd418614c7c0101147d02199d0e47c4980e" />
+  <!-- RTM -->
+  <project path="prebuilts/python/linux-x86/2.7.5" name="platform/prebuilts/python/linux-x86/2.7.5" groups="linux,pdk,pdk-cw-fs" revision="5de4f653a1cff7d7acbbb933711537ef47e2723c" />
+  <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" groups="pdk" clone-depth="1" revision="1dffc580d656397f0ffca65820aac524a7ba6f77" />
+  <!-- https://android.googlesource.com/platform/prebuilts/sdk/+log/96d34bc5227934bdf727365e0c01e06903611666 -->
+  <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk,tradefed" revision="da36c5ca3ec607fe0d52d5d10b83c1af5d33574d" />
+  <!-- https://android.googlesource.com/platform/prebuilts/tools/+log/9c1e87d2c780643c99751eae638fb3b964512315 -->
+  <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" revision="ec9b351ea909641c865024b200edb95c7a5afc93" />
+  <project path="sdk" name="platform/sdk" groups="pdk-cw-fs" revision="7665d6853333e7897c71a021f7e44b6e14bade08" />
+  <project path="system/core" name="platform/system/core" groups="pdk" revision="56ba4b5b77879f43541cd47c59176acea2d8dcc6" />
+  <project path="system/extras" name="platform/system/extras" groups="pdk" revision="ffe4195c7b9058bbd3f4e64597d3351c496e90a5" />
+  <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" revision="6dde87c27ec620c0962507b58ece3fbe94bbff02" />
+  <project path="system/media" name="platform/system/media" groups="pdk" revision="53b4d9bf0559c2c23b04632a98c9d06067bbdecb" />
+  <project path="system/netd" name="platform/system/netd" groups="pdk" revision="564f2305c6b7481433c2a06978625b38fb0a1ed2" />
+  <!-- https://android.googlesource.com/platform/system/security/+log/6a2992647c36eab7705553c794c89255577a0048#fch-lightedUp-First -->
+  <project path="system/security" name="platform/system/security" groups="pdk" revision="eba6a9df38fdaab4d09562938a4feff08159b5d9" />
+  <project path="system/vold" name="platform/system/vold" groups="pdk" revision="ef87a17a2a985645245357c7eddcc80033b18db4" />
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" />
-  <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" />
-  <project path="tools/base" name="platform/tools/base" groups="notdefault,tools" />
+  <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" revision="d99ab8c997a023095ef69c2adc7d2175d7debea3" />
+  <project path="tools/base" name="platform/tools/base" groups="notdefault,tools" revision="1db16e65f110965fa8c417418f30981780bcc839" />
   <project path="tools/build" name="platform/tools/build" groups="notdefault,tools" />
   <project path="tools/emulator" name="platform/tools/emulator" groups="notdefault,tools" />
   <project path="tools/external/fat32lib" name="platform/tools/external/fat32lib" groups="tools" />
-  <project path="tools/external/gradle" name="platform/tools/external/gradle" groups="tools" />
+  <!-- https://android.googlesource.com/platform/tools/external/gradle/+log/f6c06e30b6fdd318304e54fdc702f9c43345526c -->
+  <project path="tools/external/gradle" name="platform/tools/external/gradle" groups="tools" revision="d1450838759d6c9f61a736cd9c455fe4437f4a56" />
   <project path="tools/idea" name="platform/tools/idea" groups="notdefault,tools" />
-  <project path="tools/loganalysis" name="platform/tools/loganalysis" groups="notdefault,tradefed" />
+  <!-- RTM -->
+  <project path="tools/loganalysis" name="platform/tools/loganalysis" groups="notdefault,tradefed" revision="e64f495107aaa91f2e40e7e5c92c700d58115fa3" />
   <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" />
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
   <project path="tools/studio/translation" name="platform/tools/studio/translation" groups="notdefault,tools" />
-  <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
-  <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
+  <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" revision="129a0e63f9394cab4dd15f15ff4fb5b43b9efc9f" />
+  <!-- RTM -->
+  <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" revision="f4f4289193b0156e8f45e65964988800f05fe7ab" />
 
 </manifest>
