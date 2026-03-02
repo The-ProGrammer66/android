@@ -367,7 +367,7 @@
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs" revision="2b56cc1c1442ba598ed1ee9c23e8e9eade076e77" />
   <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" revision="8e2b445fabd05132de57226de71c7860a5391954" />
   <!-- https://android.googlesource.com/platform/frameworks/base/+log/a2d193183fc4f5727c0b875a48c5dd8032bc87bb/?s=38d969c5c85f930cefef6f2fcad99d5aa8a0d5f7 -->
-  <project path="frameworks/base" name="platform/frameworks/base" groups="pdk-cw-fs" revision="0dfba38010dc3d3dbab5801427726f252113ac6c" />
+  <project path="frameworks/base" name="platform/frameworks/base" groups="pdk-cw-fs" revision="015fdf392388f1bed3298f9f44012c1a82d7c1a1" />
   <!-- https://android.googlesource.com/platform/frameworks/compile/libbcc/+log/fa0c1b9d9f2d6876f0f37049e2ea59abc7a217ae -->
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" revision="c6f64093492cdfb3c98d8ae8f877bbd81f882897" />
   <!-- https://android.googlesource.com/platform/frameworks/compile/mclinker/+log/fdc86e090cd0308ba880937cf55ed162abfd20a0 -->
