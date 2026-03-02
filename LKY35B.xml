@@ -22,7 +22,8 @@
   <project path="art" name="platform/art" groups="pdk" revision="1b5030f60fc87f8c374e3dc417090336409ba2b5" />
   <!-- https://android.googlesource.com/platform/bionic/+log/473d96c0a8bb890ac84f4a69a5c8c54134fd30ef -->
   <project path="bionic" name="platform/bionic" groups="pdk" revision="4177bd8d16e0dc2d0d541fc54f81518c57651e55" />
-  <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" groups="pdk-cw-fs" />
+  <!-- RTM -->
+  <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" groups="pdk-cw-fs" revision="3c491d6efb8ff2534a6934702760a6273f197918" />
   <!-- https://android.googlesource.com/platform/bootable/recovery/+log/dcbf4fc571236bf5aa5286294b3c727be725db70 -->
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" revision="40862ab59e376d50036fa56a9f3f08c42530c96a" />
   <!-- No real LKY in here YET. -->
