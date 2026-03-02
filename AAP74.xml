@@ -188,7 +188,8 @@
   <project path="external/robolectric" name="platform/external/robolectric" revision="6261e9d69c206b9f5c87840db05144f9e1975309" />
   <project path="external/safe-iop" name="platform/external/safe-iop" groups="pdk" />
   <project path="external/sepolicy" name="platform/external/sepolicy" groups="pdk" revision="22fc04103b70dd5a1cb1b5a8309ef20461e06289" />
-  <project path="external/skia" name="platform/external/skia" revision="6699e7ea2e981dccc2f3c41b5dcf1c860b11558d" />
+  <!-- Older commit, needed to build. At the time of tagging, it was actually 6699e7ea2e981dccc2f3c41b5dcf1c860b11558d -->
+  <project path="external/skia" name="platform/external/skia" revision="7cd90d4eecdba0f40a36945749d40df95d6d641b" />
   <!-- Not available in this build, RTM only: <project path="external/smack" name="platform/external/smack" /> -->
   <project path="external/smali" name="platform/external/smali" revision="650d426c120993fdee95d982e50faa6a5d70d9af" />
   <project path="external/sonivox" name="platform/external/sonivox" groups="pdk" />
