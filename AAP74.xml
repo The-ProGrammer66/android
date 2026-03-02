@@ -74,7 +74,8 @@
   <project path="external/chromium-trace" name="platform/external/chromium-trace" groups="pdk" revision="fe4c594d0d9cd87bb0ca43c2b172ec4ab5079ae9" />
   <!-- VERY old commit, needed to fix .mk errors. just to test. at the time of tagging, it was actually: 40b66a000dca59be61117558bb54f3880a77cd14 -->
   <project path="external/clang" name="platform/external/clang" groups="pdk" revision="210d8aa7162e928d81d3f284b5ca7bc6bb3a9ba7" />
-  <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" revision="9af645316cdb5e75033a7894e85009791ded7e4b" />
+  <!-- 4.2_r1 era compiler-rt, needed to compile. At the time of tagging, 9af645316cdb5e75033a7894e85009791ded7e4b was the latest. -->
+  <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" revision="1f922a5259510f70a12576e7a61eaa0033a02b16" />
   <project path="external/dexmaker" name="platform/external/dexmaker" revision="95689a700bfea5e2d78380a442fc2903cc40a3f2" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" revision="400c611d3a71baccdfddb7bb085321d80db43fe4" />
   <project path="external/dnsmasq" name="platform/external/dnsmasq" groups="pdk" revision="758fb6cde3ee6ab53aa6b4b07a2acc2bde0b6c5d" />
