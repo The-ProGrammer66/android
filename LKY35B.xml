@@ -14,7 +14,7 @@
            fetch="https://chromium.googlesource.com" />
 
 <!-- Manifest of Android LMP build LKY35B. Build tagged on 04 Feb 2015, 06:07:39 -0800, manifest made on 22 February 2026. LKY dies on Mar 21 2015 06:06:46 -0700 -->
-  <project path="build" name="platform/build" groups="pdk,tradefed" revision="8708cdaf248e15c9e392bfca51ad831e85ea0a6f" >
+  <project path="build" name="platform/build" groups="pdk,tradefed" revision="e9bc7b472db2d54aaef428fc3229b56dbe2bf6fa" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
