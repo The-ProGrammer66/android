@@ -72,9 +72,10 @@
   <project path="external/checkpolicy" name="platform/external/checkpolicy" groups="pdk" revision="ba8e9924f575e267f1503b7669fe3120d68d4e1f" />
   <project path="external/chromium" name="platform/external/chromium" revision="cbfca5ff92c2e267878451fa882c989a1a49dbf4" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" groups="pdk" revision="fe4c594d0d9cd87bb0ca43c2b172ec4ab5079ae9" />
-  <!-- VERY new commit, needed to fix .mk errors. just to test. at the time of tagging, it was actually: 40b66a000dca59be61117558bb54f3880a77cd14 -->
-  <project path="external/clang" name="platform/external/clang" groups="pdk" />
-  <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" revision="9af645316cdb5e75033a7894e85009791ded7e4b" />
+  <!-- VERY old commit, needed to fix .mk errors. just to test. at the time of tagging, it was actually: 40b66a000dca59be61117558bb54f3880a77cd14 -->
+  <project path="external/clang" name="platform/external/clang" groups="pdk" revision="210d8aa7162e928d81d3f284b5ca7bc6bb3a9ba7" />
+  <!-- 4.2_r1 era compiler-rt, needed to compile. At the time of tagging, 9af645316cdb5e75033a7894e85009791ded7e4b was the latest. -->
+  <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" revision="1f922a5259510f70a12576e7a61eaa0033a02b16" />
   <project path="external/dexmaker" name="platform/external/dexmaker" revision="95689a700bfea5e2d78380a442fc2903cc40a3f2" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" revision="400c611d3a71baccdfddb7bb085321d80db43fe4" />
   <project path="external/dnsmasq" name="platform/external/dnsmasq" groups="pdk" revision="758fb6cde3ee6ab53aa6b4b07a2acc2bde0b6c5d" />
@@ -148,8 +149,8 @@
   <project path="external/libyuv" name="platform/external/libyuv" groups="libyuv" revision="59535dc1ff51cb698bf9485dee9e147d5254e586" />
   <project path="external/linux-tools-perf" name="platform/external/linux-tools-perf" />
   <project path="external/littlemock" name="platform/external/littlemock" revision="500720cc631d69537831b9d01ad09dd064c97f7a" />
-  <!-- VERY new commit, needed to fix .mk errors. just to test. at the time of tagging, it was actually: 1d3b7e749d988c4d8fa289287597891a7c432fd5 -->
-  <project path="external/llvm" name="platform/external/llvm" groups="pdk" />
+  <!-- VERY old commit, needed to fix .mk errors. just to test. at the time of tagging, it was actually: 1d3b7e749d988c4d8fa289287597891a7c432fd5 -->
+  <project path="external/llvm" name="platform/external/llvm" groups="pdk" revision="99e8132d3daedcebd061aacb0b08d1e1a6dab14c" />
   <project path="external/marisa-trie" name="platform/external/marisa-trie" revision="efeb3428f25c1d8c547ab2678c0baa580a8226f0" />
   <project path="external/markdown" name="platform/external/markdown" />
   <project path="external/mdnsresponder" name="platform/external/mdnsresponder" groups="pdk" revision="8d61c6ee30ea24755dfd111fb497c0533c0ff461" />
@@ -187,7 +188,8 @@
   <project path="external/robolectric" name="platform/external/robolectric" revision="6261e9d69c206b9f5c87840db05144f9e1975309" />
   <project path="external/safe-iop" name="platform/external/safe-iop" groups="pdk" />
   <project path="external/sepolicy" name="platform/external/sepolicy" groups="pdk" revision="22fc04103b70dd5a1cb1b5a8309ef20461e06289" />
-  <project path="external/skia" name="platform/external/skia" revision="6699e7ea2e981dccc2f3c41b5dcf1c860b11558d" />
+  <!-- Older commit, needed to build. At the time of tagging, it was actually 6699e7ea2e981dccc2f3c41b5dcf1c860b11558d -->
+  <project path="external/skia" name="platform/external/skia" revision="7cd90d4eecdba0f40a36945749d40df95d6d641b" />
   <!-- Not available in this build, RTM only: <project path="external/smack" name="platform/external/smack" /> -->
   <project path="external/smali" name="platform/external/smali" revision="650d426c120993fdee95d982e50faa6a5d70d9af" />
   <project path="external/sonivox" name="platform/external/sonivox" groups="pdk" />
@@ -217,15 +219,20 @@
   <project path="external/yaffs2" name="platform/external/yaffs2" groups="pdk" revision="1e0582c09b355c1722f31c8a790b4d69c792ce1c" />
   <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
   <project path="external/zxing" name="platform/external/zxing" />
-  <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" revision="e81a9610343425e5bb76cdb297065426c6e75ef0" />
-  <project path="frameworks/base" name="platform/frameworks/base" revision="91da14d2e93bd4637ccc3202eaefa80e4f85d57a" />
-  <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" revision="0116d8b4247829adfb64b9cb7992eb783a54abd5" />
+  <!-- Older commit required to build, at the time of tagging it was e81a9610343425e5bb76cdb297065426c6e75ef0  -->
+  <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" revision="761430930a7335d714af0f7c1d497feb8f9f0a5a" />
+  <!-- Older commit required to build, at the time of tagging it was 91da14d2e93bd4637ccc3202eaefa80e4f85d57a -->
+  <project path="frameworks/base" name="platform/frameworks/base" revision="5ccefdd6d570a084ce708d7f4654358ef7108451" />
+  <!-- 4.2_r1 era libbcc, needed to compile. Commit at the time of taging was: 0116d8b4247829adfb64b9cb7992eb783a54abd5 -->
+  <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" revision="1b84ea3be223d95e55965c0d5721d7c91a5a66b9" />
+  <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" groups="pdk" revision="40f55f0f983885e7c325074d8cc8e5e052cdf0f3" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" revision="cedee4b38f4786845183be7f5916dd520a170ae0" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" revision="9221935c8a5cb48a53d7d316bbe0d860baf4a22e" />
   <project path="frameworks/ex" name="platform/frameworks/ex" revision="eb061b1b902c41fcd81c875540f1c153f01d8814" />
   <project path="frameworks/mff" name="platform/frameworks/mff" />
   <project path="frameworks/ml" name="platform/frameworks/ml" revision="47c0dc05cde9e9d9cc57e1393429006bf8b23b32" />
-  <project path="frameworks/native" name="platform/frameworks/native" groups="pdk" revision="0859b78db2b094d20efb7b3e725c4732fcdeb4d5" />
+  <!-- Older commit required to build, at the time of tagging it was 0859b78db2b094d20efb7b3e725c4732fcdeb4d5  -->
+  <project path="frameworks/native" name="platform/frameworks/native" groups="pdk" revision="0c6fff72f78e4f80b28ccccac9584255591dd1a2" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" revision="207e297d6911151d3e556be23ede3649beccb674" />
   <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" />
   <!-- Not available in this build, RTM only: <project path="frameworks/opt/colorpicker" name="platform/frameworks/opt/colorpicker" /> -->
@@ -235,7 +242,6 @@
   <!-- Edited manifest ends here -->
   <project path="frameworks/opt/mailcommon" name="platform/frameworks/opt/mailcommon" />
   <project path="frameworks/opt/mms" name="platform/frameworks/opt/mms" revision="783d625407becc7b754a4d7496b97ad5945d793c" />
-  <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" revision="17745436aa6d76765791f3c877360399b6a95487" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" revision="9c3046a1b1ee9d806562d280e4a0143d1cd428b0" />
   <!-- Not available in this build, RTM only: <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" /> -->
   <project path="frameworks/opt/telephony" name="platform/frameworks/opt/telephony" groups="pdk" revision="f08c4c89622ddcbc4ed9315fe6b399941dad4939" />
