@@ -220,7 +220,7 @@
   <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
   <project path="external/zxing" name="platform/external/zxing" />
   <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" revision="e81a9610343425e5bb76cdb297065426c6e75ef0" />
-  <!-- Older commit required to build, at the time of tagging it was 91da14d2e93bd4637ccc3202eaefa80e4f85d57a  -->
+  <!-- Older commit required to build, at the time of tagging it was 91da14d2e93bd4637ccc3202eaefa80e4f85d57a -->
   <project path="frameworks/base" name="platform/frameworks/base" revision="5ccefdd6d570a084ce708d7f4654358ef7108451" />
   <!-- 4.2_r1 era libbcc, needed to compile. Commit at the time of taging was: 0116d8b4247829adfb64b9cb7992eb783a54abd5 -->
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" revision="1b84ea3be223d95e55965c0d5721d7c91a5a66b9" />
@@ -230,7 +230,8 @@
   <project path="frameworks/ex" name="platform/frameworks/ex" revision="eb061b1b902c41fcd81c875540f1c153f01d8814" />
   <project path="frameworks/mff" name="platform/frameworks/mff" />
   <project path="frameworks/ml" name="platform/frameworks/ml" revision="47c0dc05cde9e9d9cc57e1393429006bf8b23b32" />
-  <project path="frameworks/native" name="platform/frameworks/native" groups="pdk" revision="0859b78db2b094d20efb7b3e725c4732fcdeb4d5" />
+  <!-- Older commit required to build, at the time of tagging it was 0859b78db2b094d20efb7b3e725c4732fcdeb4d5  -->
+  <project path="frameworks/native" name="platform/frameworks/native" groups="pdk" revision="0c6fff72f78e4f80b28ccccac9584255591dd1a2" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" revision="207e297d6911151d3e556be23ede3649beccb674" />
   <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" />
   <!-- Not available in this build, RTM only: <project path="frameworks/opt/colorpicker" name="platform/frameworks/opt/colorpicker" /> -->
