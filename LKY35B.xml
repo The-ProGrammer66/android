@@ -565,6 +565,7 @@
   <project path="prebuilts/clang/linux-x86/arm/3.3" name="platform/prebuilts/clang/linux-x86/arm/3.3" groups="arm,linux,pdk-cw-fs" revision="2f6d2db9e2af3507d132cf5d286a42fe1d47f7bc" />
   <project path="prebuilts/clang/linux-x86/host/3.4" name="platform/prebuilts/clang/linux-x86/host/3.4" groups="pdk,linux" revision="fae26a039f79d780ddedcad07f164d9e6c05fc87" />
   <project path="prebuilts/clang/linux-x86/host/3.5" name="platform/prebuilts/clang/linux-x86/host/3.5" groups="pdk,linux" revision="bb02bdf737ba8511177e2aee1f722e0ce5f14f2e" />
+  <project path="prebuilts/clang/linux-x86/host/3.6" name="platform/prebuilts/clang/linux-x86/host/3.6" groups="pdk,linux" revision="a56d7bee5ad891f50db27b7ca251b62af24d8656" />
   <project path="prebuilts/clang/linux-x86/mips/3.3" name="platform/prebuilts/clang/linux-x86/mips/3.3" groups="linux,mips,pdk-cw-fs" revision="51f8e2760628588fe268438d612d942c30d13fb2" />
   <project path="prebuilts/clang/linux-x86/x86/3.3" name="platform/prebuilts/clang/linux-x86/x86/3.3" groups="linux,pdk-cw-fs,x86" revision="017a8a67f92a66b29ab17772e50642a7b9d0f8e6" />
   <project path="prebuilts/devtools" name="platform/prebuilts/devtools" revision="ea79f9831e9ff72ce4251010eebe5185d3c6c548" />
