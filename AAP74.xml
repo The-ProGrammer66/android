@@ -222,7 +222,7 @@
   <!-- Older commit required to build, at the time of tagging it was e81a9610343425e5bb76cdb297065426c6e75ef0  -->
   <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" revision="761430930a7335d714af0f7c1d497feb8f9f0a5a" />
   <!-- Older commit required to build, at the time of tagging it was 91da14d2e93bd4637ccc3202eaefa80e4f85d57a -->
-  <project path="frameworks/base" name="platform/frameworks/base" revision="5ccefdd6d570a084ce708d7f4654358ef7108451" />
+  <project path="frameworks/base" name="platform/frameworks/base" revision="91da14d2e93bd4637ccc3202eaefa80e4f85d57a" />
   <!-- 4.2_r1 era libbcc, needed to compile. Commit at the time of taging was: 0116d8b4247829adfb64b9cb7992eb783a54abd5 -->
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" revision="1b84ea3be223d95e55965c0d5721d7c91a5a66b9" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" groups="pdk" revision="40f55f0f983885e7c325074d8cc8e5e052cdf0f3" />
