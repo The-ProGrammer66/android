@@ -383,8 +383,8 @@
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" revision="df8ebd142b5dd44165c909d375408ef8b62cf7fc" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" revision="2dcb3c119ec41dec65aff7cdf6532d81ee5b53f3" />
   <project path="packages/apps/Camera" name="platform/packages/apps/Camera" revision="3ae58d366846a5b37ef0c685d1d69781c8c09ce8" />
-  <!-- Three commits newer (technically one?) because they changed Quantum -> Material -->
-  <project path="packages/apps/Camera2" name="platform/packages/apps/Camera2" revision="6b81277e6135961cdd4bc39f44cebf617dc019c6" />
+  <!-- One commit newer because they changed Quantum -> Material -->
+  <project path="packages/apps/Camera2" name="platform/packages/apps/Camera2" revision="e81b43f9574486562b0abeee0ddaba107452a3de" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" revision="d3442125de049196fad081f478ec733868aecea6" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" groups="pdk-cw-fs" revision="38a956408f45c9a7cbb48b79c67257b9207fda30" />
   <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" revision="2a512cde4be940da5e18de27bd7db24921478c2c" />
