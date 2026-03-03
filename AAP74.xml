@@ -230,7 +230,7 @@
   <project path="frameworks/ex" name="platform/frameworks/ex" revision="eb061b1b902c41fcd81c875540f1c153f01d8814" />
   <project path="frameworks/mff" name="platform/frameworks/mff" />
   <project path="frameworks/ml" name="platform/frameworks/ml" revision="47c0dc05cde9e9d9cc57e1393429006bf8b23b32" />
-   <!-- Older commit required to build, at the time of tagging it was 0859b78db2b094d20efb7b3e725c4732fcdeb4d5  -->
+  <!-- Older commit required to build, at the time of tagging it was 0859b78db2b094d20efb7b3e725c4732fcdeb4d5 -->
   <project path="frameworks/native" name="platform/frameworks/native" groups="pdk" revision="0c6fff72f78e4f80b28ccccac9584255591dd1a2" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" revision="207e297d6911151d3e556be23ede3649beccb674" />
   <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" />
@@ -379,7 +379,8 @@
   <project path="system/bluetooth" name="platform/system/bluetooth" groups="pdk" revision="f43660c2d0a0e2a665f48277a0107527dbebdc2c" />
   <project path="system/core" name="platform/system/core" groups="pdk" revision="13306d95f6b70b58bfdd3e1c6d9b1d2a49e6f175" />
   <project path="system/extras" name="platform/system/extras" groups="pdk" revision="c04808a532b0421fded05eecf5d843c45b7eb407" />
-  <project path="system/media" name="platform/system/media" groups="pdk" revision="480986832a29121f7a16e49f30e5c5f7501ef56c" />
+  <!-- Older commit required to build, at the time of tagging it was 480986832a29121f7a16e49f30e5c5f7501ef56c -->
+  <project path="system/media" name="platform/system/media" groups="pdk" revision="6c94a620035d8e719bf4e5040e39db92700bff6c" />
   <project path="system/netd" name="platform/system/netd" groups="pdk" revision="43682d9474a2c89ddecc9fcc818df40e4f5424ee" />
   <project path="system/security" name="platform/system/security" groups="pdk" revision="7ce505f0d3020eb0266fc70ebc3bb634b092339d" />
   <project path="system/vold" name="platform/system/vold" groups="pdk" revision="d67870ee8cce6536fccc756ec51cf3ba59147303" />
