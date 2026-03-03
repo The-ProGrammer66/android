@@ -220,7 +220,8 @@
   <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
   <project path="external/zxing" name="platform/external/zxing" />
   <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" revision="a20fc62f23263c4220c1a14eb6a37165f7cdf327" />
-  <project path="frameworks/base" name="platform/frameworks/base" revision="91da14d2e93bd4637ccc3202eaefa80e4f85d57a" />
+  <!-- Older commit required to build, at the time of tagging it was 91da14d2e93bd4637ccc3202eaefa80e4f85d57a -->
+  <project path="frameworks/base" name="platform/frameworks/base" revision="1da8e8ce8912b79a5ed7cd3865a3913ee9bfb1d9" />
   <!-- 4.2_r1 era libbcc, needed to compile. Commit at the time of taging was: 0116d8b4247829adfb64b9cb7992eb783a54abd5 -->
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" revision="1b84ea3be223d95e55965c0d5721d7c91a5a66b9" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" groups="pdk" revision="40f55f0f983885e7c325074d8cc8e5e052cdf0f3" />
