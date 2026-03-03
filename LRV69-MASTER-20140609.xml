@@ -357,7 +357,7 @@
   <!-- Removed once Nexus 5 and 6 had Camera in their device tree. Use until they do. Even though it doesn't work... (i think) -->
   <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" groups="qcom,qcom_camera" revision="fa22a3fdd2790bc90c05f3fc95e38bb86a34a308" />
   <project path="hardware/qcom/display" name="platform/hardware/qcom/display" groups="qcom,qcom_display" revision="9d0a93bb533aa5678e7878f8afa0aae7efb4b33a" />
-  <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" groups="qcom,qcom_gps" revision="c02d4b1aa09b58e31ce2d0ac4135dfcc5968e322" />
+  <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" groups="qcom,qcom_gps" revision="5527c156039207c49331142783c66b742f8464e5" />
   <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" groups="qcom" />
   <project path="hardware/qcom/media" name="platform/hardware/qcom/media" groups="qcom" revision="375b84d1d94017477bd54ee1816fab0c7eea25a3" />
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960" revision="4e0f671b2c86f5aa01502bea53c2e09fba1f8019" />
