@@ -227,7 +227,7 @@
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" groups="pdk" revision="40f55f0f983885e7c325074d8cc8e5e052cdf0f3" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" revision="cedee4b38f4786845183be7f5916dd520a170ae0" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" revision="9221935c8a5cb48a53d7d316bbe0d860baf4a22e" />
-  <project path="frameworks/ex" name="platform/frameworks/ex" revision="eb061b1b902c41fcd81c875540f1c153f01d8814" />
+  <project path="frameworks/ex" name="platform/frameworks/ex" revision="0cf347e69473d2259194257d5a4b9aa103c8e448" />
   <project path="frameworks/mff" name="platform/frameworks/mff" />
   <project path="frameworks/ml" name="platform/frameworks/ml" revision="47c0dc05cde9e9d9cc57e1393429006bf8b23b32" />
   <!-- Older commit required to build, at the time of tagging it was 0859b78db2b094d20efb7b3e725c4732fcdeb4d5 -->
