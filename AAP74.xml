@@ -376,7 +376,7 @@
   <project path="sdk" name="platform/sdk" revision="83e998e451a6df9566e350a8fe7deb589a977076" />
   <project path="system/bluetooth" name="platform/system/bluetooth" groups="pdk" revision="f43660c2d0a0e2a665f48277a0107527dbebdc2c" />
   <project path="system/core" name="platform/system/core" groups="pdk" revision="13306d95f6b70b58bfdd3e1c6d9b1d2a49e6f175" />
-  <project path="system/extras" name="platform/system/extras" groups="pdk" revision="c04808a532b0421fded05eecf5d843c45b7eb407" />
+  <project path="system/extras" name="platform/system/extras" groups="pdk" revision="ea725f4818acbbfec1f7646ee9e87bdd05d437bc" />
   <!-- Older commit required to build, at the time of tagging it was 480986832a29121f7a16e49f30e5c5f7501ef56c -->
   <project path="system/media" name="platform/system/media" groups="pdk" revision="6c94a620035d8e719bf4e5040e39db92700bff6c" />
   <project path="system/netd" name="platform/system/netd" groups="pdk" revision="85b01890b9c71be6f4e332f3718acc113a554253" />
