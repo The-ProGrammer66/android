@@ -381,7 +381,7 @@
   <project path="system/extras" name="platform/system/extras" groups="pdk" revision="c04808a532b0421fded05eecf5d843c45b7eb407" />
   <!-- Older commit required to build, at the time of tagging it was 480986832a29121f7a16e49f30e5c5f7501ef56c -->
   <project path="system/media" name="platform/system/media" groups="pdk" revision="6c94a620035d8e719bf4e5040e39db92700bff6c" />
-  <project path="system/netd" name="platform/system/netd" groups="pdk" revision="43682d9474a2c89ddecc9fcc818df40e4f5424ee" />
+  <project path="system/netd" name="platform/system/netd" groups="pdk" revision="85b01890b9c71be6f4e332f3718acc113a554253" />
   <project path="system/security" name="platform/system/security" groups="pdk" revision="7ce505f0d3020eb0266fc70ebc3bb634b092339d" />
   <project path="system/vold" name="platform/system/vold" groups="pdk" revision="d67870ee8cce6536fccc756ec51cf3ba59147303" />
   <!-- Not available in this build, RTM only: <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" /> -->
