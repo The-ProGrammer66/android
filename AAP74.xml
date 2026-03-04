@@ -24,7 +24,7 @@
   <!-- Not available in this build, RTM only: <project path="developers/demos" name="platform/developers/demos" /> -->
   <!-- Not available in this build, RTM only: <project path="developers/docs" name="platform/developers/docs" />  -->
   <!-- Not available in this build, RTM only: <project path="developers/samples/android" name="platform/developers/samples/android" /> -->
-  <project path="development" name="platform/development" revision="66cb819500c9e2667e472d14033e570422cb158b" />
+  <project path="development" name="platform/development" revision="a6485a73ca08f2e60d0ec01509e73db9262735b7" />
   <!-- Not available in this build, RTM only: <project path="device/asus/deb" name="device/asus/deb" groups="device,flo" /> -->
   <!-- Not available in this build, RTM only: <project path="device/asus/flo" name="device/asus/flo" groups="device,flo" /> -->
   <!-- Not available in this build, RTM only: <project path="device/asus/flo-kernel" name="device/asus/flo-kernel" groups="device,flo" /> -->
@@ -220,8 +220,7 @@
   <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
   <project path="external/zxing" name="platform/external/zxing" />
   <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" revision="a20fc62f23263c4220c1a14eb6a37165f7cdf327" />
-  <!-- Older commit required to build, at the time of tagging it was 91da14d2e93bd4637ccc3202eaefa80e4f85d57a -->
-  <project path="frameworks/base" name="platform/frameworks/base" revision="1da8e8ce8912b79a5ed7cd3865a3913ee9bfb1d9" />
+  <project path="frameworks/base" name="platform/frameworks/base" revision="91da14d2e93bd4637ccc3202eaefa80e4f85d57a" />
   <!-- 4.2_r1 era libbcc, needed to compile. Commit at the time of taging was: 0116d8b4247829adfb64b9cb7992eb783a54abd5 -->
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" revision="1b84ea3be223d95e55965c0d5721d7c91a5a66b9" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" groups="pdk" revision="40f55f0f983885e7c325074d8cc8e5e052cdf0f3" />
@@ -230,8 +229,7 @@
   <project path="frameworks/ex" name="platform/frameworks/ex" revision="0cf347e69473d2259194257d5a4b9aa103c8e448" />
   <project path="frameworks/mff" name="platform/frameworks/mff" />
   <project path="frameworks/ml" name="platform/frameworks/ml" revision="47c0dc05cde9e9d9cc57e1393429006bf8b23b32" />
-  <!-- Older commit required to build, at the time of tagging it was 0859b78db2b094d20efb7b3e725c4732fcdeb4d5 -->
-  <project path="frameworks/native" name="platform/frameworks/native" groups="pdk" revision="0c6fff72f78e4f80b28ccccac9584255591dd1a2" />
+  <project path="frameworks/native" name="platform/frameworks/native" groups="pdk" revision="0859b78db2b094d20efb7b3e725c4732fcdeb4d5" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" revision="207e297d6911151d3e556be23ede3649beccb674" />
   <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" />
   <!-- Not available in this build, RTM only: <project path="frameworks/opt/colorpicker" name="platform/frameworks/opt/colorpicker" /> -->
