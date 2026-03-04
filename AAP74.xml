@@ -219,7 +219,7 @@
   <project path="external/yaffs2" name="platform/external/yaffs2" groups="pdk" revision="1e0582c09b355c1722f31c8a790b4d69c792ce1c" />
   <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
   <project path="external/zxing" name="platform/external/zxing" />
-  <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" revision="a20fc62f23263c4220c1a14eb6a37165f7cdf327" />
+  <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" revision="aef79b0676d8f0ee8ef637ec8be5ba73225b038d" />
   <project path="frameworks/base" name="platform/frameworks/base" revision="91da14d2e93bd4637ccc3202eaefa80e4f85d57a" />
   <!-- 4.2_r1 era libbcc, needed to compile. Commit at the time of taging was: 0116d8b4247829adfb64b9cb7992eb783a54abd5 -->
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" revision="1b84ea3be223d95e55965c0d5721d7c91a5a66b9" />
