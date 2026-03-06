@@ -184,7 +184,7 @@
   <project path="external/libcxx" name="platform/external/libcxx" groups="pdk" revision="ada2964799159589b4bffe1e1ba72c664cff094a" />
   <project path="external/libcxxabi" name="platform/external/libcxxabi" groups="pdk" revision="3be37f7492fb54dcf821b954efa74dda23751bab" />
   <!-- In l-preview, but not in 5.0. Required since AAV45F. -->
-  <!--<project path="external/libcxxrt" name="platform/external/libcxxrt" groups="pdk" revision="c91116188fa1df95e0b83f102d3a113aa87947bc" />-->
+  <project path="external/libcxxrt" name="platform/external/libcxxrt" groups="pdk" revision="c91116188fa1df95e0b83f102d3a113aa87947bc" />
   <project path="external/libedit" name="platform/external/libedit" />
   <project path="external/libexif" name="platform/external/libexif" groups="pdk-cw-fs" />
   <project path="external/libhevc" name="platform/external/libhevc" revision="707042fda96ebede81408b854385173483798bcd" />
