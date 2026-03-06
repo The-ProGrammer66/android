@@ -19,8 +19,7 @@
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="platform/art" groups="pdk" revision="55884bc1e2e1b324809b462455ccaf5811ffafd8" />
-  <!-- Older commit than intended but it seems like thats what thsi was using at the time! -->
-  <project path="bionic" name="platform/bionic" groups="pdk" revision="9f82c7bd5269631e3bad35414821255a83227ddc" />
+  <project path="bionic" name="platform/bionic" groups="pdk" revision="95f6cfc9719700d7f419b31ffc1f75209da53c28" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" groups="pdk-cw-fs" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" revision="43772d26a5d8d31fd092a21edfca346f3b3901e7" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs" revision="b97cc34a0fe467cdd6d462c0ee31a51bdc6c6cd8" />
