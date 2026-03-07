@@ -270,8 +270,8 @@
   <project path="external/strace" name="platform/external/strace" groups="pdk-cw-fs" revision="d317951a6b15f0ca6e2a697d4796895b876985d1" />
   <project path="external/stressapptest" name="platform/external/stressapptest" groups="pdk-cw-fs" />
   <project path="external/svox" name="platform/external/svox" groups="pdk-cw-fs" revision="707c786db7c15179a6dc44b8e8d2be16873d90c6" />
-  <!-- RTM, Did not survive 5.0 RTM, did survive to L-preview -->
-  <project path="external/syspatch" name="platform/external/syspatch" groups="pdk-cw-fs" revision="4029ced07661bbe144d290b390cd56406111dbf8" />
+  <!-- RTM, Did not survive 5.0 RTM, did survive to L-preview, original revision is L-preview but has to be patched to be "updated" manually -->
+  <project path="external/syspatch" name="platform_external_syspatch" remote="github" revision="L-patches" />
   <project path="external/tagsoup" name="platform/external/tagsoup" groups="pdk-cw-fs,tradefed" />
   <project path="external/tcpdump" name="platform/external/tcpdump" groups="pdk,pdk-cw-fs" />
   <project path="external/timezonepicker-support" name="platform/external/timezonepicker-support" groups="pdk-cw-fs" />
