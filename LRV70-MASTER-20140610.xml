@@ -28,7 +28,7 @@
   <project path="developers/demos" name="platform/developers/demos" revision="64526120cd8da89bcb9a48acf95307d2c172a6e8" />
   <project path="developers/docs" name="platform/developers/docs"/>
   <project path="developers/samples/android" name="platform/developers/samples/android" revision="ceaad1f0aa050b4dfaffa05927cacc0a76c78882" />
-  <project path="development" name="platform/development" groups="pdk-cw-fs" revision="2d719d6c716e4b800c9b9bcd31fe36fdddb8adfd" />
+  <project path="development" name="platform/development" groups="pdk-cw-fs" revision="94bb9318849eb5a25974def89cd651657e7d06ea" />
   <project path="device/asus/deb" name="device/asus/deb" groups="device,flo" revision="ea42aa19e84a2e971f4a4406e55653fe9e7cc5ad" />
   <project path="device/asus/flo" name="device/asus/flo" groups="device,flo" revision="819f36f3f9e587dfa683c8c1f0b684ca0a60bcb9" />
   <project path="device/asus/flo-kernel" name="device/asus/flo-kernel" groups="device,flo" clone-depth="1" revision="0d8314abf20a2533b484f318b32d57e23cca9e63" />
@@ -293,8 +293,8 @@
   <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs" revision="9ec1023fe7b16c10be9a96b1cd90cf298f7f3d90" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs" />
-  <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" revision="8129e799f2774235c8cce3bf25fd98ef4ca2471b" />
-  <!-- Original commit is b85056018b5be05c19c7b1cce1ccee35759ad1b4 -->
+  <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" revision="bcca9e072c1f288a53ce6862936f57dc36488f96" />
+  <!-- Original commit is c42d33004dace5155b36a5c2e9468dbbe343af66 -->
   <project path="frameworks/base" name="platform_frameworks_base" remote="github" revision="LRV70-HDMI-MHL-fix" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" revision="d3f30c039f7d568337f6bb1e0a7580ce545ffc31" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" revision="6bf1da7a67eff66c8f6dac5dbdd8322d33b81a67" />
@@ -325,7 +325,7 @@
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" groups="pdk-cw-fs" revision="e4068b8b4b2605aa12b7c69963470ceb41b0e32d" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" groups="pdk-cw-fs" revision="4950d922815e16a0724e2509a6d04ccef8bd810b" />
   <project path="frameworks/opt/widget" name="platform/frameworks/opt/widget" groups="pdk-cw-fs" />
-  <project path="frameworks/rs" name="platform/frameworks/rs" groups="pdk" revision="d7c3f3b0e2b0eb21428398bd8633987f11e0e857" />
+  <project path="frameworks/rs" name="platform/frameworks/rs" groups="pdk" revision="b715fcff574438f640991a1272bf6a7ab949e4ca" />
   <project path="frameworks/support" name="platform/frameworks/support" groups="pdk-cw-fs" revision="ee2f99dc9cfdca5cc873a4c36badb720b09be23b" />
   <project path="frameworks/testing" name="platform/frameworks/testing" groups="pdk-cw-fs" revision="1afabcc1a3db33f786ff7cc0c8d72e40990c8876" />
   <project path="frameworks/volley" name="platform/frameworks/volley" groups="pdk-cw-fs" revision="b1c654cca622dd4dc934a733979402bc88252361" />
