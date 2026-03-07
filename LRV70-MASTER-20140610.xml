@@ -301,7 +301,7 @@
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" revision="9a4ea752a3beb6dba69f81c4691adac1e075720c" />
   <project path="frameworks/ex" name="platform/frameworks/ex" groups="pdk-cw-fs" revision="f376e36ec3c4ee377d617a889370d5bb724f895d" />
   <project path="frameworks/mff" name="platform/frameworks/mff" groups="pdk-cw-fs" />
-  <project path="frameworks/minikin" name="platform/frameworks/minikin" groups="pdk-cw-fs" revision="9a5f713add8cfb91ac2c9ed5c917309053201ab6" />
+  <project path="frameworks/minikin" name="platform/frameworks/minikin" groups="pdk-cw-fs" revision="4043f6f6d9c584bc61bc3d81d1680bf1b558330e" />
   <project path="frameworks/ml" name="platform/frameworks/ml" groups="pdk-cw-fs" />
   <project path="frameworks/multidex" name="platform/frameworks/multidex" groups="pdk-cw-fs" revision="ca1f9c2445450610cf79d10cc1846042d5f382d0" />
   <project path="frameworks/native" name="platform/frameworks/native" groups="pdk" revision="b37c8c545384e358bc7f54e8c600acc399afd251" />
