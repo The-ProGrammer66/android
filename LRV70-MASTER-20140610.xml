@@ -380,7 +380,7 @@
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" revision="74dabfb034e6fccd67f58a0c047980706c18d9ad" />
   <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" groups="pdk-cw-fs" revision="df0c1b598b33732fd237f90f8c4fc2c89c20d3ed" />
   <project path="packages/apps/Browser" name="platform/packages/apps/Browser" revision="bdad2c0837e47926bddfc21980bd0b900fdc37d4" />
-  <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" revision="5dc1c303637aa20434cc633133c52755a979cc65" />
+  <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" revision="40b771b5600e3d8741b35120a5e058eb0f4e19c5" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" revision="bd18e37e495db5ed7062097a312374f6476af3eb" />
   <project path="packages/apps/Camera" name="platform/packages/apps/Camera" revision="3ae58d366846a5b37ef0c685d1d69781c8c09ce8" />
   <project path="packages/apps/Camera2" name="platform/packages/apps/Camera2" revision="61fb7a578c7d99e7eb2d4837bbc92668e4ae5d25" />
