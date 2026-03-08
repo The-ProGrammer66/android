@@ -177,7 +177,7 @@
   <project path="external/jsmn" name="platform/external/jsmn" groups="pdk" />
   <project path="external/jsoncpp" name="platform/external/jsoncpp" groups="pdk-cw-fs" revision="f59fb0e83fd0a4b41700d3f5eebdc8d21b173c2e" />
   <project path="external/jsr305" name="platform/external/jsr305" groups="pdk-cw-fs,tradefed" />
-  <project path="external/junit" name="platform/external/junit" groups="pdk-cw-fs,tradefed" revision="98bbbe803b1c18bd976c12a8ad6f7a180ea2cc57" />
+  <project path="external/junit" name="platform/external/junit" groups="pdk-cw-fs,tradefed" revision="101f6aa764e3520f85d807ddd9b5348711d84444" />
   <project path="external/ksoap2" name="platform/external/ksoap2" groups="pdk-cw-fs" />
   <project path="external/kernel-headers" name="platform/external/kernel-headers" groups="pdk-cw-fs" revision="7f5cd97e05f15498d81c90eb6dbcb57f1f35fd23" />
   <project path="external/libcap-ng" name="platform/external/libcap-ng" groups="pdk-cw-fs" />
