@@ -386,8 +386,8 @@
   <project path="packages/apps/Camera2" name="platform/packages/apps/Camera2" revision="ba0e617e663bd95f0440ae2eac27ea5f7b3dc662" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" revision="822984a9f406631e00d32b8c4326f6bcf5d5be8b" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" groups="pdk-cw-fs" revision="38a956408f45c9a7cbb48b79c67257b9207fda30" />
-  <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" revision="0304ae307cdbac92ee880e77bc022ea49e9588ed" />
-  <project path="packages/apps/ContactsCommon" name="platform/packages/apps/ContactsCommon" revision="49bfea88d2d3ed90a8be08735356f2aeffd8a75f" />
+  <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" revision="fe1ad2a24d174f3728b351292a72dffe887b62de" />
+  <project path="packages/apps/ContactsCommon" name="platform/packages/apps/ContactsCommon" revision="0cbfbda343c15c90134db5e55cf51239fe846b6c" />
   <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" revision="e5646762ded28c4af52b694f27ffd80e8b35caba" />
   <project path="packages/apps/Dialer" name="platform/packages/apps/Dialer" revision="28aab271e57a4966496b5d2ef2b067e8ace34679" />
   <!-- Original commit is 378379929e17e9090b34d3edbce36579357ccc83 -->
