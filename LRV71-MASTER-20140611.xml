@@ -356,7 +356,7 @@
   <project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" groups="qcom,qcom_audio" revision="8e6e98fc5af6d6f79bc71eb37df470380ae82fad" />
   <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="qcom" />
   <!-- Removed once Nexus 5 and 6 had Camera in their device tree. Use until they do. Even though it doesn't work... (i think) -->
-  <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" groups="qcom,qcom_camera" revision="eb93bb4955e32fb9c8feee91f33dada38ea9504f" />
+  <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" groups="qcom,qcom_camera" revision="fa22a3fdd2790bc90c05f3fc95e38bb86a34a308" />
   <project path="hardware/qcom/display" name="platform/hardware/qcom/display" groups="qcom,qcom_display" revision="9d0a93bb533aa5678e7878f8afa0aae7efb4b33a" />
   <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" groups="qcom,qcom_gps" revision="c02d4b1aa09b58e31ce2d0ac4135dfcc5968e322" />
   <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" groups="qcom" />
