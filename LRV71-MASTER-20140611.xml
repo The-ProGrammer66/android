@@ -294,7 +294,7 @@
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs" revision="9ec1023fe7b16c10be9a96b1cd90cf298f7f3d90" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs" />
   <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" revision="11cbb06b35cbcb488c7f39b71886ce379e57f867" />
-  <!-- Original commit is 5f0d640c028fedeca84927d2d57583d5c08e298e -->
+  <!-- Original commit is 2e9df83b4aca02a05664ac82bf1ef8860f402ef8 -->
   <project path="frameworks/base" name="platform_frameworks_base" remote="github" revision="LRV71-HDMI-MHL-fix" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" revision="d3f30c039f7d568337f6bb1e0a7580ce545ffc31" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" revision="6bf1da7a67eff66c8f6dac5dbdd8322d33b81a67" />
@@ -318,7 +318,7 @@
   <project path="frameworks/opt/net/ims" name="platform/frameworks/opt/net/ims" groups="frameworks_ims,pdk-cw-fs" revision="7a655848f691c0d27421b293f96782a1bd5fb081" />
   <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" groups="pdk-cw-fs" revision="0f722c7f09ce67e058eb1cfaabf1d85f1abdf797" />
   <project path="frameworks/opt/net/wifi" name="platform/frameworks/opt/net/wifi" groups="pdk" revision="211737ce4cabcab0552e3453ac6e3c5a4748c158" />
-  <project path="frameworks/opt/net/ethernet" name="platform/frameworks/opt/net/ethernet" revision="4b1ec3fc8e4e4b432328297c45519fa4f6baa3cd" />
+  <project path="frameworks/opt/net/ethernet" name="platform/frameworks/opt/net/ethernet" revision="8a7826b228d94342b78d4e31e18f96d0ed10e556" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" groups="pdk-cw-fs" revision="6ce2214644b49a2ae976a9b3dd1cede5d13dea77" />
   <project path="frameworks/opt/setupwizard" name="platform/frameworks/opt/setupwizard" groups="pdk-cw-fs" revision="bd7caf0aea2b11c1e0d31dfce8b046c0ba6a5818" />
   <project path="frameworks/opt/telephony" name="platform/frameworks/opt/telephony" groups="pdk" revision="235dd822c4ff48409d974b4fa7e789ea1fdaa7aa" />
