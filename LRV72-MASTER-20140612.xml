@@ -28,7 +28,7 @@
   <project path="developers/demos" name="platform/developers/demos" revision="64526120cd8da89bcb9a48acf95307d2c172a6e8" />
   <project path="developers/docs" name="platform/developers/docs"/>
   <project path="developers/samples/android" name="platform/developers/samples/android" revision="ceaad1f0aa050b4dfaffa05927cacc0a76c78882" />
-  <project path="development" name="platform/development" groups="pdk-cw-fs" revision="2274fcaa0824a521d6d14dc2f2669b48a0c16332" />
+  <project path="development" name="platform/development" groups="pdk-cw-fs" revision="27f3f5fab1ceb1f0def65d8ea4844ea9e3e930e5" />
   <project path="device/asus/deb" name="device/asus/deb" groups="device,flo" revision="386e0ad140d0bdf9331fee7c309db7b7a8da6064" />
   <project path="device/asus/flo" name="device/asus/flo" groups="device,flo" revision="7977a770780516a7ce5e0a129e2449647f86138e" />
   <project path="device/asus/flo-kernel" name="device/asus/flo-kernel" groups="device,flo" clone-depth="1" revision="a2899054ded300d9e1468e0fae7b7f3a551fc869" />
