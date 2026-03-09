@@ -434,7 +434,7 @@
   <project path="packages/providers/DownloadProvider" name="platform/packages/providers/DownloadProvider" groups="pdk-cw-fs" revision="261a12d452e20f2cbe028613d9741e7643a41653" />
   <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" groups="pdk-cw-fs" revision="f5510c0040fbe0ee6ba1d1f24b6f760fdc6ca5b9" />
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" />
-  <project path="packages/providers/TelephonyProvider" name="platform/packages/providers/TelephonyProvider" revision="e84c0a8cf610ed6172b6319244c908856ac4c4a9" />
+  <project path="packages/providers/TelephonyProvider" name="platform/packages/providers/TelephonyProvider" revision="db8b1cd5ef2b56203c41c29eacf273102d9842ed" />
   <project path="packages/providers/TvProvider" name="platform/packages/providers/TvProvider" revision="91889005be78e8f5382eff5e9fdb44a210a473e9" />
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" groups="pdk-cw-fs" revision="361f35b7b1fe758d93e0952536a298b2ed045a89" />
   <project path="packages/screensavers/Basic" name="platform/packages/screensavers/Basic" revision="ee09fa5fefb946b0f0629fd9ae3ccee055297aae" />
