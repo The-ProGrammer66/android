@@ -426,7 +426,7 @@
   <project path="packages/apps/UnifiedEmail" name="platform/packages/apps/UnifiedEmail" revision="be79915d0445fe526341f5659fec632108c17fb5" />
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" revision="15f17a39a28ab22c6aff0e978bfc431650abbbb0" />
   <project path="packages/experimental" name="platform/packages/experimental" revision="1390028a0de623a60bec7fcf99362539dcbab7b9" />
-  <project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" revision="ec59371ff88f2fb1f4dd25d2fc5c06cb39f5152e" />
+  <project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" revision="89899e14dfe4c40ed833ba0ef7d0b06e281d0331" />
   <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" revision="9c9cf8a5058669f3b52d1da6ca00d8c8b40f76f7" />
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" groups="pdk-cw-fs" revision="0d14c2b47cd150967c614b39449822558a59f0c0" />
