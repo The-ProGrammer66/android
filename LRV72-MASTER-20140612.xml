@@ -296,7 +296,7 @@
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs" />
   <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" revision="b6be7f22a82ee3bad8bcc709d21e72fc4727da09" />
   <!-- Original commit is 28b8434a007290fca6ea6a9f8daed779c2f8fb93 -->
-  <project path="frameworks/base" name="platform_frameworks_base" remote="github" revision="LRV72-HDMI-MHL-fix" />
+  <project path="frameworks/base" name="platform_frameworks_base" remote="github" revision="LRV72-fixes" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" revision="d3f30c039f7d568337f6bb1e0a7580ce545ffc31" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" revision="6bf1da7a67eff66c8f6dac5dbdd8322d33b81a67" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" revision="12828c39d33129990c039fa3c19ac3625ef59784" />
