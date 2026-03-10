@@ -391,7 +391,7 @@
   <project path="packages/apps/ContactsCommon" name="platform/packages/apps/ContactsCommon" revision="10efec6ca185639c901ebfe1482c13b2c337a76c" />
   <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" revision="e5646762ded28c4af52b694f27ffd80e8b35caba" />
   <project path="packages/apps/Dialer" name="platform/packages/apps/Dialer" revision="3307fdc5e84e456370e7630e4fe0300aba59cd26" />
-  <!-- Original commit is 988ad6e002810d5da713f0cda20aecf00cccb9ca -->
+  <!-- Original commit is 8183be889f51c3bf1a834c0ec0566a5da7215fd1 -->
   <project path="packages/apps/Email" name="packages_apps_Email" remote="github" revision="LRV72-fix" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" revision="36dbd1f6d8c782b60c8da11f36e442e241d33835" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" revision="536c9694d28622064aafe2742de761317e0f30e9" />
