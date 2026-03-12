@@ -200,7 +200,7 @@
   <project path="frameworks/ex" name="platform/frameworks/ex" revision="bec9dc9915501e9f924cf8c2f62901c38ddf5c98" />
   <project path="frameworks/mff" name="platform/frameworks/mff" />
   <project path="frameworks/ml" name="platform/frameworks/ml" revision="11ac59df683f8c63530a970d058ca30e6bfe1b89" />
-  <project path="frameworks/native" name="platform/frameworks/native" revision="d329537168fc915ced2ab5ec0efb5586dcfe239e" />
+  <!--<project path="frameworks/native" name="platform/frameworks/native" revision="d329537168fc915ced2ab5ec0efb5586dcfe239e" />-->
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" revision="8d8d7cf86ebf7e34dc42dab0bfbe3930ad95f983" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" revision="a95d8db002770469d72dfaf59ff37ac96db29a87" />
   <project path="frameworks/opt/inputmethodcommon" name="platform/frameworks/opt/inputmethodcommon" />
