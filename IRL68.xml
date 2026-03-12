@@ -192,9 +192,8 @@
   <project path="external/yaffs2" name="platform/external/yaffs2" revision="6232e2d5ab34a40d710e4b05ab0ec6e3727804e7" />
   <project path="external/zlib" name="platform/external/zlib" revision="69e5801bd16a495e1c1666669fe827b1ddb8d56b" />
   <project path="external/zxing" name="platform/external/zxing" revision="8dab53a2e7248ddba49f06d9f0beeb261b8fa589" />
-  <project path="frameworks/av" name="platform/frameworks/av" revision="2703f23af496c13cfa39cc7e157fa12d1cb4c169" />
-  <!-- Original commit is 2a4bae44c8690ca7cef788b4312b6468477ad535 -->
-  <project path="frameworks/base" name="platform_frameworks_base" remote="github" revision="IRL68-cherrypick" />
+  <project path="frameworks/media/libvideoeditor" name="platform/frameworks/av" revision="467a3f3ea4830b4f4d9cb5b68f2f6ee638648801" />
+  <project path="frameworks/base" name="platform/frameworks/base" revision="2a4bae44c8690ca7cef788b4312b6468477ad535" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" revision="df67be6d770ba011cad40bf382f5163025cd0083" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" revision="503cc3eb626da7ee71e89ee6f935517134c3f060" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" revision="8f4d972ef6c6796ffdde603e456979a7004d1e20" />
