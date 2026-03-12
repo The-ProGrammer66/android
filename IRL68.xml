@@ -192,7 +192,7 @@
   <project path="external/yaffs2" name="platform/external/yaffs2" revision="6232e2d5ab34a40d710e4b05ab0ec6e3727804e7" />
   <project path="external/zlib" name="platform/external/zlib" revision="69e5801bd16a495e1c1666669fe827b1ddb8d56b" />
   <project path="external/zxing" name="platform/external/zxing" revision="8dab53a2e7248ddba49f06d9f0beeb261b8fa589" />
-  <project path="frameworks/av" name="platform/frameworks/av" revision="53ea28aa02caa4963f376254299afdf6c1de9765" />
+  <project path="frameworks/av" name="platform/frameworks/av" revision="434e86339ecbcc93c85617f760661c765199e118" />
   <!-- Original commit is 2a4bae44c8690ca7cef788b4312b6468477ad535 -->
   <project path="frameworks/base" name="platform_frameworks_base" remote="github" revision="IRL68-cherrypick" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" revision="df67be6d770ba011cad40bf382f5163025cd0083" />
