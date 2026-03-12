@@ -206,7 +206,7 @@
   <project path="external/tremolo" name="platform/external/tremolo" groups="pdk" />
   <project path="external/v8" name="platform/external/v8" revision="5bc2827771d68578ff0ab26d393a836327e09ead" />
   <project path="external/valgrind" name="platform/external/valgrind" groups="pdk" revision="19211210d3c966ef856d8ca182abf8d78f1e7cbf" />
-  <project path="external/webkit" name="platform/external/webkit" revision="353a382240d47286022b6d23516c9302d6375db6 "/>
+  <project path="external/webkit" name="platform/external/webkit" revision="353a382240d47286022b6d23516c9302d6375db6"/>
   <project path="external/webp" name="platform/external/webp" revision="276905dd9bf0cffd7e04c78c95f2c1057275d5bd" />
   <project path="external/webrtc" name="platform/external/webrtc" groups="pdk" revision="69857ee3e72bc52cc3bd1ea80147fa0076a02973" />
   <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" groups="pdk" revision="90f44d5ff88189e0972bcd376b662d898e4c3c2e" />
