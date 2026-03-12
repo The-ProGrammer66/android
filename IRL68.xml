@@ -185,7 +185,7 @@
   <project path="external/webp" name="platform/external/webp" />
   <project path="external/webrtc" name="platform/external/webrtc" revision="4b6dc1ec58105d17dc8c2f550124cc0621dc93b7" />
   <!-- Required for compile at this time -->
-  <!--<project path="external/wpa_supplicant" name="platform/external/wpa_supplicant" revision="a01d37870bbf9892d43e792e5de0683ca41c5497" />-->
+  <project path="external/wpa_supplicant" name="platform/external/wpa_supplicant" revision="a01d37870bbf9892d43e792e5de0683ca41c5497" />
   <project path="external/wpa_supplicant_6" name="platform/external/wpa_supplicant_6" revision="3d8fdea07212e99beb0ef9b1ef1e9e2c3d48482d" />
   <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" revision="c14bc82973a9e7b8eb8762d910b0f5ea5546a5d5" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
