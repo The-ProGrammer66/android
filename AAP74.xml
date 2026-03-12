@@ -238,6 +238,7 @@
   <!-- Edited manifest ends here -->
   <project path="frameworks/opt/mailcommon" name="platform/frameworks/opt/mailcommon" />
   <project path="frameworks/opt/mms" name="platform/frameworks/opt/mms" revision="783d625407becc7b754a4d7496b97ad5945d793c" />
+  <!-- Not available in this build, RTM only: <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" /> -->
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" revision="9c3046a1b1ee9d806562d280e4a0143d1cd428b0" />
   <!-- Not available in this build, RTM only: <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" /> -->
   <project path="frameworks/opt/telephony" name="platform/frameworks/opt/telephony" groups="pdk" revision="f08c4c89622ddcbc4ed9315fe6b399941dad4939" />
@@ -249,7 +250,7 @@
   <project path="frameworks/webview" name="platform/frameworks/webview" />
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" revision="b42e943393b119b42b8fdca29be067800c35c78e" />
   <project path="hardware/akm" name="platform/hardware/akm" />
-  <project path="hardware/broadcom/libbt" name="platform/hardware/broadcom/libbt" groups="pdk" revision="85a9b6f3a4dac2162fe1a6006505659e30d328ad" />
+  <!-- Not available in this build, RTM only: <project path="hardware/broadcom/libbt" name="platform/hardware/broadcom/libbt" groups="pdk" /> -->
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="broadcom_wlan" revision="55c8e92ac4ed24df2b91b4901cc58c298a048a5e" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" revision="33ce91b37062fa63af192f5643de93f3beebe854" />
   <project path="hardware/libhardware" name="platform/hardware/libhardware" groups="pdk" revision="459afa7fb59b0a88d7e86d5544469b1c9aea7b73" />
