@@ -1,43 +1,27 @@
-kraking-the-bread: Gingerbread Restoration Project
+zombiebread: Gingerbread Restoration Project
 =========================================================
 
 This repository contains reconstructed `repo` manifests of pre-release Android 2.3 ("Gingerbread") builds.
 
-Following pre-release builds were reconstructed:
 
-| Build number and/or date                  | Status           |
-| :---:                                     |   :---:          |
-| [`15 April 2010`]                         | Done             |
-| [`GRF70`] (June 11 2010)                  | Work in progress |
-| [`GRH84`]                                 | Done             |
-| [`GRI34`]                                 | Done             |
-
-The following builds are uncompilable and have been unfortunately cancelled due to not possible way to compile them:
-| Build number and/or date                  | Status           |
-| :---:                                     |   :---:          |
-| [`05 May 2010`]                           | Uncompilable due to major changes done during its tagged date|
-
-[`15 April 2010`]:  https://github.com/froyocomb/android/blob/zombiebread/MASTER-20100415.xml
-[`05 May 2010`]:  https://github.com/froyocomb/android/blob/zombiebread/MASTER-20100505.xml
-[`GRF70`]:  https://github.com/froyocomb/android/blob/zombiebread/GRF70.xml
-[`GRH84`]:  https://github.com/froyocomb/android/blob/zombiebread/GRH84.xml
-[`GRI34`]:  https://github.com/froyocomb/android/blob/zombiebread/GRI34.xml
+**See the list of manifests above for the total amount of reconstructed builds.**
 
 Preparing a Build Environment
 -----------------
 
-For installing dependencies, refer to the article ["Initializing a Build Environment"](https://web.archive.org/web/20140208084633/http://source.android.com/source/initializing.html) from the AOSP documentation.
+It is recommended to use an older Linux distribution. All builds have been tested on Ubuntu 12.04 LTS ("Precise Pangolin"), which can be downloaded from [here](https://old-releases.ubuntu.com/releases/12.04/ubuntu-12.04.5-desktop-amd64.iso). 
 
-It is recommended to use an older Linux distribution. All builds have been tested on Ubuntu 12.04 ("Precise Pangolin"), which can be downloaded from [here](https://old-releases.ubuntu.com/releases/12.04/ubuntu-12.04.5-desktop-amd64.iso).
+To prepare a build environment, you can use our own Bash script, which you can obtain [here](https://raw.githubusercontent.com/froyocomb/tools/refs/heads/main/envsetup.sh). Download it in your compiling environment and use chmod (or GUI interface) to give it executing permissions. 
 
-For the repositories to work, it is needed to replace any `archive.ubuntu.com` and `security.ubuntu.com` mentions in your repository list (which is under /etc/apt/sources.list) with `old-releases.ubuntu.com`. Then, it will be possible to install required dependencies.
+After you execute the script, select the first option by typing in 1 and pressing Enter. It should automatically update the system and install required dependencies, including the repo script. After the option is done, restart the computer.
+
+Java 5 is required for compiling Gingerbread. To install it, run the script again - select the 2nd option in the main menu and then select option 1. The script can also change the default Java version, which can be useful if compiling different Android versions.
+
+After the script is finished, create a folder in your home directory in which the build files will be kept in, such as "android", then move on to the next step.
 
 Downloading Source
 ------------------
-
-To get started with downloading the source code, experience with Git and [`repo`](https://source.android.com/docs/setup/reference/repo) is needed.
-
-To initialize a repository tree using one of the manifests provided by this project, execute a command like this (see the table above for available `<build>`s):
+To initialize a repository tree using one of the manifests provided by this project, execute a command like this (see the list of manifests above for available `<build>`s):
 
     repo init -u https://github.com/froyocomb/android.git -b zombiebread -m <build>.xml
 
