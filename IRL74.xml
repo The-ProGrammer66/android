@@ -30,13 +30,13 @@
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" />
   <project path="device/moto/common" name="device/moto/common" />
-  <project path="device/moto/stingray" name="device/moto/stingray" revision="31ac44ee8a2b674d8d02467c66c4ba228d36c54d" />
-  <project path="device/moto/wingray" name="device/moto/wingray" revision="152c106ebcadbe6b6407cdc239466b6b18d85678" />
+  <project path="device/moto/stingray" name="device/moto/stingray" revision="b8b83fd0fbdc1b7194019203da0cba9ca98ed81d" />
+  <project path="device/moto/wingray" name="device/moto/wingray" revision="91c4ce8ce6dbe0c6733e9b51bab11389d2485d41" />
   <project path="device/sample" name="device/sample" revision="bbea1ad375a01c90322e7194c2f4832c9b7f6f4f" />
-  <project path="device/samsung/crespo" name="device/samsung/crespo" revision="aacb238da0ba30da5e7791d462c438f546d0d899" />
-  <project path="device/samsung/crespo4g" name="device/samsung/crespo4g" revision="725a456359561c77f769bdcf33c9a8df43d5d921" />
-  <project path="device/samsung/maguro" name="device/samsung/maguro" revision="e6bdcd4dfacbe1c66db48b501eba00db8843b700" />
-  <project path="device/samsung/toro" name="device/samsung/toro" revision="37c59c49fa6ff7a1759e6cb6c6c25f2578443694" />
+  <project path="device/samsung/crespo" name="device/samsung/crespo" revision="5680d8b2b61b8c2813ca9c5c959e49318269aa0d" />
+  <project path="device/samsung/crespo4g" name="device/samsung/crespo4g" revision="5a95ce5eff8c59806102c455700170b60870e54b" />
+  <project path="device/samsung/maguro" name="device/samsung/maguro" revision="4fce175ee0f6c48dfd3ea0fa076f4f7ba99f3c3c" />
+  <project path="device/samsung/toro" name="device/samsung/toro" revision="956373465968b1a8893774489938ccb653a82946" />
   <project path="device/samsung/torospr" name="device/samsung/torospr" revision="33866ce5437aeaa3570faeea568664c412a7485e" />
   <project path="device/samsung/tuna" name="device/samsung/tuna" revision="187ea100c910a6365c5c55f6faa38f372311c1f7" />
   <project path="device/ti/panda" name="device/ti/panda" revision="181f06f33d83f4ccd47b298af65510dae894f6fb" />
