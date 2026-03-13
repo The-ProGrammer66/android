@@ -150,8 +150,8 @@
   <project path="external/openssh" name="platform/external/openssh" revision="8273adc47a9f7405a0e038e9364a3c45f3609347" />
   <project path="external/openssl" name="platform/external/openssl" revision="ce96fb211b9a44bbd7fb5ef7ed0e6c1244045c2e" />
   <project path="external/oprofile" name="platform/external/oprofile" revision="07c74c1f62f3250d4b0cf69d4d6bbba5598edcb6" />
-  <!-- Required for compile at this time -->
-  <!--<project path="external/pcre" name="platform/external/pcre" revision="0c84e04724db3a5c658be99847eb196edce6009f" />-->
+  <!-- Required by collada for compile at this time (and until collada's removal) -->
+  <project path="external/pcre" name="platform/external/pcre" revision="0c84e04724db3a5c658be99847eb196edce6009f" />
   <project path="external/ping" name="platform/external/ping" />
   <project path="external/ping6" name="platform/external/ping6" />
   <project path="external/ppp" name="platform/external/ppp" />
