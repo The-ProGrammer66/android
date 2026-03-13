@@ -62,8 +62,8 @@
   <project path="external/chromium-trace" name="platform/external/chromium-trace" revision="13e4634df7a3e7537908508d53b52c9a31fa1c01" />
   <project path="external/cibu-fonts" name="platform/external/cibu-fonts" revision="e5943be86d0d448cd0778744e30f10bd1eb8a5b5" />
   <project path="external/clang" name="platform/external/clang" revision="19b6e7b1b8c221e12efe9886ff7cc6ae51fec3fc" />
-  <!-- Required for compile at this time -->
-  <!--<project path="external/collada" name="platform/external/collada" revision="538700ec332c8306a1283f8dfdb016e493905e6f" />-->
+  <!-- Required for compile by development/tools/a3dconvert at this time (and until April 19 2012) -->
+  <project path="external/collada" name="platform/external/collada" revision="538700ec332c8306a1283f8dfdb016e493905e6f" />
   <!-- Empty until March 08 2012 -->
   <project path="external/compiler-rt" name="platform/external/compiler-rt" revision="7c044cc362b6590485a11d3b0351e09f4e123c85" />
   <project path="external/dbus" name="platform/external/dbus" revision="34e4a715490c404a711ba1f0ccef0f88567b62fa" />
