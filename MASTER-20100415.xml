@@ -87,8 +87,6 @@
   <project path="external/neven" name="platform/external/neven" revision="d898f9992b4db8f63ec707b07f3802ce3181ffda" />
   <project path="external/nist-sip" name="platform/external/nist-sip" revision="57add3ee4d7aaa1392f8fec867c652702abea27a" />
   <project path="external/oauth" name="platform/external/oauth" />
-  <!-- Needed for compile at this time -->
-  <project path="external/opencore" name="platform/external/opencore" revision="refs/tags/android-2.2.3_r2.1" />
   <project path="external/openssl" name="platform/external/openssl" revision="068012174ace0b90f5ef78b89e6d7a673cbf9158" />
   <project path="external/oprofile" name="platform/external/oprofile" revision="751a4435c3ef705b0e31faa14c75b9e2fd859959" />
   <project path="external/ping" name="platform/external/ping" revision="05cc700c9089ff72accb1c76a67c01b5d176bf3e" />
@@ -131,8 +129,7 @@
   <project path="hardware/ril" name="platform/hardware/ril" revision="3a4840bea36ce53bc0fb181811ebf9d1cd0aa261" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" revision="08fad4c7afc7afecf6bdfe44312b7281be292c4e" />
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" revision="23f1bd9e9114d77087c7b8fafbcadf97de70c662" />
-  <!-- Libcore isn't used yet, dummy! -->
-  <!--<project path="libcore" name="platform/libcore" revision="04847a0503e1e21f69de0d473b768d5f9dc66c0f" />-->
+  <project path="libcore" name="platform/libcore" revision="04847a0503e1e21f69de0d473b768d5f9dc66c0f" />
   <project path="ndk" name="platform/ndk" revision="419390feceb0c39fd3cad8ec6e5253fb74c946a5" />
   <project path="packages/apps/AccountsAndSyncSettings" name="platform/packages/apps/AccountsAndSyncSettings" revision="593677ecaa250ceb70999bca1d35deabbdcbe609" />
   <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" revision="ec6f2d44491bf1e3ffa7c75875985f9c16cf721d" />
