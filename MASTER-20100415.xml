@@ -122,6 +122,8 @@
   <project path="frameworks/ex" name="platform/frameworks/ex" revision="b87362e0a6de2bf398fd4b135c66adcfbb42d8e7" />
   <!-- Required for compile at this time -->
   <project path="frameworks/opt/com.google.android" name="platform/frameworks/opt/com.google.android" revision="0c6ed42731be67bf7d49c68c4b5e6a762dd93096" />
+  <!-- Required for compile at this time -->
+  <project path="frameworks/opt/com.google.android.googlelogin" name="platform/frameworks/opt/com.google.android.googlelogin" revision="625b3f373b49e5ea061dbb07b1f31a75dce09312" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" revision="7a44e1eb03890d533e0d4dd5f60ebbde85298c00" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" revision="72b2ea1a8fc51ee61e49d2c889f23a8243d953e0" />
   <project path="hardware/libhardware" name="platform/hardware/libhardware" revision="b15879a589bb5ce350869e1a735840679e4b2aaa" />
