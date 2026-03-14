@@ -20,14 +20,14 @@
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" revision="1fca2650edb5ae373a297b6029df5e250c021dd3" />
   <project path="cts" name="platform/cts" groups="cts" revision="86530cdc48b579ac9057fc09cd468b417cff3605" />
   <project path="dalvik" name="platform/dalvik" revision="d958383dd6c3ca3bc91091d5192de6b76218d277" />
-  <!-- Not available in this build, RTM only: <project path="developers/build" name="platform/developers/build" /> -->
-  <!-- Not available in this build, RTM only: <project path="developers/demos" name="platform/developers/demos" /> -->
-  <!-- Not available in this build, RTM only: <project path="developers/docs" name="platform/developers/docs" />  -->
-  <!-- Not available in this build, RTM only: <project path="developers/samples/android" name="platform/developers/samples/android" /> -->
+  <project path="developers/build" name="platform/developers/build" />
+  <project path="developers/demos" name="platform/developers/demos" />
+  <project path="developers/docs" name="platform/developers/docs" />
+  <project path="developers/samples/android" name="platform/developers/samples/android" revision="acb22b9aa3d87c78b768dd143df26ae3a7956320" />
   <project path="development" name="platform/development" revision="98e77475c1ee1b22986ea51756c196782bb00f0f" />
-  <!-- Not available in this build, RTM only: <project path="device/asus/deb" name="device/asus/deb" groups="device,flo" /> -->
-  <!-- Not available in this build, RTM only: <project path="device/asus/flo" name="device/asus/flo" groups="device,flo" /> -->
-  <!-- Not available in this build, RTM only: <project path="device/asus/flo-kernel" name="device/asus/flo-kernel" groups="device,flo" /> -->
+  <project path="device/asus/deb" name="device/asus/deb" groups="device,flo" />
+  <project path="device/asus/flo" name="device/asus/flo" groups="device,flo" revision="aae218ad95c56f369e5027bbf5c9496a3cc8d14e" />
+  <project path="device/asus/flo-kernel" name="device/asus/flo-kernel" groups="device,flo" revision="528c2902711f7952a131bc24cfed46506e6190b2" />
   <project path="device/asus/grouper" name="device/asus/grouper" groups="device,grouper" revision="8b50ca5d77d9080d95fa943e887d060066792331" />
   <project path="device/asus/tilapia" name="device/asus/tilapia" groups="device,grouper" revision="8ff2439f38c547a7e9e739a2f4ed17185a89d33e" />
   <project path="device/common" name="device/common" revision="83776d84c1b1eb28bb85deb72235f99bc1f44945" />
