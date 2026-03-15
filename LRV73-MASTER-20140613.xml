@@ -414,7 +414,7 @@
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" revision="f29b14eefa8d0e3656ac5f0959ec7c0475c2df39" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" revision="b465adb431f05c0faef2a19ddaa70a291ee36736" />
-  <project path="packages/apps/Settings" name="platform/packages/apps/Settings" revision="c6d03a828ed3546a229622bff14620a883a0c609" />
+  <project path="packages/apps/Settings" name="platform/packages/apps/Settings" revision="6b5bcd213852a3fbff3ec427176862bc9b97e97f" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" revision="80214edf0ad070b122c9d8264dbc19af6ba17491" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
