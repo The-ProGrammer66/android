@@ -422,7 +422,7 @@
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" revision="8f0240f35093c5f73b93c141c27def1db4a21c68" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" revision="890c98550601afdca98cd9f6800bc16c966b1d37" />
   <project path="packages/apps/TvSettings" name="platform/packages/apps/TvSettings" revision="a6f8160152d4e1ae2503d13ee92ce7b499aea18f" />
-  <project path="packages/apps/UnifiedEmail" name="platform/packages/apps/UnifiedEmail" revision="a242bf72f4c5d085a00b723b8cd09e8856eaf265" />
+  <project path="packages/apps/UnifiedEmail" name="platform/packages/apps/UnifiedEmail" revision="cff8f1ecf103d96de46e6b4876fa71e06c795772" />
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" revision="15f17a39a28ab22c6aff0e978bfc431650abbbb0" />
   <project path="packages/experimental" name="platform/packages/experimental" revision="1390028a0de623a60bec7fcf99362539dcbab7b9" />
   <project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" revision="ad4f964a702534e60dfeb68d922d815ab2dcbacb" />
