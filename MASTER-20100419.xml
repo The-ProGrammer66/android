@@ -224,7 +224,7 @@
   <project path="packages/apps/VideoEditor" name="platform/packages/apps/VideoEditor" revision="f2d6c4e8afdba92ef360bbce7291e687b7af0b59" />
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" revision="0df097e4c106222b9e15a62e38bff3314c036a7e" />
   <project path="packages/experimental" name="platform/packages/experimental" revision="3d88981d9e39b077d9850825480ea8fd92e02296" />
-  <project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" revision="19266dc860a9ff780be4d0ec1b68e23e93980c55" />
+  <project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" revision="857cde9007072caf916c77edacc6543738374d54" />
   <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" revision="refs/tags/android-2.3.7_r1" />
   <!-- RTM is 8c8df62 -->
   <project path="packages/inputmethods/PinyinIME" name="platform/packages/inputmethods/PinyinIME" revision="c04d7b727e3d1ee8cdeef5e2a634ce2d2df1e9ab" />
