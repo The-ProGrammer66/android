@@ -20,7 +20,7 @@
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" revision="cd65e152740c709ab3edc0f4859e996ba27e8ca1" />
   <project path="bootable/recovery" name="platform/bootable/recovery" revision="be598881d079511385a88b12b7a14b97e63dc85e" />
   <project path="cts" name="platform/cts" revision="6929be6ce4b9080db3bdbdaccf64a139305a0ef5" />
-  <project path="dalvik" name="platform/dalvik" revision="48b6cd7fae6174bb9ac816a162518f8e855a8c90" />
+  <project path="dalvik" name="platform/dalvik" revision="5005a5210b941d18b7742469ba622b1c8a754b1e" />
   <project path="development" name="platform/development" revision="5a076f43d5815c8e32cd2c53dc4afce5063f6bd0" />
   <project path="device/common" name="device/common" revision="d468cbeb023507ce9c0e01e688038b9c56c403e7" />
   <project path="device/moto/common" name="device/moto/common" revision="adc90e465c04a50e9dc4e2187854d58fd21a69f2" />
