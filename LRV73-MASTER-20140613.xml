@@ -304,7 +304,7 @@
   <project path="frameworks/minikin" name="platform/frameworks/minikin" groups="pdk-cw-fs" revision="3276dee361e91d65013ad3f1894796623308f4e6" />
   <project path="frameworks/ml" name="platform/frameworks/ml" groups="pdk-cw-fs" />
   <project path="frameworks/multidex" name="platform/frameworks/multidex" groups="pdk-cw-fs" revision="ca1f9c2445450610cf79d10cc1846042d5f382d0" />
-  <project path="frameworks/native" name="platform/frameworks/native" groups="pdk" revision="4a94201c4e3e54c8e0143bc9fbb6f76957806e03" />
+  <project path="frameworks/native" name="platform/frameworks/native" groups="pdk" revision="e9ecca2758a245b5a8a8052c413f2c0b4e6d7d9d" />
   <project path="frameworks/opt/bitmap" name="platform/frameworks/opt/bitmap" revision="2d10993c4276db5b28ef7cb909362fbbc26c460c" />
   <project path="frameworks/opt/bluetooth" name="platform/frameworks/opt/bluetooth" groups="pdk-cw-fs" revision="6d420592e1cc06422be9369ed01ac9027b2a1101" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" groups="pdk-cw-fs" />
@@ -321,7 +321,7 @@
   <project path="frameworks/opt/net/ethernet" name="platform/frameworks/opt/net/ethernet" revision="15a018d81c4bd9c33ac3bd40c84d748375f77277" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" groups="pdk-cw-fs" revision="8ad856bc8c12bb9b4d7f9b92871cfc3236bd52e4" />
   <project path="frameworks/opt/setupwizard" name="platform/frameworks/opt/setupwizard" groups="pdk-cw-fs" revision="bd7caf0aea2b11c1e0d31dfce8b046c0ba6a5818" />
-  <project path="frameworks/opt/telephony" name="platform/frameworks/opt/telephony" groups="pdk" revision="a537067b93624141ebeb3b1f6c3f2c2b971a301e" />
+  <project path="frameworks/opt/telephony" name="platform/frameworks/opt/telephony" groups="pdk" revision="b5e07a56c7dc687e31669ff99fad0a32bf3bd89c" />
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" groups="pdk-cw-fs" revision="e4068b8b4b2605aa12b7c69963470ceb41b0e32d" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" groups="pdk-cw-fs" revision="4950d922815e16a0724e2509a6d04ccef8bd810b" />
   <project path="frameworks/opt/widget" name="platform/frameworks/opt/widget" groups="pdk-cw-fs" />
