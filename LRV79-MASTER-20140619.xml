@@ -317,7 +317,7 @@
   <project path="frameworks/opt/mms" name="platform/frameworks/opt/mms" groups="pdk-cw-fs" revision="4bfcd8501f09763c10255442c2b48fad0c796baa" />
   <project path="frameworks/opt/net/ims" name="platform/frameworks/opt/net/ims" groups="frameworks_ims,pdk-cw-fs" revision="ef36ef67e009449300b0150c60c9f637e205d79e" />
   <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" groups="pdk-cw-fs" revision="0f722c7f09ce67e058eb1cfaabf1d85f1abdf797" />
-  <project path="frameworks/opt/net/wifi" name="platform/frameworks/opt/net/wifi" groups="pdk" revision="c6f06c628ee3583b60ff31a7da442e0ac7b26d97" />
+  <project path="frameworks/opt/net/wifi" name="platform/frameworks/opt/net/wifi" groups="pdk" revision="011edf7561e83ec9e0e677a07d891ded9b39dde3" />
   <project path="frameworks/opt/net/ethernet" name="platform/frameworks/opt/net/ethernet" revision="15a018d81c4bd9c33ac3bd40c84d748375f77277" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" groups="pdk-cw-fs" revision="8ad856bc8c12bb9b4d7f9b92871cfc3236bd52e4" />
   <project path="frameworks/opt/setupwizard" name="platform/frameworks/opt/setupwizard" groups="pdk-cw-fs" revision="cc5296ce61763c9f550c6177d0b0ff0e019b81c0" />
