@@ -371,7 +371,7 @@
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" groups="qcom" />
   <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" groups="qcom_wlan" revision="6c9672fe4681cc84e99d0bbb7b5246887b67864b" />
   <project path="hardware/ril" name="platform/hardware/ril" groups="pdk" revision="18fc0f46d6ef4fe3000ddf7928ee19e1e214e2fa" />
-  <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" groups="exynos5" revision="4f738c9717abda68a4d93157d978cb631d494a2f" />
+  <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" groups="exynos5" revision="fcf4e7ff4cd85d69f92ee554c8140545094918cc" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" groups="omap3" revision="3bbaa29066a684d01df42ddf0365266e59f2dc44" />
   <project path="hardware/ti/omap4-aah" name="platform/hardware/ti/omap4-aah" groups="omap4-aah" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" groups="omap4" />
