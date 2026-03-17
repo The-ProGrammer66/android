@@ -126,7 +126,7 @@
   <project path="external/dnsmasq" name="platform/external/dnsmasq" groups="pdk" revision="41d356427a632f5336384bfa45c8420ffc274f66" />
   <project path="external/doclava" name="platform/external/doclava" groups="pdk-cw-fs,tradefed" revision="ce95875e3efabc3a45dcb81ca38f03c7b342a378" />
   <project path="external/droiddriver" name="platform/external/droiddriver" groups="pdk-cw-fs" revision="988386cd9cc46bf5399846a414c09e0af48b1e5a" />
-  <project path="external/e2fsprogs" name="platform/external/e2fsprogs" groups="pdk" revision="9bcd28dd1ee36a06fe6dc6f21e7cf8859ffc824e" />
+  <project path="external/e2fsprogs" name="platform/external/e2fsprogs" groups="pdk" revision="a9e24fdeb275a2afc964f511583795052801ad65" />
   <project path="external/easymock" name="platform/external/easymock" groups="pdk-cw-fs,tradefed" />
   <project path="external/eclipse-basebuilder" name="platform/external/eclipse-basebuilder" groups="pdk-cw-fs" />
   <project path="external/eclipse-windowbuilder" name="platform/external/eclipse-windowbuilder" groups="pdk-cw-fs" />
