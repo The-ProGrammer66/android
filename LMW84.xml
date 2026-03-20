@@ -2,7 +2,7 @@
 <manifest>
   
   <remote  name="aosp"
-           fetch=https://android.googlesource.com" />
+           fetch="https://android.googlesource.com" />
   <default revision="refs/tags/android-5.1.0_r1"
            remote="aosp"
            sync-j="4" />
@@ -14,11 +14,12 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
-  <project path="art" name="platform/art" groups="pdk" />
-  <project path="bionic" name="platform/bionic" groups="pdk" />
+  <project path="art" name="platform/art" groups="pdk" revision="79779248b6615f01418fe6f140515c388eec80e1" />
+  <project path="bionic" name="platform/bionic" groups="pdk" revision="306d80e3392d6aa76105cf618d5c4860ab1130f7" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" groups="pdk-cw-fs" />
-  <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
-  <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs" />
+  <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" revision="136c97c93bb046ac244f656ab18f4a47dcb6eaaf" />
+  <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs" revision="f87ce124ee3c75ad5187648f88297df93a8e8232" />
+  <!-- Modified manifest ends here -->
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs" />
   <project path="developers/build" name="platform/developers/build" />
   <project path="developers/demos" name="platform/developers/demos" />
