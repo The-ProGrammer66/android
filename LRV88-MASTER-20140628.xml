@@ -332,7 +332,7 @@
   <project path="frameworks/webview" name="platform/frameworks/webview" groups="pdk-cw-fs" revision="2f3d80f7025d868b7a29e8c2aff9551b77080edc" />
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" groups="pdk-cw-fs" revision="3aabd4612ea1ca81773c4b19042b680e11085fce" />
   <project path="hardware/akm" name="platform/hardware/akm" />
-  <project path="hardware/broadcom/libbt" name="platform/hardware/broadcom/libbt" groups="pdk" revision="21570bcdeffebb6f9df6e20e2e15bc3a6febb592" />
+  <project path="hardware/broadcom/libbt" name="platform/hardware/broadcom/libbt" groups="pdk" revision="abc3e194a24da8eacbcc5b35c9c74495b1e23c3f" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="broadcom_wlan" revision="35d1f10bb03a7e1e91dc9cc0491176440f9161e4" />
   <project path="hardware/intel/audio_media" name="platform/hardware/intel/audio_media" groups="intel" revision="46db5ecee21333c97a29407d9c054f53f576c23b" />
   <project path="hardware/intel/bootstub" name="platform/hardware/intel/bootstub" groups="intel" revision="321a1bb385b0002ed6835e5fb22d80e5ef9165ac" />
