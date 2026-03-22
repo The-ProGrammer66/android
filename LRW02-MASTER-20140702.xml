@@ -426,7 +426,7 @@
   <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" revision="9c9cf8a5058669f3b52d1da6ca00d8c8b40f76f7" />
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" groups="pdk-cw-fs" revision="eced31c0514b58dbfd952562f1c6c2d95b9bc148" />
-  <project path="packages/providers/ContactsProvider" name="platform/packages/providers/ContactsProvider" groups="pdk-cw-fs" revision="e7c49d796e7e7043b3f2f8e3e7b274b3ba706756" />
+  <project path="packages/providers/ContactsProvider" name="platform/packages/providers/ContactsProvider" groups="pdk-cw-fs" revision="aadbf3baac3fb4f0abf10157675ce8d45decb795" />
   <project path="packages/providers/DownloadProvider" name="platform/packages/providers/DownloadProvider" groups="pdk-cw-fs" revision="df08dde0d3b7d97515d9a28a018cce49f2ccc1e6" />
   <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" groups="pdk-cw-fs" revision="dfd189f4c4b84935311f3068394beef709b5ab6b" />
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" />
@@ -437,8 +437,8 @@
   <project path="packages/screensavers/PhotoTable" name="platform/packages/screensavers/PhotoTable" revision="ec94cfa09965d3fe853ea6e3c85e703f85a2a6f1" />
   <project path="packages/screensavers/WebView" name="platform/packages/screensavers/WebView" />
   <project path="packages/services/Mms" name="platform/packages/services/Mms" revision="3a14e46a22e95062102a19c955a819bf239dbc52" />
-  <project path="packages/services/Telecomm" name="platform/packages/services/Telecomm" revision="98a556026109f816501fa887efdddae78d0c2d65"/>
-  <project path="packages/services/Telephony" name="platform/packages/services/Telephony" revision="19ceccda55bcbec6ffcb1b568e7a5be49b4e8a7a" />
+  <project path="packages/services/Telecomm" name="platform/packages/services/Telecomm" revision="417b2376e24bd8906fd4fce40d2f06f4680e49f4"/>
+  <project path="packages/services/Telephony" name="platform/packages/services/Telephony" revision="f1d78a3fb9a73dedd19b29658bfa7f2fb09d13be" />
   <project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" revision="a6c87f9c7b0e1a62bbdd5e71de4f07ded5f4443d" />
   <project path="packages/wallpapers/Galaxy4" name="platform/packages/wallpapers/Galaxy4" revision="34b31b45e75b2e73a770fef1a2f9a862b10f1a57" />
   <project path="packages/wallpapers/HoloSpiral" name="platform/packages/wallpapers/HoloSpiral" revision="b21263838a19bdd40b0cee65ffdb5af81b131b9a" />
