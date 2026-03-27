@@ -290,10 +290,9 @@
   <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs" revision="b831d9813d44d85b4f1497be9cb877e4d5c4bbd7" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs" />
-  <!-- Original commit is 5c68f959eaa2e02fed5643c78e281fff42bcc0a2, cherry-pick of 0832b2d7d190f4fbe6f134446b2610df0cccdbbb -->
-  <project path="frameworks/av" name="platform_frameworks_av" groups="pdk" remote="github" revision="LRW07-cherrypick" /> 
-  <!-- Original commit is 657bb84593824196eac46366d15d99b1fd6580d1 -->
-  <project path="frameworks/base" name="platform_frameworks_base" groups="pdk-cw-fs" remote="github" revision="LRW07-HDMI-MHL-fix" />
+  <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" revision="5c68f959eaa2e02fed5643c78e281fff42bcc0a2" /> 
+  <!-- Original commit is 657bb84593824196eac46366d15d99b1fd6580d1 (checked already) -->
+  <project path="frameworks/base" name="platform_frameworks_base" remote="github" revision="LRW07-HDMI-MHL-fix" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" revision="46f8974d0b40670fc280f9dfdb00cbda571c6330" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" revision="717b462e8648e6e62ab9d39128a2f7e776bdf8ab" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" revision="c3a50d235009f47571cabb68fac4f7551255b454" />
