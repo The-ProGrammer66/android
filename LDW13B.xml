@@ -156,8 +156,7 @@
   <project path="external/guava" name="platform/external/guava" groups="pdk-cw-fs,tradefed" />
   <project path="external/hamcrest" name="platform/external/hamcrest" groups="pdk-cw-fs,tradefed" revision="cbb799a6e05bbb82d66619a551283621cbe2f3a7" />
   <project path="external/harfbuzz_ng" name="platform/external/harfbuzz_ng" groups="pdk-cw-fs,qcom_msm8x26" revision="c46678a553f98ace9be1733ff2fb4a7b4ac80e16" />
-  <!-- Original commit is f17145384ba3aa458542c173c15268952d809698 -->
-  <project path="external/icu" name="platform_external_icu" remote="github" groups="pdk" revision="LDW13B-cherrypick" />
+  <project path="external/icu" name="platform/external/icu" groups="pdk" revision="f17145384ba3aa458542c173c15268952d809698" />
   <project path="external/iproute2" name="platform/external/iproute2" groups="pdk" />
   <project path="external/ipsec-tools" name="platform/external/ipsec-tools" groups="pdk-cw-fs" />
   <project path="external/iptables" name="platform/external/iptables" groups="pdk-cw-fs" />
