@@ -294,7 +294,7 @@
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs" />
   <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" revision="44f6aa5a06171fc4430e392a2d28b6edf478ad77" /> 
-  <!-- Original commit is 7b61245e518599a95b2e60b90d264d0eca6a26fb -->
+  <!-- LRW22B, original commit is f5fc491f36f58b999637ca4afbe9954e7c4bfc5c -->
   <project path="frameworks/base" name="platform_frameworks_base" groups="pdk-cw-fs" remote="github" revision="LRW22B-HDMI-MHL-fix" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" revision="ef406964e2ba7e45d3a044d2fb459dce92569560" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" revision="717b462e8648e6e62ab9d39128a2f7e776bdf8ab" />
