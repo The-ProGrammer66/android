@@ -421,6 +421,8 @@
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" revision="f7a7b82256e91ad4e1fa996879c88f5199182676" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" revision="f3568b893f65e6dd041c7d0e3ca80937b79e4b08" />
+  <!-- IT'S... TV TIME! (Remove once it stops being updated in AOSP) -->
+  <project path="packages/apps/TV" name="platform/packages/apps/TV" revision="5c80dd46d7b8806579af016b47c118a69f2d7378" />
   <project path="packages/apps/TvSettings" name="platform/packages/apps/TvSettings" revision="a6f8160152d4e1ae2503d13ee92ce7b499aea18f" />
   <project path="packages/apps/UnifiedEmail" name="platform/packages/apps/UnifiedEmail" revision="2709bf5e8003a0c4b0fa4fdfd17e1be1258166e6" />
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />
