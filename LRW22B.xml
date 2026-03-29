@@ -397,7 +397,8 @@
   <project path="packages/apps/InCallUI" name="platform/packages/apps/InCallUI" revision="7ef8197e2959d7ead1793141fd2621944a960761" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" revision="759152ea160fe146abbea2e9d6ae2e5918652571" />
   <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" revision="315084f234b2b8bc7bc9732f71c91e4674b711cd" />
-  <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" revision="224ee988fce0f85ea65a58ad6e17913e8f813ec7" />
+  <!-- Original commit is 224ee988fce0f85ea65a58ad6e17913e8f813ec7, cherry-pick of 300c1504488a35372cec8c431e4d833df886ec8e -->
+  <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" remote="github" revision="LRW22B-cherrypick" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" />
   <!-- LRW22B -->
   <project path="packages/apps/ManagedProvisioning" name="platform/packages/apps/ManagedProvisioning" revision="96582fd4eeef6efef89c0a2c8ef581a34107cf3f" />
