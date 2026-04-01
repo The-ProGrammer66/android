@@ -22,8 +22,7 @@
   <project path="bionic" name="platform/bionic" groups="pdk" revision="b4725def2ec8acc01c6450937ba7f9ec268b591c" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" groups="pdk-cw-fs" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" revision="78d458c3d279a24a60fda013026b7a5454d01a9b" />
-  <!-- A few commits newer to fix compile -->
-  <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs" revision="b80c661fd4eda66b0468b6acee747c3e6edf3db5" />
+  <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs" revision="a9f00a69182bfbfdf12a435deddfcf75fb35c565" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs" revision="76e15e367ae1189b6f641ba8d16ca92bd179dac0" />
   <project path="developers/build" name="platform/developers/build" revision="7e46882697f89904d549b499494c240863eb83fc" />
   <project path="developers/demos" name="platform/developers/demos" revision="64526120cd8da89bcb9a48acf95307d2c172a6e8" />
