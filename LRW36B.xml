@@ -22,7 +22,8 @@
   <project path="bionic" name="platform/bionic" groups="pdk" revision="b4725def2ec8acc01c6450937ba7f9ec268b591c" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" groups="pdk-cw-fs" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" revision="78d458c3d279a24a60fda013026b7a5454d01a9b" />
-  <!-- Original commit is a9f00a69182bfbfdf12a435deddfcf75fb35c565, cherry-pick of b80c661fd4eda66b0468b6acee747c3e6edf3db5 to fix compile -->
+  <!-- Original commit is a9f00a69182bfbfdf12a435deddfcf75fb35c565, cherry-pick of b6653595fdfe4f02e3702015620141f7e4cec6a6 and b80c661fd4eda66b0468b6acee747c3e6edf3db5 to fix compile in AOSP -->
+  <!-- Unfortunately at the exact same time this build was tagged they used some "hidden Camera2 methods", or well just methods that weren't open source. The first commit adds some stuff required so it doesn't interviene with the half-manual cherry-pick. -->
   <project path="cts" name="platform_cts" groups="cts,pdk-cw-fs" remote="github" revision="LRW36B-cherrypick" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs" revision="76e15e367ae1189b6f641ba8d16ca92bd179dac0" />
   <project path="developers/build" name="platform/developers/build" revision="7e46882697f89904d549b499494c240863eb83fc" />
@@ -401,7 +402,9 @@
   <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" revision="f07af7b77de0319355e228e8630824d924522d78" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" />
   <project path="packages/apps/ManagedProvisioning" name="platform/packages/apps/ManagedProvisioning" revision="1a730ee4f0c07b2287e59a18fc3dca29ff28ddff" />
-  <project path="packages/apps/Mms" name="platform/packages/apps/Mms" revision="2cd3077911f77975125da01c0f92d0210683346a" />
+  <!-- Original commit is 2cd3077911f77975125da01c0f92d0210683346a, cherry-pick of d11b0f9ecca8b9f28d5a211eb9af299d53f54350 -->
+  <!-- "getItemLayoutResId now takes an AdapterType argument". It sure does!... (why did you make the commit on August 20 not earlier)-->
+  <project path="packages/apps/Mms" name="platform_packages_apps_Mms" remote="github" revision="LRW36B-cherrypick" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" revision="5b58854084fcb259ca746d5334506ffa77c3a6f6" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" revision="ed432bd44603377c31f59c8886e972a2fbeeb886" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" revision="5619530d39d61070d77b9ff81e32a054bf4d71d6" />
