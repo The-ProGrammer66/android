@@ -12,7 +12,7 @@
   <remote name="chromium"
            fetch="https://chromium.googlesource.com" />
 		   
-  <!-- Manifest of LRW45K. Commits that are not the base commit (LRW45)  are marked as such (in order) LRW45 commit is 12c28a39bd6f5fd5d113955bc09b85dc640803eb -->
+<!-- Manifest of Android L build LRW45K. Build tagged on 16 August 2014 (base build on 14 August 2014). Manifest made on 1 February 2026. Base build commit is 12c28a39bd6f5fd5d113955bc09b85dc640803eb -->
   <project path="build" name="platform/build" groups="pdk,tradefed" revision="a5c53cce099aa86e6de19081ab38497b89b5d9f5" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
@@ -21,9 +21,9 @@
   <project path="art" name="platform/art" groups="pdk" revision="a4962aaa16a401da6f9db3ef26209b4ba6e99045" />
   <project path="bionic" name="platform/bionic" groups="pdk" revision="2e7c8634b7cb1b6c56f939f9500907f3f7bb3f05" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" groups="pdk-cw-fs" />
-  <!-- original commit for bootable/recovery: 64be82755cc42b05775265b87a0c64242a72d0dd -->
-  <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" revision="adad8ec045e118215b1745c2ba86031c7f2c73d2"/>
-  <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs" revision="19b64225901f07454a23c14c2a6b5aae6e6cf1f6" />
+  <!-- LRW45B -->
+  <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" revision="64be82755cc42b05775265b87a0c64242a72d0dd"/>
+  <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs" revision="80d1fbb50ef78fbfd91aa399daa733851693544c" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs" revision="870b4f2d70d67d6dbb7d0881d101c61bed8caad2" />
   <project path="developers/build" name="platform/developers/build" revision="4ac87aa0b2dc28e88b836df9799dc42975c5d0e9" />
   <project path="developers/demos" name="platform/developers/demos" revision="64526120cd8da89bcb9a48acf95307d2c172a6e8" />
@@ -272,6 +272,8 @@
   <project path="external/strace" name="platform/external/strace" groups="pdk-cw-fs" />
   <project path="external/stressapptest" name="platform/external/stressapptest" groups="pdk-cw-fs" />
   <project path="external/svox" name="platform/external/svox" groups="pdk-cw-fs" revision="8573fd886fc4776e3edaaf68fffe3ee51c7ec257" />
+  <!-- RTM, Did not survive 5.0 RTM, did survive to L-preview, original revision is L-preview but has to be patched to be "updated" manually -->
+  <project path="external/syspatch" name="platform_external_syspatch" remote="github" revision="L-patches" />
   <project path="external/tagsoup" name="platform/external/tagsoup" groups="pdk-cw-fs,tradefed" />
   <project path="external/tcpdump" name="platform/external/tcpdump" groups="pdk,pdk-cw-fs" />
   <project path="external/timezonepicker-support" name="platform/external/timezonepicker-support" groups="pdk-cw-fs" />
@@ -288,13 +290,15 @@
   <project path="external/xmlwriter" name="platform/external/xmlwriter" groups="pdk-cw-fs" />
   <project path="external/xmp_toolkit" name="platform/external/xmp_toolkit" groups="pdk-cw-fs" />
   <project path="external/yaffs2" name="platform/external/yaffs2" groups="pdk" />
+  <!-- RTM, Did not survive 5.0 RTM, did survive to L-preview -->
+  <project path="external/xdelta3" name="platform/external/xdelta3" groups="pdk" revision="f84efc705e1e34d6678b7816efe172318e21c486" />
   <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs" />
   <!-- LRW45H -->
   <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" revision="ad07410c0a31a474a1fac12f9bbe88287082ed45" />
   <!-- LRW45C x2, LRW45E, LRW45G x3, LRW45I, original commit: 255bc9bcd7edf94bad9742511a2bc7c17b6bbe7d -->
-  <project path="frameworks/base" name="platform_frameworks_base" groups="pdk-cw-fs" remote="github" revision="LRW45K-fix" />
+  <project path="frameworks/base" name="platform_frameworks_base" groups="pdk-cw-fs" remote="github" revision="LRW45K-HDMI-MHL-fix" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" revision="8d01bd8b61482f83539a7dbcec38df9a2e5a6c56" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" revision="b444df0215daef5be9a5584a9c9d45f067006071" />
@@ -328,8 +332,7 @@
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" groups="pdk-cw-fs" />
   <project path="frameworks/opt/widget" name="platform/frameworks/opt/widget" groups="pdk-cw-fs" />
   <project path="frameworks/rs" name="platform/frameworks/rs" groups="pdk" revision="434098c79aa7b176b4ccc9e4572e3fe592be0fd6" />
-  <!-- original commit for frameworks/support: 23138c4b9be07abdab0cfdde2c62186359c9e7fa -->
-  <project path="frameworks/support" name="platform_frameworks_support" groups="pdk-cw-fs" remote="github" revision="LRW45K-fix" />
+  <project path="frameworks/support" name="platform/frameworks/support" groups="pdk-cw-fs" revision="b500acb88c1ac8ba4dbd50441e1c71316c65da75" />
   <project path="frameworks/testing" name="platform/frameworks/testing" groups="pdk-cw-fs" revision="41d41dce8a720eacc151181dc8e9ef7f35f5d625" />
   <project path="frameworks/volley" name="platform/frameworks/volley" groups="pdk-cw-fs" />
   <project path="frameworks/webview" name="platform/frameworks/webview" groups="pdk-cw-fs" revision="630307b435b7ee2129234e989dd6cb908d142fad" />
@@ -403,8 +406,9 @@
   <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" revision="63f1ec00fbbd109130d1e476371dbc9a87bb544d" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" />
   <project path="packages/apps/ManagedProvisioning" name="platform/packages/apps/ManagedProvisioning" revision="a7df7553798370483f8ccdcaec4a6bed0bb161b1" />
-    <!-- original commit for packages/apps/Mms: 2cd3077911f77975125da01c0f92d0210683346a -->
-  <project path="packages/apps/Mms" name="platform_packages_apps_Mms" remote="github" revision="LRW45K-fix" />
+  <!-- Original commit is 2cd3077911f77975125da01c0f92d0210683346a, cherry-pick of d11b0f9ecca8b9f28d5a211eb9af299d53f54350 -->
+  <!-- "getItemLayoutResId now takes an AdapterType argument". It sure does!... (why did you make the commit on August 20 not earlier)-->
+  <project path="packages/apps/Mms" name="platform_packages_apps_Mms" remote="github" revision="LRW36B-LRW40-LRW45K-cherrypick" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" revision="5b58854084fcb259ca746d5334506ffa77c3a6f6" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" revision="ed432bd44603377c31f59c8886e972a2fbeeb886" />
   <!-- LRW45K -->
