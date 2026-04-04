@@ -19,21 +19,21 @@
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" groups="pdk-cw-fs" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" revision="136c97c93bb046ac244f656ab18f4a47dcb6eaaf" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs" revision="f87ce124ee3c75ad5187648f88297df93a8e8232" />
-  <!-- Modified manifest ends here -->
-  <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs" />
-  <project path="developers/build" name="platform/developers/build" />
+  <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs" revision="0603855f1d1da69cf5550f0ccb31a60e46fa461e" />
+  <project path="developers/build" name="platform/developers/build" revision="b687a0de80f4fa38a374beb72c4d00f07525579e" />
   <project path="developers/demos" name="platform/developers/demos" />
   <project path="developers/docs" name="platform/developers/docs" />
-  <project path="developers/samples/android" name="platform/developers/samples/android" />
-  <project path="development" name="platform/development" groups="pdk-cw-fs" />
-  <project path="device/asus/deb" name="device/asus/deb" groups="device,flo" />
-  <project path="device/asus/flo" name="device/asus/flo" groups="device,flo" />
-  <project path="device/asus/flo-kernel" name="device/asus/flo-kernel" groups="device,flo" clone-depth="1" />
-  <project path="device/asus/fugu" name="device/asus/fugu" groups="device,fugu" />
-  <project path="device/asus/fugu-kernel" name="device/asus/fugu-kernel" groups="device,fugu" clone-depth="1" />
-  <project path="device/asus/grouper" name="device/asus/grouper" groups="device,grouper" />
-  <project path="device/asus/tilapia" name="device/asus/tilapia" groups="device,grouper" />
-  <project path="device/common" name="device/common" groups="pdk-cw-fs" />
+  <project path="developers/samples/android" name="platform/developers/samples/android" revision="391121698aab76ec945008c6aca66b102e5e78c7" />
+  <project path="development" name="platform/development" groups="pdk-cw-fs" revision="16e7de4113753924b25f1bc1d6956f78a2dd9eac" />
+  <project path="device/asus/deb" name="device/asus/deb" groups="device,flo" revision="f76b041f8dbf14f6343086ff666ee6dc38ddc8ef" />
+  <project path="device/asus/flo" name="device/asus/flo" groups="device,flo" revision="038c2a1a0b93307c7094d49d9868ee515f3ee3a9" />
+  <project path="device/asus/flo-kernel" name="device/asus/flo-kernel" groups="device,flo" clone-depth="1" revision="3cba77c59fd6cc436c11a2c7bcd133b911275bf7" />
+  <project path="device/asus/fugu" name="device/asus/fugu" groups="device,fugu" revision="0cc5358dcf8769ac3f97d146368a554bfff59520" />
+  <project path="device/asus/fugu-kernel" name="device/asus/fugu-kernel" groups="device,fugu" clone-depth="1" revision="3c85606cff460e2ce7ec97fb09b13df107b0fe36"/>
+  <project path="device/asus/grouper" name="device/asus/grouper" groups="device,grouper" revision="681fc8e1813db4c6f5bd5d5c31907e4b331993a3" />
+  <project path="device/asus/tilapia" name="device/asus/tilapia" groups="device,grouper" revision="bb6523b296356fc1e3488832cd89a107efaae90f" />
+  <project path="device/common" name="device/common" groups="pdk-cw-fs" revision="b143878e855aff96d089c26e99f02879062bdc1b" />
+  <!-- Modified manifest ends here -->
   <project path="device/generic/arm64" name="device/generic/arm64" groups="pdk" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" />
   <project path="device/generic/common" name="device/generic/common" groups="pdk" />
