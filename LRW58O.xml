@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="aosp"
+
+  <remote  name="aosp"
            fetch="https://android.googlesource.com" />
   <default revision="refs/tags/android-5.0.0_r1"
            remote="aosp"
            sync-j="4" />
- 
+
   <remote name="github"
            fetch="https://github.com/froyocomb" />
 
   <remote name="chromium"
            fetch="https://chromium.googlesource.com" />
 
-  <!-- Manifest of LRW58O. Commits that are not the base commit (LRW58) are marked as such (in order) LRW58 commit is 753f88f4f9703c8c0271ee482dad57af3c4469ab -->
-  <project path="build" name="platform/build" groups="pdk,tradefed" revision="7770ba8ca638347db721fc00baa4eddf1ae6c42e" >
+<!-- Manifest of Android L build LRW58O. Build tagged on 29 August 2014 (base build on 27 August 2014). Manifest made on 4 April 2026. Base build commit is 753f88f4f9703c8c0271ee482dad57af3c4469ab -->
+  <project path="build" name="platform/build" groups="pdk" revision="7770ba8ca638347db721fc00baa4eddf1ae6c42e" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
@@ -21,19 +22,19 @@
   <!-- LRW58D -->
   <project path="bionic" name="platform/bionic" groups="pdk" revision="20dc3f8fa4b192d902d58f496ae15ff33faa78ac" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" groups="pdk-cw-fs" />
-  <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" revision="5e7308a59c6011710c11fb822726d7fb9cf687fd"/>
+  <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" revision="5e7308a59c6011710c11fb822726d7fb9cf687fd" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs" revision="591c729b96447210454be7477e394419a1dc6f9a" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs" revision="870b4f2d70d67d6dbb7d0881d101c61bed8caad2" />
-  <project path="developers/build" name="platform/developers/build" revision="ac137a8dde8641b40c2863fc1a567d1cb5c60c9a" />
+  <project path="developers/build" name="platform/developers/build" revision="4ac87aa0b2dc28e88b836df9799dc42975c5d0e9" />
   <project path="developers/demos" name="platform/developers/demos" revision="64526120cd8da89bcb9a48acf95307d2c172a6e8" />
   <project path="developers/docs" name="platform/developers/docs" />
   <project path="developers/samples/android" name="platform/developers/samples/android" revision="414160da611881bfbaf28917643d81b416e6a4e6" />
   <project path="development" name="platform/development" groups="pdk-cw-fs" revision="db164d819ae17f37a7264eeb24c5120a4c82149e" />
   <project path="device/asus/deb" name="device/asus/deb" groups="device,flo" revision="f76b041f8dbf14f6343086ff666ee6dc38ddc8ef" />
-  <project path="device/asus/flo" name="device/asus/flo" groups="device,flo" revision="d5227c1e7a399413bbf43e71f188c5c0dcafe038"/>
+  <project path="device/asus/flo" name="device/asus/flo" groups="device,flo" revision="d5227c1e7a399413bbf43e71f188c5c0dcafe038" />
   <project path="device/asus/flo-kernel" name="device/asus/flo-kernel" groups="device,flo" clone-depth="1" revision="3cba77c59fd6cc436c11a2c7bcd133b911275bf7" />
   <!-- LRW58E -->
-  <project path="device/asus/fugu" name="device/asus/fugu" groups="device,fugu" revision="2e527d1c31bd668792017a17bd93510247eaa688"/>
+  <project path="device/asus/fugu" name="device/asus/fugu" groups="device,fugu" revision="2e527d1c31bd668792017a17bd93510247eaa688" />
   <project path="device/asus/fugu-kernel" name="device/asus/fugu-kernel" groups="device,fugu" clone-depth="1" revision="127b3e99b6b6a5dd9f49b648c51285b6b2b5538e" />
   <project path="device/asus/grouper" name="device/asus/grouper" groups="device,grouper" revision="27abe875e203b18eeb7d960811eaae97de4ef90d" />
   <project path="device/asus/tilapia" name="device/asus/tilapia" groups="device,grouper" revision="bb6523b296356fc1e3488832cd89a107efaae90f" />
@@ -41,7 +42,7 @@
   <project path="device/generic/arm64" name="device/generic/arm64" groups="pdk" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" />
   <project path="device/generic/common" name="device/generic/common" groups="pdk" />
-  <project path="device/generic/goldfish" name="device/generic/goldfish" groups="pdk" revision="2e6a15f7a40895681412356e9c7f5740cfad9d55"/>
+  <project path="device/generic/goldfish" name="device/generic/goldfish" groups="pdk" revision="2e6a15f7a40895681412356e9c7f5740cfad9d55" />
   <project path="device/generic/mips" name="device/generic/mips" groups="pdk" />
   <project path="device/generic/mini-emulator-arm64" name="device/generic/mini-emulator-arm64" groups="pdk" />
   <project path="device/generic/mini-emulator-armv7-a-neon" name="device/generic/mini-emulator-armv7-a-neon" groups="pdk" revision="2520a45e5f6c277b4e6a3e5cf6b3c54b9aea185e" />
@@ -91,10 +92,10 @@
   <project path="external/chromium-libpac" name="platform/external/chromium-libpac" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" groups="pdk" />
   <project path="external/chromium_org" name="platform/external/chromium_org" revision="5369d8e6d5abe87c22381a22f3a43e6cb1705ed9" />
-  <project path="external/chromium_org/sdch/open-vcdiff" name="platform/external/chromium_org/sdch/open-vcdiff"  />
+  <project path="external/chromium_org/sdch/open-vcdiff" name="platform/external/chromium_org/sdch/open-vcdiff" />
   <project path="external/chromium_org/testing/gtest" name="platform/external/chromium_org/testing/gtest" />
   <project path="external/chromium_org/third_party/WebKit" name="platform/external/chromium_org/third_party/WebKit" revision="feb69773a8fa9554d20bc50f5656b5dad957d30b" />
-  <project path="external/chromium_org/third_party/angle" name="platform/external/chromium_org/third_party/angle" revision="64be28160a13c210790863a2b05603acb37661ed"/>
+  <project path="external/chromium_org/third_party/angle" name="platform/external/chromium_org/third_party/angle" revision="64be28160a13c210790863a2b05603acb37661ed" />
   <project path="external/chromium_org/third_party/brotli/src" name="platform/external/chromium_org/third_party/brotli/src" />
   <project path="external/chromium_org/third_party/eyesfree/src/android/java/src/com/googlecode/eyesfree/braille" name="platform/external/chromium_org/third_party/eyesfree/src/android/java/src/com/googlecode/eyesfree/braille" />
   <project path="external/chromium_org/third_party/freetype" name="platform/external/chromium_org/third_party/freetype" revision="bfe0f08e261e819f74078db9a6cd3c0cc3708613" />
@@ -114,7 +115,7 @@
   <project path="external/chromium_org/third_party/opus/src" name="platform/external/chromium_org/third_party/opus/src" />
   <project path="external/chromium_org/third_party/ots" name="platform/external/chromium_org/third_party/ots" revision="a48c6b2c10223e9263a90092794da468d1269081" />
   <project path="external/chromium_org/third_party/sfntly/cpp/src" name="platform/external/chromium_org/third_party/sfntly/cpp/src" />
-  <project path="external/chromium_org/third_party/skia" name="platform/external/chromium_org/third_party/skia" revision="413546c54f7ab90c8b584a2f7056fabd4f918acf" />
+  <project path="external/chromium_org/third_party/skia" name="platform/external/chromium_org/third_party/skia" revision="e90b557be8fb14d632e6243bf7c4efc9286740e3" />
   <project path="external/chromium_org/third_party/smhasher/src" name="platform/external/chromium_org/third_party/smhasher/src" />
   <project path="external/chromium_org/third_party/usrsctp/usrsctplib" name="platform/external/chromium_org/third_party/usrsctp/usrsctplib" />
   <project path="external/chromium_org/third_party/webrtc" name="platform/external/chromium_org/third_party/webrtc" revision="fc979d28cd63985b0cd777068558d892bbaecdfd" />
@@ -188,14 +189,14 @@
   <project path="external/libcap-ng" name="platform/external/libcap-ng" groups="pdk-cw-fs" />
   <project path="external/libcxx" name="platform/external/libcxx" groups="pdk" />
   <project path="external/libcxxabi" name="platform/external/libcxxabi" groups="pdk" revision="e3f00968e6c7819bd616c413f4f22b87099236a7" />
-  <project path="external/libedit" name="platform/external/libedit"  />
+  <project path="external/libedit" name="platform/external/libedit" />
   <project path="external/libexif" name="platform/external/libexif" groups="pdk-cw-fs" />
   <project path="external/libhevc" name="platform/external/libhevc" />
   <project path="external/libgsm" name="platform/external/libgsm" groups="pdk" />
   <project path="external/liblzf" name="platform/external/liblzf" groups="pdk" />
   <project path="external/libmtp" name="platform/external/libmtp" groups="pdk-cw-fs" />
   <project path="external/libnfc-nci" name="platform/external/libnfc-nci" groups="pdk" revision="c3c16fd45e1cb9a8d05878b45483511c3486115d" />
-  <project path="external/libnfc-nxp" name="platform/external/libnfc-nxp" groups="pdk"  />
+  <project path="external/libnfc-nxp" name="platform/external/libnfc-nxp" groups="pdk" />
   <project path="external/libnl" name="platform/external/libnl" groups="pdk" />
   <project path="external/libogg" name="platform/external/libogg" groups="pdk" />
   <project path="external/libopus" name="platform/external/libopus" groups="pdk" />
@@ -238,7 +239,7 @@
   <project path="external/nfacct" name="platform/external/nfacct" groups="pdk-cw-fs" />
   <project path="external/nist-pkits" name="platform/external/nist-pkits" groups="pdk-cw-fs" />
   <project path="external/nist-sip" name="platform/external/nist-sip" groups="pdk-cw-fs" />
-  <project path="external/noto-fonts" name="platform/external/noto-fonts" groups="pdk" revision="a8e35c3875bf78304054e928a10670b45ffeb2cb" />
+  <project path="external/noto-fonts" name="platform/external/noto-fonts" groups="pdk" revision="9f1c9005eae3fb94bc01773bd8bd8b5827ab5e37" />
   <project path="external/oauth" name="platform/external/oauth" groups="pdk-cw-fs" />
   <project path="external/objenesis" name="platform/external/objenesis" groups="pdk-cw-fs" />
   <project path="external/okhttp" name="platform/external/okhttp" groups="pdk-cw-fs" revision="a6b2c603699fda21e1deeb15d08449e11b10e524" />
@@ -260,7 +261,7 @@
   <project path="external/safe-iop" name="platform/external/safe-iop" groups="pdk" />
   <project path="external/scrypt" name="platform/external/scrypt" groups="pdk" />
   <!-- LRW58B -->
-  <project path="external/sepolicy" name="platform/external/sepolicy" groups="pdk" revision="6bedc1adbaa82e1fc156adf00757b732dc7a7696"/>
+  <project path="external/sepolicy" name="platform/external/sepolicy" groups="pdk" revision="6bedc1adbaa82e1fc156adf00757b732dc7a7696" />
   <project path="external/sfntly" name="platform/external/sfntly" groups="pdk-cw-fs,qcom_msm8x26" />
   <project path="external/skia" name="platform/external/skia" groups="pdk-cw-fs,qcom_msm8x26" revision="293499a6fc46a580daa602e238b44b4f2eb4e817" />
   <project path="external/smack" name="platform/external/smack" groups="pdk-cw-fs" />
@@ -294,9 +295,9 @@
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs" />
   <!-- LRW58B, LRW58E -->
-  <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" revision="638794db70e692a0f5a6094809be0deedc0f94f4" />
-  <!-- LRW58B, LRW58C x3, LRW58E, LRW58G x2, LRW58H x4, LRW58I x5, LRW58J, LRW58K x4, LRW58L, LRW58M x2, LRW58N, LRW58O, original commit: 203de745524aa36949d0e1bf6f3d47126cd0d361 -->
-  <project path="frameworks/base" name="platform_frameworks_base" groups="pdk-cw-fs" remote="github" revision="LRW58O-fix" />
+  <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" revision="638794db70e692a0f5a6094809be0deedc0f94f4" /> 
+  <!-- LRW58B, LRW58C x3, LRW58E, LRW58G x2, LRW58H x4, LRW58I x5, LRW58J, LRW58K x4, LRW58L, LRW58M x2, LRW58N, LRW58O, original commit is 203de745524aa36949d0e1bf6f3d47126cd0d361 -->
+  <project path="frameworks/base" name="platform_frameworks_base" groups="pdk-cw-fs" remote="github" revision="LRW58O-HDMI-MHL-fix" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" revision="8d01bd8b61482f83539a7dbcec38df9a2e5a6c56" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" revision="4b0503e22a9357c28d6d6cdf7f1d667a43d80381" />
@@ -323,7 +324,7 @@
   <project path="frameworks/opt/net/ethernet" name="platform/frameworks/opt/net/ethernet" revision="69b9c6a7d6453c1c76857c5edfeb1d89a1315674" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" groups="pdk-cw-fs" revision="aed60cef659d1ddba0d82f94697e585521907e7f" />
   <project path="frameworks/opt/setupwizard" name="platform/frameworks/opt/setupwizard" groups="pdk-cw-fs" revision="fc4414955c73b11a7975c74a741df00c7b3a005b" />
-  <!-- LRW58K x2 -->
+  <!-- LRW58K x2, also has 2 LRW58P changes but beacuse this is LRW58O i dont include 'em - https://android.googlesource.com/platform/frameworks/opt/telephony/+/4c62238d638c61b72f4e7557ae59ba4fea4db883 -->
   <project path="frameworks/opt/telephony" name="platform/frameworks/opt/telephony" groups="pdk" revision="6c5fe003880ed1b64e7f7b7fe45c44b67e098c2f" />
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" groups="pdk-cw-fs" revision="64ef17b7bae77162a1e30643979f54515dca04ca" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" groups="pdk-cw-fs" />
@@ -361,7 +362,7 @@
   <project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" groups="qcom,qcom_audio" revision="54e0a442df07288b6e09a8b7839b215aa2fd24cd" />
   <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="qcom" />
   <project path="hardware/qcom/display" name="platform/hardware/qcom/display" groups="qcom,qcom_display" revision="7d292b3beb42d7fa80b40622b5a21ee33a6c8660" />
-  <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" groups="qcom,qcom_gps" revision="74b189873062ef9f7a542c11ce0e0b1017e05fc7" />
+  <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" groups="qcom,qcom_gps" revision="9aba726254999bab914b3eba81f65537c5bf5354" />
   <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" groups="qcom" />
   <project path="hardware/qcom/media" name="platform/hardware/qcom/media" groups="qcom" revision="e5957fde919e5e4f5921d3f8224981a4607d8fb1" />
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960" />
@@ -391,7 +392,7 @@
   <project path="packages/apps/Camera2" name="platform/packages/apps/Camera2" revision="9cc7ef5128b18de6160c84fddf4da39f7e2356b3" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" revision="881bf06f7eb9cc98921c935dbdd7bc477b60bfbe" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" groups="pdk-cw-fs" revision="e9902377baf83e710f7b0ff89e7b2b245fb21874" />
-  <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" revision="76e62c1097c29734418420dfdd510e87eee0dfbf" />
+  <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" revision="3d29145a939c92b7a825be9605628e2e52a04c3d" />
   <project path="packages/apps/ContactsCommon" name="platform/packages/apps/ContactsCommon" revision="cc1d9e656dceaf0d7cfb7116816647cb1b2ad7c7" />
   <!-- LRW58H -->
   <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" revision="d71c8a369003de0064b3522e43854a0f09d78720" />
@@ -404,14 +405,14 @@
   <project path="packages/apps/InCallUI" name="platform/packages/apps/InCallUI" revision="fcf917d6aafaed0ac577176f004339beaf71cf91" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" revision="c78c452496bd346dce7fa65f13a402c641668321" />
   <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" revision="b47e3c3a65ffe2f593a820192f5814ae8a2b9442" />
-  <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" revision="820d6057bd1c93ecbf5557dff15e518ea6fffc16" />
+  <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" revision="424418bb50ccf5d9270650b70cc51f423da51a65" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" />
-  <project path="packages/apps/ManagedProvisioning" name="platform/packages/apps/ManagedProvisioning" revision="eb3852765f2de1a807ef644ecb13f371a4244c7e" />
+  <project path="packages/apps/ManagedProvisioning" name="platform/packages/apps/ManagedProvisioning" revision="3b404bf3abd107b3bbeb2d9ededc0666e2bfb678" />
   <project path="packages/apps/Mms" name="platform/packages/apps/Mms" revision="d6c0aa86f285785e3e3b579a626c9ac6ab1f9259" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" revision="e5243941d893af83bc7b3cf0520d2d83804e6aba" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" revision="cc818e71a6c5904a5eb1feb167f59ef2768e981d" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" revision="4a225ab1cf6d32faf004ac9d4e5bd047a879cd45" />
-  <project path="packages/apps/OMA-DM" name="android_packages_apps_OMA-DM" remote="github" revision="e5f4b2695fe0a176f8d4c8b715db500798588ceb" />
+  <project path="packages/apps/OMA-DM" name="android_packages_apps_OMA-DM" remote="github" revision="dd3f723ad47363f6e7b86ffa7191cb5df1869440" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" revision="344f112cffbc1e8cd1988bbae92f1eecbbb9e43a" />
   <project path="packages/apps/Phone" name="platform/packages/apps/Phone" />
@@ -503,7 +504,7 @@
   <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" groups="pdk,linux,x86" />
   <project path="prebuilts/gradle-plugin" name="platform/prebuilts/gradle-plugin" groups="pdk-cw-fs" />
   <project path="prebuilts/libs/libedit" name="platform/prebuilts/libs/libedit" groups="pdk-cw-fs" />
-  <project path="prebuilts/maven_repo/android" name="platform/prebuilts/maven_repo/android" groups="pdk-cw-fs" revision="49ea973e2741b17dd874ced58d2c442e314d9bc4"/>
+  <project path="prebuilts/maven_repo/android" name="platform/prebuilts/maven_repo/android" groups="pdk-cw-fs" revision="49ea973e2741b17dd874ced58d2c442e314d9bc4" />
   <project path="prebuilts/misc" name="platform/prebuilts/misc" groups="pdk,tradefed" revision="4698e92cd0454f5850d616ac7e6eb4d809f6ea6f" />
   <project path="prebuilts/ndk" name="platform/prebuilts/ndk" groups="pdk" revision="9c392c83f3c4fc2e41f6cff1fd3c04a82ed0cb92" />
   <project path="prebuilts/python/darwin-x86/2.7.5" name="platform/prebuilts/python/darwin-x86/2.7.5" groups="darwin,pdk,pdk-cw-fs" />
@@ -533,4 +534,5 @@
   <project path="tools/studio/translation" name="platform/tools/studio/translation" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" revision="038d98e822a9d36838e93d369efbc2fe128db706" />
+
 </manifest>
