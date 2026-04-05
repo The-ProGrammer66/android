@@ -436,7 +436,7 @@
   <project path="packages/screensavers/Basic" name="platform/packages/screensavers/Basic" revision="ec00b01d8c654fd82f57bebb822f6ef0779c49de" />
   <project path="packages/screensavers/PhotoTable" name="platform/packages/screensavers/PhotoTable" revision="755df5d288d936e4278c485964c39067f24e4076" />
   <project path="packages/screensavers/WebView" name="platform/packages/screensavers/WebView" />
-  <project path="packages/services/Mms" name="platform/packages/services/Mms" revision="4b17f9156ba1c5e307d21da284b95bb3f4a1c591" />
+  <project path="packages/services/Mms" name="platform/packages/services/Mms" revision="8a79dc0267f021de60f321e621691370b79cb81a" />
   <!-- LRW65B -->
   <project path="packages/services/Telecomm" name="platform/packages/services/Telecomm" revision="38ad6e23466383167be5de2bbcbd4ae2cc51bfeb" />
   <project path="packages/services/Telephony" name="platform/packages/services/Telephony" revision="3198196696f4de00126d26db624fcdba7215ac79" />
