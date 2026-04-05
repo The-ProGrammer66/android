@@ -384,7 +384,8 @@
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" revision="254c7fee700d754fff3d62f3d35ca13f12752b7b" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" groups="pdk-cw-fs" revision="e9902377baf83e710f7b0ff89e7b2b245fb21874" />
   <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" revision="c8bd00d2119313e454b2ef55ffaf04db3e257120" />
-  <!-- One commit newer to fix compile with Contacsts and Dialer -->
+  <!-- One commit newer to fix compile with Contacts and Dialer -->
+  <!-- Change is "Some changes to FAB controller pertaining to animations." -->
   <project path="packages/apps/ContactsCommon" name="platform/packages/apps/ContactsCommon" revision="91fd24a8e8a4d63276e56c65d06135b88cd2333d" />
   <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" revision="d0feade73a1052367b5b9967c593adad46025e1c" />
   <project path="packages/apps/Dialer" name="platform/packages/apps/Dialer" revision="a1e478c02413378f13ec433a40961e52743b2af9" />
@@ -393,8 +394,9 @@
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" revision="36b5358c699d5c81ff6610cf228ac97bf66ad74e" />
   <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" revision="a1dfe362228d702e641096bdb825aad1f9e6b43c" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
-  <!-- LRW65B -->
-  <project path="packages/apps/InCallUI" name="platform/packages/apps/InCallUI" revision="7952584ced025cec8b404d8b054b9a288c3e464b" />
+  <!-- LRW65B, original commit is 7952584ced025cec8b404d8b054b9a288c3e464b -->
+  <!-- Cherry-pick is from earlier from the day "No delay for InCallUi scaleIn" -->
+  <project path="packages/apps/InCallUI" name="platform_packages_apps_InCallUI" remote="github" revision="LRW65D-cherrypick" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" revision="93772c3bc4a51019792e88c2a2e451f20895d73a" />
   <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" revision="658b3831b7b00ee355578ff3bbfbbfc6a4a31299" />
   <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" revision="6a2c77856f1cfa402363cfbb04b5718b431bbc6e" />
