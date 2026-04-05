@@ -178,7 +178,6 @@
   <!-- RTM -->
   <project path="external/genext2fs" name="platform/external/genext2fs" groups="pdk-cw-fs" revision="e11a9c7fe6f1cef99aad2f25afaea37b72fe9f93" />
   <project path="external/giflib" name="platform/external/giflib" groups="pdk-cw-fs,qcom_msm8x26" revision="63317bdfd17684345b041e689b332abdd87d48e1" />
-  <!-- RTM -->
   <project path="external/glide" name="platform/external/glide" revision="d5ddd93ac507c52f316b094a6740ddb5f122125f" />
   <project path="external/google-common" name="google-common" remote="github" revision="84de0ccc166d0576f380743c59139f7161157c9a" />
   <!-- RTM -->
