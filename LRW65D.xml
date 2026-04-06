@@ -13,7 +13,7 @@
   <remote name="chromium"
            fetch="https://chromium.googlesource.com" />
 
-<!-- Manifest of Android L build LRW65D. Build tagged on 3 September 2014. Manifest made on 4 April 2026. Base build commit is a48bc259ca37643619f8d2e90d5ab017b018d7b3 -->
+<!-- Manifest of Android L build LRW65D. Build tagged on 3 September 2014. Manifest made on 6 April 2026. Base build commit is a48bc259ca37643619f8d2e90d5ab017b018d7b3 -->
   <project path="build" name="platform/build" groups="pdk" revision="8db102422421996b876d1c9af07c00b9d3d37f47" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
@@ -333,19 +333,25 @@
   <project path="hardware/broadcom/libbt" name="platform/hardware/broadcom/libbt" groups="pdk" revision="a2e3e9cfb953c85abe1855bb17cd1fc88e2c9deb" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="broadcom_wlan" revision="ec473d161c49038053431eb84b1ca60e10d29b48" />
   <project path="hardware/intel/audio_media" name="platform/hardware/intel/audio_media" groups="intel" />
-  <project path="hardware/intel/bootstub" name="platform/hardware/intel/bootstub" groups="intel" revision="310c3573727069755c3610939555aab5b4689759" />
+  <!-- Original commit is 310c3573727069755c3610939555aab5b4689759 -->
+  <!-- Cherry-pick of f35042d8 "Move closed source packages to vendor makefile" -->
+  <project path="hardware/intel/bootstub" name="platform_hardware_intel_bootstub" groups="intel" remote="github" revision="LRW65D-cherrypick" />
   <project path="hardware/intel/common/bd_prov" name="platform/hardware/intel/common/bd_prov" groups="intel" />
   <project path="hardware/intel/common/libmix" name="platform/hardware/intel/common/libmix" groups="intel" revision="473ea298f5382abe3e3986d8f2e39be95aac596b" />
   <project path="hardware/intel/common/libstagefrighthw" name="platform/hardware/intel/common/libstagefrighthw" groups="intel" />
   <project path="hardware/intel/common/libva" name="platform/hardware/intel/common/libva" groups="intel" revision="c770a84c182df1b034bc1e4a6839ccbbe10f14e1" />
   <project path="hardware/intel/common/libwsbm" name="platform/hardware/intel/common/libwsbm" groups="intel" />
-  <project path="hardware/intel/common/omx-components" name="platform/hardware/intel/common/omx-components" groups="intel" revision="34569a16a3f752d435f896cbec97ad8913db207d" />
+  <!-- Original commit is 34569a16a3f752d435f896cbec97ad8913db207d -->
+  <!-- Cherry-pick of 31bff36 "Start and stop platform IED session", 38fc535 "remove linker warning of libOMXVideoDecoderVP9HWR.so caused by text relocations" and 11ef2da "Remove direct link to vendor libraries". -->
+  <project path="hardware/intel/common/omx-components" name="platform_hardware_intel_common_omx-components" groups="intel" remote="github" revision="LRW65D-cherrypick" />
   <project path="hardware/intel/common/utils" name="platform/hardware/intel/common/utils" groups="intel" revision="bc0b49155603ba1c0c1fc86d13127d04021e7c70" />
   <project path="hardware/intel/common/wrs_omxil_core" name="platform/hardware/intel/common/wrs_omxil_core" groups="intel" revision="3f7ceee13aa17ae32d4263aed2ce67eb9a37c58b" />
   <project path="hardware/intel/img/hwcomposer" name="platform/hardware/intel/img/hwcomposer" groups="intel" revision="04ddb663ab245f1af336a729292596a31a6f1f0c" />
   <project path="hardware/intel/img/libdrm" name="platform/hardware/intel/img/libdrm" groups="intel" />
-  <project path="hardware/intel/img/psb_headers" name="platform/hardware/intel/img/psb_headers" groups="intel" revision="301c46eab7003f0bce2ca43e0b362c183cc573ee" />
-  <project path="hardware/intel/img/psb_video" name="platform/hardware/intel/img/psb_video" groups="intel" revision="53a98849b5284c80989f039a3972bdcf2b38a080" />
+  <!-- Original commit is 301c46eab7003f0bce2ca43e0b362c183cc573ee, required to fix compile -->
+  <project path="hardware/intel/img/psb_headers" name="platform/hardware/intel/img/psb_headers" groups="intel" revision="58ab4ceb5ea3d2733f108cacfcccb93e0c8d84da" />
+  <!-- Original commit is 53a98849b5284c80989f039a3972bdcf2b38a080, required to fix compile -->
+  <project path="hardware/intel/img/psb_video" name="platform/hardware/intel/img/psb_video" groups="intel" revision="ba2d3b1bba4f6221cd2b386d60cbaac08155d88e" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" revision="6a9192470eceac080b9d84081dac0c98e2362fe9" />
   <project path="hardware/libhardware" name="platform/hardware/libhardware" groups="pdk" revision="02516c78f372f4ad2b5aef63794f5c08ababbf6b" />
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" revision="fddda3f935c6eb21c70eede106baa9c85cc5bfdb" />
