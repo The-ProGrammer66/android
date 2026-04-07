@@ -452,7 +452,7 @@
   <project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" revision="22e6e97271398007672650ad47ee123ef4301b88" />
   <project path="packages/wallpapers/Galaxy4" name="platform/packages/wallpapers/Galaxy4" />
   <project path="packages/wallpapers/HoloSpiral" name="platform/packages/wallpapers/HoloSpiral" />
-  <project path="packages/wallpapers/LivePicker" name="platform/packages/wallpapers/LivePicker" revision="06f5f007e4fe40834c6f9fcc52f2e050d37d231f" />
+  <project path="packages/wallpapers/LivePicker" name="platform/packages/wallpapers/LivePicker" revision="e0cea71f78e193ac20612ada5afe511ebbf3536d" />
   <project path="packages/wallpapers/MagicSmoke" name="platform/packages/wallpapers/MagicSmoke" revision="91ee5e7f14ac3ca016753e3bf0b50f187fcb5b69" />
   <project path="packages/wallpapers/MusicVisualization" name="platform/packages/wallpapers/MusicVisualization" revision="212e7034f9302cbd0f4c5f4481dba7c257465a9d" />
   <project path="packages/wallpapers/NoiseField" name="platform/packages/wallpapers/NoiseField" />
