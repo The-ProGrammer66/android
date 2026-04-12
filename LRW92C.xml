@@ -13,7 +13,7 @@
   <remote name="chromium"
            fetch="https://chromium.googlesource.com" />
 
-<!-- Manifest of Android L build LRW92C. Build tagged on 30 September 2014. Manifest made on 12 April 2026. Base build commit is a6014a80a6d1768b839c6ae57fdad681346bcb6a -->
+<!-- Manifest of Android 5.0 build LRW92C. Build tagged on 30 September 2014. Manifest made on 12 April 2026. Base build commit is a6014a80a6d1768b839c6ae57fdad681346bcb6a -->
   <project path="build" name="platform/build" groups="pdk" revision="b4bf8b1ff2b9c009c1f1f9f2cc99a01d7cb28c5b" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
