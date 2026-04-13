@@ -33,7 +33,7 @@
   <project path="device/asus/flo" name="device/asus/flo" groups="device,flo" revision="8c9500e1e97c26257db4fef7edb2251c574fcebe" />
   <project path="device/asus/flo-kernel" name="device/asus/flo-kernel" groups="device,flo" clone-depth="1" revision="3cba77c59fd6cc436c11a2c7bcd133b911275bf7" />
   <project path="device/asus/fugu" name="device/asus/fugu" groups="device,fugu" revision="aca385a2a8116b46faca428ada385878f05bb5f0" />
-  <!-- LRW92B, original commit is 823fb913bfa28cc0e54fc7ba7f813638e61f01ec -->
+  <!-- Original commit is 823fb913bfa28cc0e54fc7ba7f813638e61f01ec -->
   <!-- Kernel upgraded to support RTM GPU vendor blobs -->
   <project path="device/asus/fugu-kernel" name="device_asus_fugu-kernel" groups="device,fugu" clone-depth="1" remote="github" revision="LRX05-kernel-upgrade" />
   <project path="device/asus/grouper" name="device/asus/grouper" groups="device,grouper" revision="a71b13c3b38afe55e9099d7eac9057ba70000156" />
