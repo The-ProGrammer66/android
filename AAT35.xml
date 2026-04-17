@@ -25,7 +25,7 @@
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs" revision="be026963d2e033c5d13490a7caf266c199762f16" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs" revision="beb5f71d81433fc67ffa60ca7d6e07fc688a653f" />
   <project path="developers/build" name="platform/developers/build" revision="f49bfc3d06d0cc0eac0ce1a5620ef5bc8e38f064" />
-  <!-- Empty until 11 Feb 2014 -->
+  <!-- Not created/empty until 11 Feb 2014 -->
   <project path="developers/demos" name="platform/developers/demos" revision="a7254542b06878f0c3b34a6c3d91b9e7d3990f74" />
   <project path="developers/docs" name="platform/developers/docs" />
   <project path="developers/samples/android" name="platform/developers/samples/android" revision="d26c23e38fd2368d078984fc864591daaee189c5" />
@@ -33,34 +33,34 @@
   <project path="device/asus/deb" name="device/asus/deb" groups="device,flo" revision="0e8cbe106979d89d7f76508116491b3d183fc23b" />
   <project path="device/asus/flo" name="device/asus/flo" groups="device,flo" revision="239d4e258cb912cb9a7addd06ac7abf74d7aa02e" />
   <project path="device/asus/flo-kernel" name="device/asus/flo-kernel" groups="device,flo" clone-depth="1" revision="586869f821a3ae2e5fa0b1bb8877712b66a814b5" />
-  <!-- Empty until 21 Jul 2014 -->
+  <!-- Not created/empty until 21 Jul 2014 -->
   <project path="device/asus/fugu" name="device/asus/fugu" groups="device,fugu" revision="6c472e59a5e673eb041463de955cff0c9094b05e" />
-  <!-- Empty until 21 Jul 2014 -->
+  <!-- Not created/empty until 21 Jul 2014 -->
   <project path="device/asus/fugu-kernel" name="device/asus/fugu-kernel" groups="device,fugu" clone-depth="1" revision="c128bb7bc4a0c37ab6cda27bd83c26fbbef9e66d" />
   <project path="device/asus/grouper" name="device/asus/grouper" groups="device,grouper" revision="a5d1ffe19d7c3f2007330d8edc9a0274845e3f0d" />
   <project path="device/asus/tilapia" name="device/asus/tilapia" groups="device,grouper" revision="bf803668ed985b32fa27f75e4601b8c456269508" />
   <project path="device/common" name="device/common" groups="pdk-cw-fs" revision="6a2995683de147791e516aae2ccb31fdfbe2ad30" />
-  <!-- Empty until 08 May 2014 -->
+  <!-- Not created/empty until 08 May 2014 -->
   <project path="device/generic/arm64" name="device/generic/arm64" groups="pdk" revision="3450c909ae49dbe9a53b969c3f55b901c3b482e9" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" revision="1340d2d5334961dfaf08b8d8c74ed76e7289b698" />
   <project path="device/generic/common" name="device/generic/common" groups="pdk" />
   <project path="device/generic/goldfish" name="device/generic/goldfish" groups="pdk" revision="828bd482a1aeacf96d5f3a3e0701029d9f890c5f" />
   <project path="device/generic/mips" name="device/generic/mips" groups="pdk" revision="cba3ddadffd8f92b453b74ea1f2886df3be35314" />
-  <!-- Empty until 11 Jun 2014 -->
+  <!-- Not created/empty until 11 Jun 2014 -->
   <project path="device/generic/mini-emulator-arm64" name="device/generic/mini-emulator-arm64" groups="pdk" revision="713f7aeca26c4654cd8200c3fbe5975835c5c617" />
   <project path="device/generic/mini-emulator-armv7-a-neon" name="device/generic/mini-emulator-armv7-a-neon" groups="pdk" revision="77bb98e878409fb714738170a2df2df1223dd57b" />
   <project path="device/generic/mini-emulator-mips" name="device/generic/mini-emulator-mips" groups="pdk" revision="2ff06dda649ba43507a911057f7854a3373ef7d6" />
   <project path="device/generic/mini-emulator-x86" name="device/generic/mini-emulator-x86" groups="pdk" revision="a2f05b8c5259c232be5b029b2d5e721ba3f70917" />
-  <!-- Empty until 09 Jun 2014 -->
+  <!-- Not created/empty until 09 Jun 2014 -->
   <project path="device/generic/mini-emulator-x86_64" name="device/generic/mini-emulator-x86_64" groups="pdk" revision="7e0447157c329d4966c642ff83025bf3d7f7259b" />
-  <!-- Empty until 27/29 May 2014 -->
+  <!-- Not created/empty until 27/29 May 2014 -->
   <project path="device/generic/qemu" name="device/generic/qemu" revision="0b696f4f3f57375460867698dcd5e0a55f8b4a6a" />
   <project path="device/generic/x86" name="device/generic/x86" groups="pdk" revision="8933282b14fbbd2f43ff2187174fcdd22bea0ee8" />
-  <!-- Empty until 15 May 2014 -->
+  <!-- Not created/empty until 15 May 2014 -->
   <project path="device/generic/x86_64" name="device/generic/x86_64" groups="pdk" revision="d3b6a80ad992e930a33a9c8a5fd00e463752ab0d" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
-  <!-- Empty until 18 Apr 2014 -->
+  <!-- Not created/empty until 18 Apr 2014 -->
   <project path="device/google/atv" name="device/google/atv" groups="device,fugu" revision="ee815bf42879ed189fd6598330793b4fb3992a14" />
   <project path="device/htc/flounder" name="device/htc/flounder" groups="device,flounder" revision="2f514b39e6d3a8ebc40aaa4ec40cfbdf73f1769a" />
   <project path="device/htc/flounder-kernel" name="device/htc/flounder-kernel" groups="device,flounder" clone-depth="1" revision="1e83c78ee12a12f722f2234c5601e330a8dc3290" />
@@ -68,9 +68,9 @@
   <project path="device/lge/hammerhead-kernel" name="device/lge/hammerhead-kernel" groups="device,hammerhead" clone-depth="1" revision="2d10aa9a28e973c5a67e3700f281f02daf4049e9" />
   <project path="device/lge/mako" name="device/lge/mako" groups="device,mako" revision="bd9f398c0245cf637b261ddfb5fbc95978f7566d" />
   <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device,mako" clone-depth="1" revision="ce7085d4c29626447d884112fe0f45cf1f1a36bd" />
-  <!-- Empty until 30 Apr 2014 -->
+  <!-- Not created/empty until 30 Apr 2014 -->
   <project path="device/moto/shamu" name="device/moto/shamu" groups="device,shamu" revision="94f6946ab3b757f8c1f06c4e99168e4536ada0db" />
-  <!-- Empty until 30 Apr 2014 -->
+  <!-- Not created/empty until 30 Apr 2014 -->
   <project path="device/moto/shamu-kernel" name="device/moto/shamu-kernel" groups="device,shamu" clone-depth="1" revision="a11243d2b3db979937eae45c91a4175b78b8a94c" />
   <project path="device/sample" name="device/sample" groups="pdk" revision="7cf450feb4ea4dbc35425a09ca38df8af19580c1" />
   <project path="device/samsung/manta" name="device/samsung/manta" groups="device,manta" revision="8d032af5c6fe9850bf49a6ef72ad308cd5cfaba3" />
@@ -100,31 +100,31 @@
   <project path="external/chromium_org/testing/gtest" name="platform/external/chromium_org/testing/gtest" revision="3b92be903ac01851c3205ce53f12145a8b3f6791" />
   <project path="external/chromium_org/third_party/WebKit" name="platform/external/chromium_org/third_party/WebKit" revision="c57d2c45a38b38ff6c51b220cbf24a639867ab8a" />
   <project path="external/chromium_org/third_party/angle" name="platform/external/chromium_org/third_party/angle" revision="016c99759bd7bd1f2ad6d792bcb57245295e27d2" />
-  <!-- Empty until 17 Dec 2013 -->
+  <!-- Not created/empty until 17 Dec 2013 -->
   <project path="external/chromium_org/third_party/brotli/src" name="platform/external/chromium_org/third_party/brotli/src" revision="62030c64c7123356cce4fabcc12a921dc8aaabc5" />
   <project path="external/chromium_org/third_party/eyesfree/src/android/java/src/com/googlecode/eyesfree/braille" name="platform/external/chromium_org/third_party/eyesfree/src/android/java/src/com/googlecode/eyesfree/braille" />
   <project path="external/chromium_org/third_party/freetype" name="platform/external/chromium_org/third_party/freetype" revision="d82d6bab09bcf24a719983f36ecf1e3ada0bb70e" />
   <project path="external/chromium_org/third_party/icu" name="platform/external/chromium_org/third_party/icu" revision="d527ca073b058880832170d6b833f0ac9926e157" />
   <project path="external/chromium_org/third_party/leveldatabase/src" name="platform/external/chromium_org/third_party/leveldatabase/src" revision="4e7a1d7d164cd023e2096dd39bfe1a788d74e1d5" />
-  <!-- Empty until 16 Jun 2014 -->
+  <!-- Not created/empty until 16 Jun 2014 -->
   <project path="external/chromium_org/third_party/libaddressinput/src" name="platform/external/chromium_org/third_party/libaddressinput/src" revision="be7edd6e608768a423c246f9f13c632349a31c5f" />
   <project path="external/chromium_org/third_party/libjingle/source/talk" name="platform/external/chromium_org/third_party/libjingle/source/talk" revision="572e4791515f637460951af6b304aa174b2ed5b1" />
   <project path="external/chromium_org/third_party/libjpeg_turbo" name="platform/external/chromium_org/third_party/libjpeg_turbo" />
   <project path="external/chromium_org/third_party/libphonenumber/src/phonenumbers" name="platform/external/chromium_org/third_party/libphonenumber/src/phonenumbers" revision="ae624ee2b7b03a171f5b1eb7abb9ec4891374008" />
   <project path="external/chromium_org/third_party/libphonenumber/src/resources" name="platform/external/chromium_org/third_party/libphonenumber/src/resources" revision="d7da827292f7efc6cc8c95db0728121c7c69654d" />
-  <!-- Empty until 13 Feb 2014 -->
+  <!-- Not created/empty until 13 Feb 2014 -->
   <project path="external/chromium_org/third_party/libsrtp" name="platform/external/chromium_org/third_party/libsrtp" revision="abc27b92a54a65f95865363cbaea2634e168dfc6" />
-  <!-- Empty until 13 Feb 2014 -->
+  <!-- Not created/empty until 13 Feb 2014 -->
   <project path="external/chromium_org/third_party/libvpx" name="platform/external/chromium_org/third_party/libvpx" revision="ab9380e3f4276bfa0f61b49cb23823f34737719b" />
-  <!-- Empty until 13 Feb 2014 -->
+  <!-- Not created/empty until 13 Feb 2014 -->
   <project path="external/chromium_org/third_party/libyuv" name="platform/external/chromium_org/third_party/libyuv" revision="c1e9c3947f20a41d66ea138af7df79ff67edd354" />
   <project path="external/chromium_org/third_party/mesa/src" name="platform/external/chromium_org/third_party/mesa/src" revision="963ae1ee36a069e41a803b98d48573612ccf2e0d" />
-  <!-- Empty until 30 Apr 2014 -->
+  <!-- Not created/empty until 30 Apr 2014 -->
   <project path="external/chromium_org/third_party/openmax_dl" name="platform/external/chromium_org/third_party/openmax_dl" revision="28c4502ebadf9f493ef2d7a987d3930f7102c86e" />
   <project path="external/chromium_org/third_party/openssl" name="platform/external/chromium_org/third_party/openssl" revision="60724c398fca6836ff4d8a08188f5fb4e05361db" />
   <project path="external/chromium_org/third_party/opus/src" name="platform/external/chromium_org/third_party/opus/src" revision="85681bca27e8939ac474bb1aa019f28c2b5fcb70" />
   <project path="external/chromium_org/third_party/ots" name="platform/external/chromium_org/third_party/ots" revision="f798909a233797e2c7250dd98e01e0700aa60c4e" />
-  <!-- Empty until 22 Nov 2013 -->
+  <!-- Not created/empty until 22 Nov 2013 -->
   <project path="external/chromium_org/third_party/sfntly/cpp/src" name="platform/external/chromium_org/third_party/sfntly/cpp/src" revision="0232d0f400400568410e1f85e7aba28bcd2ac183" />
   <!-- Used since commit 275586 of Chromium, before that three seperate repos, as seen below. -->
   <!--<project path="external/chromium_org/third_party/skia" name="platform/external/chromium_org/third_party/skia" />-->
@@ -132,20 +132,20 @@
   <project path="external/chromium_org/third_party/skia/include" name="platform/external/chromium_org/third_party/skia/include" revision="6c7ec4cd251e93435777abead51234c19a8caa13" />
   <project path="external/chromium_org/third_party/skia/src" name="platform/external/chromium_org/third_party/skia/src" revision="dc295c9c051948fb2594ee596af895ae475abb15" />
   <project path="external/chromium_org/third_party/smhasher/src" name="platform/external/chromium_org/third_party/smhasher/src" revision="262a4a0c4ba340e863c7e693672156ff2fee0715" />
-  <!-- Empty until 24 Feb 2014 -->
+  <!-- Not created/empty until 24 Feb 2014 -->
   <project path="external/chromium_org/third_party/usrsctp/usrsctplib" name="platform/external/chromium_org/third_party/usrsctp/usrsctplib" revision="19ba2007490fc5522fe82f31fa7e128f76d70247" />
-  <!-- Empty until 13 Feb 2014 -->
+  <!-- Not created/empty until 13 Feb 2014 -->
   <project path="external/chromium_org/third_party/webrtc" name="platform/external/chromium_org/third_party/webrtc" revision="96987e6be48672e1e23a67e5b4e462bac673048b" />
   <project path="external/chromium_org/third_party/yasm/source/patched-yasm" name="platform/external/chromium_org/third_party/yasm/source/patched-yasm" revision="c580f3c787d8ad2dcccceb4438b7572d9713a296" />
   <project path="external/chromium_org/tools/grit" name="platform/external/chromium_org/tools/grit" revision="aa2a6e70bbbe8a030a185b2b5a483434b8b6680a" />
   <project path="external/chromium_org/tools/gyp" name="platform/external/chromium_org/tools/gyp" revision="2f8babcf27c9f7be98546fb468f00de759f1c892" />
   <project path="external/chromium_org/v8" name="platform/external/chromium_org/v8" revision="808422a44de716482f0f494081ed9f77214c0f97" />
   <project path="external/clang" name="platform/external/clang" groups="pdk" revision="3313f88f5691a267edac7c3b7fd4587640ad536c" />
-  <!-- Empty until 28 Dec 2013 -->
+  <!-- Not created/empty until 28 Dec 2013 -->
   <project path="external/cmockery" name="platform/external/cmockery" revision="78931d3e5b88cec04dac31c95ca67ff6378bed76" />
   <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" revision="538c718e53968af43e04141520f8a540d8306ecc" />
   <project path="external/conscrypt" name="platform/external/conscrypt" groups="pdk-cw-fs" revision="6b156aa909f28f44433b0176f1445c01ca09d560" />
-  <!-- Empty until 10 Sep 2014 -->
+  <!-- Not created/empty until 10 Sep 2014 -->
   <project path="external/deqp" name="platform/external/deqp" revision="49238d46b847a2099e64118ff22aef9563c8b81f" />
   <project path="external/dexmaker" name="platform/external/dexmaker" groups="pdk-cw-fs" revision="883b3dc12e2c09e50ed7e63b2cb1ffac7cb36aef" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" groups="pdk-cw-fs" revision="84b7252b0a9d0edc9a1db1e0c518771d26b23058" />
@@ -157,50 +157,57 @@
   <project path="external/eclipse-basebuilder" name="platform/external/eclipse-basebuilder" groups="pdk-cw-fs" />
   <project path="external/eclipse-windowbuilder" name="platform/external/eclipse-windowbuilder" groups="pdk-cw-fs" />
   <project path="external/eigen" name="platform/external/eigen" groups="pdk-cw-fs" revision="065eab35a57ae1766db5bf457b81c7f9aaecae3a" />
-
-  <!-- EDITED MANIFEST ENDS HERE :D -->
-  <project path="external/elfutils" name="platform/external/elfutils" groups="pdk" />
-  <project path="external/emma" name="platform/external/emma" groups="pdk-cw-fs,tradefed" />
+  <project path="external/elfutils" name="platform/external/elfutils" groups="pdk" revision="b23b2dfb354b3ccf5d1c5d39815f02e7048cf516" />
+  <project path="external/emma" name="platform/external/emma" groups="pdk-cw-fs,tradefed" revision="77c73b8b1a0c9e33bf48ebc3212d439e46d3094d" />
   <project path="external/esd" name="platform/external/esd" groups="pdk-cw-fs" />
-  <project path="external/expat" name="platform/external/expat" groups="pdk" />
+  <project path="external/expat" name="platform/external/expat" groups="pdk" revision="0af0cb3bc7519e567bd9daff3dcd315ab0134a99" />
   <project path="external/eyes-free" name="platform/external/eyes-free" groups="pdk-cw-fs" />
-  <project path="external/f2fs-tools" name="platform/external/f2fs-tools" groups="pdk" />
-  <project path="external/fdlibm" name="platform/external/fdlibm" groups="pdk" />
-  <project path="external/fio" name="platform/external/fio" />
-  <project path="external/flac" name="platform/external/flac" groups="pdk" />
-  <project path="external/fonttools" name="platform/external/fonttools" />
-  <project path="external/freetype" name="platform/external/freetype" groups="pdk" />
+  <!-- Not created/empty until 07 May 2014 -->
+  <project path="external/f2fs-tools" name="platform/external/f2fs-tools" groups="pdk" revision="feab6f4a9954cc1b2c779b43af3e1b1fc8c4b5bf" />
+  <project path="external/fdlibm" name="platform/external/fdlibm" groups="pdk" revision="0da5f683c9ddc9442af3b389b4220e91ccffb320" />
+  <project path="external/fio" name="platform/external/fio" revision="30e472c9a11dcdd02e2b38b510c27cc3deb95931" />
+  <project path="external/flac" name="platform/external/flac" groups="pdk" revision="ab37b6247df0e8c4ec0ccaa870e667f62c74975b" />
+  <!-- Not created/empty until 15 May 2014 -->
+  <project path="external/fonttools" name="platform/external/fonttools" revision="da8029b211ff329b6487366ff968eaad44fc2796" />
+  <project path="external/freetype" name="platform/external/freetype" groups="pdk" revision="899c67b6cfcd2010784fbf08c5415af16c526e0c" />
   <project path="external/fsck_msdos" name="platform/external/fsck_msdos" groups="pdk-cw-fs" />
   <project path="external/gcc-demangle" name="platform/external/gcc-demangle" groups="pdk" />
   <project path="external/genext2fs" name="platform/external/genext2fs" groups="pdk-cw-fs" />
-  <project path="external/giflib" name="platform/external/giflib" groups="pdk-cw-fs,qcom_msm8x26" />
-  <project path="external/glide" name="platform/external/glide" />
+  <project path="external/giflib" name="platform/external/giflib" groups="pdk-cw-fs,qcom_msm8x26" revision="78af954ddf6ff6988dffd1c09e849bd1f98ba8da" />
+  <project path="external/glide" name="platform/external/glide" revision="888b2d50bd5fb89fad104dd939a0c2e4571548f2" />
   <project path="external/google-diff-match-patch" name="platform/external/google-diff-match-patch" groups="pdk-cw-fs" />
-  <project path="external/google-fonts/coming-soon" name="platform/external/google-fonts/coming-soon" groups="pdk-cw-fs" />
-  <project path="external/google-fonts/dancing-script" name="platform/external/google-fonts/dancing-script" groups="pdk-cw-fs" />
-  <project path="external/google-fonts/carrois-gothic-sc" name="platform/external/google-fonts/carrois-gothic-sc" groups="pdk-cw-fs" />
-  <project path="external/google-fonts/cutive-mono" name="platform/external/google-fonts/cutive-mono" groups="pdk-cw-fs" />
-  <project path="external/google-tv-pairing-protocol" name="platform/external/google-tv-pairing-protocol" />
-  <project path="external/gtest" name="platform/external/gtest" groups="pdk" />
-  <project path="external/guava" name="platform/external/guava" groups="pdk-cw-fs,tradefed" />
-  <project path="external/hamcrest" name="platform/external/hamcrest" groups="pdk-cw-fs,tradefed" />
-  <project path="external/harfbuzz_ng" name="platform/external/harfbuzz_ng" groups="pdk-cw-fs,qcom_msm8x26" />
-  <project path="external/icu" name="platform/external/icu" groups="pdk" />
-  <project path="external/iproute2" name="platform/external/iproute2" groups="pdk" />
+  <!-- Not created/empty until 03 Mar 2014 -->
+  <project path="external/google-fonts/coming-soon" name="platform/external/google-fonts/coming-soon" groups="pdk-cw-fs" revision="38cf8916661253e61aa5e75d0cf010bd774471a3" />
+  <!-- Not created/empty until 03 Mar 2014 -->
+  <project path="external/google-fonts/dancing-script" name="platform/external/google-fonts/dancing-script" groups="pdk-cw-fs" revision="970ef90ef3458b9609309e8b460b28522a76eed6" />
+  <!-- Not created/empty until 03 Mar 2014 -->
+  <project path="external/google-fonts/carrois-gothic-sc" name="platform/external/google-fonts/carrois-gothic-sc" groups="pdk-cw-fs" revision="8a91435b94728e73865aba1956c72ec1d9621ac7" />
+  <!-- Not created/empty until 10 Oct 2014 -->
+  <project path="external/google-fonts/cutive-mono" name="platform/external/google-fonts/cutive-mono" groups="pdk-cw-fs" revision="2362477328833182545d5873c23ef653daed1671" />
+  <!-- Not created/empty until 20 May 2014 -->
+  <project path="external/google-tv-pairing-protocol" name="platform/external/google-tv-pairing-protocol" revision="de236ae220d74015d6ba3b4dc4a6adaf6951699f" />
+  <project path="external/gtest" name="platform/external/gtest" groups="pdk" revision="be0549b33e52f0d7b8347da38c4b0743b129f73d" />
+  <project path="external/guava" name="platform/external/guava" groups="pdk-cw-fs,tradefed" revision="87ffc45d2619a0c178a058de887e3050bb577efe" />
+  <project path="external/hamcrest" name="platform/external/hamcrest" groups="pdk-cw-fs,tradefed" revision="7fae7755291e3ab45fbb9578b55a77f4814e0b35" />
+  <project path="external/harfbuzz_ng" name="platform/external/harfbuzz_ng" groups="pdk-cw-fs,qcom_msm8x26" revision="3309edccdbc2a92eb03a285abb27c1c1c4a88e43" />
+  <project path="external/icu" name="platform/external/icu" groups="pdk" revision="9a9b25f8d1b7fc1241e9fb903bd0a924d9091d70" />
+  <project path="external/iproute2" name="platform/external/iproute2" groups="pdk" revision="157d428913c3d738be481f12e8cbf9267b3b2862" />
   <project path="external/ipsec-tools" name="platform/external/ipsec-tools" groups="pdk-cw-fs" />
-  <project path="external/iptables" name="platform/external/iptables" groups="pdk-cw-fs" />
-  <project path="external/iputils" name="platform/external/iputils" groups="pdk-cw-fs" />
+  <project path="external/iptables" name="platform/external/iptables" groups="pdk-cw-fs" revision="5aff728ec4f9aae69ab248c3d1c4046a14be3ed6" />
+  <project path="external/iputils" name="platform/external/iputils" groups="pdk-cw-fs" revision="acadef7a134ea68e65f017078f6c6af56d75dcbf" />
   <project path="external/jack" name="platform/external/jack" groups="pdk-cw-fs" />
-  <project path="external/jarjar" name="platform/external/jarjar" groups="pdk" />
-  <project path="external/javasqlite" name="platform/external/javasqlite" groups="pdk-cw-fs" />
+  <!-- Not created/empty until 20 Jun 2014 -->
+  <project path="external/jarjar" name="platform/external/jarjar" groups="pdk" revision="fe7bad2c42f39829e8d4fd990ac1da776bcaeee2" />
+  <project path="external/javasqlite" name="platform/external/javasqlite" groups="pdk-cw-fs" revision="3b4db8854c911edfd02f5c6b8ef625084a0f5a93" />
   <project path="external/javassist" name="platform/external/javassist" groups="pdk-cw-fs" />
   <project path="external/jdiff" name="platform/external/jdiff" groups="pdk-cw-fs" />
-  <project path="external/jemalloc" name="platform/external/jemalloc" groups="pdk" />
-  <project path="external/jhead" name="platform/external/jhead" groups="pdk" />
+  <project path="external/jemalloc" name="platform/external/jemalloc" groups="pdk" revision="aabaf851b2be141e2932f736042577ba6586c8d6" />
+  <project path="external/jhead" name="platform/external/jhead" groups="pdk" revision="31b17e69a87e4caa50f9c6b1a47c84ef75f79d83" />
   <project path="external/jline" name="platform/external/jline" groups="notdefault,tradefed" />
   <project path="external/jmdns" name="platform/external/jmdns" groups="pdk-cw-fs" />
-  <project path="external/jpeg" name="platform/external/jpeg" groups="pdk" />
-  <project path="external/jsilver" name="platform/external/jsilver" groups="pdk-cw-fs,tradefed" />
+  <project path="external/jpeg" name="platform/external/jpeg" groups="pdk" revision="b16da2189f013e44ba5b44b843f784110fa0ffe6" />
+  <project path="external/jsilver" name="platform/external/jsilver" groups="pdk-cw-fs,tradefed" revision="601ffd7efb82f3dce1c1840b5f8e6c759414cdd1" />
+  
   <project path="external/jsmn" name="platform/external/jsmn" groups="pdk" />
   <project path="external/jsoncpp" name="platform/external/jsoncpp" groups="pdk-cw-fs" />
   <project path="external/jsr305" name="platform/external/jsr305" groups="pdk-cw-fs,tradefed" />
