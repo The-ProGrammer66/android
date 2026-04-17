@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="aosp"
+           fetch="https://android.googlesource.com" />
+  <default revision="refs/tags/android-4.4_r1"
+           remote="aosp"
+           sync-j="4" />
+
+  <remote name="github"
+           fetch="https://github.com/froyocomb" />
+
+  <remote name="chromium"
+           fetch="https://chromium.googlesource.com" />
+
+<!-- Manifest of Android "4.4.2" (5.0) build AAT35. Build tagged on 4 November 2013. Manifest made on 19 April 2026. -->
+  <project path="build" name="platform/build" groups="pdk,tradefed" revision="ca74f64c97105ce16cdf33bb85d5c742479980cd" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
+  <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
+  <project path="art" name="platform/art" groups="pdk" revision="c21da53213018a27f1df61e61f05eef6f9ae5d8e" />
+  <project path="art" name="platform/bootable/recovery" groups="pdk" revision="e729bac228cff119062be58f847f8bbda1f2599a" />
+  <project path="art" name="platform/bootable/bootloader/legacy" groups="pdk" revision="3c491d6efb8ff2534a6934702760a6273f197918" />  
+  <project path="art" name="platform/dalvik" groups="pdk" revision="80fd0a603c4151d03e6912a73f6b9c6983667463" />   
+  <project path="art" name="platform/build" groups="pdk" revision="232edaa4617c67aa2bd8eb374897aabf17d16fb1" />  
+  <project path="art" name="platform/packages/apps/Launcher3" groups="pdk" revision="ce3cbd145b4222779abae32869da8dd3c2aefb67" />  
+  <project path="art" name="platform/packages/apps/Phone" groups="pdk" revision="6198649a41b31aac23b6df7aee8ad2421804fbe5" />    
+  <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
+
+</manifest>
