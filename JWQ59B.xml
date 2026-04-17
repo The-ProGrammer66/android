@@ -25,6 +25,8 @@
   <project path="art" name="platform/build" groups="pdk" revision="232edaa4617c67aa2bd8eb374897aabf17d16fb1" />  
   <project path="art" name="platform/packages/apps/Launcher3" groups="pdk" revision="ce3cbd145b4222779abae32869da8dd3c2aefb67" />  
   <project path="art" name="platform/packages/apps/Phone" groups="pdk" revision="6198649a41b31aac23b6df7aee8ad2421804fbe5" />    
+  <project path="art" name="external/icu4c" groups="pdk" revision="c78f91389d50bff6b2f27092aabe41d47079153a" />    
+  <project path="art" name="device/generic/armv7-a-neon" groups="pdk" revision="8a52ffa74a764bfe0445c2eac59048217302e152" />      
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
 
 </manifest>
