@@ -19,14 +19,16 @@
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="platform/art" groups="pdk" revision="c21da53213018a27f1df61e61f05eef6f9ae5d8e" />
-  <project path="art" name="platform/bootable/recovery" groups="pdk" revision="e729bac228cff119062be58f847f8bbda1f2599a" />
-  <project path="art" name="platform/bootable/bootloader/legacy" groups="pdk" revision="3c491d6efb8ff2534a6934702760a6273f197918" />  
-  <project path="art" name="platform/dalvik" groups="pdk" revision="80fd0a603c4151d03e6912a73f6b9c6983667463" />   
-  <project path="art" name="platform/build" groups="pdk" revision="232edaa4617c67aa2bd8eb374897aabf17d16fb1" />  
-  <project path="art" name="platform/packages/apps/Launcher3" groups="pdk" revision="ce3cbd145b4222779abae32869da8dd3c2aefb67" />  
-  <project path="art" name="platform/packages/apps/Phone" groups="pdk" revision="6198649a41b31aac23b6df7aee8ad2421804fbe5" />    
-  <project path="art" name="external/icu4c" groups="pdk" revision="c78f91389d50bff6b2f27092aabe41d47079153a" />    
-  <project path="art" name="device/generic/armv7-a-neon" groups="pdk" revision="8a52ffa74a764bfe0445c2eac59048217302e152" />      
+  <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" revision="e729bac228cff119062be58f847f8bbda1f2599a" />
+  <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" groups="pdk" revision="3c491d6efb8ff2534a6934702760a6273f197918" />  
+  <project path="dalvik" name="platform/dalvik" groups="pdk" revision="80fd0a603c4151d03e6912a73f6b9c6983667463" />   
+  <project path="build" name="platform/build" groups="pdk" revision="232edaa4617c67aa2bd8eb374897aabf17d16fb1" />  
+  <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" groups="pdk" revision="ce3cbd145b4222779abae32869da8dd3c2aefb67" />  
+  <project path="packages/apps/Phone" name="platform/packages/apps/Phone" groups="pdk" revision="6198649a41b31aac23b6df7aee8ad2421804fbe5" />    
+  <project path="external/icu4c" name="external/icu4c" groups="pdk" revision="c78f91389d50bff6b2f27092aabe41d47079153a" />    
+  <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" revision="8a52ffa74a764bfe0445c2eac59048217302e152" />      
+  <project path="devices/generic/mini-emulator-x86" name="device/generic/mini-emulator-x86" groups="pdk" revision="a0a2ab1ab364af4a1349bb906563998db6f3257b" />  
+  <project path="cts" name="platform/cts" groups="pdk" revision="989ba09d1057084db849d34fbb9bb141b332219f" /> 
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
 
 </manifest>
