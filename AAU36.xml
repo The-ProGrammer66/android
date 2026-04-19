@@ -139,7 +139,7 @@
   <project path="external/chromium_org/tools/grit" name="platform/external/chromium_org/tools/grit" revision="db58423a76618bf8ee4dc1f5b5c9ee1ba1f3d4c9" />
   <project path="external/chromium_org/tools/gyp" name="platform/external/chromium_org/tools/gyp" revision="ca2b1e9ca5bc396a767554764287ae3dc2c557b5" />
   <project path="external/chromium_org/v8" name="platform/external/chromium_org/v8" revision="039da0b65d274885708a1987f28f8196844896b0" />
-  <project path="external/clang" name="android_external_clang" remote="github" revision="AAU36-fix" />
+  <project path="external/clang" name="platform_external_clang" remote="github" revision="AAU36-fix" />
   <!-- RTM -->
   <project path="external/cmockery" name="platform/external/cmockery" revision="bdd62c531bbdea115a3a7e71bba91c19dd319cc4" />
   <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" revision="383a2067ad012143ebd6a0e847cec21d76c092f5" />
