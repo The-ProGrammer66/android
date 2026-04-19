@@ -13,7 +13,7 @@
   <remote name="chromium"
            fetch="https://chromium.googlesource.com" />
 
-<!-- Manifest of Android "4.4.2" (5.0) build AAT35. Build tagged on 4 November 2013. Manifest made on 19 April 2026. -->
+<!-- Manifest of Android "4.4" build JWQ59B. Build tagged on ???. Manifest made on ???????. -->
   <project path="build" name="platform/build" groups="pdk,tradefed" revision="ca74f64c97105ce16cdf33bb85d5c742479980cd" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
