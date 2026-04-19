@@ -558,7 +558,7 @@
   <!-- RTM -->
   <project path="prebuilts/clang/linux-x86/arm/3.3" name="platform/prebuilts/clang/linux-x86/arm/3.3" groups="arm,linux,pdk-cw-fs" revision="2f6d2db9e2af3507d132cf5d286a42fe1d47f7bc" />
   <!-- WEE WOO WEE WOO WEE WOO EARLY ASS BUILD FIX WEE WOO WEE WOO -->
-  <project path="prebuilts/clang/linux-x86/host/3.3" name="platform_prebuilts_clang_linux-x86_host_3.4" remote="github" revision="AAU36-fix" />
+  <project path="prebuilts/clang/linux-x86/host/3.3" name="platform_prebuilts_clang_linux-x86_host_3.4" remote="github" revision="L-patches" />
   <project path="prebuilts/clang/linux-x86/host/3.4" name="platform/prebuilts/clang/linux-x86/host/3.4" groups="pdk,linux" revision="64bc8869cf95c6781c0b47dc71f69a8ae8a17b18" />
   <project path="prebuilts/clang/linux-x86/host/3.5" name="platform/prebuilts/clang/linux-x86/host/3.5" groups="pdk,linux" revision="97969328fda99181aae248f500c5170d27169f39" />
   <!-- RTM -->
