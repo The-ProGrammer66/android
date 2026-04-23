@@ -22,7 +22,13 @@
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" revision="e729bac228cff119062be58f847f8bbda1f2599a" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" groups="pdk" revision="3c491d6efb8ff2534a6934702760a6273f197918" />  
   <project path="dalvik" name="platform/dalvik" groups="pdk" revision="80fd0a603c4151d03e6912a73f6b9c6983667463" />   
-  <project path="build" name="platform/build" groups="pdk" revision="232edaa4617c67aa2bd8eb374897aabf17d16fb1" />  
+  <project path="build" name="platform/build" groups="pdk" revision="232edaa4617c67aa2bd8eb374897aabf17d16fb1" />
+  <project path="external/clang" name="platform/external/clang" groups="pdk" revision="16cda861c5587d7130a216466a29a808673c1656" /> 
+  <project path="external/llvm" name="platform/external/llvm" groups="pdk" revision="9bf3e3972d5a5dbbe7fa5614b3cb3cc3422b45ec" /> 
+  <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" groups="pdk" revision="6f8c058716866aecbd29b89064d3b1b76be47207" /> 
+  <project path="packages/apps/Settings" name="platform/packages/apps/Settings" groups="pdk" revision="f9aed9f09b5a632b9ceb9258e6d5088d6ef4be2e" /> 
+  <project path="packages/apps/Camera2" name="platform/packages/apps/Camera2" groups="pdk" revision="aa10209a66a3afb426612eb1b75eaf5a6292f0d6" /> 
+  <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" groups="pdk" revision="ce3cbd145b4222779abae32869da8dd3c2aefb67" />  
   <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" groups="pdk" revision="ce3cbd145b4222779abae32869da8dd3c2aefb67" />  
   <project path="packages/apps/Phone" name="platform/packages/apps/Phone" groups="pdk" revision="6198649a41b31aac23b6df7aee8ad2421804fbe5" />    
   <project path="external/icu4c" name="external/icu4c" groups="pdk" revision="c78f91389d50bff6b2f27092aabe41d47079153a" />    
