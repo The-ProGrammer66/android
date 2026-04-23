@@ -1,6 +1,6 @@
 android: Pre-Release Android Manifest Repository
 ===========
-
+(This is The-Programmer (name might need a little updating since I changed my names elsewhere to "random (insert word)"'s fork of the original, right now working on a KitKat build
 This repository is a collection of reconstructed manifests for pre-release builds of Android.
 
 | Branch                                   |   Version        |
