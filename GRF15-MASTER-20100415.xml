@@ -10,7 +10,7 @@
   <remote name="github"
            fetch="https://github.com/froyocomb" />
 
-  <!-- Manifest of Android "Kraken" - Build tagged on 15 April 2010 - "On to Kraken...", manifest originally made on 1 September 2025, re-made on 20 February 2026. -->
+  <!-- Manifest of Android "Kraken" build "GRF15". Not actually GRF15, MASTER. Build tagged on 15 April 2010 - "On to Kraken...", manifest originally made on 1 September 2025, re-made on 20 February 2026. -->
   <project path="build" name="platform/build" revision="cc45ee9c3c68f72391f5e7ba300312047d976bfa" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
@@ -131,7 +131,7 @@
   <project path="hardware/ril" name="platform/hardware/ril" revision="3a4840bea36ce53bc0fb181811ebf9d1cd0aa261" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" revision="2fb88637de061d762ec8919c6adc3f6fd2f6f772" />
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" revision="23f1bd9e9114d77087c7b8fafbcadf97de70c662" />
-  <!-- Libcore wasn't moved yet, you dummy! -->
+  <!-- Libcore wasn't moved yet. -->
   <!--<project path="libcore" name="platform/libcore" revision="04847a0503e1e21f69de0d473b768d5f9dc66c0f" />-->
   <project path="ndk" name="platform/ndk" revision="419390feceb0c39fd3cad8ec6e5253fb74c946a5" />
   <project path="packages/apps/AccountsAndSyncSettings" name="platform/packages/apps/AccountsAndSyncSettings" revision="593677ecaa250ceb70999bca1d35deabbdcbe609" />
