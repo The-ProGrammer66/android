@@ -35,8 +35,7 @@
   <project path="external/bluetooth/bluez" name="platform/external/bluetooth/bluez" revision="198e17bc2cdb1186babf96ef0d2f21c5235aca90" />
   <project path="external/bluetooth/glib" name="platform/external/bluetooth/glib" revision="b469581b8f4b43847c592d34b08abce479ab44a3" />
   <project path="external/bluetooth/hcidump" name="platform/external/bluetooth/hcidump" revision="2dd13dc20956426dfa43c94d7d04805f536f942b" />
-  <!-- Not in use until 17 June 2010 -->
-  <!--<project path="external/bouncycastle" name="platform/external/bouncycastle" revision="8113f6dc3780916a5f7f2a681b1829e591bd1bcb" />-->
+  <project path="external/bouncycastle" name="platform/external/bouncycastle" revision="7f26b429ea52a7d06e0318d94422a956ed498ab7" />
   <project path="external/bsdiff" name="platform/external/bsdiff" />
   <project path="external/bzip2" name="platform/external/bzip2" revision="acecdb4ea44e810a5ddb53e0c3fa4baf04b4a5c9" />
   <project path="external/chromium" name="platform/external/chromium" />
