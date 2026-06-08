@@ -13,15 +13,15 @@
   <remote name="chromium"
            fetch="https://chromium.googlesource.com" />
 
-<!-- Manifest of Android "4.4" build JWQ59B. Build tagged on ???. Manifest made on ???????. -->
+<!-- Manifest of Android "4.4" build JWQ59B. Build tagged on February 28, 2013. Manifest made on ???????. -->
   <project path="build" name="platform/build" groups="pdk,tradefed" revision="ca74f64c97105ce16cdf33bb85d5c742479980cd" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="platform/art" groups="pdk" revision="c21da53213018a27f1df61e61f05eef6f9ae5d8e" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" revision="e729bac228cff119062be58f847f8bbda1f2599a" />
-  <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" groups="pdk" revision="3c491d6efb8ff2534a6934702760a6273f197918" />  
-  <project path="dalvik" name="platform/dalvik" groups="pdk" revision="80fd0a603c4151d03e6912a73f6b9c6983667463" />   
+  <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" groups="pdk-cw-fs" revision="3c491d6efb8ff2534a6934702760a6273f197918" />  
+  <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs" revision="80fd0a603c4151d03e6912a73f6b9c6983667463" />   
   <project path="build" name="platform/build" groups="pdk" revision="232edaa4617c67aa2bd8eb374897aabf17d16fb1" />
   <project path="external/clang" name="platform/external/clang" groups="pdk" revision="16cda861c5587d7130a216466a29a808673c1656" /> 
   <project path="external/llvm" name="platform/external/llvm" groups="pdk" revision="9bf3e3972d5a5dbbe7fa5614b3cb3cc3422b45ec" /> 
@@ -33,8 +33,9 @@
   <project path="packages/apps/Phone" name="platform/packages/apps/Phone" groups="pdk" revision="6198649a41b31aac23b6df7aee8ad2421804fbe5" />    
   <project path="external/icu4c" name="external/icu4c" groups="pdk" revision="c78f91389d50bff6b2f27092aabe41d47079153a" />    
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" revision="8a52ffa74a764bfe0445c2eac59048217302e152" />      
-  <project path="devices/generic/mini-emulator-x86" name="device/generic/mini-emulator-x86" groups="pdk" revision="a0a2ab1ab364af4a1349bb906563998db6f3257b" />  
-  <project path="cts" name="platform/cts" groups="pdk" revision="989ba09d1057084db849d34fbb9bb141b332219f" /> 
+  <project path="device/generic/mini-emulator-x86" name="device/generic/mini-emulator-x86" groups="pdk" revision="a0a2ab1ab364af4a1349bb906563998db6f3257b" />  
+  <project path="device/generic/mini-emulator-mips" name="device/generic/mini-emulator-mips" groups="pdk" revision="1664876c89684ee38c8add555e2fd082221538f2" />  
+  <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs" revision="989ba09d1057084db849d34fbb9bb141b332219f" /> 
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
 
 </manifest>
