@@ -1,4 +1,4 @@
-zombiebread: Gingerbread Restoration Project
+krakenbread: Gingerbread Restoration Project
 =========================================================
 
 This repository contains reconstructed `repo` manifests of pre-release Android 2.3 ("Gingerbread") builds.
@@ -23,7 +23,7 @@ Downloading Source
 ------------------
 To initialize a repository tree using one of the manifests provided by this project, execute a command like this (see the list of manifests above for available `<build>`s):
 
-    repo init -u https://github.com/froyocomb/android.git -b zombiebread -m <build>.xml
+    repo init -u https://github.com/froyocomb/android.git -b krakenbread -m <build>.xml
 
 Then to download the respective code, execute:
 
